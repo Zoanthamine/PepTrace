@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_20",
+    "sha256": "bc57bad0c710f68fec27156d1271a37cd72553307fc12228055934639333af9c"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH05-R017",
+      "source_refs": {
+        "print_pages": [
+          107,
+          108
+        ],
+        "figures": [
+          "5.10",
+          "5.11"
+        ]
+      },
+      "reference_state": "same_sequence_free_n_terminus",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free"
+      },
+      "required_conditions": [
+        "dcc",
+        "hoobt"
+      ],
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-2-叠氮苯甲酰",
+        "delta_formula": {
+          "C": 7,
+          "H": 3,
+          "N": 3,
+          "O": 1
+        }
+      },
+      "product_description": "HOOBt/DCC生成2-叠氮苯甲酰封端",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "按当前游离N端短肽为参照；若封端发生于合成中途，须另计后续未接入的片段。"
+      ]
+    },
+    {
+      "rule_id": "CH05-R032",
+      "source_refs": {
+        "print_pages": [
+          115,
+          116
+        ],
+        "figures": [
+          "5.20"
+        ]
+      },
+      "reference_state": "same_sequence_free_c_terminal_acid",
+      "site_selector": {
+        "position": "end",
+        "cterm": "acid"
+      },
+      "required_conditions": [
+        "phosphonium_coupling_reagent",
+        "pyrrolidine_impurity"
+      ],
+      "transform": {
+        "kind": "c_terminal_pyrrolidinamide",
+        "delta_formula": {
+          "C": 4,
+          "H": 7,
+          "N": 1,
+          "O": -1
+        }
+      },
+      "product_description": "羧基转为吡咯烷酰胺",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "相对同片段游离羧酸为+C4H7N−O，若目标为片段偶联或环肽应另算参照。"
+      ]
+    }
+  ]
+}

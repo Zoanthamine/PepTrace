@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_18",
+    "sha256": "7e9962dbe5d2a8cfca307b72012b053f8a4c0db5c668b5eb0e7e2dee670bc6d1"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH06-R006",
+      "source_refs": {
+        "print_pages": [
+          119,
+          120
+        ],
+        "figures": [
+          "6.1"
+        ]
+      },
+      "reference_state": "same_linear_peptide_after_deprotection",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "D"
+        ],
+        "next_backbone_amide": true
+      },
+      "required_conditions": [
+        "piperidine"
+      ],
+      "required_any_conditions": [
+        "base_exposure",
+        "acid_exposure",
+        "storage",
+        "base_deprotection"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "delta_formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "O": -1
+        },
+        "modification": "Asp α-哌啶酰胺"
+      },
+      "product_description": "Asp α-哌啶酰胺",
+      "evidence_level": "book_reported_and_proposed",
+      "diagnostic_evidence": [
+        "检查相邻酰胺、合成或储存条件；α/iso连接与D/L构型同质量。哌啶或甲醇路径依赖相应试剂。"
+      ]
+    },
+    {
+      "rule_id": "CH06-R007",
+      "source_refs": {
+        "print_pages": [
+          119,
+          120
+        ],
+        "figures": [
+          "6.1"
+        ]
+      },
+      "reference_state": "same_linear_peptide_after_deprotection",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "D"
+        ],
+        "next_backbone_amide": true
+      },
+      "required_conditions": [
+        "piperidine"
+      ],
+      "required_any_conditions": [
+        "base_exposure",
+        "acid_exposure",
+        "storage",
+        "base_deprotection"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "delta_formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "O": -1
+        },
+        "modification": "isoAsp 哌啶酰胺"
+      },
+      "product_description": "isoAsp 哌啶酰胺",
+      "evidence_level": "book_reported_and_proposed",
+      "diagnostic_evidence": [
+        "检查相邻酰胺、合成或储存条件；α/iso连接与D/L构型同质量。哌啶或甲醇路径依赖相应试剂。"
+      ]
+    },
+    {
+      "rule_id": "CH06-R011",
+      "source_refs": {
+        "print_pages": [
+          136,
+          137
+        ],
+        "figures": [
+          "6.7"
+        ]
+      },
+      "reference_state": "same_linear_peptide_after_deprotection",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "D"
+        ],
+        "next_backbone_amide": true
+      },
+      "required_conditions": [
+        "methanol"
+      ],
+      "required_any_conditions": [
+        "base_exposure",
+        "acid_exposure",
+        "storage",
+        "base_deprotection"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "delta_formula": {
+          "C": 1,
+          "H": 2
+        },
+        "modification": "Asp α-甲酯"
+      },
+      "product_description": "Asp α-甲酯",
+      "evidence_level": "book_reported_and_proposed",
+      "diagnostic_evidence": [
+        "检查相邻酰胺、合成或储存条件；α/iso连接与D/L构型同质量。哌啶或甲醇路径依赖相应试剂。"
+      ]
+    },
+    {
+      "rule_id": "CH06-R012",
+      "source_refs": {
+        "print_pages": [
+          136,
+          137
+        ],
+        "figures": [
+          "6.7"
+        ]
+      },
+      "reference_state": "same_linear_peptide_after_deprotection",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "D"
+        ],
+        "next_backbone_amide": true
+      },
+      "required_conditions": [
+        "methanol"
+      ],
+      "required_any_conditions": [
+        "base_exposure",
+        "acid_exposure",
+        "storage",
+        "base_deprotection"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "delta_formula": {
+          "C": 1,
+          "H": 2
+        },
+        "modification": "isoAsp 甲酯"
+      },
+      "product_description": "isoAsp 甲酯",
+      "evidence_level": "book_reported_and_proposed",
+      "diagnostic_evidence": [
+        "检查相邻酰胺、合成或储存条件；α/iso连接与D/L构型同质量。哌啶或甲醇路径依赖相应试剂。"
+      ]
+    },
+    {
+      "rule_id": "CH06-R013",
+      "source_refs": {
+        "print_pages": [
+          137,
+          138
+        ],
+        "figures": [
+          "6.8"
+        ]
+      },
+      "reference_state": "same_linear_peptide_after_deprotection",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "N"
+        ],
+        "next_backbone_amide": true
+      },
+      "required_conditions": [],
+      "required_any_conditions": [
+        "base_exposure",
+        "acid_exposure",
+        "storage",
+        "base_deprotection"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "delta_formula": {
+          "H": -3,
+          "N": -1
+        },
+        "modification": "Asn生成天冬酰亚胺，构型待定"
+      },
+      "product_description": "Asn生成天冬酰亚胺，构型待定",
+      "evidence_level": "book_reported_and_proposed",
+      "diagnostic_evidence": [
+        "检查相邻酰胺、合成或储存条件；α/iso连接与D/L构型同质量。哌啶或甲醇路径依赖相应试剂。"
+      ]
+    },
+    {
+      "rule_id": "CH06-R018",
+      "source_refs": {
+        "print_pages": [
+          137,
+          138
+        ],
+        "figures": [
+          "6.8"
+        ]
+      },
+      "reference_state": "same_linear_peptide_after_deprotection",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Q"
+        ],
+        "next_backbone_amide": true
+      },
+      "required_conditions": [],
+      "required_any_conditions": [
+        "base_exposure",
+        "acid_exposure",
+        "storage",
+        "base_deprotection"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "delta_formula": {
+          "H": -3,
+          "N": -1
+        },
+        "modification": "Gln生成戊二酰亚胺，构型待定"
+      },
+      "product_description": "Gln生成戊二酰亚胺，构型待定",
+      "evidence_level": "book_reported_and_proposed",
+      "diagnostic_evidence": [
+        "检查相邻酰胺、合成或储存条件；α/iso连接与D/L构型同质量。哌啶或甲醇路径依赖相应试剂。"
+      ]
+    }
+  ]
+}

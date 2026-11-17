@@ -1,0 +1,1897 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_06",
+    "sha256": "af6c859169dbc407e319a014d129a5033a7bdc7a409e392ec23a893e304fbcb5"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH09-R001",
+      "source_refs": {
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "print_pages": [
+          217,
+          218
+        ],
+        "figures": [
+          "9.1"
+        ],
+        "reference_numbers": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "reference_state": "same_sequence_free_cys_thiol",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "CysSulfenic",
+        "delta_formula": {
+          "O": 1
+        },
+        "product_group": "CysSulfenic"
+      },
+      "required_conditions": [],
+      "product_description": "Cys亚磺次酸",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "单个位点氧化；同式位点与不同硫氧化态分别保留。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R002",
+      "source_refs": {
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "print_pages": [
+          217,
+          218
+        ],
+        "figures": [
+          "9.1"
+        ],
+        "reference_numbers": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "reference_state": "same_sequence_free_cys_thiol",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "CysSulfinic",
+        "delta_formula": {
+          "O": 2
+        },
+        "product_group": "CysSulfinic"
+      },
+      "required_conditions": [],
+      "product_description": "Cys亚磺酸",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "单个位点氧化；同式位点与不同硫氧化态分别保留。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R003",
+      "source_refs": {
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "print_pages": [
+          217,
+          218
+        ],
+        "figures": [
+          "9.1"
+        ],
+        "reference_numbers": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "reference_state": "same_sequence_free_cys_thiol",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "CysSulfonic",
+        "delta_formula": {
+          "O": 3
+        },
+        "product_group": "CysSulfonic"
+      },
+      "required_conditions": [],
+      "product_description": "Cys磺酸",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "单个位点氧化；同式位点与不同硫氧化态分别保留。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R004",
+      "source_refs": {
+        "pdf_pages": [
+          2
+        ],
+        "print_pages": [
+          218
+        ],
+        "figures": [
+          "9.2"
+        ],
+        "reference_numbers": [
+          8,
+          9,
+          17,
+          18
+        ]
+      },
+      "reference_state": "one_chain_or_sum_of_two_declared_free_thiol_chains",
+      "transform": {
+        "kind": "site_bridge",
+        "source_atom": "Cys_Sgamma",
+        "partner_atoms": {
+          "Cys_Sgamma": {
+            "position": "any",
+            "residues": [
+              "C"
+            ]
+          }
+        },
+        "bond": "disulfide",
+        "bond_delta": {
+          "H": -2
+        },
+        "symmetric": true,
+        "topologies": [
+          "intrachain"
+        ]
+      },
+      "required_conditions": [],
+      "product_description": "意外链内二硫桥",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "链内/双链的质量参照分别计算；其他外加巯基混合二硫仍需明确外加成分。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R005",
+      "source_refs": {
+        "pdf_pages": [
+          2
+        ],
+        "print_pages": [
+          218
+        ],
+        "figures": [
+          "9.2"
+        ],
+        "reference_numbers": [
+          8,
+          9,
+          17,
+          18
+        ]
+      },
+      "reference_state": "one_chain_or_sum_of_two_declared_free_thiol_chains",
+      "transform": {
+        "kind": "site_bridge",
+        "source_atom": "Cys_Sgamma",
+        "partner_atoms": {
+          "Cys_Sgamma": {
+            "position": "any",
+            "residues": [
+              "C"
+            ]
+          }
+        },
+        "bond": "disulfide",
+        "bond_delta": {
+          "H": -2
+        },
+        "symmetric": true,
+        "topologies": [
+          "interchain"
+        ]
+      },
+      "required_conditions": [],
+      "product_description": "意外链间或混合二硫",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "链内/双链的质量参照分别计算；其他外加巯基混合二硫仍需明确外加成分。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R015",
+      "source_refs": {
+        "pdf_pages": [
+          3
+        ],
+        "print_pages": [
+          219
+        ],
+        "figures": [
+          "9.4"
+        ],
+        "reference_numbers": [
+          13,
+          14,
+          15
+        ]
+      },
+      "reference_state": "same_sequence_cys_sulfenic_acid",
+      "transform": {
+        "kind": "replace_group",
+        "replacement_formula": {
+          "H": -2
+        },
+        "delta_formula": {
+          "H": -2,
+          "O": -1
+        },
+        "modification": "Cys与后邻骨架N形成sulfenyl amide",
+        "local_cycle": "Cys_sulfenyl_amide"
+      },
+      "required_conditions": [
+        "sulfenyl_amide_formation"
+      ],
+      "product_description": "邻近骨架环状sulfenyl amide",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "该五元环需后邻骨架N-H；Pro和C端Cys不走此图路径。相对SOH失H2O。"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "group": "CysSulfenic",
+        "next_backbone_amide": true
+      }
+    },
+    {
+      "rule_id": "CH09-R016",
+      "source_refs": {
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "print_pages": [
+          219,
+          220
+        ],
+        "figures": [
+          "9.5"
+        ],
+        "reference_numbers": [
+          16
+        ]
+      },
+      "reference_state": "same_sequence_cys_sulfenic_acid",
+      "transform": {
+        "kind": "replace_group",
+        "replacement_formula": {
+          "C": 6,
+          "H": 1,
+          "N": 3,
+          "O": 4
+        },
+        "delta_formula": {
+          "C": 6,
+          "H": 1,
+          "N": 3,
+          "O": 3
+        },
+        "modification": "Cys-NBD sulfoxide"
+      },
+      "required_conditions": [
+        "nbd_cl"
+      ],
+      "product_description": "Sulfenic被NBD-Cl捕获",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "NBD-Cl=C6H2ClN3O3；反应失HCl。保留S=O。"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "group": "CysSulfenic"
+      }
+    },
+    {
+      "rule_id": "CH09-R018",
+      "source_refs": {
+        "pdf_pages": [
+          3,
+          4
+        ],
+        "print_pages": [
+          219,
+          220
+        ],
+        "figures": [
+          "9.5"
+        ],
+        "reference_numbers": [
+          16
+        ]
+      },
+      "reference_state": "same_sequence_CysSulfenic",
+      "transform": {
+        "kind": "remove_group",
+        "delta_formula": {
+          "O": -1
+        }
+      },
+      "required_conditions": [
+        "triphenylphosphine"
+      ],
+      "product_description": "PPh3将sulfenic还原回巯基",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "还原质量相对已氧化Cys前体，不能对原始SH直接减氧。"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "group": "CysSulfenic"
+      }
+    },
+    {
+      "rule_id": "CH09-R021",
+      "source_refs": {
+        "pdf_pages": [
+          6
+        ],
+        "print_pages": [
+          222
+        ],
+        "figures": [],
+        "reference_numbers": [
+          28
+        ]
+      },
+      "reference_state": "same_sequence_CysSulfinic",
+      "transform": {
+        "kind": "remove_group",
+        "delta_formula": {
+          "O": -2
+        }
+      },
+      "required_conditions": [
+        "zinc",
+        "acid_exposure"
+      ],
+      "product_description": "Zn/H+将sulfinic还原为Cys",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "还原质量相对已氧化Cys前体，不能对原始SH直接减氧。"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "group": "CysSulfinic"
+      }
+    },
+    {
+      "rule_id": "CH09-R024",
+      "source_refs": {
+        "pdf_pages": [
+          6
+        ],
+        "print_pages": [
+          222
+        ],
+        "figures": [],
+        "reference_numbers": [
+          31
+        ]
+      },
+      "reference_state": "same_sequence_cys_sulfonic_acid",
+      "transform": {
+        "kind": "substitute",
+        "residue": "Dha",
+        "delta_formula": {
+          "H": -2,
+          "O": -3,
+          "S": -1
+        }
+      },
+      "required_conditions": [
+        "base_exposure"
+      ],
+      "product_description": "磺酸Cys β消除为Dha",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "相对自由Cys需先加O3再失H2O3S。原书副产小分子的sulfinic表述与硫计数需区分。"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "group": "CysSulfonic"
+      }
+    },
+    {
+      "rule_id": "CH09-R026",
+      "source_refs": {
+        "pdf_pages": [
+          6
+        ],
+        "print_pages": [
+          222
+        ],
+        "figures": [
+          "9.9"
+        ],
+        "reference_numbers": [
+          34,
+          35
+        ]
+      },
+      "reference_state": "same_sequence_cys_persulfide",
+      "transform": {
+        "kind": "replace_group",
+        "replacement_formula": {
+          "S": 1,
+          "O": 3
+        },
+        "delta_formula": {
+          "O": 3
+        },
+        "modification": "S-sulfocysteine"
+      },
+      "required_conditions": [],
+      "product_description": "thiocysteine氧化为S-sulfocysteine",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "图9.9前体SSH→SSO3H，保留两个硫；净+O3。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "group": "Persulfide"
+      }
+    },
+    {
+      "rule_id": "CH09-R027",
+      "source_refs": {
+        "pdf_pages": [
+          6,
+          7
+        ],
+        "print_pages": [
+          222,
+          223
+        ],
+        "figures": [
+          "9.10"
+        ],
+        "reference_numbers": [
+          5,
+          36,
+          37,
+          38
+        ]
+      },
+      "reference_state": "same_sequence_protected_cys_thioether",
+      "transform": {
+        "kind": "oxidize_protected_thioether",
+        "delta_formula": {
+          "O": 1
+        }
+      },
+      "required_conditions": [],
+      "product_description": "受保护Cys氧化成sulfoxide",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "当前明确输入Acm/Bzl；Mob/4-MeBzl等保护态未加组件。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "groups": [
+          "Acm",
+          "Bzl"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R029",
+      "source_refs": {
+        "pdf_pages": [
+          7,
+          8
+        ],
+        "print_pages": [
+          223,
+          224
+        ],
+        "figures": [
+          "9.11",
+          "9.12"
+        ],
+        "reference_numbers": [
+          41,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ]
+      },
+      "reference_state": "same_sequence_unoxidized_met",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Met-sulfoxide",
+        "delta_formula": {
+          "O": 1
+        }
+      },
+      "required_conditions": [],
+      "product_description": "Met sulfoxide氧化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "Met(O)的S/R硫构型同质量；条件影响比例，不按质量选择一个构型。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "combination_policy": "independent_other_sites",
+      "alternate_branches": [
+        {
+          "transform": {
+            "kind": "local_delta",
+            "modification": "Met-sulfoxide另一硫构型",
+            "delta_formula": {
+              "O": 1
+            }
+          }
+        }
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "M"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R030",
+      "source_refs": {
+        "pdf_pages": [
+          7,
+          8
+        ],
+        "print_pages": [
+          223,
+          224
+        ],
+        "figures": [
+          "9.11",
+          "9.12"
+        ],
+        "reference_numbers": [
+          41,
+          45
+        ]
+      },
+      "reference_state": "same_sequence_unoxidized_met",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Met-sulfone",
+        "delta_formula": {
+          "O": 2
+        }
+      },
+      "required_conditions": [],
+      "product_description": "Met sulfone深度氧化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "Met(O)的S/R硫构型同质量；条件影响比例，不按质量选择一个构型。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "combination_policy": "independent_other_sites",
+      "alternate_branches": [],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "M"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R031",
+      "source_refs": {
+        "pdf_pages": [
+          9,
+          10,
+          11
+        ],
+        "print_pages": [
+          225,
+          226,
+          227
+        ],
+        "figures": [
+          "9.13",
+          "9.14"
+        ],
+        "reference_numbers": [
+          42,
+          43,
+          54,
+          55,
+          56,
+          57,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ]
+      },
+      "reference_state": "same_sequence_intended_reduced_met",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Met(O)未还原残留",
+        "delta_formula": {
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "met_sulfoxide_reduction"
+      ],
+      "product_description": "Met(O)还原不完全",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "需该位点曾为Met(O)；与再次氧化来源区分。"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "M"
+        ],
+        "required_site_fact": "met_oxidized_precursor"
+      }
+    },
+    {
+      "rule_id": "CH09-R033",
+      "source_refs": {
+        "pdf_pages": [
+          9,
+          10,
+          11
+        ],
+        "print_pages": [
+          225,
+          226,
+          227
+        ],
+        "figures": [],
+        "reference_numbers": [
+          56,
+          58,
+          59,
+          60,
+          65
+        ]
+      },
+      "reference_state": "reduced_met_target_with_free_cys",
+      "transform": {
+        "kind": "site_bridge",
+        "source_atom": "Cys_Sgamma",
+        "partner_atoms": {
+          "Cys_Sgamma": {
+            "position": "any",
+            "residues": [
+              "C"
+            ]
+          }
+        },
+        "bond": "disulfide",
+        "bond_delta": {
+          "H": -2
+        },
+        "symmetric": true
+      },
+      "required_conditions": [
+        "met_sulfoxide_reduction"
+      ],
+      "product_description": "Met(O)还原时自由Cys成桥",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "书中报告Met(O)还原可伴随Cys成桥；这里只计算相对已还原Met目标的独立SS形成。"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "requires_residues": [
+          "M"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R034",
+      "source_refs": {
+        "pdf_pages": [
+          10
+        ],
+        "print_pages": [
+          226
+        ],
+        "figures": [],
+        "reference_numbers": [
+          58
+        ]
+      },
+      "reference_state": "two_copies_of_same_unmodified_trp_chain",
+      "transform": {
+        "kind": "trp_crosslink",
+        "bond": "indole_indoline",
+        "bond_delta": {},
+        "symmetric": false,
+        "intrachain": false
+      },
+      "required_conditions": [
+        "nh4i",
+        "dimethyl_sulfide",
+        "acid_exposure"
+      ],
+      "product_description": "NH4I/Me2S诱发Trp二聚",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "原书两类C2–C2二聚：indole–indoline及indole–indole；单体比较不是固定净式。"
+      ],
+      "alternate_branches": [
+        {
+          "transform": {
+            "kind": "trp_crosslink",
+            "bond": "indole_indole",
+            "bond_delta": {
+              "H": -2
+            },
+            "symmetric": true,
+            "intrachain": true
+          }
+        }
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R036",
+      "source_refs": {
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "print_pages": [
+          227,
+          228
+        ],
+        "figures": [
+          "9.15"
+        ],
+        "reference_numbers": [
+          3,
+          51,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ]
+      },
+      "reference_state": "same_sequence_unoxidized_trp",
+      "transform": {
+        "kind": "substitute",
+        "residue": "Oia"
+      },
+      "required_conditions": [],
+      "product_description": "Trp生成oxindolylalanine",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "替换残基保留明确氧化结构名；相对Trp与相对NFK的质量参照分开。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "alternate_branches": [],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R037",
+      "source_refs": {
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "print_pages": [
+          227,
+          228
+        ],
+        "figures": [
+          "9.15"
+        ],
+        "reference_numbers": [
+          3,
+          73,
+          75,
+          77
+        ]
+      },
+      "reference_state": "same_sequence_unoxidized_trp",
+      "transform": {
+        "kind": "substitute",
+        "residue": "NFK"
+      },
+      "required_conditions": [],
+      "product_description": "Trp生成N-formylkynurenine",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "替换残基保留明确氧化结构名；相对Trp与相对NFK的质量参照分开。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "alternate_branches": [],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R038",
+      "source_refs": {
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "print_pages": [
+          227,
+          228
+        ],
+        "figures": [
+          "9.15"
+        ],
+        "reference_numbers": [
+          3,
+          73,
+          75,
+          77
+        ]
+      },
+      "reference_state": "same_sequence_unoxidized_trp",
+      "transform": {
+        "kind": "substitute",
+        "residue": "Hydroxy-NFK"
+      },
+      "required_conditions": [],
+      "product_description": "NFK进一步羟化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "替换残基保留明确氧化结构名；相对Trp与相对NFK的质量参照分开。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "alternate_branches": [],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R039",
+      "source_refs": {
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "print_pages": [
+          227,
+          228
+        ],
+        "figures": [
+          "9.15"
+        ],
+        "reference_numbers": [
+          3,
+          73,
+          75,
+          77
+        ]
+      },
+      "reference_state": "same_sequence_unoxidized_trp",
+      "transform": {
+        "kind": "substitute",
+        "residue": "Kyn"
+      },
+      "required_conditions": [],
+      "product_description": "NFK脱甲酰形成Kyn",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "替换残基保留明确氧化结构名；相对Trp与相对NFK的质量参照分开。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "NFK"
+            ]
+          },
+          "transform": {
+            "kind": "substitute",
+            "residue": "Kyn"
+          },
+          "reference_state": "same_sequence_n_formylkynurenine",
+          "required_conditions": [
+            "deformylation"
+          ],
+          "required_any_conditions": []
+        }
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R040",
+      "source_refs": {
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "print_pages": [
+          227,
+          228
+        ],
+        "figures": [
+          "9.15"
+        ],
+        "reference_numbers": [
+          3,
+          73,
+          75,
+          77
+        ]
+      },
+      "reference_state": "same_sequence_unoxidized_trp",
+      "transform": {
+        "kind": "substitute",
+        "residue": "3-Hydroxy-Kyn"
+      },
+      "required_conditions": [],
+      "product_description": "Kyn氧化为3-hydroxykynurenine",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "替换残基保留明确氧化结构名；相对Trp与相对NFK的质量参照分开。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "alternate_branches": [],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R041",
+      "source_refs": {
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "print_pages": [
+          227,
+          228
+        ],
+        "figures": [
+          "9.15"
+        ],
+        "reference_numbers": [
+          74,
+          75
+        ]
+      },
+      "reference_state": "same_sequence_unmodified_residue",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "5-hydroxy-Trp",
+        "delta_formula": {
+          "O": 1
+        }
+      },
+      "required_conditions": [],
+      "product_description": "Trp苯环5-羟化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R042",
+      "source_refs": {
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "print_pages": [
+          227,
+          228
+        ],
+        "figures": [
+          "9.15"
+        ],
+        "reference_numbers": [
+          74,
+          75
+        ]
+      },
+      "reference_state": "same_sequence_unmodified_residue",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "7-hydroxy-Trp",
+        "delta_formula": {
+          "O": 1
+        }
+      },
+      "required_conditions": [],
+      "product_description": "Trp苯环7-羟化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "正文仅列7-hydroxy-Trp；图9.15仅画5-hydroxy-Trp，来源保留该区别。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R044",
+      "source_refs": {
+        "pdf_pages": [
+          12,
+          13
+        ],
+        "print_pages": [
+          228,
+          229
+        ],
+        "figures": [
+          "9.16"
+        ],
+        "reference_numbers": [
+          79,
+          80,
+          81
+        ]
+      },
+      "reference_state": "same_sequence_unmodified_residue",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "2-oxo-His",
+        "delta_formula": {
+          "O": 1
+        }
+      },
+      "required_conditions": [],
+      "product_description": "His氧化为2-oxo-His",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "H"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R045",
+      "source_refs": {
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "print_pages": [
+          229,
+          230
+        ],
+        "figures": [
+          "9.17"
+        ],
+        "reference_numbers": [
+          82
+        ]
+      },
+      "reference_state": "same_sequence_unmodified_residue",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "DOPA",
+        "delta_formula": {
+          "O": 1
+        }
+      },
+      "required_conditions": [],
+      "product_description": "Tyr羟化为DOPA",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Y"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R046",
+      "source_refs": {
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "print_pages": [
+          229,
+          230
+        ],
+        "figures": [
+          "9.17"
+        ],
+        "reference_numbers": [
+          82
+        ]
+      },
+      "reference_state": "same_sequence_unmodified_tyr",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "3-nitro-Tyr",
+        "delta_formula": {
+          "H": -1,
+          "N": 1,
+          "O": 2
+        }
+      },
+      "required_conditions": [
+        "nitrating_species"
+      ],
+      "product_description": "Tyr单硝化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Y"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R047",
+      "source_refs": {
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "print_pages": [
+          229,
+          230
+        ],
+        "figures": [
+          "9.17"
+        ],
+        "reference_numbers": [
+          82
+        ]
+      },
+      "reference_state": "same_sequence_unmodified_tyr",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "3-chloro-Tyr",
+        "delta_formula": {
+          "H": -1,
+          "Cl": 1
+        }
+      },
+      "required_conditions": [
+        "chlorinating_species"
+      ],
+      "product_description": "Tyr单氯化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Y"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R048",
+      "source_refs": {
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "print_pages": [
+          229,
+          230
+        ],
+        "figures": [
+          "9.17"
+        ],
+        "reference_numbers": [
+          82
+        ]
+      },
+      "reference_state": "same_sequence_unmodified_tyr",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "3,5-dichloro-Tyr",
+        "delta_formula": {
+          "H": -2,
+          "Cl": 2
+        }
+      },
+      "required_conditions": [
+        "chlorinating_species"
+      ],
+      "product_description": "Tyr双氯化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Y"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R049",
+      "source_refs": {
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "print_pages": [
+          229,
+          230
+        ],
+        "figures": [
+          "9.17"
+        ],
+        "reference_numbers": [
+          82
+        ]
+      },
+      "reference_state": "same_sequence_unmodified_tyr",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "3-bromo-Tyr",
+        "delta_formula": {
+          "H": -1,
+          "Br": 1
+        }
+      },
+      "required_conditions": [
+        "brominating_species"
+      ],
+      "product_description": "Tyr单溴化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Y"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R050",
+      "source_refs": {
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "print_pages": [
+          229,
+          230
+        ],
+        "figures": [
+          "9.17"
+        ],
+        "reference_numbers": [
+          82
+        ]
+      },
+      "reference_state": "same_sequence_unmodified_tyr",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "3,5-dibromo-Tyr",
+        "delta_formula": {
+          "H": -2,
+          "Br": 2
+        }
+      },
+      "required_conditions": [
+        "brominating_species"
+      ],
+      "product_description": "Tyr双溴化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Y"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R051",
+      "source_refs": {
+        "pdf_pages": [
+          13,
+          14
+        ],
+        "print_pages": [
+          229,
+          230
+        ],
+        "figures": [
+          "9.17"
+        ],
+        "reference_numbers": [
+          82
+        ]
+      },
+      "reference_state": "one_chain_or_sum_of_two_tyr_parent_chains",
+      "transform": {
+        "kind": "site_bridge",
+        "source_atom": "phenol_ortho_C3",
+        "partner_atoms": {
+          "phenol_ortho_C3": {
+            "position": "any",
+            "residues": [
+              "Y"
+            ]
+          }
+        },
+        "bond": "dityrosine_C3_C3",
+        "bond_delta": {
+          "H": -2
+        },
+        "symmetric": true
+      },
+      "required_conditions": [],
+      "product_description": "Tyr二聚/交联",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Y"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R052",
+      "source_refs": {
+        "pdf_pages": [
+          13
+        ],
+        "print_pages": [
+          229
+        ],
+        "figures": [],
+        "reference_numbers": [
+          82
+        ]
+      },
+      "reference_state": "same_sequence_unmodified_residue",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "ortho-Tyr",
+        "delta_formula": {
+          "O": 1
+        }
+      },
+      "required_conditions": [],
+      "product_description": "Phe氧化为ortho-Tyr",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "F"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R053",
+      "source_refs": {
+        "pdf_pages": [
+          13
+        ],
+        "print_pages": [
+          229
+        ],
+        "figures": [],
+        "reference_numbers": [
+          82
+        ]
+      },
+      "reference_state": "same_sequence_unmodified_residue",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "meta-Tyr",
+        "delta_formula": {
+          "O": 1
+        }
+      },
+      "required_conditions": [],
+      "product_description": "Phe氧化为meta-Tyr",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "F"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R054",
+      "source_refs": {
+        "pdf_pages": [
+          13
+        ],
+        "print_pages": [
+          229
+        ],
+        "figures": [],
+        "reference_numbers": [
+          83
+        ]
+      },
+      "reference_state": "same_sequence_unmodified_residue",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Phe-derived-DOPA",
+        "delta_formula": {
+          "O": 2
+        }
+      },
+      "required_conditions": [],
+      "product_description": "Phe深度羟化为DOPA",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "ozone",
+        "photooxidation"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "F"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R057",
+      "source_refs": {
+        "pdf_pages": [
+          14
+        ],
+        "print_pages": [
+          230
+        ],
+        "figures": [],
+        "reference_numbers": []
+      },
+      "reference_state": "same_sequence_trp",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Trp-indoline",
+        "delta_formula": {
+          "H": 2
+        }
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "product_description": "Trp还原为indoline",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "required_any_conditions": [
+        "triethylsilane",
+        "reductive_scavenger"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R059",
+      "source_refs": {
+        "pdf_pages": [
+          15
+        ],
+        "print_pages": [
+          231
+        ],
+        "figures": [
+          "9.18"
+        ],
+        "reference_numbers": [
+          91
+        ]
+      },
+      "reference_state": "same_sequence_explicit_azido_precursor",
+      "transform": {
+        "kind": "substitute",
+        "residue": "Orn",
+        "delta_formula": {
+          "H": 2,
+          "N": -2
+        }
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "product_description": "Nva(N3)还原为Orn",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "required_any_conditions": [
+        "edt",
+        "dtt"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Nva(N3)"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R060",
+      "source_refs": {
+        "pdf_pages": [
+          15
+        ],
+        "print_pages": [
+          231
+        ],
+        "figures": [],
+        "reference_numbers": [
+          91
+        ]
+      },
+      "reference_state": "same_sequence_explicit_azido_precursor",
+      "transform": {
+        "kind": "substitute",
+        "residue": "K",
+        "delta_formula": {
+          "H": 2,
+          "N": -2
+        }
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "product_description": "Nle(N3)还原为Lys（矛盾证据）",
+      "evidence_level": "book_conflicting_reports",
+      "diagnostic_evidence": [
+        "Nle(N3)/TFA/EDT：作者未发表正例与参考91阴性结果相矛盾；不可自动设为一致已确证。"
+      ],
+      "required_any_conditions": [
+        "edt",
+        "dtt"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Nle(N3)"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R061",
+      "source_refs": {
+        "pdf_pages": [
+          15
+        ],
+        "print_pages": [
+          231
+        ],
+        "figures": [],
+        "reference_numbers": [
+          92,
+          93
+        ]
+      },
+      "reference_state": "same_sequence_explicit_nalpha_azide",
+      "transform": {
+        "kind": "remove_group",
+        "delta_formula": {
+          "H": 2,
+          "N": -2
+        }
+      },
+      "required_conditions": [
+        "thiol_reductant",
+        "base_exposure"
+      ],
+      "product_description": "Nα-叠氮/其他叠氮前体被巯基还原",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "原书有Nα叠氮在碱性巯基体系中的还原；不添加未知糖叠氮结构。"
+      ],
+      "site_selector": {
+        "position": "start",
+        "group": "NalphaAzide",
+        "group_site": "N"
+      }
+    }
+  ]
+}

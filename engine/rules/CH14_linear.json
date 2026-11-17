@@ -1,0 +1,741 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_09",
+    "sha256": "95a96f5eed07b5b8da215d95cf5766a43a2cb93184fa2429b3f579d025e51514"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH14-R002",
+      "source_refs": {
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "print_pages": [
+          311,
+          312
+        ],
+        "figures": [
+          "14.1"
+        ],
+        "reference_numbers": [
+          3
+        ]
+      },
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "required_site_fact": "n_fmoc_precursor",
+        "fact_site": "N"
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "delta_formula": {
+          "C": 15,
+          "H": 10,
+          "O": 2
+        },
+        "modification": "N-Fmoc未脱",
+        "product_group": "Fmoc"
+      },
+      "required_conditions": [
+        "dcm",
+        "piperidine",
+        "fmoc_deprotection"
+      ],
+      "reference_state": "same_sequence_intended_free_n_terminus",
+      "product_description": "DCM消耗piperidine导致Fmoc脱除不足",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "DCM消耗哌啶可能导致脱Fmoc不足；需要原先有N-Fmoc，不把DCM盐本体当肽共价加成。"
+      ]
+    },
+    {
+      "rule_id": "CH14-R006",
+      "source_refs": {
+        "pdf_pages": [
+          3,
+          4,
+          5
+        ],
+        "print_pages": [
+          313,
+          314,
+          315
+        ],
+        "figures": [
+          "14.3",
+          "14.4"
+        ],
+        "reference_numbers": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      "site_selector": {
+        "position": "start",
+        "group": "NCA",
+        "group_site": "N",
+        "sequence_length": 1
+      },
+      "transform": {
+        "kind": "replace_group",
+        "product_group": "NChloroformylAcidChloride",
+        "delta_formula": {
+          "Cl": 2,
+          "O": -1
+        },
+        "modification": "N-氯甲酰氨基酸酰氯",
+        "monomer_state": "N-chloroformyl amino acid chloride"
+      },
+      "required_conditions": [
+        "nca_preparation",
+        "dmf_contamination",
+        "phosgene"
+      ],
+      "reference_state": "same_amino_acid_nca_target",
+      "product_description": "DMF污染促N-chloroformyl amino acid chloride而阻断NCA形成",
+      "evidence_level": "book_drawn_structure",
+      "diagnostic_evidence": [
+        "图14.4结构8相对目标NCA为Cl2−O；这是单体联合N/C端状态，不适用完整肽简单加酰氯。"
+      ]
+    },
+    {
+      "rule_id": "CH14-R007",
+      "source_refs": {
+        "pdf_pages": [
+          5
+        ],
+        "print_pages": [
+          315
+        ],
+        "figures": [],
+        "reference_numbers": []
+      },
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "D",
+          "E"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "delta_formula": {
+          "C": 1,
+          "H": 2
+        },
+        "modification": "侧链甲酯"
+      },
+      "required_conditions": [
+        "methanol",
+        "tfa"
+      ],
+      "reference_state": "same_sequence_free_carboxylic_acids",
+      "product_description": "甲醇/TFA导致Asp/Glu及C端甲酯化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "D/E侧链与C端分别保留；源过程可为HPLC浓缩或残留甲醇切割。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "end",
+            "cterm": "acid"
+          },
+          "transform": {
+            "kind": "c_terminal_delta",
+            "delta_formula": {
+              "C": 1,
+              "H": 2
+            },
+            "modification": "C端甲酯"
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH14-R008",
+      "source_refs": {
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "print_pages": [
+          315,
+          316
+        ],
+        "figures": [],
+        "reference_numbers": [
+          16,
+          17,
+          19
+        ]
+      },
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "exclude_residues": []
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "delta_formula": {
+          "C": 1,
+          "H": 2
+        },
+        "modification": "N-甲基"
+      },
+      "required_conditions": [
+        "methanol",
+        "pd_catalytic_hydrogenation",
+        "oxygen_present"
+      ],
+      "reference_state": "same_sequence_unalkylated_free_amine",
+      "product_description": "MeOH/Pd/O2氢解中的单N-methylation",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "醇/Pd/O2形成醛，随后亚胺在氢化条件下还原；与甲醛/甲酸来源分开，二甲基需一级胺。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "delta_formula": {
+              "C": 1,
+              "H": 2
+            },
+            "modification": "Lys Nε-N-甲基"
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH14-R009",
+      "source_refs": {
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "print_pages": [
+          315,
+          316
+        ],
+        "figures": [],
+        "reference_numbers": [
+          16,
+          17,
+          18,
+          19
+        ]
+      },
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "exclude_residues": [
+          "P"
+        ]
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "delta_formula": {
+          "C": 2,
+          "H": 4
+        },
+        "modification": "N,N-二甲基"
+      },
+      "required_conditions": [
+        "methanol",
+        "pd_catalytic_hydrogenation",
+        "oxygen_present"
+      ],
+      "reference_state": "same_sequence_unalkylated_free_amine",
+      "product_description": "MeOH氢解导致双N-methylation",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "醇/Pd/O2形成醛，随后亚胺在氢化条件下还原；与甲醛/甲酸来源分开，二甲基需一级胺。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "delta_formula": {
+              "C": 2,
+              "H": 4
+            },
+            "modification": "Lys Nε-N,N-二甲基"
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH14-R010",
+      "source_refs": {
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "print_pages": [
+          315,
+          316
+        ],
+        "figures": [],
+        "reference_numbers": [
+          16,
+          17,
+          19
+        ]
+      },
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "exclude_residues": []
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "delta_formula": {
+          "C": 2,
+          "H": 4
+        },
+        "modification": "N-乙基"
+      },
+      "required_conditions": [
+        "ethanol",
+        "pd_catalytic_hydrogenation",
+        "oxygen_present"
+      ],
+      "reference_state": "same_sequence_unalkylated_free_amine",
+      "product_description": "EtOH/Pd/O2氢解中N-ethylation分支",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "醇/Pd/O2形成醛，随后亚胺在氢化条件下还原；与甲醛/甲酸来源分开，二甲基需一级胺。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "delta_formula": {
+              "C": 2,
+              "H": 4
+            },
+            "modification": "Lys Nε-N-乙基"
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH14-R011",
+      "source_refs": {
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "print_pages": [
+          315,
+          316
+        ],
+        "figures": [],
+        "reference_numbers": [
+          16,
+          17,
+          19
+        ]
+      },
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "exclude_residues": []
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "delta_formula": {
+          "C": 7,
+          "H": 6
+        },
+        "modification": "N-苄基"
+      },
+      "required_conditions": [
+        "benzyl_alcohol",
+        "pd_catalytic_hydrogenation",
+        "oxygen_present"
+      ],
+      "reference_state": "same_sequence_unalkylated_free_amine",
+      "product_description": "benzyl alcohol氢解中N-benzylation分支",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "醇/Pd/O2形成醛，随后亚胺在氢化条件下还原；与甲醛/甲酸来源分开，二甲基需一级胺。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "delta_formula": {
+              "C": 7,
+              "H": 6
+            },
+            "modification": "Lys Nε-N-苄基"
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH14-R015",
+      "source_refs": {
+        "pdf_pages": [
+          7
+        ],
+        "print_pages": [
+          317
+        ],
+        "figures": [],
+        "reference_numbers": []
+      },
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "residues": [
+          "H"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        },
+        "modification": "His咪唑N-prop-1-en-2-yl"
+      },
+      "required_conditions": [
+        "acetone"
+      ],
+      "reference_state": "same_sequence_n_terminal_histidine",
+      "product_description": "Acetone对N端His咪唑作prop-1-en-2-yl修饰",
+      "evidence_level": "book_author_unpublished",
+      "diagnostic_evidence": [
+        "作用位置为His咪唑N，不是Nα。"
+      ]
+    },
+    {
+      "rule_id": "CH14-R016",
+      "source_refs": {
+        "pdf_pages": [
+          7,
+          8
+        ],
+        "print_pages": [
+          317,
+          318
+        ],
+        "figures": [
+          "14.6"
+        ],
+        "reference_numbers": [
+          27,
+          28,
+          29,
+          30,
+          31
+        ]
+      },
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "next_backbone_amide": true,
+        "exclude_residues": [
+          "P"
+        ]
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        },
+        "modification": "2,2-dimethyl-imidazolidinone",
+        "local_cycle": "Nterminal_dimethyl_imidazolidinone"
+      },
+      "required_conditions": [
+        "acetone"
+      ],
+      "reference_state": "same_sequence_free_n_terminal_primary_amine",
+      "product_description": "Acetone诱发肽N端imidazolidinone环化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "Nα与下一骨架N-H成环，质量与前体Schiff-base同式；后位Pro不走该结构。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "start",
+            "nterm": "free",
+            "exclude_residues": [
+              "P"
+            ]
+          },
+          "transform": {
+            "kind": "n_terminal_delta",
+            "delta_formula": {
+              "C": 3,
+              "H": 4
+            },
+            "modification": "N端acetone Schiff-base"
+          },
+          "product_description": "acetone亚胺中间体"
+        },
+        {
+          "site_selector": {
+            "position": "start",
+            "nterm": "free",
+            "exclude_residues": [
+              "P"
+            ],
+            "sequence_length": 1,
+            "cterm": "amide",
+            "terminal_amide_participates": true
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH14-R017",
+      "source_refs": {
+        "pdf_pages": [
+          8,
+          9
+        ],
+        "print_pages": [
+          318,
+          319
+        ],
+        "figures": [
+          "14.7"
+        ],
+        "reference_numbers": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ]
+      },
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "residues": [
+          "Aoa"
+        ]
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        },
+        "modification": "氨氧基acetone oxime"
+      },
+      "required_conditions": [
+        "acetone"
+      ],
+      "reference_state": "same_sequence_free_aminooxy_group",
+      "product_description": "Aminooxy肽与acetone生成非目标oxime",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "图14.7明确氨氧基与acetone失H2O；两个Me相同，不存在该C=N的E/Z区别。"
+      ]
+    },
+    {
+      "rule_id": "CH14-R018",
+      "source_refs": {
+        "pdf_pages": [
+          8,
+          9
+        ],
+        "print_pages": [
+          318,
+          319
+        ],
+        "figures": [
+          "14.7"
+        ],
+        "reference_numbers": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ]
+      },
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "residues": [
+          "Aoa"
+        ]
+      },
+      "transform": {
+        "kind": "carbonyl_condensation"
+      },
+      "required_conditions": [
+        "non_target_carbonyl_exposure"
+      ],
+      "reference_state": "same_sequence_aminooxy_plus_explicit_carbonyl_minus_water",
+      "product_description": "Aminooxy肽与无关醛/酮生成非目标oxime",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "必须给carbonyl_donors中的SMILES；RDKit核验C/H取代醛酮、净式和羰基位点。",
+        "不同取代基保留E/Z两类；甲醛和acetone没有该几何区别。"
+      ]
+    },
+    {
+      "rule_id": "CH14-R020",
+      "source_refs": {
+        "pdf_pages": [
+          9
+        ],
+        "print_pages": [
+          319
+        ],
+        "figures": [],
+        "reference_numbers": [
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ]
+      },
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W",
+          "Y",
+          "C"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "delta_formula": {
+          "C": 4,
+          "H": 8
+        },
+        "modification": "MTBE来源叔丁基化（自由X-H替代模型）"
+      },
+      "required_conditions": [
+        "mtbe",
+        "strong_acid_workup"
+      ],
+      "reference_state": "same_sequence_unalkylated_susceptible_residue",
+      "product_description": "MTBE强酸后处理诱发tert-butylation",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "原书列敏感残基，未定位全部N/O/S/C进攻原子；这里仅编X-H替代净式，连接位置仍待谱证。",
+        "Met硫醚没有S-H，须用固有+1锍分支；PNA核碱基未支持。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "M"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "delta_formula": {
+              "C": 4,
+              "H": 9
+            },
+            "modification": "Met-S-tert-butyl sulfonium",
+            "intrinsic_charge": 1
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH14-R021",
+      "source_refs": {
+        "pdf_pages": [
+          9,
+          10
+        ],
+        "print_pages": [
+          319,
+          320
+        ],
+        "figures": [],
+        "reference_numbers": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ]
+      },
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "K"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "delta_formula": {
+          "C": 2,
+          "H": -1,
+          "F": 3,
+          "O": 1
+        },
+        "modification": "Lys Nε-三氟乙酰"
+      },
+      "required_conditions": [
+        "tfe",
+        "trifluoroacetate_contamination"
+      ],
+      "reference_state": "same_sequence_unacylated_lys",
+      "product_description": "TFE污染导致Lys-Nε trifluoroacetylation",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "来源是TFE中的TFA/三氟乙酸酯污染，与纯TFE未证实+26现象分开。"
+      ]
+    }
+  ]
+}

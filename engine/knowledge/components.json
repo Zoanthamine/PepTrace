@@ -1,0 +1,1880 @@
+{
+  "schema_version": "mass-components-2",
+  "residues": {
+    "G": {
+      "residue_formula": {
+        "C": 2,
+        "H": 3,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 2,
+        "H": 5,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "A": {
+      "residue_formula": {
+        "C": 3,
+        "H": 5,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 3,
+        "H": 7,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "S": {
+      "residue_formula": {
+        "C": 3,
+        "H": 5,
+        "N": 1,
+        "O": 2
+      },
+      "free_amino_acid_formula": {
+        "C": 3,
+        "H": 7,
+        "N": 1,
+        "O": 3
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "P": {
+      "residue_formula": {
+        "C": 5,
+        "H": 7,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 5,
+        "H": 9,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "V": {
+      "residue_formula": {
+        "C": 5,
+        "H": 9,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 5,
+        "H": 11,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "T": {
+      "residue_formula": {
+        "C": 4,
+        "H": 7,
+        "N": 1,
+        "O": 2
+      },
+      "free_amino_acid_formula": {
+        "C": 4,
+        "H": 9,
+        "N": 1,
+        "O": 3
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "C": {
+      "residue_formula": {
+        "C": 3,
+        "H": 5,
+        "N": 1,
+        "O": 1,
+        "S": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 3,
+        "H": 7,
+        "N": 1,
+        "S": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "L": {
+      "residue_formula": {
+        "C": 6,
+        "H": 11,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 6,
+        "H": 13,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "I": {
+      "residue_formula": {
+        "C": 6,
+        "H": 11,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 6,
+        "H": 13,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "N": {
+      "residue_formula": {
+        "C": 4,
+        "H": 6,
+        "N": 2,
+        "O": 2
+      },
+      "free_amino_acid_formula": {
+        "C": 4,
+        "H": 8,
+        "N": 2,
+        "O": 3
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "D": {
+      "residue_formula": {
+        "C": 4,
+        "H": 5,
+        "N": 1,
+        "O": 3
+      },
+      "free_amino_acid_formula": {
+        "C": 4,
+        "H": 7,
+        "N": 1,
+        "O": 4
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Q": {
+      "residue_formula": {
+        "C": 5,
+        "H": 8,
+        "N": 2,
+        "O": 2
+      },
+      "free_amino_acid_formula": {
+        "C": 5,
+        "H": 10,
+        "N": 2,
+        "O": 3
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "K": {
+      "residue_formula": {
+        "C": 6,
+        "H": 12,
+        "N": 2,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 6,
+        "H": 14,
+        "N": 2,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "E": {
+      "residue_formula": {
+        "C": 5,
+        "H": 7,
+        "N": 1,
+        "O": 3
+      },
+      "free_amino_acid_formula": {
+        "C": 5,
+        "H": 9,
+        "N": 1,
+        "O": 4
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "M": {
+      "residue_formula": {
+        "C": 5,
+        "H": 9,
+        "N": 1,
+        "O": 1,
+        "S": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 5,
+        "H": 11,
+        "N": 1,
+        "S": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "H": {
+      "residue_formula": {
+        "C": 6,
+        "H": 7,
+        "N": 3,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 6,
+        "H": 9,
+        "N": 3,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "F": {
+      "residue_formula": {
+        "C": 9,
+        "H": 9,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 9,
+        "H": 11,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "R": {
+      "residue_formula": {
+        "C": 6,
+        "H": 12,
+        "N": 4,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 6,
+        "H": 14,
+        "N": 4,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Y": {
+      "residue_formula": {
+        "C": 9,
+        "H": 9,
+        "N": 1,
+        "O": 2
+      },
+      "free_amino_acid_formula": {
+        "C": 9,
+        "H": 11,
+        "N": 1,
+        "O": 3
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "W": {
+      "residue_formula": {
+        "C": 11,
+        "H": 10,
+        "N": 2,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 11,
+        "H": 12,
+        "N": 2,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "O": {
+      "residue_formula": {
+        "C": 5,
+        "H": 10,
+        "N": 2,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 5,
+        "H": 12,
+        "N": 2,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Aib": {
+      "residue_formula": {
+        "C": 4,
+        "H": 7,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 4,
+        "H": 9,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Nle": {
+      "residue_formula": {
+        "C": 6,
+        "H": 11,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 6,
+        "H": 13,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Abu": {
+      "residue_formula": {
+        "C": 4,
+        "H": 7,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 4,
+        "H": 9,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Orn": {
+      "residue_formula": {
+        "C": 5,
+        "H": 10,
+        "N": 2,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 5,
+        "H": 12,
+        "N": 2,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Hyp": {
+      "residue_formula": {
+        "C": 5,
+        "H": 7,
+        "N": 1,
+        "O": 2
+      },
+      "free_amino_acid_formula": {
+        "C": 5,
+        "H": 9,
+        "N": 1,
+        "O": 3
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Bpa": {
+      "residue_formula": {
+        "C": 16,
+        "H": 13,
+        "N": 1,
+        "O": 2
+      },
+      "free_amino_acid_formula": {
+        "C": 16,
+        "H": 15,
+        "N": 1,
+        "O": 3
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "beta-Ala": {
+      "residue_formula": {
+        "C": 3,
+        "H": 5,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 3,
+        "H": 7,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Dap": {
+      "residue_formula": {
+        "C": 3,
+        "H": 6,
+        "N": 2,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 3,
+        "H": 8,
+        "N": 2,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Aoa": {
+      "residue_formula": {
+        "C": 2,
+        "H": 3,
+        "N": 1,
+        "O": 2
+      },
+      "free_amino_acid_formula": {
+        "C": 2,
+        "H": 5,
+        "N": 1,
+        "O": 3
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Phg": {
+      "residue_formula": {
+        "C": 8,
+        "H": 7,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 8,
+        "H": 9,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "VinylGly": {
+      "residue_formula": {
+        "C": 4,
+        "H": 5,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 4,
+        "H": 7,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Nva(N3)": {
+      "residue_formula": {
+        "C": 5,
+        "H": 8,
+        "N": 4,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 5,
+        "H": 10,
+        "N": 4,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Nle(N3)": {
+      "residue_formula": {
+        "C": 6,
+        "H": 10,
+        "N": 4,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 6,
+        "H": 12,
+        "N": 4,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Oia": {
+      "residue_formula": {
+        "C": 11,
+        "H": 10,
+        "N": 2,
+        "O": 2
+      },
+      "free_amino_acid_formula": {
+        "C": 11,
+        "H": 12,
+        "N": 2,
+        "O": 3
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "NFK": {
+      "residue_formula": {
+        "C": 11,
+        "H": 10,
+        "N": 2,
+        "O": 3
+      },
+      "free_amino_acid_formula": {
+        "C": 11,
+        "H": 12,
+        "N": 2,
+        "O": 4
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Hydroxy-NFK": {
+      "residue_formula": {
+        "C": 11,
+        "H": 10,
+        "N": 2,
+        "O": 4
+      },
+      "free_amino_acid_formula": {
+        "C": 11,
+        "H": 12,
+        "N": 2,
+        "O": 5
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Kyn": {
+      "residue_formula": {
+        "C": 10,
+        "H": 10,
+        "N": 2,
+        "O": 2
+      },
+      "free_amino_acid_formula": {
+        "C": 10,
+        "H": 12,
+        "N": 2,
+        "O": 3
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "3-Hydroxy-Kyn": {
+      "residue_formula": {
+        "C": 10,
+        "H": 10,
+        "N": 2,
+        "O": 3
+      },
+      "free_amino_acid_formula": {
+        "C": 10,
+        "H": 12,
+        "N": 2,
+        "O": 4
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Dha": {
+      "residue_formula": {
+        "C": 3,
+        "H": 3,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 3,
+        "H": 5,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "MeDha": {
+      "residue_formula": {
+        "C": 4,
+        "H": 5,
+        "N": 1,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 4,
+        "H": 7,
+        "N": 1,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Dha+piperidine": {
+      "residue_formula": {
+        "C": 8,
+        "H": 14,
+        "N": 2,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 8,
+        "H": 16,
+        "N": 2,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "MeDha+piperidine": {
+      "residue_formula": {
+        "C": 9,
+        "H": 16,
+        "N": 2,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 9,
+        "H": 18,
+        "N": 2,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Dha+4-methylpiperidine": {
+      "residue_formula": {
+        "C": 9,
+        "H": 16,
+        "N": 2,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 9,
+        "H": 18,
+        "N": 2,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "MeDha+4-methylpiperidine": {
+      "residue_formula": {
+        "C": 10,
+        "H": 18,
+        "N": 2,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 10,
+        "H": 20,
+        "N": 2,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    },
+    "Dha+pyrrolidine": {
+      "residue_formula": {
+        "C": 7,
+        "H": 12,
+        "N": 2,
+        "O": 1
+      },
+      "free_amino_acid_formula": {
+        "C": 7,
+        "H": 14,
+        "N": 2,
+        "O": 2
+      },
+      "reference_state": "neutral_free_amino_acid_minus_H2O",
+      "component_kind": "amino_acid",
+      "provenance": "tools/mass_ledger.py@acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c"
+    }
+  },
+  "residue_aliases": {
+    "Gly": "G",
+    "Ala": "A",
+    "Ser": "S",
+    "Pro": "P",
+    "Val": "V",
+    "Thr": "T",
+    "Cys": "C",
+    "Leu": "L",
+    "Ile": "I",
+    "Asn": "N",
+    "Asp": "D",
+    "Gln": "Q",
+    "Lys": "K",
+    "Glu": "E",
+    "Met": "M",
+    "His": "H",
+    "Phe": "F",
+    "Arg": "R",
+    "Tyr": "Y",
+    "Trp": "W",
+    "Orn": "O",
+    "Nle": "Nle",
+    "Abu": "Abu",
+    "Aib": "Aib"
+  },
+  "covalent_groups": {
+    "Fmoc": {
+      "net_formula": {
+        "C": 15,
+        "H": 10,
+        "O": 2
+      },
+      "reference_state": "游离胺 → Fmoc 氨基甲酸酯",
+      "attachment_scope": [
+        "K",
+        "N-term",
+        "Orn"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Boc": {
+      "net_formula": {
+        "C": 5,
+        "H": 8,
+        "O": 2
+      },
+      "reference_state": "游离 N–H → Boc 氨基甲酸酯",
+      "attachment_scope": [
+        "K",
+        "N-term",
+        "Orn",
+        "S",
+        "T",
+        "W"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Cbz": {
+      "net_formula": {
+        "C": 8,
+        "H": 6,
+        "O": 2
+      },
+      "reference_state": "游离胺 → Cbz（Z）氨基甲酸酯",
+      "attachment_scope": [
+        "K",
+        "N-term",
+        "Orn"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Alloc": {
+      "net_formula": {
+        "C": 4,
+        "H": 4,
+        "O": 2
+      },
+      "reference_state": "游离胺 → Alloc 氨基甲酸酯",
+      "attachment_scope": [
+        "K",
+        "N-term",
+        "Orn",
+        "S",
+        "T"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "tBu": {
+      "net_formula": {
+        "C": 4,
+        "H": 8
+      },
+      "reference_state": "羧酸或 OH → OtBu 酯或 O-tBu 醚；SH → S-tBu 硫醚同净式",
+      "attachment_scope": [
+        "C",
+        "C-term",
+        "D",
+        "E",
+        "Hyp",
+        "S",
+        "T",
+        "Y"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "StBu": {
+      "net_formula": {
+        "C": 4,
+        "H": 8,
+        "S": 1
+      },
+      "reference_state": "游离硫醇 → S–S–tBu 混合二硫键",
+      "attachment_scope": [
+        "C"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Bzl": {
+      "net_formula": {
+        "C": 7,
+        "H": 6
+      },
+      "reference_state": "相应 X–H → 苄基保护的 X–CH₂Ph",
+      "attachment_scope": [
+        "C",
+        "C-term",
+        "D",
+        "E",
+        "Hyp",
+        "S",
+        "T",
+        "Y"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "All": {
+      "net_formula": {
+        "C": 3,
+        "H": 4
+      },
+      "reference_state": "羧酸或 OH → 烯丙酯或烯丙醚",
+      "attachment_scope": [
+        "C-term",
+        "D",
+        "E",
+        "Hyp",
+        "S",
+        "T",
+        "Y"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Trt": {
+      "net_formula": {
+        "C": 19,
+        "H": 14
+      },
+      "reference_state": "相应 X–H → 三苯甲基保护",
+      "attachment_scope": [
+        "C",
+        "H",
+        "K",
+        "N",
+        "Orn",
+        "Q"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Mmt": {
+      "net_formula": {
+        "C": 20,
+        "H": 16,
+        "O": 1
+      },
+      "reference_state": "相应 X–H → 单甲氧基三苯甲基保护",
+      "attachment_scope": [
+        "C",
+        "H",
+        "K",
+        "N",
+        "Orn",
+        "Q"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "2-ClTrt": {
+      "net_formula": {
+        "C": 19,
+        "H": 13,
+        "Cl": 1
+      },
+      "reference_state": "相应 X–H → 单氯三苯甲基保护",
+      "attachment_scope": [
+        "C",
+        "H",
+        "K",
+        "N",
+        "Orn",
+        "Q"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Acm": {
+      "net_formula": {
+        "C": 3,
+        "H": 5,
+        "N": 1,
+        "O": 1
+      },
+      "reference_state": "游离 Cys–SH → S–CH₂–NH–CO–CH₃",
+      "attachment_scope": [
+        "C"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Pbf": {
+      "net_formula": {
+        "C": 13,
+        "H": 16,
+        "O": 3,
+        "S": 1
+      },
+      "reference_state": "Arg 胍基 → Pbf 磺酰保护",
+      "attachment_scope": [
+        "R"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Pmc": {
+      "net_formula": {
+        "C": 14,
+        "H": 18,
+        "O": 3,
+        "S": 1
+      },
+      "reference_state": "Arg 胍基 → Pmc 磺酰保护",
+      "attachment_scope": [
+        "R"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Dde": {
+      "net_formula": {
+        "C": 10,
+        "H": 12,
+        "O": 2
+      },
+      "reference_state": "游离胺 → Dde 保护；胺与保护试剂缩合",
+      "attachment_scope": [
+        "K",
+        "N-term",
+        "Orn"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Ac": {
+      "net_formula": {
+        "C": 2,
+        "H": 2,
+        "O": 1
+      },
+      "reference_state": "相应 X–H → 乙酰化",
+      "attachment_scope": [
+        "H",
+        "Hyp",
+        "K",
+        "N-term",
+        "R",
+        "S",
+        "T",
+        "Y"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Formyl": {
+      "net_formula": {
+        "C": 1,
+        "O": 1
+      },
+      "reference_state": "相应 X–H → 甲酰化",
+      "attachment_scope": [
+        "H",
+        "K",
+        "N-term",
+        "S",
+        "T",
+        "W"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Trifluoroacetyl": {
+      "net_formula": {
+        "C": 2,
+        "H": -1,
+        "F": 3,
+        "O": 1
+      },
+      "reference_state": "相应 N–H/O–H → 共价三氟乙酰；不是TFA盐",
+      "attachment_scope": [
+        "K",
+        "N-term",
+        "S",
+        "T",
+        "Y"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Nma": {
+      "net_formula": {
+        "C": 8,
+        "H": 7,
+        "N": 1,
+        "O": 1
+      },
+      "reference_state": "Lys Nε → N-methyl-anthraniloyl酰胺；酸与胺缩合失H2O",
+      "attachment_scope": [
+        "K"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Moz": {
+      "net_formula": {
+        "C": 9,
+        "H": 8,
+        "O": 3
+      },
+      "reference_state": "游离胺 → 4-methoxybenzyloxycarbonyl氨基甲酸酯",
+      "attachment_scope": [
+        "K",
+        "N-term"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Palmitoyl": {
+      "net_formula": {
+        "C": 16,
+        "H": 30,
+        "O": 1
+      },
+      "reference_state": "相应N–H/O–H与棕榈酸缩合失H2O",
+      "attachment_scope": [
+        "K",
+        "N-term",
+        "S",
+        "T"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "CysSulfenic": {
+      "net_formula": {
+        "O": 1
+      },
+      "reference_state": "Cys-SH→Cys-SOH",
+      "attachment_scope": [
+        "C"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "CysSulfinic": {
+      "net_formula": {
+        "O": 2
+      },
+      "reference_state": "Cys-SH→Cys-S(O)OH",
+      "attachment_scope": [
+        "C"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "CysSulfonic": {
+      "net_formula": {
+        "O": 3
+      },
+      "reference_state": "Cys-SH→Cys-S(O)2OH",
+      "attachment_scope": [
+        "C"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Persulfide": {
+      "net_formula": {
+        "S": 1
+      },
+      "reference_state": "Cys-SH→Cys-SSH",
+      "attachment_scope": [
+        "C"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "S-sulfocysteine": {
+      "net_formula": {
+        "S": 1,
+        "O": 3
+      },
+      "reference_state": "Cys-SH→Cys-S-S(O)2OH",
+      "attachment_scope": [
+        "C"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "NBD-sulfoxide": {
+      "net_formula": {
+        "C": 6,
+        "H": 1,
+        "N": 3,
+        "O": 4
+      },
+      "reference_state": "Cys-SH→S(O)-nitrobenzofurazanyl；相对SOH另减去其氧",
+      "attachment_scope": [
+        "C"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "NalphaAzide": {
+      "net_formula": {
+        "H": -2,
+        "N": 2
+      },
+      "reference_state": "游离Nα-NH2→Nα-N3",
+      "attachment_scope": [
+        "N-term"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Hex": {
+      "net_formula": {
+        "C": 6,
+        "H": 10,
+        "O": 5
+      },
+      "reference_state": "羟基O-己糖糖苷净增；不指定糖种或异头构型",
+      "attachment_scope": [
+        "Hyp",
+        "S",
+        "T",
+        "Y"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "HexNAc": {
+      "net_formula": {
+        "C": 8,
+        "H": 13,
+        "N": 1,
+        "O": 5
+      },
+      "reference_state": "羟基O-N-乙酰己糖胺糖苷净增；不指定异头构型",
+      "attachment_scope": [
+        "Hyp",
+        "S",
+        "T",
+        "Y"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Ac3GalNAc": {
+      "net_formula": {
+        "C": 14,
+        "H": 19,
+        "N": 1,
+        "O": 8
+      },
+      "reference_state": "三O-乙酰GalNAc与Ser/Thr形成O-糖苷的净增",
+      "attachment_scope": [
+        "Hyp",
+        "S",
+        "T",
+        "Y"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "HPhosphonate": {
+      "net_formula": {
+        "H": 1,
+        "P": 1,
+        "O": 2
+      },
+      "reference_state": "相应羟基的H-膦酸单酯净增，较Phospho少一个O",
+      "attachment_scope": [
+        "S",
+        "T",
+        "Y"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "CysThioaldehyde": {
+      "net_formula": {
+        "H": -2
+      },
+      "reference_state": "Cys-CH2-SH→CH=S，侧链脱H2",
+      "attachment_scope": [
+        "C"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "CysAldehyde": {
+      "net_formula": {
+        "H": -2,
+        "O": 1,
+        "S": -1
+      },
+      "reference_state": "Cys-CH2-SH→CHO，净−H2−S+O",
+      "attachment_scope": [
+        "C"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "NCA": {
+      "net_formula": {
+        "C": 1,
+        "H": -2,
+        "O": 1
+      },
+      "reference_state": "单一α氨基酸闭合N-羧酸酐；联合改变Nα和C端，AA+CO−H2",
+      "attachment_scope": [
+        "N-term"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "NChloroformylAcidChloride": {
+      "net_formula": {
+        "C": 1,
+        "H": -2,
+        "Cl": 2
+      },
+      "reference_state": "单一α氨基酸的N-氯甲酰与C端酰氯联合状态",
+      "attachment_scope": [
+        "N-term"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "S-Cyano": {
+      "net_formula": {
+        "C": 1,
+        "H": -1,
+        "N": 1
+      },
+      "reference_state": "Cys-SH→Cys-S-CN",
+      "attachment_scope": [
+        "C"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "MetCyanoMethylExchange": {
+      "net_formula": {
+        "C": 1,
+        "H": -1,
+        "N": 1
+      },
+      "reference_state": "Met-S-Me→S-CH2CN，按附录图Me被替换，最终图未带正电",
+      "attachment_scope": [
+        "M"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Methyl": {
+      "net_formula": {
+        "C": 1,
+        "H": 2
+      },
+      "reference_state": "相应 X–H → X–CH₃；不适用于固定电荷季铵/锍",
+      "attachment_scope": [],
+      "scope_status": "explicit_element_bookkeeping_only",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Carbamidomethyl": {
+      "net_formula": {
+        "C": 2,
+        "H": 3,
+        "N": 1,
+        "O": 1
+      },
+      "reference_state": "游离 Cys–SH → S–CH₂–CO–NH₂；与 Acm 结构和组成不同",
+      "attachment_scope": [
+        "C"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Carboxymethyl": {
+      "net_formula": {
+        "C": 2,
+        "H": 2,
+        "O": 2
+      },
+      "reference_state": "相应 X–H → X–CH₂–COOH",
+      "attachment_scope": [],
+      "scope_status": "explicit_element_bookkeeping_only",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Carbamyl": {
+      "net_formula": {
+        "C": 1,
+        "H": 1,
+        "N": 1,
+        "O": 1
+      },
+      "reference_state": "游离胺 → 氨甲酰化",
+      "attachment_scope": [
+        "K",
+        "N-term",
+        "Orn"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Oxidation": {
+      "net_formula": {
+        "O": 1
+      },
+      "reference_state": "指定的单氧化净变化",
+      "attachment_scope": [],
+      "scope_status": "explicit_element_bookkeeping_only",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Dioxidation": {
+      "net_formula": {
+        "O": 2
+      },
+      "reference_state": "指定的加两个氧净变化",
+      "attachment_scope": [],
+      "scope_status": "explicit_element_bookkeeping_only",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Phospho": {
+      "net_formula": {
+        "H": 1,
+        "P": 1,
+        "O": 3
+      },
+      "reference_state": "相应羟基形成磷酸单酯",
+      "attachment_scope": [
+        "Hyp",
+        "S",
+        "T",
+        "Y"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Sulfo": {
+      "net_formula": {
+        "S": 1,
+        "O": 3
+      },
+      "reference_state": "相应羟基形成硫酸单酯",
+      "attachment_scope": [
+        "Hyp",
+        "S",
+        "T",
+        "Y"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Deamidation": {
+      "net_formula": {
+        "H": -1,
+        "N": -1,
+        "O": 1
+      },
+      "reference_state": "侧链酰胺 → 羧酸",
+      "attachment_scope": [
+        "N",
+        "Q"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "C-amide": {
+      "net_formula": {
+        "H": 1,
+        "N": 1,
+        "O": -1
+      },
+      "reference_state": "C 端 COOH → CONH₂",
+      "attachment_scope": [],
+      "scope_status": "explicit_element_bookkeeping_only",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "C-methyl-ester": {
+      "net_formula": {
+        "C": 1,
+        "H": 2
+      },
+      "reference_state": "C 端 COOH → COOCH₃",
+      "attachment_scope": [
+        "C-term"
+      ],
+      "scope_status": "defined_sites",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "HeadTailCyclization": {
+      "net_formula": {
+        "H": -2,
+        "O": -1
+      },
+      "reference_state": "同一线性肽游离 N 端与羧酸 C 端成一个酰胺键",
+      "attachment_scope": [],
+      "scope_status": "explicit_element_bookkeeping_only",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Disulfide": {
+      "net_formula": {
+        "H": -2
+      },
+      "reference_state": "两个指定游离巯基 → 一个 S–S 键",
+      "attachment_scope": [],
+      "scope_status": "explicit_element_bookkeeping_only",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "Hydrolysis": {
+      "net_formula": {
+        "H": 2,
+        "O": 1
+      },
+      "reference_state": "一次水解；断链时只代表两片段合计增量",
+      "attachment_scope": [],
+      "scope_status": "explicit_element_bookkeeping_only",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "WaterLoss": {
+      "net_formula": {
+        "H": -2,
+        "O": -1
+      },
+      "reference_state": "已知反应脱一分子水",
+      "attachment_scope": [],
+      "scope_status": "explicit_element_bookkeeping_only",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    },
+    "AmmoniaLoss": {
+      "net_formula": {
+        "H": -3,
+        "N": -1
+      },
+      "reference_state": "已知反应脱一分子氨",
+      "attachment_scope": [],
+      "scope_status": "explicit_element_bookkeeping_only",
+      "component_kind": "covalent_net_change",
+      "intrinsic_charge_change": 0,
+      "provenance": "tools/mass_catalog.py@7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8"
+    }
+  },
+  "neutral_molecules": {
+    "Water": {
+      "formula": {
+        "H": 2,
+        "O": 1
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "Ammonia": {
+      "formula": {
+        "N": 1,
+        "H": 3
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "CO": {
+      "formula": {
+        "C": 1,
+        "O": 1
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "CO2": {
+      "formula": {
+        "C": 1,
+        "O": 2
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "H2S": {
+      "formula": {
+        "H": 2,
+        "S": 1
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "Formaldehyde": {
+      "formula": {
+        "C": 1,
+        "H": 2,
+        "O": 1
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "Methanol": {
+      "formula": {
+        "C": 1,
+        "H": 4,
+        "O": 1
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "AceticAcid": {
+      "formula": {
+        "C": 2,
+        "H": 4,
+        "O": 2
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "TFA": {
+      "formula": {
+        "C": 2,
+        "H": 1,
+        "F": 3,
+        "O": 2
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "Piperidine": {
+      "formula": {
+        "C": 5,
+        "H": 11,
+        "N": 1
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "4-Methylpiperidine": {
+      "formula": {
+        "C": 6,
+        "H": 13,
+        "N": 1
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "EDT": {
+      "formula": {
+        "C": 2,
+        "H": 6,
+        "S": 2
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "Acetone": {
+      "formula": {
+        "C": 3,
+        "H": 6,
+        "O": 1
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "Acetaldehyde": {
+      "formula": {
+        "C": 2,
+        "H": 4,
+        "O": 1
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "Acetamide": {
+      "formula": {
+        "C": 2,
+        "H": 5,
+        "N": 1,
+        "O": 1
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "NFormylpiperidine": {
+      "formula": {
+        "C": 6,
+        "H": 11,
+        "N": 1,
+        "O": 1
+      },
+      "component_kind": "neutral_reagent_molecule"
+    },
+    "Dimethylamine": {
+      "formula": {
+        "C": 2,
+        "H": 7,
+        "N": 1
+      },
+      "component_kind": "neutral_reagent_molecule"
+    }
+  },
+  "sequence_examples": {
+    "RGD": "整合素结合基序",
+    "DYKDDDDK": "FLAG",
+    "YPYDVPDYA": "HA",
+    "HHHHHH": "六组氨酸标签",
+    "ENLYFQG": "TEV 常用识别序列"
+  },
+  "c_terminal_deltas": {
+    "acid": {},
+    "amide": {
+      "N": 1,
+      "H": 1,
+      "O": -1
+    },
+    "n_4_hydroxybenzyl_amide": {
+      "C": 7,
+      "H": 7,
+      "N": 1
+    },
+    "pyrrolidinamide": {
+      "C": 4,
+      "H": 7,
+      "N": 1,
+      "O": -1
+    },
+    "hydrazide": {
+      "N": 2,
+      "H": 2,
+      "O": -1
+    }
+  },
+  "sulfur_bond_deltas": {
+    "disulfide": {
+      "H": -2
+    },
+    "thiosulfinate": {
+      "H": -2,
+      "O": 1
+    },
+    "thiosulfonate": {
+      "H": -2,
+      "O": 2
+    },
+    "trisulfide": {
+      "H": -2,
+      "S": 1
+    },
+    "tetrasulfide": {
+      "H": -2,
+      "S": 2
+    },
+    "lanthionine": {
+      "H": -2,
+      "S": -1
+    }
+  },
+  "migration": {
+    "source_hashes": {
+      "mass_ledger.py": "acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c",
+      "mass_catalog.py": "7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8",
+      "case_input.py": "ce81186bd6c521db8202f8b542789549c7c21e28765e911035d41865bf30b8ab"
+    },
+    "all_overlapping_legacy_formulas_equal": true,
+    "dsh_imports": 0
+  }
+}

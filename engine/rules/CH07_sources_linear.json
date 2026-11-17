@@ -1,0 +1,1303 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_07",
+    "sha256": "a455f6e0f3a2d3cb8fe901ddeec94f0ab2e48ce31a57317681cbc1432573d0cf"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH07-R001",
+      "source_refs": {
+        "print_pages": [
+          163,
+          164,
+          165
+        ],
+        "figures": [
+          "7.1"
+        ]
+      },
+      "reference_state": "released_target_or_synthesis_suffix",
+      "site_selector": {
+        "position": "any"
+      },
+      "transform": {
+        "kind": "capped_suffix",
+        "modification": "Nα-乙酰封端",
+        "cap_formula": {
+          "C": 2,
+          "H": 2,
+          "O": 1
+        },
+        "boundary_fact": "synthesis_boundary"
+      },
+      "required_conditions": [],
+      "product_description": "Nα-乙酰化",
+      "diagnostic_evidence": [
+        "中途终止按真实生长边界计算；边界不明时标未知。"
+      ],
+      "evidence_level": "book_reported",
+      "required_any_conditions": [
+        "acetic_anhydride",
+        "acetic_acid_contamination",
+        "ethyl_acetate_contamination"
+      ]
+    },
+    {
+      "rule_id": "CH07-R005",
+      "source_refs": {
+        "print_pages": [
+          165
+        ],
+        "figures": [
+          "7.1"
+        ]
+      },
+      "reference_state": "same_sequence_mono_n_acetyl",
+      "site_selector": {
+        "position": "start",
+        "nterm": "acetyl",
+        "exclude_residues": [
+          "P"
+        ]
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "第二次Nα-乙酰化",
+        "delta_formula": {
+          "C": 2,
+          "H": 2,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "acetic_anhydride"
+      ],
+      "product_description": "Nα-二乙酰",
+      "diagnostic_evidence": [
+        "需有单乙酰后仍剩的N–H；Pro不满足。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R006",
+      "source_refs": {
+        "print_pages": [
+          166,
+          167
+        ],
+        "figures": [
+          "7.2",
+          "7.3"
+        ]
+      },
+      "reference_state": "same_sequence_free_amine",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free"
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-三氟乙酰",
+        "delta_formula": {
+          "C": 2,
+          "H": -1,
+          "F": 3,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "tfa"
+      ],
+      "product_description": "共价三氟乙酰化",
+      "diagnostic_evidence": [
+        "N端及Lys产物可同式；需要与非共价TFA盐区分。"
+      ],
+      "evidence_level": "book_reported",
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "Lys Nε-三氟乙酰",
+            "delta_formula": {
+              "C": 2,
+              "H": -1,
+              "F": 3,
+              "O": 1
+            }
+          }
+        },
+        {
+          "site_selector": {
+            "position": "internal_or_end"
+          },
+          "transform": {
+            "kind": "capped_suffix",
+            "modification": "B段Nα-三氟乙酰",
+            "cap_formula": {
+              "C": 2,
+              "H": -1,
+              "F": 3,
+              "O": 1
+            },
+            "boundary_fact": "segment_b_start"
+          },
+          "required_conditions": [
+            "tfa",
+            "segment_condensation"
+          ],
+          "reference_state": "full_ligation_target_and_b_segment_boundary",
+          "diagnostic_evidence": [
+            "图7.3产物4为B段封端，未并入A段。"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R007",
+      "source_refs": {
+        "print_pages": [
+          168,
+          169
+        ],
+        "figures": [
+          "7.4"
+        ]
+      },
+      "reference_state": "released_target_or_synthesis_suffix",
+      "site_selector": {
+        "position": "internal_or_end"
+      },
+      "transform": {
+        "kind": "capped_suffix",
+        "modification": "树脂介导Nα-三氟乙酰",
+        "cap_formula": {
+          "C": 2,
+          "H": -1,
+          "F": 3,
+          "O": 1
+        },
+        "boundary_fact": "synthesis_boundary"
+      },
+      "required_conditions": [
+        "tfa",
+        "boc_spps",
+        "hydroxymethyl_resin",
+        "base_neutralization"
+      ],
+      "product_description": "三氟乙酰转移并封端",
+      "diagnostic_evidence": [
+        "树脂羟基供给酰基；释放片段质量按用户给定目标C端类型计算。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R008",
+      "source_refs": {
+        "print_pages": [
+          169,
+          170
+        ],
+        "figures": []
+      },
+      "reference_state": "same_sequence_free_n_terminus",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "residues": [
+          "P"
+        ]
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Pro Nα-三氟乙酰",
+        "delta_formula": {
+          "C": 2,
+          "H": -1,
+          "F": 3,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "tfa",
+        "global_deprotection"
+      ],
+      "product_description": "N端Pro三氟乙酰化",
+      "diagnostic_evidence": [
+        "与通用N端三氟乙酰化是同一种结构解释。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R011",
+      "source_refs": {
+        "print_pages": [
+          172,
+          173
+        ],
+        "figures": [
+          "7.6",
+          "7.7"
+        ]
+      },
+      "reference_state": "same_sequence_deprotected_trp",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ],
+        "required_site_fact": "trp_formyl_protected"
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "残留Trp(For)",
+        "delta_formula": {
+          "C": 1,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "trp_formyl_deprotection"
+      ],
+      "product_description": "Trp甲酰保护残留",
+      "diagnostic_evidence": [
+        "需该位点曾使用Trp(For)；与再次甲酰化同式。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R013",
+      "source_refs": {
+        "print_pages": [
+          173,
+          174,
+          175
+        ],
+        "figures": [
+          "7.8"
+        ]
+      },
+      "reference_state": "same_sequence_unformylated",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free"
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-甲酰",
+        "delta_formula": {
+          "C": 1,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "formic_acid"
+      ],
+      "product_description": "甲酸来源甲酰化",
+      "diagnostic_evidence": [
+        "甲酸存在不等于充分反应，浓度和暴露时间影响结果。"
+      ],
+      "evidence_level": "book_reported",
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "W",
+              "K",
+              "S",
+              "T"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "侧链甲酰化（W/K为N，S/T为O）",
+            "delta_formula": {
+              "C": 1,
+              "O": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R015",
+      "source_refs": {
+        "print_pages": [
+          175
+        ],
+        "figures": []
+      },
+      "reference_state": "same_sequence_free_n_terminus",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free"
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-甲酰",
+        "delta_formula": {
+          "C": 1,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "dmf",
+        "coupling",
+        "formic_acid_contamination"
+      ],
+      "product_description": "DMF杂质来源N端甲酰化",
+      "diagnostic_evidence": [
+        "甲酸杂质经偶联体系活化；普通DMF存在不能单独支持。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R016",
+      "source_refs": {
+        "print_pages": [
+          175,
+          176
+        ],
+        "figures": [
+          "7.10"
+        ]
+      },
+      "reference_state": "same_sequence_free_n_terminus",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free"
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-甲酰",
+        "delta_formula": {
+          "C": 1,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "dmf",
+        "oxyma"
+      ],
+      "product_description": "DMF相关N端甲酰化",
+      "diagnostic_evidence": [
+        "原书有DMF/Oxyma实验和微波条件对比；并非单独加Oxyma即发生。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R017",
+      "source_refs": {
+        "print_pages": [
+          176
+        ],
+        "figures": []
+      },
+      "reference_state": "same_sequence_unformylated",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "H",
+          "K"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "His/Lys侧链N-甲酰",
+        "delta_formula": {
+          "C": 1,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "dmf",
+        "catalytic_hydrogenation"
+      ],
+      "product_description": "氢解相关侧链甲酰化",
+      "diagnostic_evidence": [
+        "Pam树脂氨解另支持Lys支路。"
+      ],
+      "evidence_level": "book_reported",
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "Lys侧链Nε-甲酰",
+            "delta_formula": {
+              "C": 1,
+              "O": 1
+            }
+          },
+          "required_conditions": [
+            "dmf",
+            "pam_resin_aminolysis"
+          ],
+          "product_description": "Pam树脂氨解相关Lys甲酰化"
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R020",
+      "source_refs": {
+        "print_pages": [
+          179
+        ],
+        "figures": [
+          "7.14"
+        ]
+      },
+      "reference_state": "released_target_or_synthesis_suffix",
+      "site_selector": {
+        "position": "any"
+      },
+      "transform": {
+        "kind": "capped_suffix",
+        "modification": "Nα-甲酰封端",
+        "cap_formula": {
+          "C": 1,
+          "O": 1
+        },
+        "boundary_fact": "synthesis_boundary"
+      },
+      "required_conditions": [
+        "pybrop",
+        "dmf"
+      ],
+      "product_description": "PyBroP/DMF来源甲酰封端",
+      "diagnostic_evidence": [
+        "图中中间亚胺盐在水解后成为N-甲酰；全长和中途截短各用相应参照。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R022",
+      "source_refs": {
+        "print_pages": [
+          180,
+          181
+        ],
+        "figures": [
+          "7.15"
+        ]
+      },
+      "reference_state": "same_sequence_free_n_terminus",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free"
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-芴甲基",
+        "delta_formula": {
+          "C": 14,
+          "H": 10
+        }
+      },
+      "required_conditions": [
+        "fmoc_deprotection"
+      ],
+      "product_description": "DBF捕获使N端芴甲基化",
+      "diagnostic_evidence": [
+        "净式C14H10，不是Fmoc残留的C15H10O2。"
+      ],
+      "evidence_level": "book_reported",
+      "supporting_any_conditions": [
+        "dbf",
+        "dbu"
+      ]
+    },
+    {
+      "rule_id": "CH07-R025",
+      "source_refs": {
+        "print_pages": [
+          182
+        ],
+        "figures": [
+          "7.17"
+        ]
+      },
+      "reference_state": "same_sequence_lys_cbz_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "K"
+        ],
+        "group": "Cbz"
+      },
+      "transform": {
+        "kind": "remove_group",
+        "modification": "Lys Cbz提前脱除",
+        "delta_formula": {
+          "C": -8,
+          "H": -6,
+          "O": -2
+        }
+      },
+      "required_conditions": [
+        "tfa",
+        "boc_deprotection"
+      ],
+      "product_description": "Lys提前脱Cbz",
+      "diagnostic_evidence": [
+        "图7.17产物20相对仍保留Cbz的目标19。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R026",
+      "source_refs": {
+        "print_pages": [
+          182
+        ],
+        "figures": [
+          "7.17"
+        ]
+      },
+      "reference_state": "same_sequence_lys_cbz_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "K"
+        ],
+        "group": "Cbz"
+      },
+      "transform": {
+        "kind": "replace_group",
+        "modification": "Lys Nε-苄基",
+        "delta_formula": {
+          "C": -1,
+          "O": -2
+        },
+        "replacement_formula": {
+          "C": 7,
+          "H": 6
+        }
+      },
+      "required_conditions": [
+        "tfa",
+        "boc_deprotection"
+      ],
+      "product_description": "Lys Cbz变为Nε-苄基",
+      "diagnostic_evidence": [
+        "以Cbz保护的目标比较净失CO2；相对游离Lys才是+C7H6。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R028",
+      "source_refs": {
+        "print_pages": [
+          183,
+          184
+        ],
+        "figures": [
+          "7.18"
+        ]
+      },
+      "reference_state": "same_sequence_unmodified",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free"
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-羟甲基",
+        "delta_formula": {
+          "C": 1,
+          "H": 2,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "formaldehyde"
+      ],
+      "product_description": "甲醛加成生成羟甲基",
+      "diagnostic_evidence": [
+        "可逆加成；与失水亚胺的净式不同。"
+      ],
+      "evidence_level": "book_reported",
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "W",
+              "K",
+              "R",
+              "H"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "侧链羟甲基",
+            "delta_formula": {
+              "C": 1,
+              "H": 2,
+              "O": 1
+            }
+          }
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "N",
+              "Q"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "侧链酰胺N-羟甲基",
+            "delta_formula": {
+              "C": 1,
+              "H": 2,
+              "O": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R029",
+      "source_refs": {
+        "print_pages": [
+          183,
+          184
+        ],
+        "figures": [
+          "7.18"
+        ]
+      },
+      "reference_state": "same_sequence_unmodified",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "exclude_residues": [
+          "P"
+        ]
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-亚甲基亚胺",
+        "delta_formula": {
+          "C": 1
+        }
+      },
+      "required_conditions": [
+        "formaldehyde"
+      ],
+      "product_description": "甲醛形成中性亚胺",
+      "diagnostic_evidence": [
+        "这里只含一级胺；图7.18的Trp带正电结构另待实现。"
+      ],
+      "evidence_level": "book_reported",
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "Lys Nε-亚甲基亚胺",
+            "delta_formula": {
+              "C": 1
+            }
+          }
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "W"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "Trp N-亚甲基吲哚鎓",
+            "delta_formula": {
+              "C": 1,
+              "H": 1
+            },
+            "intrinsic_charge": 1
+          },
+          "diagnostic_evidence": [
+            "原图Trp-N+=CH2：相对中性Trp的元素净增CH，固定+1电荷。",
+            "书中+12 amu与相同质子化离子的比较一致；不能套中性+C。"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R032",
+      "source_refs": {
+        "print_pages": [
+          183,
+          184
+        ],
+        "figures": [
+          "7.19"
+        ]
+      },
+      "reference_state": "same_sequence_unmodified",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "next_backbone_amide": true,
+        "exclude_residues": [
+          "P"
+        ]
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα与第2位骨架N形成咪唑烷酮桥",
+        "delta_formula": {
+          "C": 1
+        },
+        "local_cycle": "imidazolidin_4_one"
+      },
+      "required_conditions": [
+        "formaldehyde"
+      ],
+      "product_description": "N端咪唑烷-4-酮",
+      "diagnostic_evidence": [
+        "净+C；须第2位骨架酰胺有氢。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R033",
+      "source_refs": {
+        "print_pages": [
+          185,
+          186,
+          188
+        ],
+        "figures": [
+          "7.23"
+        ]
+      },
+      "reference_state": "same_sequence_unmodified",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "residues": [
+          "C"
+        ],
+        "side_chain_required": true
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα与C侧链甲醛环化：硫代唑烷",
+        "delta_formula": {
+          "C": 1
+        },
+        "local_cycle": "Cys_thiazolidine"
+      },
+      "required_conditions": [
+        "formaldehyde"
+      ],
+      "product_description": "硫代唑烷",
+      "diagnostic_evidence": [
+        "同为净+C，需游离N端和可参与的侧链；不可仅凭质量与亚胺区分。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R034",
+      "source_refs": {
+        "print_pages": [
+          185,
+          186,
+          188
+        ],
+        "figures": [
+          "7.23"
+        ]
+      },
+      "reference_state": "same_sequence_unmodified",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "residues": [
+          "W"
+        ],
+        "side_chain_required": true
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα与W侧链甲醛环化：四氢β-咔啉",
+        "delta_formula": {
+          "C": 1
+        },
+        "local_cycle": "Trp_tetrahydro_beta_carboline"
+      },
+      "required_conditions": [
+        "formaldehyde"
+      ],
+      "product_description": "四氢β-咔啉",
+      "diagnostic_evidence": [
+        "同为净+C，需游离N端和可参与的侧链；不可仅凭质量与亚胺区分。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R036",
+      "source_refs": {
+        "print_pages": [
+          185,
+          186,
+          188
+        ],
+        "figures": [
+          "7.23"
+        ]
+      },
+      "reference_state": "same_sequence_unmodified",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "residues": [
+          "H"
+        ],
+        "side_chain_required": true
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα与H侧链甲醛环化：四氢吡啶并咪唑",
+        "delta_formula": {
+          "C": 1
+        },
+        "local_cycle": "His_tetrahydropyrido_imidazole"
+      },
+      "required_conditions": [
+        "formaldehyde"
+      ],
+      "product_description": "四氢吡啶并咪唑",
+      "diagnostic_evidence": [
+        "同为净+C，需游离N端和可参与的侧链；不可仅凭质量与亚胺区分。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R037",
+      "source_refs": {
+        "print_pages": [
+          187,
+          189
+        ],
+        "figures": [
+          "7.24"
+        ]
+      },
+      "reference_state": "same_sequence_unmodified",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "exclude_residues": []
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-单甲基",
+        "delta_formula": {
+          "C": 1,
+          "H": 2
+        }
+      },
+      "required_conditions": [
+        "formaldehyde",
+        "formic_acid"
+      ],
+      "product_description": "胺单甲基化",
+      "diagnostic_evidence": [
+        "二甲基支路需要一级胺；书中另提甲醛可在空气中氧化供给甲酸。"
+      ],
+      "evidence_level": "book_reported",
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "Lys Nε-单甲基",
+            "delta_formula": {
+              "C": 1,
+              "H": 2
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R038",
+      "source_refs": {
+        "print_pages": [
+          187,
+          189
+        ],
+        "figures": [
+          "7.24"
+        ]
+      },
+      "reference_state": "same_sequence_unmodified",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "exclude_residues": [
+          "P"
+        ]
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-二甲基",
+        "delta_formula": {
+          "C": 2,
+          "H": 4
+        }
+      },
+      "required_conditions": [
+        "formaldehyde",
+        "formic_acid"
+      ],
+      "product_description": "胺二甲基化",
+      "diagnostic_evidence": [
+        "二甲基支路需要一级胺；书中另提甲醛可在空气中氧化供给甲酸。"
+      ],
+      "evidence_level": "book_reported",
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ]
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "Lys Nε-二甲基",
+            "delta_formula": {
+              "C": 2,
+              "H": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R040",
+      "source_refs": {
+        "print_pages": [
+          191
+        ],
+        "figures": [
+          "7.27"
+        ]
+      },
+      "reference_state": "same_sequence_free_amine",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "exclude_residues": [],
+        "required_site_fact": "alloc_protected",
+        "fact_site": "N"
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-单烯丙基",
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        }
+      },
+      "required_conditions": [
+        "alloc_deprotection",
+        "pd0"
+      ],
+      "product_description": "Alloc脱保护相关N-单烯丙基化",
+      "diagnostic_evidence": [
+        "以已脱保护的游离胺为参照；机制可重叠。"
+      ],
+      "evidence_level": "book_reported",
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ],
+            "required_site_fact": "alloc_protected"
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "Lys Nε-单烯丙基",
+            "delta_formula": {
+              "C": 3,
+              "H": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R041",
+      "source_refs": {
+        "print_pages": [
+          192
+        ],
+        "figures": [
+          "7.28"
+        ]
+      },
+      "reference_state": "same_sequence_free_amine",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "exclude_residues": [],
+        "required_site_fact": "alloc_protected",
+        "fact_site": "N"
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-单烯丙基",
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        }
+      },
+      "required_conditions": [
+        "alloc_deprotection",
+        "pd0",
+        "reversible_hydride_scavenger"
+      ],
+      "product_description": "Alloc脱保护相关N-单烯丙基化",
+      "diagnostic_evidence": [
+        "以已脱保护的游离胺为参照；机制可重叠。"
+      ],
+      "evidence_level": "book_reported",
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ],
+            "required_site_fact": "alloc_protected"
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "Lys Nε-单烯丙基",
+            "delta_formula": {
+              "C": 3,
+              "H": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R042",
+      "source_refs": {
+        "print_pages": [
+          192
+        ],
+        "figures": [
+          "7.29"
+        ]
+      },
+      "reference_state": "same_sequence_free_amine",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "exclude_residues": [],
+        "required_site_fact": "alloc_protected",
+        "fact_site": "N"
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-单烯丙基",
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        }
+      },
+      "required_conditions": [
+        "alloc_deprotection",
+        "pd0",
+        "no_allyl_scavenger"
+      ],
+      "product_description": "Alloc脱保护相关N-单烯丙基化",
+      "diagnostic_evidence": [
+        "以已脱保护的游离胺为参照；机制可重叠。"
+      ],
+      "evidence_level": "book_reported",
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ],
+            "required_site_fact": "alloc_protected"
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "Lys Nε-单烯丙基",
+            "delta_formula": {
+              "C": 3,
+              "H": 4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R043",
+      "source_refs": {
+        "print_pages": [
+          192
+        ],
+        "figures": [
+          "7.29"
+        ]
+      },
+      "reference_state": "same_sequence_free_amine",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "exclude_residues": [
+          "P"
+        ],
+        "required_site_fact": "alloc_protected",
+        "fact_site": "N"
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "Nα-二烯丙基",
+        "delta_formula": {
+          "C": 6,
+          "H": 8
+        }
+      },
+      "required_conditions": [
+        "alloc_deprotection",
+        "pd0",
+        "excess_allyl_donor"
+      ],
+      "product_description": "Alloc脱保护相关N-二烯丙基化",
+      "diagnostic_evidence": [
+        "以已脱保护的游离胺为参照；机制可重叠。"
+      ],
+      "evidence_level": "book_reported",
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ],
+            "required_site_fact": "alloc_protected"
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "Lys Nε-二烯丙基",
+            "delta_formula": {
+              "C": 6,
+              "H": 8
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R045",
+      "source_refs": {
+        "print_pages": [
+          195,
+          196
+        ],
+        "figures": [
+          "7.31"
+        ]
+      },
+      "reference_state": "same_sequence_unmodified",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "residues": [
+          "H"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "His侧链咪唑N-异丙烯基",
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        }
+      },
+      "required_conditions": [
+        "acetone"
+      ],
+      "product_description": "N端His侧链与丙酮反应",
+      "diagnostic_evidence": [
+        "位点是咪唑氮；作者指出末端偏好机理未经专门调查。"
+      ],
+      "evidence_level": "book_author_unpublished"
+    },
+    {
+      "rule_id": "CH07-R047",
+      "source_refs": {
+        "print_pages": [
+          196,
+          197,
+          198
+        ],
+        "figures": [
+          "7.32"
+        ]
+      },
+      "reference_state": "same_sequence_intended_without_beta_ala",
+      "site_selector": {
+        "position": "any"
+      },
+      "transform": {
+        "kind": "insert_before",
+        "residue": "beta-Ala",
+        "delta_formula": {
+          "C": 3,
+          "H": 5,
+          "N": 1,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "fmoc_osu_derived_beta_ala_dipeptide"
+      ],
+      "product_description": "β-Ala-Xaa杂质造成额外掺入",
+      "diagnostic_evidence": [
+        "与DCC/HOSu路径可给同式同位点；原料历史区分。"
+      ],
+      "evidence_level": "book_reported"
+    }
+  ]
+}

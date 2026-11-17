@@ -1,0 +1,22 @@
+{
+  "case_id": "holdout-1",
+  "intended_product": {
+    "sequence": "QGGLL",
+    "nterm": "free",
+    "cterm": "acid"
+  },
+  "reaction": {
+    "description": "文献质量家族回查；反应条件未提供"
+  },
+  "observations": [
+    {
+      "kind": "delta_approx",
+      "value": -17.0,
+      "tolerance": 0.5,
+      "tolerance_unit": "Da",
+      "reference": "intended_product"
+    }
+  ],
+  "max_events": 1,
+  "max_nodes": 100000
+}

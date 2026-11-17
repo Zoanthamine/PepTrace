@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_18",
+    "sha256": "7e9962dbe5d2a8cfca307b72012b053f8a4c0db5c668b5eb0e7e2dee670bc6d1"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH06-R041",
+      "source_refs": {
+        "print_pages": [
+          153,
+          154
+        ],
+        "figures": [
+          "6.24"
+        ]
+      },
+      "reference_state": "free_n_terminal_carbamidomethyl_cys_target",
+      "site_selector": {
+        "position": "start",
+        "residues": [
+          "C"
+        ],
+        "group": "Carbamidomethyl",
+        "nterm": "free",
+        "nterm_participates": true
+      },
+      "required_conditions": [],
+      "required_any_conditions": [
+        "ammonium_bicarbonate",
+        "weak_base"
+      ],
+      "transform": {
+        "kind": "replace_group",
+        "local_cycle": "thiomorpholin-3-one",
+        "replacement_formula": {
+          "C": 2,
+          "O": 1
+        },
+        "modification": "N端Cys(Cam)硫吗啉酮",
+        "delta_formula": {
+          "N": -1,
+          "H": -3
+        }
+      },
+      "product_description": "N端Cys(Cam)环化释放氨",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "N端游离氨基与同位点硫代乙酰胺关环，净−NH₃；Acm与Cam组成和连接不同，不能互换。"
+      ]
+    }
+  ]
+}

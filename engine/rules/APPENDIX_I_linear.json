@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_11",
+    "sha256": "57c98b50632c6c9a70f0face7bc6ce1fb29f5612cae6be59287fe3d96815c31c",
+    "origin": "book_appendix"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "APP-I-R004",
+      "book_nominal_delta": -48,
+      "source_refs": {
+        "pdf_pages": [
+          3
+        ],
+        "print_pages": [
+          325
+        ],
+        "appendix_row_id": "AI-004",
+        "reference_numbers": [
+          4
+        ],
+        "figures": []
+      },
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "M"
+        ]
+      },
+      "transform": {
+        "kind": "substitute",
+        "residue": "VinylGly",
+        "delta_formula": {
+          "C": -1,
+          "H": -4,
+          "S": -1
+        }
+      },
+      "required_conditions": [
+        "haloacetyl_induced_met_degradation"
+      ],
+      "reference_state": "same_sequence_unmodified_methionine",
+      "product_description": "Degradation of Met to allylglycine",
+      "evidence_level": "book_drawn_scheme",
+      "diagnostic_evidence": [
+        "原图产物为Cα-CH=CH2（VinylGly），与原文allylglycine名称不一致；−CH4S符合−48整数。",
+        "此规则按原图可复算结构，不把名字更正倒写成作者原意。"
+      ],
+      "legacy_rule_ids": [
+        "SUP-056"
+      ]
+    },
+    {
+      "rule_id": "APP-I-R035",
+      "book_nominal_delta": 25,
+      "source_refs": {
+        "pdf_pages": [
+          11
+        ],
+        "print_pages": [
+          333
+        ],
+        "appendix_row_id": "AI-035",
+        "reference_numbers": [
+          32
+        ],
+        "figures": []
+      },
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "M"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "product_group": "MetCyanoMethylExchange",
+        "delta_formula": {
+          "C": 1,
+          "H": -1,
+          "N": 1
+        },
+        "modification": "S-Me→S-CH2CN"
+      },
+      "required_conditions": [
+        "iodoacetonitrile"
+      ],
+      "reference_state": "same_sequence_s_methyl_methionine",
+      "product_description": "Met cyanilation",
+      "evidence_level": "book_drawn_scheme",
+      "diagnostic_evidence": [
+        "原图最终S仅连肽侧链与CH2CN，原S-Me未保留；这是中性替换净CH−1N，不是Met-S-CN锍。",
+        "中间机理及原引文32尚未单独重查；最终按原图和+25一致的元素账保存。"
+      ]
+    },
+    {
+      "rule_id": "APP-I-R036",
+      "book_nominal_delta": 25,
+      "source_refs": {
+        "pdf_pages": [
+          11
+        ],
+        "print_pages": [
+          333
+        ],
+        "appendix_row_id": "AI-036",
+        "reference_numbers": [
+          33
+        ],
+        "figures": []
+      },
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "product_group": "S-Cyano",
+        "delta_formula": {
+          "C": 1,
+          "H": -1,
+          "N": 1
+        },
+        "modification": "Cys-S-CN"
+      },
+      "required_conditions": [
+        "thiol_cyanation"
+      ],
+      "reference_state": "same_sequence_cys_sulfhydryl",
+      "product_description": "Cys cyanilation",
+      "evidence_level": "book_drawn_scheme",
+      "diagnostic_evidence": [
+        "SCN替换SH的H，净CH−1N；与Met中性S-Me交换同式，连接不同。"
+      ]
+    },
+    {
+      "rule_id": "APP-I-R039",
+      "book_nominal_delta": 26,
+      "source_refs": {
+        "pdf_pages": [
+          11
+        ],
+        "print_pages": [
+          333
+        ],
+        "appendix_row_id": "AI-039",
+        "reference_numbers": [
+          35
+        ],
+        "figures": []
+      },
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "next_backbone_amide": true,
+        "exclude_residues": [
+          "Aoa",
+          "beta-Ala",
+          "Dha",
+          "MeDha"
+        ]
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "delta_formula": {
+          "C": 1,
+          "H": -2,
+          "O": 1
+        },
+        "modification": "N端hydantoin",
+        "local_cycle": "Nterminal_hydantoin"
+      },
+      "required_conditions": [],
+      "reference_state": "same_sequence_free_nalpha_and_next_backbone_amide",
+      "product_description": "Hydantoin formation",
+      "evidence_level": "book_drawn_scheme",
+      "diagnostic_evidence": [
+        "新增CO桥联Nα/第二位骨架N，并失两个N-H，总式CO−H2。原表未给具体供羰基条件，不假定试剂。"
+      ],
+      "required_features": [
+        "hydantoin_carbonyl_source"
+      ]
+    },
+    {
+      "rule_id": "APP-I-R052",
+      "book_nominal_delta": 40,
+      "source_refs": {
+        "pdf_pages": [
+          14
+        ],
+        "print_pages": [
+          336
+        ],
+        "appendix_row_id": "AI-052",
+        "reference_numbers": [],
+        "figures": []
+      },
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "previous_required": true,
+        "required_site_fact": "pseudoproline_used"
+      },
+      "transform": {
+        "kind": "local_delta",
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        },
+        "modification": "残余PsiMeMePro",
+        "local_cycle": "SerThr_PsiMeMePro"
+      },
+      "required_conditions": [
+        "global_deprotection"
+      ],
+      "reference_state": "same_sequence_intended_free_ser_thr",
+      "product_description": "Insufficient deprotection of Ser/ Thr(ΨMe,Me Pro)",
+      "evidence_level": "book_drawn_scheme",
+      "diagnostic_evidence": [
+        "相对预期自由ST残留C3H4；环涉及该位点骨架N与侧链O。只编表中内部肽链ST，不指定新/旧构型比例。"
+      ]
+    }
+  ]
+}

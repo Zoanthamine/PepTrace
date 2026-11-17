@@ -1,0 +1,28 @@
+{
+  "type": "five public synthetic exercises, not blinded testing",
+  "original_question_file": "五题题目与原参考答案.md",
+  "original_question_sha256": "282e083a2d6f6789584b6d175e1464e57c5572e6cc939972d7615d1fc5ccd0ea",
+  "case_files": [
+    {
+      "file": "case-1.json",
+      "sha256": "183e9f973d1985ab0942152acf72be7c0b5c80d9ad179b88505fb5e2c21b2e29"
+    },
+    {
+      "file": "case-2.json",
+      "sha256": "5e525d91492e00434992f6e516cb44e045ca3b8a9809e4ce8316f45739f43d0b"
+    },
+    {
+      "file": "case-3.json",
+      "sha256": "e3f057d1f781aeb59fcfc04ba1b8fffcffe8b363d12c399e6f82487bb8bfa134"
+    },
+    {
+      "file": "case-4.json",
+      "sha256": "389e177b455ed54abdb209c46a605591de39cc33646b7c7f3d02eb6c3ca1561a"
+    },
+    {
+      "file": "case-5.json",
+      "sha256": "ef7ea60b4b6ad68355cdd61bdd4bb44f98c4d41b70c3f968a332651474de116e"
+    }
+  ],
+  "uncertainty": "MALDI ±0.1 m/z; four-decimal HRMS arithmetic window ±0.0001 per measured peak; actual sample needs instrument uncertainty"
+}

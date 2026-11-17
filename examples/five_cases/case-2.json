@@ -1,0 +1,33 @@
+{
+  "case_id": "user-five-2",
+  "intended_product": {
+    "sequence": "GDSPKEA",
+    "nterm": "free",
+    "cterm": "acid"
+  },
+  "reaction": {
+    "description": "甲醇RP-HPLC；TFA/甲醇水溶解后冻干，同批甲酸/乙酸处理。",
+    "stage_tags": [
+      "methanol",
+      "rp_hplc",
+      "concentration",
+      "tfa",
+      "formic_acid",
+      "acetic_acid"
+    ]
+  },
+  "observations": [
+    {
+      "kind": "mz",
+      "value": 359.1743,
+      "charge": 2,
+      "ions": {
+        "H": 2
+      },
+      "tolerance": 0.0001,
+      "tolerance_unit": "Da"
+    }
+  ],
+  "max_events": 2,
+  "max_nodes": 100000
+}

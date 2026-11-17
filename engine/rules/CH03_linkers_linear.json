@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_19",
+    "sha256": "624ba58f2b7fa41b3e77fa95da65427846acbf43635e5c9b2d5602f45dd73aeb"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH03-R003",
+      "source_refs": {
+        "print_pages": [
+          48,
+          49,
+          50
+        ],
+        "figures": [
+          "3.5",
+          "3.6",
+          "3.7"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "required_any_conditions": [
+        "wang_resin",
+        "hmpa_am_resin",
+        "rink_resin"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Trp 4-羟基苄基，主要C2",
+        "delta_formula": {
+          "C": 7,
+          "H": 6,
+          "O": 1
+        }
+      },
+      "product_description": "Trp 4-羟基苄基，主要C2",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "核对实际树脂。多个Trp或环内位点异构可同质量，需碎片定位。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R004",
+      "source_refs": {
+        "print_pages": [
+          49,
+          50
+        ],
+        "figures": [
+          "3.6",
+          "3.7"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection",
+        "pal_mbha_resin"
+      ],
+      "required_any_conditions": [],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "PAL-MBHA连接臂苄基修饰Trp",
+        "delta_formula": {
+          "C": 14,
+          "H": 19,
+          "N": 1,
+          "O": 4
+        }
+      },
+      "product_description": "PAL-MBHA连接臂苄基修饰Trp",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "核对实际树脂。多个Trp或环内位点异构可同质量，需碎片定位。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R005",
+      "source_refs": {
+        "print_pages": [
+          49,
+          50
+        ],
+        "figures": [
+          "3.6",
+          "3.7"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection",
+        "rink_mbha_resin"
+      ],
+      "required_any_conditions": [],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Rink-MBHA连接臂苄基修饰Trp",
+        "delta_formula": {
+          "C": 9,
+          "H": 9,
+          "N": 1,
+          "O": 2
+        }
+      },
+      "product_description": "Rink-MBHA连接臂苄基修饰Trp",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "核对实际树脂。多个Trp或环内位点异构可同质量，需碎片定位。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R006",
+      "source_refs": {
+        "print_pages": [
+          49,
+          50
+        ],
+        "figures": [
+          "3.7"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection",
+        "tfa"
+      ],
+      "required_any_conditions": [
+        "wang_resin",
+        "hmpa_am_resin",
+        "rink_resin"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Trp 4-三氟乙酰氧苄基，主要C2",
+        "delta_formula": {
+          "C": 9,
+          "H": 5,
+          "F": 3,
+          "O": 2
+        }
+      },
+      "product_description": "Trp 4-三氟乙酰氧苄基，主要C2",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "核对实际树脂。多个Trp或环内位点异构可同质量，需碎片定位。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R008",
+      "source_refs": {
+        "print_pages": [
+          49,
+          52,
+          53
+        ],
+        "figures": [
+          "3.6"
+        ]
+      },
+      "reference_state": "same_sequence_primary_c_terminal_amide_target",
+      "site_selector": {
+        "position": "end",
+        "cterm": "amide"
+      },
+      "required_conditions": [
+        "acid_global_deprotection",
+        "rink_resin"
+      ],
+      "required_any_conditions": [],
+      "transform": {
+        "kind": "c_terminal_amide_substitution",
+        "modification": "C端N-(4-羟基苄基)酰胺",
+        "delta_formula": {
+          "C": 7,
+          "H": 6,
+          "O": 1
+        }
+      },
+      "product_description": "C端N-(4-羟基苄基)酰胺",
+      "evidence_level": "book_reported_c_terminal_impurity",
+      "diagnostic_evidence": [
+        "无Trp肽也可发生。用C端碎片和Trp位点碎片区分同式的Trp苄基化。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R010",
+      "source_refs": {
+        "print_pages": [
+          54,
+          55
+        ],
+        "figures": [
+          "3.10"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Bpa"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection",
+        "edt"
+      ],
+      "required_any_conditions": [],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Bpa的EDT环状二硫缩酮",
+        "delta_formula": {
+          "C": 2,
+          "H": 4,
+          "S": 2,
+          "O": -1
+        }
+      },
+      "product_description": "Bpa的EDT环状二硫缩酮",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "确认Bpa含芳酮并使用EDT，原书的DTT对照未有同类反应。"
+      ]
+    }
+  ]
+}

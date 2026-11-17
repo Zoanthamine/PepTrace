@@ -1,0 +1,2356 @@
+{
+  "engine": "codex-dsh-fused-1",
+  "library_hash": "076ec348224fa79e3b21d863e61a855cc25b15120387702f77452dea03447dd0",
+  "case": {
+    "case_id": "user-five-3-resolution-sensitivity",
+    "intended_product": {
+      "sequence": "CGYSCRA",
+      "nterm": "free",
+      "cterm": "amide",
+      "bonds": [
+        {
+          "kind": "disulfide",
+          "sites": [
+            1,
+            5
+          ]
+        }
+      ]
+    },
+    "reaction": {
+      "description": "1–5二硫；DCC/HOBt/DIEA与甘氨酰胺反应；A/B均z2。",
+      "stage_tags": [
+        "dcc",
+        "hobt",
+        "diea",
+        "cystine_coupling"
+      ]
+    },
+    "observations": [
+      {
+        "kind": "peak_pair",
+        "reference": "intended_product",
+        "peaks": [
+          {
+            "kind": "mz",
+            "value": 378.6494,
+            "charge": 2,
+            "ions": {
+              "H": 2
+            },
+            "tolerance": 0.005,
+            "tolerance_unit": "Da"
+          },
+          {
+            "kind": "mz",
+            "value": 394.6355,
+            "charge": 2,
+            "ions": {
+              "H": 2
+            },
+            "tolerance": 0.005,
+            "tolerance_unit": "Da"
+          }
+        ]
+      }
+    ],
+    "max_events": 1,
+    "max_nodes": 100000
+  },
+  "reference_components": [
+    {
+      "state": {
+        "chains": [
+          {
+            "id": "chain1",
+            "peptide": {
+              "sequence": [
+                "C",
+                "G",
+                "Y",
+                "S",
+                "C",
+                "R",
+                "A"
+              ],
+              "nterm": "free",
+              "cterm": "amide",
+              "modifications": []
+            },
+            "origin_sites": [
+              "chain1:1",
+              "chain1:2",
+              "chain1:3",
+              "chain1:4",
+              "chain1:5",
+              "chain1:6",
+              "chain1:7"
+            ],
+            "intrinsic_charge": 0,
+            "annotations": []
+          }
+        ],
+        "bonds": [
+          {
+            "kind": "disulfide",
+            "endpoints": [
+              {
+                "chain": "chain1",
+                "site": 1,
+                "atom": "Cys_Sgamma"
+              },
+              {
+                "chain": "chain1",
+                "site": 5,
+                "atom": "Cys_Sgamma"
+              }
+            ],
+            "delta_formula": {
+              "H": -2
+            }
+          }
+        ],
+        "geometry_status": "not_assessed"
+      },
+      "formula": {
+        "H": 45,
+        "O": 9,
+        "C": 29,
+        "N": 11,
+        "S": 2
+      },
+      "neutral_mono": 755.2843144240101,
+      "element_mass": 755.2843144240101,
+      "intrinsic_charge": 0,
+      "chain_ids": [
+        "chain1"
+      ]
+    }
+  ],
+  "starting_components": [],
+  "observations": [
+    {
+      "input": {
+        "kind": "peak_pair",
+        "reference": "intended_product",
+        "peaks": [
+          {
+            "kind": "mz",
+            "value": 378.6494,
+            "charge": 2,
+            "ions": {
+              "H": 2
+            },
+            "tolerance": 0.005,
+            "tolerance_unit": "Da"
+          },
+          {
+            "kind": "mz",
+            "value": 394.6355,
+            "charge": 2,
+            "ions": {
+              "H": 2
+            },
+            "tolerance": 0.005,
+            "tolerance_unit": "Da"
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "component": {
+            "state": {
+              "chains": [
+                {
+                  "id": "chain1",
+                  "peptide": {
+                    "sequence": [
+                      "C",
+                      "G",
+                      "Y",
+                      "S",
+                      "C",
+                      "R",
+                      "A"
+                    ],
+                    "nterm": "free",
+                    "cterm": "amide",
+                    "modifications": []
+                  },
+                  "origin_sites": [
+                    "chain1:1",
+                    "chain1:2",
+                    "chain1:3",
+                    "chain1:4",
+                    "chain1:5",
+                    "chain1:6",
+                    "chain1:7"
+                  ],
+                  "intrinsic_charge": 0,
+                  "annotations": []
+                }
+              ],
+              "bonds": [
+                {
+                  "kind": "trisulfide",
+                  "endpoints": [
+                    {
+                      "chain": "chain1",
+                      "site": 1,
+                      "atom": "Cys_Sgamma"
+                    },
+                    {
+                      "chain": "chain1",
+                      "site": 5,
+                      "atom": "Cys_Sgamma"
+                    }
+                  ],
+                  "delta_formula": {
+                    "H": -2,
+                    "S": 1
+                  }
+                }
+              ],
+              "geometry_status": "not_assessed"
+            },
+            "formula": {
+              "H": 45,
+              "O": 9,
+              "C": 29,
+              "N": 11,
+              "S": 3
+            },
+            "neutral_mono": 787.25638559841,
+            "element_mass": 787.25638559841,
+            "intrinsic_charge": 0,
+            "chain_ids": [
+              "chain1"
+            ]
+          },
+          "predicted": 31.972071174399957,
+          "error_da": 0.0001288255999725152,
+          "error_ppm": null,
+          "mass_basis": "monoisotopic",
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "origins": [
+            "intended_product"
+          ],
+          "paths": [
+            [
+              {
+                "rule_id": "CH13-R011",
+                "branch_id": "CH13-R011:000",
+                "sites": [
+                  "chain1:1",
+                  "chain1:5"
+                ],
+                "reacting_endpoint": {
+                  "chain": "chain1",
+                  "site": 1,
+                  "atom": "Cys_Sgamma"
+                },
+                "delta_formula": {
+                  "S": 1
+                },
+                "source": {
+                  "pdf_pages": [
+                    5,
+                    7,
+                    8
+                  ],
+                  "print_pages": [
+                    303,
+                    305,
+                    306
+                  ],
+                  "figures": [
+                    "13.8"
+                  ],
+                  "reference_numbers": [
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38
+                  ]
+                },
+                "reference_state": "same_sites_explicit_disulfide_target",
+                "product": "同拓扑二硫插硫成trisulfide",
+                "evidence_level": "book_observed_product_proposed_mechanism",
+                "condition": "unknown",
+                "supported_conditions": [],
+                "missing_conditions": [
+                  "trisulfide_formation"
+                ],
+                "conflicting_conditions": []
+              }
+            ],
+            [
+              {
+                "rule_id": "CH13-R014",
+                "branch_id": "CH13-R014:000",
+                "sites": [
+                  "chain1:1",
+                  "chain1:5"
+                ],
+                "reacting_endpoint": {
+                  "chain": "chain1",
+                  "site": 1,
+                  "atom": "Cys_Sgamma"
+                },
+                "delta_formula": {
+                  "S": 1
+                },
+                "source": {
+                  "pdf_pages": [
+                    10
+                  ],
+                  "print_pages": [
+                    308
+                  ],
+                  "figures": [
+                    "13.11"
+                  ],
+                  "reference_numbers": [
+                    41,
+                    42
+                  ]
+                },
+                "reference_state": "same_sites_explicit_disulfide_target",
+                "product": "DCC介导的二硫插硫终点假设",
+                "evidence_level": "book_observed_product_proposed_mechanism",
+                "condition": "compatible",
+                "supported_conditions": [
+                  "cystine_coupling",
+                  "dcc"
+                ],
+                "missing_conditions": [],
+                "conflicting_conditions": []
+              }
+            ],
+            [
+              {
+                "rule_id": "CH13-R014",
+                "branch_id": "CH13-R014:001",
+                "sites": [
+                  "chain1:1",
+                  "chain1:5"
+                ],
+                "reacting_endpoint": {
+                  "chain": "chain1",
+                  "site": 1,
+                  "atom": "Cys_Sgamma"
+                },
+                "delta_formula": {
+                  "S": 1
+                },
+                "source": {
+                  "pdf_pages": [
+                    10
+                  ],
+                  "print_pages": [
+                    308
+                  ],
+                  "figures": [
+                    "13.11"
+                  ],
+                  "reference_numbers": [
+                    41,
+                    42
+                  ]
+                },
+                "reference_state": "same_sites_explicit_disulfide_target",
+                "product": "BOP/HOBt或HBTU/HOBt促进的二硫插硫终点假设",
+                "evidence_level": "book_observed_product_proposed_mechanism",
+                "condition": "unknown",
+                "supported_conditions": [
+                  "cystine_coupling"
+                ],
+                "missing_conditions": [
+                  "bop or hbtu"
+                ],
+                "conflicting_conditions": []
+              }
+            ]
+          ],
+          "condition": "compatible",
+          "evidence": "mass_match_only",
+          "propagated_error": {
+            "delta_element_mass": 31.97219999999993,
+            "tolerance_da": 0.02,
+            "mass_basis": "monoisotopic",
+            "error_model": "bounded",
+            "first_assumption": "explicit",
+            "second_assumption": "explicit",
+            "reference_kind": "neutral_element_sum"
+          },
+          "source_notes": [
+            {
+              "rule_id": "CH13-R011",
+              "name": "同拓扑二硫插硫成trisulfide",
+              "origin": "book",
+              "source": {
+                "chapter": 13,
+                "section": "13.2.2",
+                "pdf_pages": [
+                  5,
+                  7,
+                  8
+                ],
+                "print_pages": [
+                  303,
+                  305,
+                  306
+                ],
+                "figures": [
+                  "13.8"
+                ],
+                "reference_numbers": [
+                  27,
+                  28,
+                  29,
+                  30,
+                  31,
+                  32,
+                  33,
+                  34,
+                  35,
+                  36,
+                  37,
+                  38
+                ]
+              },
+              "diagnostic_evidence": [
+                "原书单S31.9721Da vs2O31.9898Da，差0.0177Da；按荷态折算m/z分辨需求",
+                "trisulfide通常RP-HPLC较晚，非绝对鉴定标准",
+                "DCC有/无及时间依赖、自由基捕获对照支持工艺入口",
+                "自由SH还原及桥连定位验证polyS身份"
+              ],
+              "competing_explanations": [
+                "Cys+2O、双Met(O)整数+32；需HRMS",
+                "其他硫加合/盐不能直接当共价trisulfide",
+                "不同分子数/桥数可让单个产物不是仅+S",
+                "机制争议，不能从产物质量反推唯一H2S或persulfide路线",
+                "整数 +32 的三候选与分辨率：trisulfide（多一个 S）= +S = +31.972071；Cys 次磺酸/磺酸方向多两氧 = +2O = +31.989829；两个 Met 各氧化一次 = +2O（与前者同式、同值）。trisulfide 与 +2O 相差 0.017758 Da，m/z 1000 时 3 ppm 已可分辨；名义质量无法区分，必须 HRMS。若离子中同时含多硫，注意 32S/34S 同位素间距（+1.995796）会形成特征包络。",
+                "【+32整数质量的三个候选】HRMS必须分开：trisulfide=+S(+31.972071)；Cys sulfinic/亚磺酸=+2O(+31.989783)；双Met(O)=两个+O(+31.989783)。单S与2O相差仅0.017712 Da，6位小数精度或MS/MS（硫同位素M+2包络、Met亚砜特征丢失）才能区分。"
+              ],
+              "mitigation": [
+                "检查原书涉及氧化剂和含二硫偶联剂兼容性；非假设区域成桥无polyS",
+                "建立过程时间控制，考虑hydroquinone自由基捕获对照，具体剂量未报告",
+                "还原清除polyS会同时还原目标二硫，必须考虑重建桥代价",
+                "trisulfide目标/杂质在Fmoc碱中可变，采样/分析需保持一致"
+              ],
+              "branch_evidence": [
+                [
+                  "同拓扑桥中的额外硫数按三硫/四硫区分；形成机制有推测，不能据质量判定来源。"
+                ]
+              ]
+            },
+            {
+              "rule_id": "CH13-R014",
+              "name": "DCC及其他偶联剂促进trisulfide",
+              "origin": "book",
+              "source": {
+                "chapter": 13,
+                "section": "13.2.2",
+                "pdf_pages": [
+                  10
+                ],
+                "print_pages": [
+                  308
+                ],
+                "figures": [
+                  "13.11"
+                ],
+                "reference_numbers": [
+                  41,
+                  42
+                ]
+              },
+              "diagnostic_evidence": [
+                "原书单S31.9721Da vs2O31.9898Da，差0.0177Da；按荷态折算m/z分辨需求",
+                "trisulfide通常RP-HPLC较晚，非绝对鉴定标准",
+                "DCC有/无及时间依赖、自由基捕获对照支持工艺入口",
+                "自由SH还原及桥连定位验证polyS身份"
+              ],
+              "competing_explanations": [
+                "Cys+2O、双Met(O)整数+32；需HRMS",
+                "其他硫加合/盐不能直接当共价trisulfide",
+                "不同分子数/桥数可让单个产物不是仅+S",
+                "机制争议，不能从产物质量反推唯一H2S或persulfide路线"
+              ],
+              "mitigation": [
+                "检查原书涉及氧化剂和含二硫偶联剂兼容性；非假设区域成桥无polyS",
+                "建立过程时间控制，考虑hydroquinone自由基捕获对照，具体剂量未报告",
+                "还原清除polyS会同时还原目标二硫，必须考虑重建桥代价",
+                "trisulfide目标/杂质在Fmoc碱中可变，采样/分析需保持一致"
+              ],
+              "branch_evidence": [
+                [
+                  "图13.11的具体双Z-cystine/胺体系无DCC不产三硫；迁移到当前序列仅为终点假设，机制未确定。"
+                ],
+                [
+                  "原书p308另报BOP/HOBt及HBTU/HOBt；明确未用DCC只否定DCC分支，不否定替代偶联剂或其他硫来源。"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "component": {
+            "state": {
+              "chains": [
+                {
+                  "id": "chain1",
+                  "peptide": {
+                    "sequence": [
+                      "C",
+                      "G",
+                      "Y",
+                      "S",
+                      "C",
+                      "R",
+                      "A"
+                    ],
+                    "nterm": "free",
+                    "cterm": "amide",
+                    "modifications": []
+                  },
+                  "origin_sites": [
+                    "chain1:1",
+                    "chain1:2",
+                    "chain1:3",
+                    "chain1:4",
+                    "chain1:5",
+                    "chain1:6",
+                    "chain1:7"
+                  ],
+                  "intrinsic_charge": 0,
+                  "annotations": []
+                }
+              ],
+              "bonds": [
+                {
+                  "kind": "thiosulfonate",
+                  "endpoints": [
+                    {
+                      "chain": "chain1",
+                      "site": 1,
+                      "atom": "Cys_Sgamma"
+                    },
+                    {
+                      "chain": "chain1",
+                      "site": 5,
+                      "atom": "Cys_Sgamma"
+                    }
+                  ],
+                  "delta_formula": {
+                    "H": -2,
+                    "O": 2
+                  },
+                  "oxidized_endpoint": {
+                    "chain": "chain1",
+                    "site": 1,
+                    "atom": "Cys_Sgamma"
+                  }
+                }
+              ],
+              "geometry_status": "not_assessed"
+            },
+            "formula": {
+              "H": 45,
+              "O": 11,
+              "C": 29,
+              "N": 11,
+              "S": 2
+            },
+            "neutral_mono": 787.27414366315,
+            "element_mass": 787.27414366315,
+            "intrinsic_charge": 0,
+            "chain_ids": [
+              "chain1"
+            ]
+          },
+          "predicted": 31.989829239139908,
+          "error_da": -0.01762923913997838,
+          "error_ppm": null,
+          "mass_basis": "monoisotopic",
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "origins": [
+            "intended_product"
+          ],
+          "paths": [
+            [
+              {
+                "rule_id": "CH09-R007",
+                "branch_id": "CH09-R007:001",
+                "sites": [
+                  "chain1:1",
+                  "chain1:5"
+                ],
+                "reacting_endpoint": {
+                  "chain": "chain1",
+                  "site": 1,
+                  "atom": "Cys_Sgamma"
+                },
+                "delta_formula": {
+                  "O": 2
+                },
+                "source": {
+                  "pdf_pages": [
+                    5
+                  ],
+                  "print_pages": [
+                    221
+                  ],
+                  "figures": [
+                    "9.7"
+                  ],
+                  "reference_numbers": [
+                    26
+                  ]
+                },
+                "reference_state": "explicit_unoxidized_disulfide_bridge",
+                "product": "thiosulfinate深氧化为thiosulfonate",
+                "evidence_level": "book_reported",
+                "condition": "unknown",
+                "supported_conditions": [],
+                "missing_conditions": [
+                  "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+                ],
+                "conflicting_conditions": []
+              }
+            ]
+          ],
+          "condition": "unknown",
+          "evidence": "mass_match_only",
+          "propagated_error": {
+            "delta_element_mass": 31.97219999999993,
+            "tolerance_da": 0.02,
+            "mass_basis": "monoisotopic",
+            "error_model": "bounded",
+            "first_assumption": "explicit",
+            "second_assumption": "explicit",
+            "reference_kind": "neutral_element_sum"
+          },
+          "source_notes": [
+            {
+              "rule_id": "CH09-R007",
+              "name": "thiosulfinate深氧化为thiosulfonate",
+              "origin": "book",
+              "source": {
+                "chapter": 9,
+                "section": "9.1",
+                "pdf_pages": [
+                  5
+                ],
+                "print_pages": [
+                  221
+                ],
+                "figures": [
+                  "9.7"
+                ],
+                "reference_numbers": [
+                  26
+                ]
+              },
+              "diagnostic_evidence": [
+                "逐氧化态建立中性质量账本；+O/+2O/+3O不能仅凭整数判定位点",
+                "自由巯基定量、还原/氧化对照及桥连mapping区分酸/二硫产品",
+                "多肽二聚或桥连先确认分子数、Cys配对和保护基",
+                "临时高活性sulfenic/thiosulfinate可随时间和捕获剂改变；检测条件本身可能转换产品"
+              ],
+              "competing_explanations": [
+                "Met/Trp/His/Tyr加氧同样可产生+16或+32",
+                "链内/链间/混合二硫及保护基留存不可混用参照",
+                "氧化态名称不等于已核验图中拓扑；同质量异构无法仅MS排除"
+              ],
+              "mitigation": [
+                "控制氧化剂、空气/金属和处理温度/时间；具体PAR需实验建立",
+                "游离Cys目标避免无意DMSO/氧化环境，特别不能以酸性pH认为绝对稳定",
+                "区域成桥设计需评估已保护Cys的氧化与次级二硫转化",
+                "含二硫肽避免不必要强碱/高热；还原剂与目标桥连兼容性另核验"
+              ],
+              "branch_evidence": [
+                [
+                  "按实际输入桥的氧化态比较；首次氧化两端硫分别列出。第二次相对thiosulfinate只增O。"
+                ],
+                [
+                  "相对未氧化SS前体净+O2；相对S–S(O)前体净+O，二者参照不同。"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "component": {
+            "state": {
+              "chains": [
+                {
+                  "id": "chain1",
+                  "peptide": {
+                    "sequence": [
+                      "C",
+                      "G",
+                      "Y",
+                      "S",
+                      "C",
+                      "R",
+                      "A"
+                    ],
+                    "nterm": "free",
+                    "cterm": "amide",
+                    "modifications": []
+                  },
+                  "origin_sites": [
+                    "chain1:1",
+                    "chain1:2",
+                    "chain1:3",
+                    "chain1:4",
+                    "chain1:5",
+                    "chain1:6",
+                    "chain1:7"
+                  ],
+                  "intrinsic_charge": 0,
+                  "annotations": []
+                }
+              ],
+              "bonds": [
+                {
+                  "kind": "thiosulfonate",
+                  "endpoints": [
+                    {
+                      "chain": "chain1",
+                      "site": 1,
+                      "atom": "Cys_Sgamma"
+                    },
+                    {
+                      "chain": "chain1",
+                      "site": 5,
+                      "atom": "Cys_Sgamma"
+                    }
+                  ],
+                  "delta_formula": {
+                    "H": -2,
+                    "O": 2
+                  },
+                  "oxidized_endpoint": {
+                    "chain": "chain1",
+                    "site": 5,
+                    "atom": "Cys_Sgamma"
+                  }
+                }
+              ],
+              "geometry_status": "not_assessed"
+            },
+            "formula": {
+              "H": 45,
+              "O": 11,
+              "C": 29,
+              "N": 11,
+              "S": 2
+            },
+            "neutral_mono": 787.27414366315,
+            "element_mass": 787.27414366315,
+            "intrinsic_charge": 0,
+            "chain_ids": [
+              "chain1"
+            ]
+          },
+          "predicted": 31.989829239139908,
+          "error_da": -0.01762923913997838,
+          "error_ppm": null,
+          "mass_basis": "monoisotopic",
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "origins": [
+            "intended_product"
+          ],
+          "paths": [
+            [
+              {
+                "rule_id": "CH09-R007",
+                "branch_id": "CH09-R007:001",
+                "sites": [
+                  "chain1:1",
+                  "chain1:5"
+                ],
+                "reacting_endpoint": {
+                  "chain": "chain1",
+                  "site": 5,
+                  "atom": "Cys_Sgamma"
+                },
+                "delta_formula": {
+                  "O": 2
+                },
+                "source": {
+                  "pdf_pages": [
+                    5
+                  ],
+                  "print_pages": [
+                    221
+                  ],
+                  "figures": [
+                    "9.7"
+                  ],
+                  "reference_numbers": [
+                    26
+                  ]
+                },
+                "reference_state": "explicit_unoxidized_disulfide_bridge",
+                "product": "thiosulfinate深氧化为thiosulfonate",
+                "evidence_level": "book_reported",
+                "condition": "unknown",
+                "supported_conditions": [],
+                "missing_conditions": [
+                  "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+                ],
+                "conflicting_conditions": []
+              }
+            ]
+          ],
+          "condition": "unknown",
+          "evidence": "mass_match_only",
+          "propagated_error": {
+            "delta_element_mass": 31.97219999999993,
+            "tolerance_da": 0.02,
+            "mass_basis": "monoisotopic",
+            "error_model": "bounded",
+            "first_assumption": "explicit",
+            "second_assumption": "explicit",
+            "reference_kind": "neutral_element_sum"
+          },
+          "source_notes": [
+            {
+              "rule_id": "CH09-R007",
+              "name": "thiosulfinate深氧化为thiosulfonate",
+              "origin": "book",
+              "source": {
+                "chapter": 9,
+                "section": "9.1",
+                "pdf_pages": [
+                  5
+                ],
+                "print_pages": [
+                  221
+                ],
+                "figures": [
+                  "9.7"
+                ],
+                "reference_numbers": [
+                  26
+                ]
+              },
+              "diagnostic_evidence": [
+                "逐氧化态建立中性质量账本；+O/+2O/+3O不能仅凭整数判定位点",
+                "自由巯基定量、还原/氧化对照及桥连mapping区分酸/二硫产品",
+                "多肽二聚或桥连先确认分子数、Cys配对和保护基",
+                "临时高活性sulfenic/thiosulfinate可随时间和捕获剂改变；检测条件本身可能转换产品"
+              ],
+              "competing_explanations": [
+                "Met/Trp/His/Tyr加氧同样可产生+16或+32",
+                "链内/链间/混合二硫及保护基留存不可混用参照",
+                "氧化态名称不等于已核验图中拓扑；同质量异构无法仅MS排除"
+              ],
+              "mitigation": [
+                "控制氧化剂、空气/金属和处理温度/时间；具体PAR需实验建立",
+                "游离Cys目标避免无意DMSO/氧化环境，特别不能以酸性pH认为绝对稳定",
+                "区域成桥设计需评估已保护Cys的氧化与次级二硫转化",
+                "含二硫肽避免不必要强碱/高热；还原剂与目标桥连兼容性另核验"
+              ],
+              "branch_evidence": [
+                [
+                  "按实际输入桥的氧化态比较；首次氧化两端硫分别列出。第二次相对thiosulfinate只增O。"
+                ],
+                [
+                  "相对未氧化SS前体净+O2；相对S–S(O)前体净+O，二者参照不同。"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "condition_conflicts": [],
+      "candidate_count": 3,
+      "conflict_count": 0,
+      "status": "matched_hypotheses",
+      "ion_hypothesis_count": 1,
+      "source_leads": [
+        {
+          "id": "AI-044",
+          "name": "两Cys之间S-S插入一个S形成S-S-S；净+S，端C-S连接保留；不是从两SH直接+S。",
+          "formula": {
+            "S": 1
+          },
+          "mass_status": "formula_reference",
+          "nominal": "32 amu",
+          "source": {
+            "pdf_pages": [
+              12
+            ],
+            "print_pages": [
+              334
+            ]
+          },
+          "reference": "same_disulfide_linked_components",
+          "evidence": "book_reported_structure_not_sample_confirmation",
+          "kind": "reaction_endpoint",
+          "origin": "book_appendix",
+          "profile": {
+            "stage_tags": [
+              "trisulfide_formation"
+            ],
+            "stage_any": [],
+            "features": []
+          },
+          "intrinsic_charge": 0,
+          "theoretical_delta": 31.9720711744,
+          "error_da": 0.00012882559992988263,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_partial",
+          "supported_conditions": [],
+          "missing_conditions": [
+            "trisulfide_formation"
+          ],
+          "conflicting_conditions": [],
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "AI-045",
+          "name": "Met硫醚→砜S(=O)2，净+O2；若从亚砜出发仅+O。",
+          "formula": {
+            "O": 2
+          },
+          "mass_status": "formula_reference",
+          "nominal": "32 amu",
+          "source": {
+            "pdf_pages": [
+              12
+            ],
+            "print_pages": [
+              334
+            ]
+          },
+          "reference": "same_met_thioether_peptide",
+          "evidence": "book_reported_structure_not_sample_confirmation",
+          "kind": "reaction_endpoint",
+          "origin": "book_appendix",
+          "profile": {
+            "stage_tags": [],
+            "stage_any": [
+              "oxidation",
+              "air_oxidation",
+              "peroxide",
+              "h2o2",
+              "dmso",
+              "ozone",
+              "photooxidation"
+            ],
+            "features": [],
+            "any_residues": [
+              "M"
+            ]
+          },
+          "intrinsic_charge": 0,
+          "theoretical_delta": 31.98982923914,
+          "error_da": -0.01762923914007075,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_conflict",
+          "supported_conditions": [],
+          "missing_conditions": [
+            "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+          ],
+          "conflicting_conditions": [
+            "M"
+          ],
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "AI-046",
+          "name": "Cys-SH→S(=O)OH，净+O2，亚磺酸，含S数不变。",
+          "formula": {
+            "O": 2
+          },
+          "mass_status": "formula_reference",
+          "nominal": "32 amu",
+          "source": {
+            "pdf_pages": [
+              13
+            ],
+            "print_pages": [
+              335
+            ]
+          },
+          "reference": "same_free_cys_thiol_peptide",
+          "evidence": "book_reported_structure_not_sample_confirmation",
+          "kind": "reaction_endpoint",
+          "origin": "book_appendix",
+          "profile": {
+            "stage_tags": [],
+            "stage_any": [
+              "oxidation",
+              "air_oxidation",
+              "peroxide",
+              "h2o2",
+              "dmso",
+              "ozone",
+              "photooxidation"
+            ],
+            "features": [],
+            "any_residues": [
+              "C"
+            ]
+          },
+          "intrinsic_charge": 0,
+          "theoretical_delta": 31.98982923914,
+          "error_da": -0.01762923914007075,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_partial",
+          "supported_conditions": [
+            "C"
+          ],
+          "missing_conditions": [
+            "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+          ],
+          "conflicting_conditions": [],
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "AI-047",
+          "name": "吲哚五元环氧化裂为芳基酮并保留N-CHO，NFK；净+O2，区别于Kyn总净+O−C。",
+          "formula": {
+            "O": 2
+          },
+          "mass_status": "formula_reference",
+          "nominal": "32 amu",
+          "source": {
+            "pdf_pages": [
+              13
+            ],
+            "print_pages": [
+              335
+            ]
+          },
+          "reference": "same_trp_peptide",
+          "evidence": "book_reported_structure_not_sample_confirmation",
+          "kind": "reaction_endpoint",
+          "origin": "book_appendix",
+          "profile": {
+            "stage_tags": [],
+            "stage_any": [
+              "oxidation",
+              "air_oxidation",
+              "peroxide",
+              "h2o2",
+              "dmso",
+              "ozone",
+              "photooxidation"
+            ],
+            "features": [],
+            "any_residues": [
+              "W"
+            ]
+          },
+          "intrinsic_charge": 0,
+          "theoretical_delta": 31.98982923914,
+          "error_da": -0.01762923914007075,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_conflict",
+          "supported_conditions": [],
+          "missing_conditions": [
+            "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+          ],
+          "conflicting_conditions": [
+            "W"
+          ],
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "CH09-R002",
+          "name": "Cys亚磺酸",
+          "formula": {
+            "O": 2
+          },
+          "mass_status": "formula_confirmed",
+          "nominal": null,
+          "source": {
+            "chapter": 9,
+            "section": "9.1",
+            "pdf_pages": [
+              1,
+              2
+            ],
+            "print_pages": [
+              217,
+              218
+            ],
+            "figures": [
+              "9.1"
+            ],
+            "reference_numbers": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "reference": "同保护态Cys-SH目标",
+          "evidence": [
+            "逐氧化态建立中性质量账本；+O/+2O/+3O不能仅凭整数判定位点",
+            "自由巯基定量、还原/氧化对照及桥连mapping区分酸/二硫产品",
+            "多肽二聚或桥连先确认分子数、Cys配对和保护基",
+            "临时高活性sulfenic/thiosulfinate可随时间和捕获剂改变；检测条件本身可能转换产品"
+          ],
+          "profile": {
+            "stage_tags": [],
+            "stage_any": [
+              "oxidation",
+              "air_oxidation",
+              "peroxide",
+              "h2o2",
+              "dmso",
+              "ozone",
+              "photooxidation"
+            ],
+            "features": [],
+            "any_residues": [
+              "C"
+            ]
+          },
+          "kind": "rule_reference",
+          "automatic": null,
+          "origin": "book",
+          "theoretical_delta": 31.98982923914,
+          "error_da": -0.01762923914007075,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_partial",
+          "supported_conditions": [
+            "C"
+          ],
+          "missing_conditions": [
+            "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+          ],
+          "conflicting_conditions": [],
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "CH09-R007",
+          "name": "thiosulfinate深氧化为thiosulfonate",
+          "formula": {
+            "O": 2
+          },
+          "mass_status": "formula_confirmed",
+          "nominal": null,
+          "source": {
+            "chapter": 9,
+            "section": "9.1",
+            "pdf_pages": [
+              5
+            ],
+            "print_pages": [
+              221
+            ],
+            "figures": [
+              "9.7"
+            ],
+            "reference_numbers": [
+              26
+            ]
+          },
+          "reference": "相同二硫目标",
+          "evidence": [
+            "逐氧化态建立中性质量账本；+O/+2O/+3O不能仅凭整数判定位点",
+            "自由巯基定量、还原/氧化对照及桥连mapping区分酸/二硫产品",
+            "多肽二聚或桥连先确认分子数、Cys配对和保护基",
+            "临时高活性sulfenic/thiosulfinate可随时间和捕获剂改变；检测条件本身可能转换产品"
+          ],
+          "profile": {
+            "stage_tags": [],
+            "stage_any": [
+              "oxidation",
+              "air_oxidation",
+              "peroxide",
+              "h2o2",
+              "dmso",
+              "ozone",
+              "photooxidation"
+            ],
+            "features": []
+          },
+          "kind": "rule_reference",
+          "automatic": null,
+          "origin": "book",
+          "theoretical_delta": 31.98982923914,
+          "error_da": -0.01762923914007075,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_partial",
+          "supported_conditions": [],
+          "missing_conditions": [
+            "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+          ],
+          "conflicting_conditions": [],
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "CH09-R030",
+          "name": "Met sulfone深度氧化",
+          "formula": {
+            "O": 2
+          },
+          "mass_status": "formula_confirmed",
+          "nominal": null,
+          "source": {
+            "chapter": 9,
+            "section": "9.2",
+            "pdf_pages": [
+              7,
+              8
+            ],
+            "print_pages": [
+              223,
+              224
+            ],
+            "figures": [
+              "9.11",
+              "9.12"
+            ],
+            "reference_numbers": [
+              41,
+              45
+            ]
+          },
+          "reference": "同一Met目标；相对Met(O)仅+O",
+          "evidence": [
+            "本条为氧化产物条目，条件只保留氧化侧（过氧化氢、空气、DMSO 等）；还原剂（NH4I、Me2S、TMSBr、Bu4NBr）属于 R031 的处理方向，不应作为本条触发条件。"
+          ],
+          "profile": {
+            "stage_tags": [],
+            "stage_any": [
+              "oxidation",
+              "air_oxidation",
+              "peroxide",
+              "h2o2",
+              "dmso",
+              "ozone",
+              "photooxidation"
+            ],
+            "features": [],
+            "any_residues": [
+              "M"
+            ]
+          },
+          "kind": "rule_reference",
+          "automatic": null,
+          "origin": "book",
+          "theoretical_delta": 31.98982923914,
+          "error_da": -0.01762923914007075,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_conflict",
+          "supported_conditions": [],
+          "missing_conditions": [
+            "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+          ],
+          "conflicting_conditions": [
+            "M"
+          ],
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "CH09-R037",
+          "name": "Trp生成N-formylkynurenine",
+          "formula": {
+            "O": 2
+          },
+          "mass_status": "formula_confirmed",
+          "nominal": null,
+          "source": {
+            "chapter": 9,
+            "section": "9.3",
+            "pdf_pages": [
+              11,
+              12
+            ],
+            "print_pages": [
+              227,
+              228
+            ],
+            "figures": [
+              "9.15"
+            ],
+            "reference_numbers": [
+              3,
+              73,
+              75,
+              77
+            ]
+          },
+          "reference": "同序列原Trp目标，不是相对Oia",
+          "evidence": [
+            "串联链标记：相对目标为 +O2 = +31.989829，相对 R036（+O）的产物则只需再 +O。检索时与 R040（同为 +O2 量级但属不同氧化态）区分，须看上游是哪一步。"
+          ],
+          "profile": {
+            "stage_tags": [],
+            "stage_any": [
+              "oxidation",
+              "air_oxidation",
+              "peroxide",
+              "h2o2",
+              "dmso",
+              "ozone",
+              "photooxidation"
+            ],
+            "features": [],
+            "any_residues": [
+              "W"
+            ]
+          },
+          "kind": "rule_reference",
+          "automatic": null,
+          "origin": "book",
+          "theoretical_delta": 31.98982923914,
+          "error_da": -0.01762923914007075,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_conflict",
+          "supported_conditions": [],
+          "missing_conditions": [
+            "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+          ],
+          "conflicting_conditions": [
+            "W"
+          ],
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "CH09-R054",
+          "name": "Phe深度羟化为DOPA",
+          "formula": {
+            "O": 2
+          },
+          "mass_status": "formula_confirmed",
+          "nominal": null,
+          "source": {
+            "chapter": 9,
+            "section": "9.4",
+            "pdf_pages": [
+              13
+            ],
+            "print_pages": [
+              229
+            ],
+            "figures": [],
+            "reference_numbers": [
+              83
+            ]
+          },
+          "reference": "原Phe肽，非Tyr目标",
+          "evidence": [
+            "卤代物Cl/Br同位素分布及取代数",
+            "DOPA来源Tyr与Phe净变化不同，须看序列",
+            "辅料/包装/抗溶剂空白过氧物和批间对照支持来源",
+            "dityrosine需确认链内/链间连接及MSMS"
+          ],
+          "profile": {
+            "stage_tags": [],
+            "stage_any": [
+              "oxidation",
+              "air_oxidation",
+              "peroxide",
+              "h2o2",
+              "ozone",
+              "photooxidation"
+            ],
+            "features": [],
+            "any_residues": [
+              "F"
+            ]
+          },
+          "kind": "rule_reference",
+          "automatic": null,
+          "origin": "book",
+          "theoretical_delta": 31.98982923914,
+          "error_da": -0.01762923914007075,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_conflict",
+          "supported_conditions": [],
+          "missing_conditions": [
+            "air_oxidation or h2o2 or oxidation or ozone or peroxide or photooxidation"
+          ],
+          "conflicting_conditions": [
+            "F"
+          ],
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "CH13-R011",
+          "name": "同拓扑二硫插硫成trisulfide",
+          "formula": {
+            "S": 1
+          },
+          "mass_status": "formula_confirmed",
+          "nominal": "非整数：单S31.9721Da，比较2O31.9898Da",
+          "source": {
+            "chapter": 13,
+            "section": "13.2.2",
+            "pdf_pages": [
+              5,
+              7,
+              8
+            ],
+            "print_pages": [
+              303,
+              305,
+              306
+            ],
+            "figures": [
+              "13.8"
+            ],
+            "reference_numbers": [
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38
+            ]
+          },
+          "reference": "同序列、同分子数、同其他桥/端基/保护态的S-S目标",
+          "evidence": [
+            "+S只有在该峰确为完整trisulfide、且同一样品未同时发生Dha/脱硫时才成立；若β消除在同一分子其他Cys处并行，单产物相对目标可能呈现−H2S+S=−2H（约−0.011 Da）等复合差，须按元素账本合并。",
+            "原书机制争议（persulfide/H2S/固相C–S断裂/偶联剂/光化学），+S是组成事实，不能反推唯一机理。"
+          ],
+          "profile": {
+            "stage_tags": [
+              "trisulfide_formation"
+            ],
+            "stage_any": [],
+            "features": []
+          },
+          "kind": "rule_reference",
+          "automatic": null,
+          "origin": "book",
+          "theoretical_delta": 31.9720711744,
+          "error_da": 0.00012882559992988263,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_partial",
+          "supported_conditions": [],
+          "missing_conditions": [
+            "trisulfide_formation"
+          ],
+          "conflicting_conditions": [],
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "CH13-R014",
+          "name": "DCC及其他偶联剂促进trisulfide",
+          "formula": {
+            "S": 1
+          },
+          "mass_status": "formula_confirmed",
+          "nominal": null,
+          "source": {
+            "chapter": 13,
+            "section": "13.2.2",
+            "pdf_pages": [
+              10
+            ],
+            "print_pages": [
+              308
+            ],
+            "figures": [
+              "13.11"
+            ],
+            "reference_numbers": [
+              41,
+              42
+            ]
+          },
+          "reference": "同一16+17完整正确偶联产物（保留实际Z和端基）之二硫态",
+          "evidence": [
+            "该例为特定Z-cystine与胺盐底物、DCC/HOBt/DIEA最高约10%且时间依赖，不能外推为所有二硫肽偶联的定量关系；无DCC时不生成是关键对照。"
+          ],
+          "profile": {
+            "stage_tags": [
+              "cystine_coupling",
+              "dcc"
+            ],
+            "stage_any": [],
+            "features": []
+          },
+          "kind": "rule_reference",
+          "automatic": null,
+          "origin": "book",
+          "theoretical_delta": 31.9720711744,
+          "error_da": 0.00012882559992988263,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_supported",
+          "supported_conditions": [
+            "cystine_coupling",
+            "dcc"
+          ],
+          "missing_conditions": [],
+          "conflicting_conditions": [],
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "SUP-007",
+          "name": "Met砜",
+          "formula": {
+            "O": 2
+          },
+          "mass_status": "formula_confirmed",
+          "nominal": null,
+          "source": "第9章Met氧化",
+          "reference": null,
+          "evidence": null,
+          "profile": null,
+          "kind": "rule_reference",
+          "automatic": null,
+          "origin": "supplement",
+          "theoretical_delta": 31.98982923914,
+          "error_da": -0.01762923914007075,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "unreviewed_context",
+          "supported_conditions": [],
+          "missing_conditions": [],
+          "conflicting_conditions": [],
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "SUP-009",
+          "name": "Trp→N-甲酰犬尿氨酸",
+          "formula": {
+            "O": 2
+          },
+          "mass_status": "formula_confirmed",
+          "nominal": null,
+          "source": "第9章Trp氧化深入",
+          "reference": null,
+          "evidence": null,
+          "profile": null,
+          "kind": "rule_reference",
+          "automatic": null,
+          "origin": "supplement",
+          "theoretical_delta": 31.98982923914,
+          "error_da": -0.01762923914007075,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "unreviewed_context",
+          "supported_conditions": [],
+          "missing_conditions": [],
+          "conflicting_conditions": [],
+          "ion_assumption": "explicit/explicit",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        }
+      ],
+      "dsh_source_review": [
+        {
+          "id": "CH09-R002",
+          "name": "Cys亚磺酸",
+          "theoretical_delta": 31.989829,
+          "error_da": -0.017629000000070505,
+          "mass_grade": "exact",
+          "unit_ratio": 1.0,
+          "source": {
+            "chapter": 9,
+            "section": "9.1",
+            "pdf_pages": [
+              1,
+              2
+            ],
+            "print_pages": [
+              217,
+              218
+            ],
+            "figures": [
+              "9.1"
+            ],
+            "reference_numbers": [
+              4,
+              5,
+              6,
+              7
+            ]
+          },
+          "reference": "同保护态Cys-SH目标",
+          "diagnostic_evidence": "逐氧化态建立中性质量账本；+O/+2O/+3O不能仅凭整数判定位点；自由巯基定量、还原/氧化对照及桥连mapping区分酸/二硫产品；多肽二聚或桥连先确认分子数、Cys配对和保护基；临时高活性sulfenic/thiosulfinate可随时间和捕获剂改变；检测条件本身可能转换产品",
+          "competing_explanations": "Met/Trp/His/Tyr加氧同样可产生+16或+32；链内/链间/混合二硫及保护基留存不可混用参照；氧化态名称不等于已核验图中拓扑；同质量异构无法仅MS排除",
+          "mitigation": "控制氧化剂、空气/金属和处理温度/时间；具体PAR需实验建立；游离Cys目标避免无意DMSO/氧化环境，特别不能以酸性pH认为绝对稳定；区域成桥设计需评估已保护Cys的氧化与次级二硫转化；含二硫肽避免不必要强碱/高热；还原剂与目标桥连兼容性另核验",
+          "canonical_branch_conditions": [
+            {
+              "branch_id": "CH09-R002:000",
+              "condition": "unknown",
+              "supported_conditions": [],
+              "missing_conditions": [
+                "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+              ],
+              "conflicting_conditions": []
+            }
+          ],
+          "classification": "peer_source_lead_only",
+          "structure_confirmed": false,
+          "origin": "book",
+          "ion_assumption": "explicit/explicit"
+        },
+        {
+          "id": "CH09-R007",
+          "name": "thiosulfinate深氧化为thiosulfonate",
+          "theoretical_delta": 31.989829,
+          "error_da": -0.017629000000070505,
+          "mass_grade": "exact",
+          "unit_ratio": 1.0,
+          "source": {
+            "chapter": 9,
+            "section": "9.1",
+            "pdf_pages": [
+              5
+            ],
+            "print_pages": [
+              221
+            ],
+            "figures": [
+              "9.7"
+            ],
+            "reference_numbers": [
+              26
+            ]
+          },
+          "reference": "相同二硫目标",
+          "diagnostic_evidence": "逐氧化态建立中性质量账本；+O/+2O/+3O不能仅凭整数判定位点；自由巯基定量、还原/氧化对照及桥连mapping区分酸/二硫产品；多肽二聚或桥连先确认分子数、Cys配对和保护基；临时高活性sulfenic/thiosulfinate可随时间和捕获剂改变；检测条件本身可能转换产品",
+          "competing_explanations": "Met/Trp/His/Tyr加氧同样可产生+16或+32；链内/链间/混合二硫及保护基留存不可混用参照；氧化态名称不等于已核验图中拓扑；同质量异构无法仅MS排除",
+          "mitigation": "控制氧化剂、空气/金属和处理温度/时间；具体PAR需实验建立；游离Cys目标避免无意DMSO/氧化环境，特别不能以酸性pH认为绝对稳定；区域成桥设计需评估已保护Cys的氧化与次级二硫转化；含二硫肽避免不必要强碱/高热；还原剂与目标桥连兼容性另核验",
+          "canonical_branch_conditions": [
+            {
+              "branch_id": "CH09-R007:000",
+              "condition": "unknown",
+              "supported_conditions": [],
+              "missing_conditions": [
+                "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+              ],
+              "conflicting_conditions": []
+            },
+            {
+              "branch_id": "CH09-R007:001",
+              "condition": "unknown",
+              "supported_conditions": [],
+              "missing_conditions": [
+                "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+              ],
+              "conflicting_conditions": []
+            }
+          ],
+          "classification": "peer_source_lead_only",
+          "structure_confirmed": false,
+          "origin": "book",
+          "ion_assumption": "explicit/explicit"
+        },
+        {
+          "id": "CH09-R030",
+          "name": "Met sulfone深度氧化",
+          "theoretical_delta": 31.989829,
+          "error_da": -0.017629000000070505,
+          "mass_grade": "exact",
+          "unit_ratio": 1.0,
+          "source": {
+            "chapter": 9,
+            "section": "9.2",
+            "pdf_pages": [
+              7,
+              8
+            ],
+            "print_pages": [
+              223,
+              224
+            ],
+            "figures": [
+              "9.11",
+              "9.12"
+            ],
+            "reference_numbers": [
+              41,
+              45
+            ]
+          },
+          "reference": "同一Met目标；相对Met(O)仅+O",
+          "diagnostic_evidence": "Met(O)+O与Met sulfone+2O分支；R/S异构同质量；与酸/空气暴露及加还原剂对照比较；同时查硫酯完整性、Cys成桥与Trp二聚，不能只看Met峰消失",
+          "competing_explanations": "Cys、Trp、His、Tyr加氧等质量；故意Met(O)保护synthon不是未经计划杂质，但还原不全可成为最终杂质",
+          "mitigation": "视烷基化风险选Met(O)保护synthon，确认还原及所有共存官能团；缩短NH4I/Me2S酸处理和Bu4NBr暴露；TMSBr体系捕获Br2；Bu4NBr成Cys二硫可用EDT/thioanisole抑制但需检查叠氮/目标二硫兼容性；不要把5min定量例或His/Tyr特定惰性泛化",
+          "canonical_branch_conditions": [
+            {
+              "branch_id": "CH09-R030:000",
+              "condition": "unknown",
+              "supported_conditions": [],
+              "missing_conditions": [
+                "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+              ],
+              "conflicting_conditions": []
+            }
+          ],
+          "classification": "peer_source_lead_only",
+          "structure_confirmed": false,
+          "origin": "book",
+          "ion_assumption": "explicit/explicit"
+        },
+        {
+          "id": "CH09-R037",
+          "name": "Trp生成N-formylkynurenine",
+          "theoretical_delta": 31.989829,
+          "error_da": -0.017629000000070505,
+          "mass_grade": "exact",
+          "unit_ratio": 1.0,
+          "source": {
+            "chapter": 9,
+            "section": "9.3",
+            "pdf_pages": [
+              11,
+              12
+            ],
+            "print_pages": [
+              227,
+              228
+            ],
+            "figures": [
+              "9.15"
+            ],
+            "reference_numbers": [
+              3,
+              73,
+              75,
+              77
+            ]
+          },
+          "reference": "同序列原Trp目标，不是相对Oia",
+          "diagnostic_evidence": "+O可为Oia或5-/7-OH Trp，需定位/分离；NFK/Kyn及进一步氧化按各自净公式，不能对所有产品一概+16；LCMS/MS和氧化时间序列支持先后网络但不证明唯一机理",
+          "competing_explanations": "其他残基加氧同质量；同加氧数不等于同结构；NFK与DiOia等须结构证据",
+          "mitigation": "控制酸性氧化暴露，考察DTT或methylindole；添加还原捕获剂前确认叠氮/目标二硫兼容性",
+          "canonical_branch_conditions": [
+            {
+              "branch_id": "CH09-R037:000",
+              "condition": "unknown",
+              "supported_conditions": [],
+              "missing_conditions": [
+                "air_oxidation or dmso or h2o2 or oxidation or ozone or peroxide or photooxidation"
+              ],
+              "conflicting_conditions": []
+            }
+          ],
+          "classification": "peer_source_lead_only",
+          "structure_confirmed": false,
+          "origin": "book",
+          "ion_assumption": "explicit/explicit"
+        },
+        {
+          "id": "CH09-R054",
+          "name": "Phe深度羟化为DOPA",
+          "theoretical_delta": 31.989829,
+          "error_da": -0.017629000000070505,
+          "mass_grade": "exact",
+          "unit_ratio": 1.0,
+          "source": {
+            "chapter": 9,
+            "section": "9.4",
+            "pdf_pages": [
+              13
+            ],
+            "print_pages": [
+              229
+            ],
+            "figures": [],
+            "reference_numbers": [
+              83
+            ]
+          },
+          "reference": "原Phe肽，非Tyr目标",
+          "diagnostic_evidence": "卤代物Cl/Br同位素分布及取代数；DOPA来源Tyr与Phe净变化不同，须看序列；辅料/包装/抗溶剂空白过氧物和批间对照支持来源；dityrosine需确认链内/链间连接及MSMS",
+          "competing_explanations": "其他+O残基氧化；Cys多氧化或多Met(O)可产生相似整数质量；制剂相关氧化与合成阶段本体氧化不可仅靠产物质量区分",
+          "mitigation": "检验辅料、包装及抗溶剂过氧化物风险；敏感肽沉淀优先评估MTBE或CPME，仍需品质控制；减少金属/光/空气应激，但原书未给普适阈值",
+          "canonical_branch_conditions": [
+            {
+              "branch_id": "CH09-R054:000",
+              "condition": "unknown",
+              "supported_conditions": [],
+              "missing_conditions": [
+                "air_oxidation or h2o2 or oxidation or ozone or peroxide or photooxidation"
+              ],
+              "conflicting_conditions": []
+            }
+          ],
+          "classification": "peer_source_lead_only",
+          "structure_confirmed": false,
+          "origin": "book",
+          "ion_assumption": "explicit/explicit"
+        },
+        {
+          "id": "CH13-R011",
+          "name": "同拓扑二硫插硫成trisulfide",
+          "theoretical_delta": 31.972071,
+          "error_da": 0.0001289999999301017,
+          "mass_grade": "exact",
+          "unit_ratio": 1.0,
+          "source": {
+            "chapter": 13,
+            "section": "13.2.2",
+            "pdf_pages": [
+              5,
+              7,
+              8
+            ],
+            "print_pages": [
+              303,
+              305,
+              306
+            ],
+            "figures": [
+              "13.8"
+            ],
+            "reference_numbers": [
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38
+            ]
+          },
+          "reference": "同序列、同分子数、同其他桥/端基/保护态的S-S目标",
+          "diagnostic_evidence": "原书单S31.9721Da vs2O31.9898Da，差0.0177Da；按荷态折算m/z分辨需求；trisulfide通常RP-HPLC较晚，非绝对鉴定标准；DCC有/无及时间依赖、自由基捕获对照支持工艺入口；自由SH还原及桥连定位验证polyS身份",
+          "competing_explanations": "Cys+2O、双Met(O)整数+32；需HRMS；其他硫加合/盐不能直接当共价trisulfide；不同分子数/桥数可让单个产物不是仅+S；机制争议，不能从产物质量反推唯一H2S或persulfide路线；整数 +32 的三候选与分辨率：trisulfide（多一个 S）= +S = +31.972071；Cys 次磺酸/磺酸方向多两氧 = +2O = +31.989829；两个 Met 各氧化一次 = +2O（与前者同式、同值）。trisulfide 与 +2O 相差 0.017758 Da，m/z 1000 时 3 ppm 已可分辨；名义质量无法区分，必须 HRMS。若离子中同时含多硫，注意 32S/34S 同位素间距（+1.995796）会形成特征包络。；【+32整数质量的三个候选】HRMS必须分开：trisulfide=+S(+31.972071)；Cys sulfinic/亚磺酸=+2O(+31.989783)；双Met(O)=两个+O(+31.989783)。单S与2O相差仅0.017712 Da，6位小数精度或MS/MS（硫同位素M+2包络、Met亚砜特征丢失）才能区分。",
+          "mitigation": "检查原书涉及氧化剂和含二硫偶联剂兼容性；非假设区域成桥无polyS；建立过程时间控制，考虑hydroquinone自由基捕获对照，具体剂量未报告；还原清除polyS会同时还原目标二硫，必须考虑重建桥代价；trisulfide目标/杂质在Fmoc碱中可变，采样/分析需保持一致",
+          "canonical_branch_conditions": [
+            {
+              "branch_id": "CH13-R011:000",
+              "condition": "unknown",
+              "supported_conditions": [],
+              "missing_conditions": [
+                "trisulfide_formation"
+              ],
+              "conflicting_conditions": []
+            }
+          ],
+          "classification": "peer_source_lead_only",
+          "structure_confirmed": false,
+          "origin": "book",
+          "ion_assumption": "explicit/explicit"
+        },
+        {
+          "id": "CH13-R014",
+          "name": "DCC及其他偶联剂促进trisulfide",
+          "theoretical_delta": 31.972071,
+          "error_da": 0.0001289999999301017,
+          "mass_grade": "exact",
+          "unit_ratio": 1.0,
+          "source": {
+            "chapter": 13,
+            "section": "13.2.2",
+            "pdf_pages": [
+              10
+            ],
+            "print_pages": [
+              308
+            ],
+            "figures": [
+              "13.11"
+            ],
+            "reference_numbers": [
+              41,
+              42
+            ]
+          },
+          "reference": "同一16+17完整正确偶联产物（保留实际Z和端基）之二硫态",
+          "diagnostic_evidence": "原书单S31.9721Da vs2O31.9898Da，差0.0177Da；按荷态折算m/z分辨需求；trisulfide通常RP-HPLC较晚，非绝对鉴定标准；DCC有/无及时间依赖、自由基捕获对照支持工艺入口；自由SH还原及桥连定位验证polyS身份",
+          "competing_explanations": "Cys+2O、双Met(O)整数+32；需HRMS；其他硫加合/盐不能直接当共价trisulfide；不同分子数/桥数可让单个产物不是仅+S；机制争议，不能从产物质量反推唯一H2S或persulfide路线",
+          "mitigation": "检查原书涉及氧化剂和含二硫偶联剂兼容性；非假设区域成桥无polyS；建立过程时间控制，考虑hydroquinone自由基捕获对照，具体剂量未报告；还原清除polyS会同时还原目标二硫，必须考虑重建桥代价；trisulfide目标/杂质在Fmoc碱中可变，采样/分析需保持一致",
+          "canonical_branch_conditions": [
+            {
+              "branch_id": "CH13-R014:000",
+              "condition": "compatible",
+              "supported_conditions": [
+                "cystine_coupling",
+                "dcc"
+              ],
+              "missing_conditions": [],
+              "conflicting_conditions": []
+            },
+            {
+              "branch_id": "CH13-R014:001",
+              "condition": "unknown",
+              "supported_conditions": [
+                "cystine_coupling"
+              ],
+              "missing_conditions": [
+                "bop or hbtu"
+              ],
+              "conflicting_conditions": []
+            }
+          ],
+          "classification": "peer_source_lead_only",
+          "structure_confirmed": false,
+          "origin": "book",
+          "ion_assumption": "explicit/explicit"
+        },
+        {
+          "id": "SUP-007",
+          "name": "Met砜",
+          "theoretical_delta": 31.989829,
+          "error_da": -0.017629000000070505,
+          "mass_grade": "exact",
+          "unit_ratio": 1.0,
+          "source": null,
+          "reference": "",
+          "diagnostic_evidence": "",
+          "competing_explanations": "",
+          "mitigation": "",
+          "canonical_branch_conditions": [],
+          "classification": "peer_source_lead_only",
+          "structure_confirmed": false,
+          "origin": "supplement",
+          "ion_assumption": "explicit/explicit"
+        },
+        {
+          "id": "SUP-009",
+          "name": "Trp→N-甲酰犬尿氨酸",
+          "theoretical_delta": 31.989829,
+          "error_da": -0.017629000000070505,
+          "mass_grade": "exact",
+          "unit_ratio": 1.0,
+          "source": null,
+          "reference": "",
+          "diagnostic_evidence": "",
+          "competing_explanations": "",
+          "mitigation": "",
+          "canonical_branch_conditions": [],
+          "classification": "peer_source_lead_only",
+          "structure_confirmed": false,
+          "origin": "supplement",
+          "ion_assumption": "explicit/explicit"
+        }
+      ]
+    }
+  ],
+  "search_scopes": [
+    {
+      "origin": "intended_product",
+      "event_budget": 1,
+      "node_budget": 100000,
+      "nodes": 227,
+      "events_generated": 226,
+      "truncated": false,
+      "truncation_reason": null,
+      "distinct_states_expanded": 1,
+      "unsupported_transitions": [
+        {
+          "rule_id": "CH07-R001",
+          "branch_id": "CH07-R001:000",
+          "reason": "Sequence edit would remove a connected atom without a defined bond-cleavage product"
+        },
+        {
+          "rule_id": "CH07-R006",
+          "branch_id": "CH07-R006:002",
+          "reason": "Sequence edit would remove a connected atom without a defined bond-cleavage product"
+        },
+        {
+          "rule_id": "CH07-R007",
+          "branch_id": "CH07-R007:000",
+          "reason": "Sequence edit would remove a connected atom without a defined bond-cleavage product"
+        },
+        {
+          "rule_id": "CH07-R020",
+          "branch_id": "CH07-R020:000",
+          "reason": "Sequence edit would remove a connected atom without a defined bond-cleavage product"
+        }
+      ],
+      "source_records_without_templates": [
+        "CH01-R001",
+        "CH01-R003",
+        "CH01-R004",
+        "CH01-R005",
+        "CH01-R006",
+        "CH01-R007",
+        "CH01-R010",
+        "CH01-R011",
+        "CH01-R012",
+        "CH01-R013",
+        "CH01-R014",
+        "CH01-R016",
+        "CH01-R017",
+        "CH01-R019",
+        "CH01-R020",
+        "CH02-R005",
+        "CH03-R007",
+        "CH03-R022",
+        "CH03-R025",
+        "CH03-R027",
+        "CH04-R006",
+        "CH04-R007",
+        "CH04-R011",
+        "CH04-R012",
+        "CH05-R001",
+        "CH05-R002",
+        "CH05-R003",
+        "CH05-R005",
+        "CH05-R006",
+        "CH05-R007",
+        "CH05-R008",
+        "CH05-R009",
+        "CH05-R010",
+        "CH05-R013",
+        "CH05-R014",
+        "CH05-R016",
+        "CH05-R018",
+        "CH05-R019",
+        "CH05-R020",
+        "CH05-R021",
+        "CH05-R022",
+        "CH05-R023",
+        "CH05-R024",
+        "CH05-R025",
+        "CH05-R026",
+        "CH05-R027",
+        "CH05-R028",
+        "CH05-R029",
+        "CH05-R030",
+        "CH05-R031",
+        "CH06-R001",
+        "CH06-R002",
+        "CH06-R003",
+        "CH06-R004",
+        "CH06-R005",
+        "CH06-R008",
+        "CH06-R009",
+        "CH06-R010",
+        "CH06-R014",
+        "CH06-R015",
+        "CH06-R016",
+        "CH06-R017",
+        "CH06-R019",
+        "CH06-R020",
+        "CH06-R021",
+        "CH06-R022",
+        "CH06-R023",
+        "CH06-R024",
+        "CH06-R025",
+        "CH06-R026",
+        "CH06-R027",
+        "CH06-R028",
+        "CH06-R029",
+        "CH06-R030",
+        "CH06-R031",
+        "CH06-R032",
+        "CH06-R033",
+        "CH06-R034",
+        "CH06-R035",
+        "CH06-R036",
+        "CH06-R037",
+        "CH06-R038",
+        "CH06-R039",
+        "CH06-R040",
+        "CH06-R042",
+        "CH06-R043",
+        "CH06-R044",
+        "CH06-R045",
+        "CH06-R046",
+        "CH06-R047",
+        "CH06-R048",
+        "CH06-R049",
+        "CH06-R050",
+        "CH06-R051",
+        "CH07-R019",
+        "CH07-R021",
+        "CH07-R023",
+        "CH07-R024",
+        "CH07-R027",
+        "CH07-R031",
+        "CH07-R039",
+        "CH08-R010",
+        "CH09-R008",
+        "CH09-R011",
+        "CH09-R012",
+        "CH09-R013",
+        "CH09-R014",
+        "CH09-R017",
+        "CH09-R019",
+        "CH09-R020",
+        "CH09-R022",
+        "CH09-R023",
+        "CH09-R028",
+        "CH09-R032",
+        "CH09-R035",
+        "CH09-R043",
+        "CH09-R055",
+        "CH09-R056",
+        "CH11-R014",
+        "CH11-R015",
+        "CH11-R016",
+        "CH11-R017",
+        "CH11-R018",
+        "CH11-R019",
+        "CH11-R020",
+        "CH11-R021",
+        "CH11-R022",
+        "CH11-R023",
+        "CH11-R024",
+        "CH11-R025",
+        "CH11-R026",
+        "CH11-R027",
+        "CH11-R028",
+        "CH11-R029",
+        "CH11-R030",
+        "CH11-R031",
+        "CH11-R032",
+        "CH11-R033",
+        "CH11-R034",
+        "CH12-R004",
+        "CH13-R002",
+        "CH13-R003",
+        "CH13-R012",
+        "CH13-R019",
+        "CH13-R020",
+        "CH14-R001",
+        "CH14-R003",
+        "CH14-R004",
+        "CH14-R005",
+        "CH14-R012",
+        "CH14-R013",
+        "CH14-R014",
+        "CH14-R019",
+        "CH14-R022",
+        "SUP-006",
+        "SUP-007",
+        "SUP-008",
+        "SUP-009",
+        "SUP-010",
+        "SUP-011",
+        "SUP-012",
+        "SUP-013",
+        "SUP-014",
+        "SUP-015",
+        "SUP-016",
+        "SUP-017",
+        "SUP-018",
+        "SUP-019",
+        "SUP-020",
+        "SUP-021",
+        "SUP-022",
+        "SUP-023",
+        "SUP-024",
+        "SUP-025",
+        "SUP-026",
+        "SUP-027",
+        "SUP-028",
+        "SUP-030",
+        "SUP-031",
+        "SUP-032",
+        "SUP-033",
+        "SUP-034",
+        "SUP-035",
+        "SUP-036",
+        "SUP-037",
+        "SUP-038",
+        "SUP-039",
+        "SUP-040",
+        "SUP-041",
+        "SUP-042",
+        "SUP-043",
+        "SUP-044",
+        "SUP-046",
+        "SUP-047",
+        "SUP-048",
+        "SUP-049",
+        "SUP-050",
+        "SUP-051",
+        "SUP-052",
+        "SUP-053",
+        "SUP-054",
+        "SUP-055",
+        "SUP-056",
+        "SUP-057",
+        "SUP-058",
+        "SUP-059",
+        "SUP-060",
+        "SUP-061",
+        "SUP-062",
+        "SUP-063"
+      ],
+      "unresolved_product_structures": [],
+      "complete_for_compiled_transition_pool": false,
+      "full_book_capabilities_complete": false,
+      "rule_ids": "all_compiled_recipes",
+      "seconds": 0.16124059981666505
+    }
+  ],
+  "complete_for_compiled_transition_pool": false,
+  "full_book_capabilities_complete": false,
+  "complete_for_practical_mass_scope": false,
+  "scope_grade": "practical_mass_families_and_supported_state_transitions",
+  "real_sample": "not_verified",
+  "fusion_audit": {
+    "canonical_library_hash": "076ec348224fa79e3b21d863e61a855cc25b15120387702f77452dea03447dd0",
+    "dsh_component_path": "engine\\多肽质量组件.json",
+    "dsh_rule_root": "engine",
+    "dsh_rules": 445,
+    "canonical_rules": 450,
+    "dsh_data_problems": [],
+    "whole_product_formula_checks": 3,
+    "whole_product_formula_checks_pass": true,
+    "source_comparisons": [
+      {
+        "core_source_ids": [
+          "AI-044",
+          "AI-045",
+          "AI-046",
+          "AI-047",
+          "CH09-R002",
+          "CH09-R007",
+          "CH09-R030",
+          "CH09-R037",
+          "CH09-R054",
+          "CH13-R011",
+          "CH13-R014",
+          "SUP-007",
+          "SUP-009"
+        ],
+        "peer_source_ids": [
+          "CH09-R002",
+          "CH09-R007",
+          "CH09-R030",
+          "CH09-R037",
+          "CH09-R054",
+          "CH13-R011",
+          "CH13-R014",
+          "SUP-007",
+          "SUP-009"
+        ],
+        "peer_only_source_ids": [],
+        "core_only_source_ids": [
+          "AI-044",
+          "AI-045",
+          "AI-046",
+          "AI-047"
+        ],
+        "interpretation": "Source lookup differences retained for review; additive peer matches never become executed structural candidates."
+      }
+    ],
+    "formal_executor": "Codex state core",
+    "condition_authority": "canonical branch ALL/ANY predicates",
+    "not_used_as_executor": [
+      "DSH legacy additive combination search",
+      "DSH old conditions_map",
+      "DSH implicit observation defaults"
+    ]
+  }
+}

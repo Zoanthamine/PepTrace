@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_20",
+    "sha256": "bc57bad0c710f68fec27156d1271a37cd72553307fc12228055934639333af9c"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH05-R004",
+      "source_refs": {
+        "print_pages": [
+          100,
+          101
+        ],
+        "figures": [
+          "5.5"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "internal",
+        "residues": [
+          "R"
+        ]
+      },
+      "required_conditions": [
+        "arg_coupling"
+      ],
+      "transform": {
+        "kind": "delete",
+        "count": 1,
+        "delta_formula": {
+          "C": -6,
+          "H": -12,
+          "N": -4,
+          "O": -1
+        }
+      },
+      "product_description": "Arg活化失效后缺失Arg",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "核对残基原料、羧基活化时的保护状态和实际反应顺序。精确质量匹配不能单独定位。"
+      ]
+    },
+    {
+      "rule_id": "CH05-R011",
+      "source_refs": {
+        "print_pages": [
+          103,
+          104
+        ],
+        "figures": [
+          "5.8"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "N"
+        ]
+      },
+      "required_conditions": [
+        "asn_carboxyl_activation"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Asn侧链羧酰胺脱水成腈",
+        "delta_formula": {
+          "H": -2,
+          "O": -1
+        }
+      },
+      "product_description": "Asn活化脱水成β-氰基丙氨酸",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "核对残基原料、羧基活化时的保护状态和实际反应顺序。精确质量匹配不能单独定位。"
+      ]
+    },
+    {
+      "rule_id": "CH05-R012",
+      "source_refs": {
+        "print_pages": [
+          103,
+          104
+        ],
+        "figures": [
+          "5.8"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Q"
+        ]
+      },
+      "required_conditions": [
+        "gln_carboxyl_activation"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Gln侧链羧酰胺脱水成腈",
+        "delta_formula": {
+          "H": -2,
+          "O": -1
+        }
+      },
+      "product_description": "Gln活化时侧链脱水成腈",
+      "evidence_level": "book_text_analogy",
+      "diagnostic_evidence": [
+        "核对残基原料、羧基活化时的保护状态和实际反应顺序。精确质量匹配不能单独定位。"
+      ]
+    },
+    {
+      "rule_id": "CH05-R015",
+      "source_refs": {
+        "print_pages": [
+          105,
+          106
+        ],
+        "figures": [
+          "5.9"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any"
+      },
+      "required_conditions": [
+        "dcc_hosu"
+      ],
+      "transform": {
+        "kind": "insert_before",
+        "residue": "beta-Ala",
+        "delta_formula": {
+          "C": 3,
+          "H": 5,
+          "N": 1,
+          "O": 1
+        }
+      },
+      "product_description": "偶联时额外插入β-Ala",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "核对残基原料、羧基活化时的保护状态和实际反应顺序。精确质量匹配不能单独定位。"
+      ]
+    }
+  ]
+}

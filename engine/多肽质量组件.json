@@ -1,0 +1,1586 @@
+{
+  "schema_version": 2,
+  "generated_from": "knowledge/components.json; do not edit",
+  "residues": {
+    "G": {
+      "residue": {
+        "formula": {
+          "C": 2,
+          "H": 3,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 57.02146372069
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 2,
+          "H": 5,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 75.03202840472
+      }
+    },
+    "A": {
+      "residue": {
+        "formula": {
+          "C": 3,
+          "H": 5,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 71.03711378515
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 3,
+          "H": 7,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 89.04767846918
+      }
+    },
+    "S": {
+      "residue": {
+        "formula": {
+          "C": 3,
+          "H": 5,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 87.03202840472
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 3,
+          "H": 7,
+          "N": 1,
+          "O": 3
+        },
+        "monoisotopic_da": 105.04259308875001
+      }
+    },
+    "P": {
+      "residue": {
+        "formula": {
+          "C": 5,
+          "H": 7,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 97.05276384961
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 115.06332853364
+      }
+    },
+    "V": {
+      "residue": {
+        "formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 99.06841391406999
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 5,
+          "H": 11,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 117.0789785981
+      }
+    },
+    "T": {
+      "residue": {
+        "formula": {
+          "C": 4,
+          "H": 7,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 101.04767846918
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 4,
+          "H": 9,
+          "N": 1,
+          "O": 3
+        },
+        "monoisotopic_da": 119.05824315321
+      }
+    },
+    "C": {
+      "residue": {
+        "formula": {
+          "C": 3,
+          "H": 5,
+          "N": 1,
+          "O": 1,
+          "S": 1
+        },
+        "monoisotopic_da": 103.00918495955
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 3,
+          "H": 7,
+          "N": 1,
+          "S": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 121.01974964358
+      }
+    },
+    "L": {
+      "residue": {
+        "formula": {
+          "C": 6,
+          "H": 11,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 113.08406397853
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 6,
+          "H": 13,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 131.09462866256
+      }
+    },
+    "I": {
+      "residue": {
+        "formula": {
+          "C": 6,
+          "H": 11,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 113.08406397853
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 6,
+          "H": 13,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 131.09462866256
+      }
+    },
+    "N": {
+      "residue": {
+        "formula": {
+          "C": 4,
+          "H": 6,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 114.04292744138
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 4,
+          "H": 8,
+          "N": 2,
+          "O": 3
+        },
+        "monoisotopic_da": 132.05349212541
+      }
+    },
+    "D": {
+      "residue": {
+        "formula": {
+          "C": 4,
+          "H": 5,
+          "N": 1,
+          "O": 3
+        },
+        "monoisotopic_da": 115.02694302429
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 4,
+          "H": 7,
+          "N": 1,
+          "O": 4
+        },
+        "monoisotopic_da": 133.03750770832
+      }
+    },
+    "Q": {
+      "residue": {
+        "formula": {
+          "C": 5,
+          "H": 8,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 128.05857750584
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 5,
+          "H": 10,
+          "N": 2,
+          "O": 3
+        },
+        "monoisotopic_da": 146.06914218987
+      }
+    },
+    "K": {
+      "residue": {
+        "formula": {
+          "C": 6,
+          "H": 12,
+          "N": 2,
+          "O": 1
+        },
+        "monoisotopic_da": 128.09496301519
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 6,
+          "H": 14,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 146.10552769922
+      }
+    },
+    "E": {
+      "residue": {
+        "formula": {
+          "C": 5,
+          "H": 7,
+          "N": 1,
+          "O": 3
+        },
+        "monoisotopic_da": 129.04259308875
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "O": 4
+        },
+        "monoisotopic_da": 147.05315777278
+      }
+    },
+    "M": {
+      "residue": {
+        "formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "O": 1,
+          "S": 1
+        },
+        "monoisotopic_da": 131.04048508847
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 5,
+          "H": 11,
+          "N": 1,
+          "S": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 149.0510497725
+      }
+    },
+    "H": {
+      "residue": {
+        "formula": {
+          "C": 6,
+          "H": 7,
+          "N": 3,
+          "O": 1
+        },
+        "monoisotopic_da": 137.05891185847
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 6,
+          "H": 9,
+          "N": 3,
+          "O": 2
+        },
+        "monoisotopic_da": 155.0694765425
+      }
+    },
+    "F": {
+      "residue": {
+        "formula": {
+          "C": 9,
+          "H": 9,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 147.06841391407
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 9,
+          "H": 11,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 165.0789785981
+      }
+    },
+    "R": {
+      "residue": {
+        "formula": {
+          "C": 6,
+          "H": 12,
+          "N": 4,
+          "O": 1
+        },
+        "monoisotopic_da": 156.10111102405
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 6,
+          "H": 14,
+          "N": 4,
+          "O": 2
+        },
+        "monoisotopic_da": 174.11167570807999
+      }
+    },
+    "Y": {
+      "residue": {
+        "formula": {
+          "C": 9,
+          "H": 9,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 163.06332853364
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 9,
+          "H": 11,
+          "N": 1,
+          "O": 3
+        },
+        "monoisotopic_da": 181.07389321767
+      }
+    },
+    "W": {
+      "residue": {
+        "formula": {
+          "C": 11,
+          "H": 10,
+          "N": 2,
+          "O": 1
+        },
+        "monoisotopic_da": 186.07931295073
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 11,
+          "H": 12,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 204.08987763476
+      }
+    },
+    "O": {
+      "residue": {
+        "formula": {
+          "C": 5,
+          "H": 10,
+          "N": 2,
+          "O": 1
+        },
+        "monoisotopic_da": 114.07931295073
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 5,
+          "H": 12,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 132.08987763476
+      }
+    },
+    "Aib": {
+      "residue": {
+        "formula": {
+          "C": 4,
+          "H": 7,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 85.05276384961
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 4,
+          "H": 9,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 103.06332853364
+      }
+    },
+    "Nle": {
+      "residue": {
+        "formula": {
+          "C": 6,
+          "H": 11,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 113.08406397853
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 6,
+          "H": 13,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 131.09462866256
+      }
+    },
+    "Abu": {
+      "residue": {
+        "formula": {
+          "C": 4,
+          "H": 7,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 85.05276384961
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 4,
+          "H": 9,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 103.06332853364
+      }
+    },
+    "Orn": {
+      "residue": {
+        "formula": {
+          "C": 5,
+          "H": 10,
+          "N": 2,
+          "O": 1
+        },
+        "monoisotopic_da": 114.07931295073
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 5,
+          "H": 12,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 132.08987763476
+      }
+    },
+    "Hyp": {
+      "residue": {
+        "formula": {
+          "C": 5,
+          "H": 7,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 113.04767846918
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "O": 3
+        },
+        "monoisotopic_da": 131.05824315321001
+      }
+    },
+    "Bpa": {
+      "residue": {
+        "formula": {
+          "C": 16,
+          "H": 13,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 251.09462866256
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 16,
+          "H": 15,
+          "N": 1,
+          "O": 3
+        },
+        "monoisotopic_da": 269.10519334659
+      }
+    },
+    "beta-Ala": {
+      "residue": {
+        "formula": {
+          "C": 3,
+          "H": 5,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 71.03711378515
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 3,
+          "H": 7,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 89.04767846918
+      }
+    },
+    "Dap": {
+      "residue": {
+        "formula": {
+          "C": 3,
+          "H": 6,
+          "N": 2,
+          "O": 1
+        },
+        "monoisotopic_da": 86.04801282181
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 3,
+          "H": 8,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 104.05857750583999
+      }
+    },
+    "Aoa": {
+      "residue": {
+        "formula": {
+          "C": 2,
+          "H": 3,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 73.01637834026
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 2,
+          "H": 5,
+          "N": 1,
+          "O": 3
+        },
+        "monoisotopic_da": 91.02694302429
+      }
+    },
+    "Phg": {
+      "residue": {
+        "formula": {
+          "C": 8,
+          "H": 7,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 133.05276384961
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 8,
+          "H": 9,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 151.06332853364
+      }
+    },
+    "VinylGly": {
+      "residue": {
+        "formula": {
+          "C": 4,
+          "H": 5,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 83.03711378515
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 4,
+          "H": 7,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 101.04767846918
+      }
+    },
+    "Nva(N3)": {
+      "residue": {
+        "formula": {
+          "C": 5,
+          "H": 8,
+          "N": 4,
+          "O": 1
+        },
+        "monoisotopic_da": 140.06981089513
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 5,
+          "H": 10,
+          "N": 4,
+          "O": 2
+        },
+        "monoisotopic_da": 158.08037557916
+      }
+    },
+    "Nle(N3)": {
+      "residue": {
+        "formula": {
+          "C": 6,
+          "H": 10,
+          "N": 4,
+          "O": 1
+        },
+        "monoisotopic_da": 154.08546095959
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 6,
+          "H": 12,
+          "N": 4,
+          "O": 2
+        },
+        "monoisotopic_da": 172.09602564362
+      }
+    },
+    "Oia": {
+      "residue": {
+        "formula": {
+          "C": 11,
+          "H": 10,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 202.0742275703
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 11,
+          "H": 12,
+          "N": 2,
+          "O": 3
+        },
+        "monoisotopic_da": 220.08479225433
+      }
+    },
+    "NFK": {
+      "residue": {
+        "formula": {
+          "C": 11,
+          "H": 10,
+          "N": 2,
+          "O": 3
+        },
+        "monoisotopic_da": 218.06914218987
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 11,
+          "H": 12,
+          "N": 2,
+          "O": 4
+        },
+        "monoisotopic_da": 236.0797068739
+      }
+    },
+    "Hydroxy-NFK": {
+      "residue": {
+        "formula": {
+          "C": 11,
+          "H": 10,
+          "N": 2,
+          "O": 4
+        },
+        "monoisotopic_da": 234.06405680944
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 11,
+          "H": 12,
+          "N": 2,
+          "O": 5
+        },
+        "monoisotopic_da": 252.07462149347
+      }
+    },
+    "Kyn": {
+      "residue": {
+        "formula": {
+          "C": 10,
+          "H": 10,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 190.0742275703
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 10,
+          "H": 12,
+          "N": 2,
+          "O": 3
+        },
+        "monoisotopic_da": 208.08479225433
+      }
+    },
+    "3-Hydroxy-Kyn": {
+      "residue": {
+        "formula": {
+          "C": 10,
+          "H": 10,
+          "N": 2,
+          "O": 3
+        },
+        "monoisotopic_da": 206.06914218987
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 10,
+          "H": 12,
+          "N": 2,
+          "O": 4
+        },
+        "monoisotopic_da": 224.0797068739
+      }
+    },
+    "Dha": {
+      "residue": {
+        "formula": {
+          "C": 3,
+          "H": 3,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 69.02146372069
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 3,
+          "H": 5,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 87.03202840472
+      }
+    },
+    "MeDha": {
+      "residue": {
+        "formula": {
+          "C": 4,
+          "H": 5,
+          "N": 1,
+          "O": 1
+        },
+        "monoisotopic_da": 83.03711378515
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 4,
+          "H": 7,
+          "N": 1,
+          "O": 2
+        },
+        "monoisotopic_da": 101.04767846918
+      }
+    },
+    "Dha+piperidine": {
+      "residue": {
+        "formula": {
+          "C": 8,
+          "H": 14,
+          "N": 2,
+          "O": 1
+        },
+        "monoisotopic_da": 154.11061307965
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 8,
+          "H": 16,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 172.12117776368
+      }
+    },
+    "MeDha+piperidine": {
+      "residue": {
+        "formula": {
+          "C": 9,
+          "H": 16,
+          "N": 2,
+          "O": 1
+        },
+        "monoisotopic_da": 168.12626314411
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 9,
+          "H": 18,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 186.13682782813999
+      }
+    },
+    "Dha+4-methylpiperidine": {
+      "residue": {
+        "formula": {
+          "C": 9,
+          "H": 16,
+          "N": 2,
+          "O": 1
+        },
+        "monoisotopic_da": 168.12626314411
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 9,
+          "H": 18,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 186.13682782813999
+      }
+    },
+    "MeDha+4-methylpiperidine": {
+      "residue": {
+        "formula": {
+          "C": 10,
+          "H": 18,
+          "N": 2,
+          "O": 1
+        },
+        "monoisotopic_da": 182.14191320857
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 10,
+          "H": 20,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 200.1524778926
+      }
+    },
+    "Dha+pyrrolidine": {
+      "residue": {
+        "formula": {
+          "C": 7,
+          "H": 12,
+          "N": 2,
+          "O": 1
+        },
+        "monoisotopic_da": 140.09496301519
+      },
+      "free_amino_acid": {
+        "formula": {
+          "C": 7,
+          "H": 14,
+          "N": 2,
+          "O": 2
+        },
+        "monoisotopic_da": 158.10552769922
+      }
+    }
+  },
+  "covalent_deltas": {
+    "Fmoc": {
+      "formula": {
+        "C": 15,
+        "H": 10,
+        "O": 2
+      },
+      "reference": "游离胺 → Fmoc 氨基甲酸酯",
+      "monoisotopic_da": 222.06807956144002
+    },
+    "Boc": {
+      "formula": {
+        "C": 5,
+        "H": 8,
+        "O": 2
+      },
+      "reference": "游离 N–H → Boc 氨基甲酸酯",
+      "monoisotopic_da": 100.05242949698
+    },
+    "Cbz": {
+      "formula": {
+        "C": 8,
+        "H": 6,
+        "O": 2
+      },
+      "reference": "游离胺 → Cbz（Z）氨基甲酸酯",
+      "monoisotopic_da": 134.03677943252
+    },
+    "Alloc": {
+      "formula": {
+        "C": 4,
+        "H": 4,
+        "O": 2
+      },
+      "reference": "游离胺 → Alloc 氨基甲酸酯",
+      "monoisotopic_da": 84.02112936806
+    },
+    "tBu": {
+      "formula": {
+        "C": 4,
+        "H": 8
+      },
+      "reference": "羧酸或 OH → OtBu 酯或 O-tBu 醚；SH → S-tBu 硫醚同净式",
+      "monoisotopic_da": 56.06260025784
+    },
+    "StBu": {
+      "formula": {
+        "C": 4,
+        "H": 8,
+        "S": 1
+      },
+      "reference": "游离硫醇 → S–S–tBu 混合二硫键",
+      "monoisotopic_da": 88.03467143224
+    },
+    "Bzl": {
+      "formula": {
+        "C": 7,
+        "H": 6
+      },
+      "reference": "相应 X–H → 苄基保护的 X–CH₂Ph",
+      "monoisotopic_da": 90.04695019338
+    },
+    "All": {
+      "formula": {
+        "C": 3,
+        "H": 4
+      },
+      "reference": "羧酸或 OH → 烯丙酯或烯丙醚",
+      "monoisotopic_da": 40.03130012892
+    },
+    "Trt": {
+      "formula": {
+        "C": 19,
+        "H": 14
+      },
+      "reference": "相应 X–H → 三苯甲基保护",
+      "monoisotopic_da": 242.10955045122
+    },
+    "Mmt": {
+      "formula": {
+        "C": 20,
+        "H": 16,
+        "O": 1
+      },
+      "reference": "相应 X–H → 单甲氧基三苯甲基保护",
+      "monoisotopic_da": 272.12011513525
+    },
+    "2-ClTrt": {
+      "formula": {
+        "C": 19,
+        "H": 13,
+        "Cl": 1
+      },
+      "reference": "相应 X–H → 单氯三苯甲基保护",
+      "monoisotopic_da": 276.07057810099
+    },
+    "Acm": {
+      "formula": {
+        "C": 3,
+        "H": 5,
+        "N": 1,
+        "O": 1
+      },
+      "reference": "游离 Cys–SH → S–CH₂–NH–CO–CH₃",
+      "monoisotopic_da": 71.03711378515
+    },
+    "Pbf": {
+      "formula": {
+        "C": 13,
+        "H": 16,
+        "O": 3,
+        "S": 1
+      },
+      "reference": "Arg 胍基 → Pbf 磺酰保护",
+      "monoisotopic_da": 252.08201554879
+    },
+    "Pmc": {
+      "formula": {
+        "C": 14,
+        "H": 18,
+        "O": 3,
+        "S": 1
+      },
+      "reference": "Arg 胍基 → Pmc 磺酰保护",
+      "monoisotopic_da": 266.09766561325
+    },
+    "Dde": {
+      "formula": {
+        "C": 10,
+        "H": 12,
+        "O": 2
+      },
+      "reference": "游离胺 → Dde 保护；胺与保护试剂缩合",
+      "monoisotopic_da": 164.0837296259
+    },
+    "Ac": {
+      "formula": {
+        "C": 2,
+        "H": 2,
+        "O": 1
+      },
+      "reference": "相应 X–H → 乙酰化",
+      "monoisotopic_da": 42.01056468403
+    },
+    "Formyl": {
+      "formula": {
+        "C": 1,
+        "O": 1
+      },
+      "reference": "相应 X–H → 甲酰化",
+      "monoisotopic_da": 27.99491461957
+    },
+    "Trifluoroacetyl": {
+      "formula": {
+        "C": 2,
+        "H": -1,
+        "F": 3,
+        "O": 1
+      },
+      "reference": "相应 N–H/O–H → 共价三氟乙酰；不是TFA盐",
+      "monoisotopic_da": 95.98229907553
+    },
+    "Nma": {
+      "formula": {
+        "C": 8,
+        "H": 7,
+        "N": 1,
+        "O": 1
+      },
+      "reference": "Lys Nε → N-methyl-anthraniloyl酰胺；酸与胺缩合失H2O",
+      "monoisotopic_da": 133.05276384961
+    },
+    "Moz": {
+      "formula": {
+        "C": 9,
+        "H": 8,
+        "O": 3
+      },
+      "reference": "游离胺 → 4-methoxybenzyloxycarbonyl氨基甲酸酯",
+      "monoisotopic_da": 164.04734411655
+    },
+    "Palmitoyl": {
+      "formula": {
+        "C": 16,
+        "H": 30,
+        "O": 1
+      },
+      "reference": "相应N–H/O–H与棕榈酸缩合失H2O",
+      "monoisotopic_da": 238.22966558647
+    },
+    "CysSulfenic": {
+      "formula": {
+        "O": 1
+      },
+      "reference": "Cys-SH→Cys-SOH",
+      "monoisotopic_da": 15.99491461957
+    },
+    "CysSulfinic": {
+      "formula": {
+        "O": 2
+      },
+      "reference": "Cys-SH→Cys-S(O)OH",
+      "monoisotopic_da": 31.98982923914
+    },
+    "CysSulfonic": {
+      "formula": {
+        "O": 3
+      },
+      "reference": "Cys-SH→Cys-S(O)2OH",
+      "monoisotopic_da": 47.984743858710004
+    },
+    "Persulfide": {
+      "formula": {
+        "S": 1
+      },
+      "reference": "Cys-SH→Cys-SSH",
+      "monoisotopic_da": 31.9720711744
+    },
+    "S-sulfocysteine": {
+      "formula": {
+        "S": 1,
+        "O": 3
+      },
+      "reference": "Cys-SH→Cys-S-S(O)2OH",
+      "monoisotopic_da": 79.95681503311
+    },
+    "NBD-sulfoxide": {
+      "formula": {
+        "C": 6,
+        "H": 1,
+        "N": 3,
+        "O": 4
+      },
+      "reference": "Cys-SH→S(O)-nitrobenzofurazanyl；相对SOH另减去其氧",
+      "monoisotopic_da": 178.9967055238
+    },
+    "NalphaAzide": {
+      "formula": {
+        "H": -2,
+        "N": 2
+      },
+      "reference": "游离Nα-NH2→Nα-N3",
+      "monoisotopic_da": 25.990497944399998
+    },
+    "Hex": {
+      "formula": {
+        "C": 6,
+        "H": 10,
+        "O": 5
+      },
+      "reference": "羟基O-己糖糖苷净增；不指定糖种或异头构型",
+      "monoisotopic_da": 162.05282342015
+    },
+    "HexNAc": {
+      "formula": {
+        "C": 8,
+        "H": 13,
+        "N": 1,
+        "O": 5
+      },
+      "reference": "羟基O-N-乙酰己糖胺糖苷净增；不指定异头构型",
+      "monoisotopic_da": 203.07937252127
+    },
+    "Ac3GalNAc": {
+      "formula": {
+        "C": 14,
+        "H": 19,
+        "N": 1,
+        "O": 8
+      },
+      "reference": "三O-乙酰GalNAc与Ser/Thr形成O-糖苷的净增",
+      "monoisotopic_da": 329.11106657336
+    },
+    "HPhosphonate": {
+      "formula": {
+        "H": 1,
+        "P": 1,
+        "O": 2
+      },
+      "reference": "相应羟基的H-膦酸单酯净增，较Phospho少一个O",
+      "monoisotopic_da": 63.97141626979
+    },
+    "CysThioaldehyde": {
+      "formula": {
+        "H": -2
+      },
+      "reference": "Cys-CH2-SH→CH=S，侧链脱H2",
+      "monoisotopic_da": -2.01565006446
+    },
+    "CysAldehyde": {
+      "formula": {
+        "H": -2,
+        "O": 1,
+        "S": -1
+      },
+      "reference": "Cys-CH2-SH→CHO，净−H2−S+O",
+      "monoisotopic_da": -17.99280661929
+    },
+    "NCA": {
+      "formula": {
+        "C": 1,
+        "H": -2,
+        "O": 1
+      },
+      "reference": "单一α氨基酸闭合N-羧酸酐；联合改变Nα和C端，AA+CO−H2",
+      "monoisotopic_da": 25.97926455511
+    },
+    "NChloroformylAcidChloride": {
+      "formula": {
+        "C": 1,
+        "H": -2,
+        "Cl": 2
+      },
+      "reference": "单一α氨基酸的N-氯甲酰与C端酰氯联合状态",
+      "monoisotopic_da": 79.92205529953999
+    },
+    "S-Cyano": {
+      "formula": {
+        "C": 1,
+        "H": -1,
+        "N": 1
+      },
+      "reference": "Cys-SH→Cys-S-CN",
+      "monoisotopic_da": 24.9952489722
+    },
+    "MetCyanoMethylExchange": {
+      "formula": {
+        "C": 1,
+        "H": -1,
+        "N": 1
+      },
+      "reference": "Met-S-Me→S-CH2CN，按附录图Me被替换，最终图未带正电",
+      "monoisotopic_da": 24.9952489722
+    },
+    "Methyl": {
+      "formula": {
+        "C": 1,
+        "H": 2
+      },
+      "reference": "相应 X–H → X–CH₃；不适用于固定电荷季铵/锍",
+      "monoisotopic_da": 14.01565006446
+    },
+    "Carbamidomethyl": {
+      "formula": {
+        "C": 2,
+        "H": 3,
+        "N": 1,
+        "O": 1
+      },
+      "reference": "游离 Cys–SH → S–CH₂–CO–NH₂；与 Acm 结构和组成不同",
+      "monoisotopic_da": 57.02146372069
+    },
+    "Carboxymethyl": {
+      "formula": {
+        "C": 2,
+        "H": 2,
+        "O": 2
+      },
+      "reference": "相应 X–H → X–CH₂–COOH",
+      "monoisotopic_da": 58.0054793036
+    },
+    "Carbamyl": {
+      "formula": {
+        "C": 1,
+        "H": 1,
+        "N": 1,
+        "O": 1
+      },
+      "reference": "游离胺 → 氨甲酰化",
+      "monoisotopic_da": 43.005813656229996
+    },
+    "Oxidation": {
+      "formula": {
+        "O": 1
+      },
+      "reference": "指定的单氧化净变化",
+      "monoisotopic_da": 15.99491461957
+    },
+    "Dioxidation": {
+      "formula": {
+        "O": 2
+      },
+      "reference": "指定的加两个氧净变化",
+      "monoisotopic_da": 31.98982923914
+    },
+    "Phospho": {
+      "formula": {
+        "H": 1,
+        "P": 1,
+        "O": 3
+      },
+      "reference": "相应羟基形成磷酸单酯",
+      "monoisotopic_da": 79.96633088936001
+    },
+    "Sulfo": {
+      "formula": {
+        "S": 1,
+        "O": 3
+      },
+      "reference": "相应羟基形成硫酸单酯",
+      "monoisotopic_da": 79.95681503311
+    },
+    "Deamidation": {
+      "formula": {
+        "H": -1,
+        "N": -1,
+        "O": 1
+      },
+      "reference": "侧链酰胺 → 羧酸",
+      "monoisotopic_da": 0.984015582910001
+    },
+    "C-amide": {
+      "formula": {
+        "H": 1,
+        "N": 1,
+        "O": -1
+      },
+      "reference": "C 端 COOH → CONH₂",
+      "monoisotopic_da": -0.984015582910001
+    },
+    "C-methyl-ester": {
+      "formula": {
+        "C": 1,
+        "H": 2
+      },
+      "reference": "C 端 COOH → COOCH₃",
+      "monoisotopic_da": 14.01565006446
+    },
+    "HeadTailCyclization": {
+      "formula": {
+        "H": -2,
+        "O": -1
+      },
+      "reference": "同一线性肽游离 N 端与羧酸 C 端成一个酰胺键",
+      "monoisotopic_da": -18.01056468403
+    },
+    "Disulfide": {
+      "formula": {
+        "H": -2
+      },
+      "reference": "两个指定游离巯基 → 一个 S–S 键",
+      "monoisotopic_da": -2.01565006446
+    },
+    "Hydrolysis": {
+      "formula": {
+        "H": 2,
+        "O": 1
+      },
+      "reference": "一次水解；断链时只代表两片段合计增量",
+      "monoisotopic_da": 18.01056468403
+    },
+    "WaterLoss": {
+      "formula": {
+        "H": -2,
+        "O": -1
+      },
+      "reference": "已知反应脱一分子水",
+      "monoisotopic_da": -18.01056468403
+    },
+    "AmmoniaLoss": {
+      "formula": {
+        "H": -3,
+        "N": -1
+      },
+      "reference": "已知反应脱一分子氨",
+      "monoisotopic_da": -17.02654910112
+    }
+  },
+  "neutral_molecules": {
+    "Water": {
+      "formula": {
+        "H": 2,
+        "O": 1
+      },
+      "monoisotopic_da": 18.01056468403
+    },
+    "Ammonia": {
+      "formula": {
+        "N": 1,
+        "H": 3
+      },
+      "monoisotopic_da": 17.02654910112
+    },
+    "CO": {
+      "formula": {
+        "C": 1,
+        "O": 1
+      },
+      "monoisotopic_da": 27.99491461957
+    },
+    "CO2": {
+      "formula": {
+        "C": 1,
+        "O": 2
+      },
+      "monoisotopic_da": 43.98982923914
+    },
+    "H2S": {
+      "formula": {
+        "H": 2,
+        "S": 1
+      },
+      "monoisotopic_da": 33.98772123886
+    },
+    "Formaldehyde": {
+      "formula": {
+        "C": 1,
+        "H": 2,
+        "O": 1
+      },
+      "monoisotopic_da": 30.01056468403
+    },
+    "Methanol": {
+      "formula": {
+        "C": 1,
+        "H": 4,
+        "O": 1
+      },
+      "monoisotopic_da": 32.02621474849
+    },
+    "AceticAcid": {
+      "formula": {
+        "C": 2,
+        "H": 4,
+        "O": 2
+      },
+      "monoisotopic_da": 60.02112936806
+    },
+    "TFA": {
+      "formula": {
+        "C": 2,
+        "H": 1,
+        "F": 3,
+        "O": 2
+      },
+      "monoisotopic_da": 113.99286375956
+    },
+    "Piperidine": {
+      "formula": {
+        "C": 5,
+        "H": 11,
+        "N": 1
+      },
+      "monoisotopic_da": 85.08914935896
+    },
+    "4-Methylpiperidine": {
+      "formula": {
+        "C": 6,
+        "H": 13,
+        "N": 1
+      },
+      "monoisotopic_da": 99.10479942342
+    },
+    "EDT": {
+      "formula": {
+        "C": 2,
+        "H": 6,
+        "S": 2
+      },
+      "monoisotopic_da": 93.99109254218
+    },
+    "Acetone": {
+      "formula": {
+        "C": 3,
+        "H": 6,
+        "O": 1
+      },
+      "monoisotopic_da": 58.04186481295
+    },
+    "Acetaldehyde": {
+      "formula": {
+        "C": 2,
+        "H": 4,
+        "O": 1
+      },
+      "monoisotopic_da": 44.02621474849
+    },
+    "Acetamide": {
+      "formula": {
+        "C": 2,
+        "H": 5,
+        "N": 1,
+        "O": 1
+      },
+      "monoisotopic_da": 59.03711378515
+    },
+    "NFormylpiperidine": {
+      "formula": {
+        "C": 6,
+        "H": 11,
+        "N": 1,
+        "O": 1
+      },
+      "monoisotopic_da": 113.08406397853
+    },
+    "Dimethylamine": {
+      "formula": {
+        "C": 2,
+        "H": 7,
+        "N": 1
+      },
+      "monoisotopic_da": 45.05784923004
+    }
+  },
+  "sequences_free_ends": {
+    "RGD": {
+      "formula": {
+        "H": 22,
+        "O": 6,
+        "C": 12,
+        "N": 6
+      },
+      "monoisotopic_da": 346.16008245306,
+      "description": "整合素结合基序"
+    },
+    "DYKDDDDK": {
+      "formula": {
+        "H": 60,
+        "O": 20,
+        "C": 41,
+        "N": 10
+      },
+      "monoisotopic_da": 1012.3985343695,
+      "description": "FLAG"
+    },
+    "YPYDVPDYA": {
+      "formula": {
+        "H": 67,
+        "O": 17,
+        "C": 53,
+        "N": 9
+      },
+      "monoisotopic_da": 1101.46549173197,
+      "description": "HA"
+    },
+    "HHHHHH": {
+      "formula": {
+        "H": 44,
+        "O": 7,
+        "C": 36,
+        "N": 18
+      },
+      "monoisotopic_da": 840.36403583485,
+      "description": "六组氨酸标签"
+    },
+    "ENLYFQG": {
+      "formula": {
+        "H": 55,
+        "O": 13,
+        "C": 40,
+        "N": 9
+      },
+      "monoisotopic_da": 869.39193286693,
+      "description": "TEV 常用识别序列"
+    }
+  }
+}

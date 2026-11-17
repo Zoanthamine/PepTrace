@@ -1,0 +1,56 @@
+{
+  "case_id": "user-five-3",
+  "intended_product": {
+    "sequence": "CGYSCRA",
+    "nterm": "free",
+    "cterm": "amide",
+    "bonds": [
+      {
+        "kind": "disulfide",
+        "sites": [
+          1,
+          5
+        ]
+      }
+    ]
+  },
+  "reaction": {
+    "description": "1–5二硫；DCC/HOBt/DIEA与甘氨酰胺反应；A/B均z2。",
+    "stage_tags": [
+      "dcc",
+      "hobt",
+      "diea",
+      "cystine_coupling"
+    ]
+  },
+  "observations": [
+    {
+      "kind": "peak_pair",
+      "reference": "intended_product",
+      "peaks": [
+        {
+          "kind": "mz",
+          "value": 378.6494,
+          "charge": 2,
+          "ions": {
+            "H": 2
+          },
+          "tolerance": 0.0001,
+          "tolerance_unit": "Da"
+        },
+        {
+          "kind": "mz",
+          "value": 394.6355,
+          "charge": 2,
+          "ions": {
+            "H": 2
+          },
+          "tolerance": 0.0001,
+          "tolerance_unit": "Da"
+        }
+      ]
+    }
+  ],
+  "max_events": 2,
+  "max_nodes": 100000
+}

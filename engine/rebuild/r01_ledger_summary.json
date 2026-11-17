@@ -1,0 +1,37 @@
+{
+  "R01_source_ledger": "closed_with_preserved_implementation_gaps",
+  "physical_pdf_pages": 361,
+  "appendix_rows": 82,
+  "appendix_visually_reviewed": 82,
+  "new_manual_reviews": 66,
+  "inherited_manual_reviews": 16,
+  "contact_images_used": 9,
+  "chapter_source_rules": 382,
+  "front_chapter_dispositions_added": 151,
+  "front_statuses": {
+    "structure_model_required": 93,
+    "executable_partial": 23,
+    "executable": 30,
+    "compiled_fact": 5
+  },
+  "appendix_statuses": {
+    "executable_partial": 55,
+    "structure_model_required": 24,
+    "compiled_fact": 3
+  },
+  "all_rule_statuses": {
+    "structure_model_required": 115,
+    "executable_partial": 85,
+    "executable": 139,
+    "compiled_fact": 43
+  },
+  "independent_formula_checks": 82,
+  "method": "Pyteomics composition; no round-mono==book-average requirement",
+  "scientific_unresolved": [
+    "AI-040/CH14-R012 cyanohydrin hypothesis",
+    "AI-073 combined linear/cyclic mass reference",
+    "all inherited chapter findings retain their author uncertainties"
+  ],
+  "implementation_acceptance": "not_complete; R02—R07 still required",
+  "real_sample": "not_verified"
+}

@@ -1,0 +1,1649 @@
+{
+  "source": "doc_11/source.pdf",
+  "source_read_complete": true,
+  "extraction_method": "PyMuPDF original-coordinate rotated text, nearest mass-row x anchor; not structural image verification",
+  "rows": [
+    {
+      "appendix_row_id": "AI-001",
+      "pdf_page": 2,
+      "print_page": 324,
+      "nominal_average_delta_book": -98,
+      "anchor_x": 119.63574600219727,
+      "delta_formula": {
+        "H": -3,
+        "P": -1,
+        "O": -4
+      },
+      "delta_mass_mono_da": -97.976896,
+      "structure_verified": true,
+      "modification_text": "b-Elimination of phosphopeptide",
+      "reference_text": "[1]",
+      "reference_numbers": [
+        1
+      ],
+      "reference_state": "same_phosphoserine_or_phosphothreonine_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-002",
+      "pdf_page": 2,
+      "print_page": 324,
+      "nominal_average_delta_book": -80,
+      "anchor_x": 206.53934478759766,
+      "delta_formula": {
+        "H": -1,
+        "P": -1,
+        "O": -3
+      },
+      "delta_mass_mono_da": -79.966331,
+      "structure_verified": true,
+      "modification_text": "Peptide dephosphorylation",
+      "reference_text": "[2]",
+      "reference_numbers": [
+        2
+      ],
+      "reference_state": "same_phosphomonoester_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-003",
+      "pdf_page": 2,
+      "print_page": 324,
+      "nominal_average_delta_book": -80,
+      "anchor_x": 294.0645446777344,
+      "delta_formula": {
+        "H": -1,
+        "Br": -1
+      },
+      "delta_mass_mono_da": -79.926163,
+      "structure_verified": true,
+      "modification_text": "Cys-induced intramolecular nucleophilic substitution on bromoacetyl moiety and monosulfide formation",
+      "reference_text": "[3]",
+      "reference_numbers": [
+        3
+      ],
+      "reference_state": "bromoacetylated_same_peptide_with_free_cys",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-004",
+      "pdf_page": 3,
+      "print_page": 325,
+      "nominal_average_delta_book": -48,
+      "anchor_x": 108.52664566040039,
+      "delta_formula": {
+        "C": -1,
+        "H": -4,
+        "S": -1
+      },
+      "delta_mass_mono_da": -48.003371,
+      "structure_verified": true,
+      "modification_text": "Degradation of Met to allylglycine",
+      "reference_text": "[4]",
+      "reference_numbers": [
+        4
+      ],
+      "reference_state": "原文allylglycine与图不一致；图对应vinylglycine，−CH4S与−48一致。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-005",
+      "pdf_page": 3,
+      "print_page": 325,
+      "nominal_average_delta_book": -42,
+      "anchor_x": 204.61774444580078,
+      "delta_formula": {
+        "C": -1,
+        "H": -2,
+        "N": -2
+      },
+      "delta_mass_mono_da": -42.021798,
+      "structure_verified": true,
+      "modification_text": "Conversion of Arg to Orn via deguanidination",
+      "reference_text": "[5]",
+      "reference_numbers": [
+        5
+      ],
+      "reference_state": "same_free_arg_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-006",
+      "pdf_page": 3,
+      "print_page": 325,
+      "nominal_average_delta_book": -34,
+      "anchor_x": 282.7221374511719,
+      "delta_formula": {
+        "H": -2,
+        "S": -1
+      },
+      "delta_mass_mono_da": -33.987721,
+      "structure_verified": true,
+      "modification_text": "Cysteine b-elimination",
+      "reference_text": "[6]",
+      "reference_numbers": [
+        6
+      ],
+      "reference_state": "same_free_cys_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-007",
+      "pdf_page": 4,
+      "print_page": 326,
+      "nominal_average_delta_book": -32,
+      "anchor_x": 129.72314071655273,
+      "delta_formula": {
+        "S": -1
+      },
+      "delta_mass_mono_da": -31.972071,
+      "structure_verified": true,
+      "modification_text": "Disulfide desulfurization",
+      "reference_text": "[7]",
+      "reference_numbers": [
+        7
+      ],
+      "reference_state": "same_cys_disulfide_linked_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-008",
+      "pdf_page": 4,
+      "print_page": 326,
+      "nominal_average_delta_book": -26,
+      "anchor_x": 226.9995346069336,
+      "delta_formula": {
+        "H": 2,
+        "N": -2
+      },
+      "delta_mass_mono_da": -25.990498,
+      "structure_verified": true,
+      "modification_text": "Reduction of Nva(N3) to Orn",
+      "reference_text": "[8]",
+      "reference_numbers": [
+        8
+      ],
+      "reference_state": "same_nva_azide_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-009",
+      "pdf_page": 4,
+      "print_page": 326,
+      "nominal_average_delta_book": -20,
+      "anchor_x": 306.8303527832031,
+      "delta_formula": {
+        "H": -4,
+        "O": -1
+      },
+      "delta_mass_mono_da": -20.026215,
+      "structure_verified": true,
+      "modification_text": "Oxazole formation from Ser/Thr",
+      "reference_text": "[9]",
+      "reference_numbers": [
+        9
+      ],
+      "reference_state": "same_ser_or_thr_backbone_amide_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-010",
+      "pdf_page": 5,
+      "print_page": 327,
+      "nominal_average_delta_book": -18,
+      "anchor_x": 102.10674667358398,
+      "delta_formula": {
+        "H": -2,
+        "O": -1
+      },
+      "delta_mass_mono_da": -18.010565,
+      "structure_verified": true,
+      "modification_text": "Pyroglutamate formation from Glu",
+      "reference_text": "[10]",
+      "reference_numbers": [
+        10
+      ],
+      "reference_state": "same_free_n_terminal_glu_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-011",
+      "pdf_page": 5,
+      "print_page": 327,
+      "nominal_average_delta_book": -18,
+      "anchor_x": 177.3430404663086,
+      "delta_formula": {
+        "H": -2,
+        "O": -1
+      },
+      "delta_mass_mono_da": -18.010565,
+      "structure_verified": true,
+      "modification_text": "Aspartimide/Glutarimide formation from Asp/Glu",
+      "reference_text": "[11,12]",
+      "reference_numbers": [
+        11,
+        12
+      ],
+      "reference_state": "same_free_asp_or_glu_sidechain_acid_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-012",
+      "pdf_page": 5,
+      "print_page": 327,
+      "nominal_average_delta_book": -18,
+      "anchor_x": 241.7180404663086,
+      "delta_formula": {
+        "H": -2,
+        "O": -1
+      },
+      "delta_mass_mono_da": -18.010565,
+      "structure_verified": true,
+      "modification_text": "b-Elimination of Ser",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "same_ser_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-013",
+      "pdf_page": 5,
+      "print_page": 327,
+      "nominal_average_delta_book": -18,
+      "anchor_x": 306.9251403808594,
+      "delta_formula": {
+        "H": -2,
+        "O": -1
+      },
+      "delta_mass_mono_da": -18.010565,
+      "structure_verified": true,
+      "modification_text": "Dehydration of Asn/ Gln",
+      "reference_text": "[13]",
+      "reference_numbers": [
+        13
+      ],
+      "reference_state": "same_asn_or_gln_sidechain_amide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-014",
+      "pdf_page": 6,
+      "print_page": 328,
+      "nominal_average_delta_book": -17,
+      "anchor_x": 109.6977424621582,
+      "delta_formula": {
+        "N": -1,
+        "H": -3
+      },
+      "delta_mass_mono_da": -17.026549,
+      "structure_verified": true,
+      "modification_text": "Pyroglutamate formation from Gln",
+      "reference_text": "[14]",
+      "reference_numbers": [
+        14
+      ],
+      "reference_state": "same_free_n_terminal_gln_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-015",
+      "pdf_page": 6,
+      "print_page": 328,
+      "nominal_average_delta_book": -17,
+      "anchor_x": 181.6452407836914,
+      "delta_formula": {
+        "N": -1,
+        "H": -3
+      },
+      "delta_mass_mono_da": -17.026549,
+      "structure_verified": true,
+      "modification_text": "Aspartimide/Glutarimide formation from Asn/Gln",
+      "reference_text": "[15]",
+      "reference_numbers": [
+        15
+      ],
+      "reference_state": "same_asn_or_gln_peptide_with_next_backbone_nh",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-016",
+      "pdf_page": 6,
+      "print_page": 328,
+      "nominal_average_delta_book": -17,
+      "anchor_x": 262.0886535644531,
+      "delta_formula": {
+        "N": -1,
+        "H": -3
+      },
+      "delta_mass_mono_da": -17.026549,
+      "structure_verified": true,
+      "modification_text": "Cyclization of N- terminal Cys(Cam)",
+      "reference_text": "[16]",
+      "reference_numbers": [
+        16
+      ],
+      "reference_state": "N端Cys(Cam)六元thiomorpholinone（硫吗啉酮），不是五元thiazolidine；−NH3。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-017",
+      "pdf_page": 6,
+      "print_page": 328,
+      "nominal_average_delta_book": -16,
+      "anchor_x": 350.6651611328125,
+      "delta_formula": {
+        "O": -1
+      },
+      "delta_mass_mono_da": -15.994915,
+      "structure_verified": true,
+      "modification_text": "H-phosphonate formation",
+      "reference_text": "[17]",
+      "reference_numbers": [
+        17
+      ],
+      "reference_state": "same_phosphate_monoester_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-018",
+      "pdf_page": 7,
+      "print_page": 329,
+      "nominal_average_delta_book": -14,
+      "anchor_x": 118.57444381713867,
+      "delta_formula": {
+        "C": -1,
+        "H": -2
+      },
+      "delta_mass_mono_da": -14.01565,
+      "structure_verified": true,
+      "modification_text": "Thioanisole-induced Tyr (Me) demethylation",
+      "reference_text": "[18]",
+      "reference_numbers": [
+        18
+      ],
+      "reference_state": "same_tyr_o_methyl_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-019",
+      "pdf_page": 7,
+      "print_page": 329,
+      "nominal_average_delta_book": -2,
+      "anchor_x": 203.31974029541016,
+      "delta_formula": {
+        "H": -2
+      },
+      "delta_mass_mono_da": -2.01565,
+      "structure_verified": true,
+      "modification_text": "Cysteine oxidation to Cystine",
+      "reference_text": "[19]",
+      "reference_numbers": [
+        19
+      ],
+      "reference_state": "same_peptide_two_free_cys_thiols",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-020",
+      "pdf_page": 7,
+      "print_page": 329,
+      "nominal_average_delta_book": 1,
+      "anchor_x": 267.70741271972656,
+      "delta_formula": {
+        "O": 1,
+        "N": -1,
+        "H": -1
+      },
+      "delta_mass_mono_da": 0.984016,
+      "structure_verified": true,
+      "modification_text": "Asn/Gln hydrolysis",
+      "reference_text": "[20]",
+      "reference_numbers": [
+        20
+      ],
+      "reference_state": "same_asn_or_gln_sidechain_amide_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-021",
+      "pdf_page": 7,
+      "print_page": 329,
+      "nominal_average_delta_book": 1,
+      "anchor_x": 331.00181579589844,
+      "delta_formula": {
+        "O": 1,
+        "N": -1,
+        "H": -1
+      },
+      "delta_mass_mono_da": 0.984016,
+      "structure_verified": true,
+      "modification_text": "Peptide amide hydrolysis",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "same_c_terminal_amide_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-022",
+      "pdf_page": 8,
+      "print_page": 330,
+      "nominal_average_delta_book": 2,
+      "anchor_x": 98.9536018371582,
+      "delta_formula": {
+        "H": 2
+      },
+      "delta_mass_mono_da": 2.01565,
+      "structure_verified": true,
+      "modification_text": "Modification Cystine reduction",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "same_peptide_disulfide_bridge",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-023",
+      "pdf_page": 8,
+      "print_page": 330,
+      "nominal_average_delta_book": 2,
+      "anchor_x": 172.56339263916016,
+      "delta_formula": {
+        "H": 2
+      },
+      "delta_mass_mono_da": 2.01565,
+      "structure_verified": true,
+      "modification_text": "Trp reduction",
+      "reference_text": "[21]",
+      "reference_numbers": [
+        21
+      ],
+      "reference_state": "same_trp_indole_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-024",
+      "pdf_page": 8,
+      "print_page": 330,
+      "nominal_average_delta_book": 4,
+      "anchor_x": 265.6396026611328,
+      "delta_formula": {
+        "C": -1,
+        "O": 1
+      },
+      "delta_mass_mono_da": 3.994915,
+      "structure_verified": true,
+      "modification_text": "Oxidation of Trp to Kynurenine",
+      "reference_text": "[22]",
+      "reference_numbers": [
+        22
+      ],
+      "reference_state": "same_trp_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-025",
+      "pdf_page": 8,
+      "print_page": 330,
+      "nominal_average_delta_book": 12,
+      "anchor_x": 330.67030334472656,
+      "delta_formula": {
+        "C": 1
+      },
+      "delta_mass_mono_da": 12.0,
+      "structure_verified": true,
+      "modification_text": "Imine formation on amino-containing peptide",
+      "reference_text": "[23]",
+      "reference_numbers": [
+        23
+      ],
+      "reference_state": "same_primary_amino_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-026",
+      "pdf_page": 9,
+      "print_page": 331,
+      "nominal_average_delta_book": 12,
+      "anchor_x": 87.63010025024414,
+      "delta_formula": {
+        "C": 1
+      },
+      "delta_mass_mono_da": 12.0,
+      "structure_verified": true,
+      "modification_text": "Modification Imidazolin-4-one formation on peptide N-terminus",
+      "reference_text": "[24]",
+      "reference_numbers": [
+        24
+      ],
+      "reference_state": "图示Nα与第二位骨架N-H生成imidazolidin-4-one，甲醛失水净+C。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-027",
+      "pdf_page": 9,
+      "print_page": 331,
+      "nominal_average_delta_book": 12,
+      "anchor_x": 170.14839935302734,
+      "delta_formula": {
+        "C": 1
+      },
+      "delta_mass_mono_da": 12.0,
+      "structure_verified": true,
+      "modification_text": "Formaldehyde- induced crosslinking of peptide N-terminal Cys, Trp, Lys(Nma)",
+      "reference_text": "[25]",
+      "reference_numbers": [
+        25
+      ],
+      "reference_state": "same_free_n_terminal_cys_or_trp_or_lys_nma_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-028",
+      "pdf_page": 9,
+      "print_page": 331,
+      "nominal_average_delta_book": 14,
+      "anchor_x": 242.7948989868164,
+      "delta_formula": {
+        "C": 1,
+        "H": 2
+      },
+      "delta_mass_mono_da": 14.01565,
+      "structure_verified": true,
+      "modification_text": "Methylation of amino group",
+      "reference_text": "[26]",
+      "reference_numbers": [
+        26
+      ],
+      "reference_state": "same_primary_amino_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-029",
+      "pdf_page": 9,
+      "print_page": 331,
+      "nominal_average_delta_book": 14,
+      "anchor_x": 277.2364044189453,
+      "delta_formula": {
+        "C": 1,
+        "H": 2
+      },
+      "delta_mass_mono_da": 14.01565,
+      "structure_verified": true,
+      "modification_text": "Methylesterfication on carboxyl group",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "same_free_carboxylic_acid",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-030",
+      "pdf_page": 9,
+      "print_page": 331,
+      "nominal_average_delta_book": 15,
+      "anchor_x": 319.9366912841797,
+      "delta_formula": {
+        "N": 1,
+        "H": 1
+      },
+      "delta_mass_mono_da": 15.010899,
+      "structure_verified": true,
+      "modification_text": "Unsymmetric urea formation from acyl azide",
+      "reference_text": "[27]",
+      "reference_numbers": [
+        27
+      ],
+      "reference_state": "intended_r1_co_nh_r2_amide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-031",
+      "pdf_page": 10,
+      "print_page": 332,
+      "nominal_average_delta_book": 16,
+      "anchor_x": 105.9358024597168,
+      "delta_formula": {
+        "O": 1
+      },
+      "delta_mass_mono_da": 15.994915,
+      "structure_verified": true,
+      "modification_text": "Oxidation of Cys to Cysteine sulfenic acid",
+      "reference_text": "[28]",
+      "reference_numbers": [
+        28
+      ],
+      "reference_state": "same_free_cys_thiol_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-032",
+      "pdf_page": 10,
+      "print_page": 332,
+      "nominal_average_delta_book": 16,
+      "anchor_x": 183.62940216064453,
+      "delta_formula": {
+        "O": 1
+      },
+      "delta_mass_mono_da": 15.994915,
+      "structure_verified": true,
+      "modification_text": "Oxidation of Trp to Oia (Oxindolylalanine)",
+      "reference_text": "[29]",
+      "reference_numbers": [
+        29
+      ],
+      "reference_state": "same_trp_indole_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-033",
+      "pdf_page": 10,
+      "print_page": 332,
+      "nominal_average_delta_book": 16,
+      "anchor_x": 264.68199157714844,
+      "delta_formula": {
+        "O": 1
+      },
+      "delta_mass_mono_da": 15.994915,
+      "structure_verified": true,
+      "modification_text": "Oxidation of Met to Met sulfoxide",
+      "reference_text": "[30]",
+      "reference_numbers": [
+        30
+      ],
+      "reference_state": "same_met_thioether_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-034",
+      "pdf_page": 10,
+      "print_page": 332,
+      "nominal_average_delta_book": 16,
+      "anchor_x": 347.4296112060547,
+      "delta_formula": {
+        "O": 1
+      },
+      "delta_mass_mono_da": 15.994915,
+      "structure_verified": true,
+      "modification_text": "Oxidation of His to 2-oxo-His",
+      "reference_text": "[31]",
+      "reference_numbers": [
+        31
+      ],
+      "reference_state": "same_his_imidazole_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-035",
+      "pdf_page": 11,
+      "print_page": 333,
+      "nominal_average_delta_book": 25,
+      "anchor_x": 108.21480178833008,
+      "delta_formula": {
+        "C": 1,
+        "H": -1,
+        "N": 1
+      },
+      "delta_mass_mono_da": 24.995249,
+      "structure_verified": true,
+      "modification_text": "Met cyanilation",
+      "reference_text": "[32]",
+      "reference_numbers": [
+        32
+      ],
+      "reference_state": "原图Met的S-Me被S-CH2CN替换，最终中性，净CH−1N；不是保留S-Me的固定电荷锍。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-036",
+      "pdf_page": 11,
+      "print_page": 333,
+      "nominal_average_delta_book": 25,
+      "anchor_x": 190.15650177001953,
+      "delta_formula": {
+        "C": 1,
+        "H": -1,
+        "N": 1
+      },
+      "delta_mass_mono_da": 24.995249,
+      "structure_verified": true,
+      "modification_text": "Cys cyanilation",
+      "reference_text": "[33]",
+      "reference_numbers": [
+        33
+      ],
+      "reference_state": "原图Cys-SH→S-CN，净CH−1N；旧Met相关说明误置于本行，已更正。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-037",
+      "pdf_page": 11,
+      "print_page": 333,
+      "nominal_average_delta_book": 26,
+      "anchor_x": 240.95800018310547,
+      "delta_formula": {
+        "C": 2,
+        "H": 2
+      },
+      "delta_mass_mono_da": 26.01565,
+      "structure_verified": true,
+      "modification_text": "Schiff-base formation from amino group and acetaldehyde",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "图示游离一级胺与乙醛形成亚胺，净乙醛−H2O。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-038",
+      "pdf_page": 11,
+      "print_page": 333,
+      "nominal_average_delta_book": 26,
+      "anchor_x": 275.95799255371094,
+      "delta_formula": {
+        "C": 2,
+        "H": 2
+      },
+      "delta_mass_mono_da": 26.01565,
+      "structure_verified": true,
+      "modification_text": "Oxime formation between aminoxy peptide and acetaldehyde",
+      "reference_text": "[34]",
+      "reference_numbers": [
+        34
+      ],
+      "reference_state": "图示氨氧基与乙醛形成肟，净乙醛−H2O；与亚胺等质量但连接不同。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-039",
+      "pdf_page": 11,
+      "print_page": 333,
+      "nominal_average_delta_book": 26,
+      "anchor_x": 329.50999450683594,
+      "delta_formula": {
+        "C": 1,
+        "H": -2,
+        "O": 1
+      },
+      "delta_mass_mono_da": 25.979265,
+      "structure_verified": true,
+      "modification_text": "Hydantoin formation",
+      "reference_text": "[35]",
+      "reference_numbers": [
+        35
+      ],
+      "reference_state": "原图自由Nα及第二位骨架N插入CO桥生成hydantoin，净CO−H2。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-040",
+      "pdf_page": 12,
+      "print_page": 334,
+      "nominal_average_delta_book": 27,
+      "anchor_x": 93.30690383911133,
+      "delta_formula": {
+        "C": 1,
+        "H": 1,
+        "N": 1
+      },
+      "delta_mass_mono_da": 27.010899,
+      "structure_verified": true,
+      "modification_text": "Modification Cyanohydrin formation",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "explicit_carbonyl_substrate_if_present",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-041",
+      "pdf_page": 12,
+      "print_page": 334,
+      "nominal_average_delta_book": 28,
+      "anchor_x": 137.85210418701172,
+      "delta_formula": {
+        "C": 1,
+        "O": 1
+      },
+      "delta_mass_mono_da": 27.994915,
+      "structure_verified": true,
+      "modification_text": "Peptide formylation at Na, Lys-Nε, Trp-Nin or His-Nim",
+      "reference_text": "[36–40]",
+      "reference_numbers": [
+        36,
+        40
+      ],
+      "reference_state": "same_nh_bearing_peptide_site",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-042",
+      "pdf_page": 12,
+      "print_page": 334,
+      "nominal_average_delta_book": 28,
+      "anchor_x": 179.35990142822266,
+      "delta_formula": {
+        "C": 2,
+        "H": 4
+      },
+      "delta_mass_mono_da": 28.0313,
+      "structure_verified": true,
+      "modification_text": "Carboxylate ethylation",
+      "reference_text": "[41]",
+      "reference_numbers": [
+        41
+      ],
+      "reference_state": "same_free_carboxylic_acid",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-043",
+      "pdf_page": 12,
+      "print_page": 334,
+      "nominal_average_delta_book": 28,
+      "anchor_x": 214.82659149169922,
+      "delta_formula": {
+        "C": 2,
+        "H": 4
+      },
+      "delta_mass_mono_da": 28.0313,
+      "structure_verified": true,
+      "modification_text": "N-Dimethylation",
+      "reference_text": "[26]",
+      "reference_numbers": [
+        26
+      ],
+      "reference_state": "same_primary_amino_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-044",
+      "pdf_page": 12,
+      "print_page": 334,
+      "nominal_average_delta_book": 32,
+      "anchor_x": 255.95209503173828,
+      "delta_formula": {
+        "S": 1
+      },
+      "delta_mass_mono_da": 31.972071,
+      "structure_verified": true,
+      "modification_text": "Trisulfide formation",
+      "reference_text": "[42,43]",
+      "reference_numbers": [
+        42,
+        43
+      ],
+      "reference_state": "same_disulfide_linked_components",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-045",
+      "pdf_page": 12,
+      "print_page": 334,
+      "nominal_average_delta_book": 32,
+      "anchor_x": 319.5262908935547,
+      "delta_formula": {
+        "O": 2
+      },
+      "delta_mass_mono_da": 31.989829,
+      "structure_verified": true,
+      "modification_text": "Oxidation of Met to Met sulfone",
+      "reference_text": "[44]",
+      "reference_numbers": [
+        44
+      ],
+      "reference_state": "same_met_thioether_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-046",
+      "pdf_page": 13,
+      "print_page": 335,
+      "nominal_average_delta_book": 32,
+      "anchor_x": 97.8889045715332,
+      "delta_formula": {
+        "O": 2
+      },
+      "delta_mass_mono_da": 31.989829,
+      "structure_verified": true,
+      "modification_text": "Oxidation of Cys to Cysteine sulfinic acid",
+      "reference_text": "[45]",
+      "reference_numbers": [
+        45
+      ],
+      "reference_state": "same_free_cys_thiol_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-047",
+      "pdf_page": 13,
+      "print_page": 335,
+      "nominal_average_delta_book": 32,
+      "anchor_x": 181.76969146728516,
+      "delta_formula": {
+        "O": 2
+      },
+      "delta_mass_mono_da": 31.989829,
+      "structure_verified": true,
+      "modification_text": "Oxidation of Trp to N-formylkynurenine",
+      "reference_text": "[46]",
+      "reference_numbers": [
+        46
+      ],
+      "reference_state": "same_trp_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-048",
+      "pdf_page": 13,
+      "print_page": 335,
+      "nominal_average_delta_book": 34,
+      "anchor_x": 269.4962921142578,
+      "delta_formula": {
+        "Cl": 1,
+        "H": -1
+      },
+      "delta_mass_mono_da": 33.961028,
+      "structure_verified": true,
+      "modification_text": "Chlorination of Tyr",
+      "reference_text": "[47]",
+      "reference_numbers": [
+        47
+      ],
+      "reference_state": "same_tyr_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-049",
+      "pdf_page": 13,
+      "print_page": 335,
+      "nominal_average_delta_book": 40,
+      "anchor_x": 325.99119567871094,
+      "delta_formula": {
+        "C": 3,
+        "H": 4
+      },
+      "delta_mass_mono_da": 40.0313,
+      "structure_verified": true,
+      "modification_text": "Oxime formation between aminoxy peptide and acetone",
+      "reference_text": "[34,41]",
+      "reference_numbers": [
+        34,
+        41
+      ],
+      "reference_state": "same_aminooxy_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-050",
+      "pdf_page": 14,
+      "print_page": 336,
+      "nominal_average_delta_book": 40,
+      "anchor_x": 120.09540176391602,
+      "delta_formula": {
+        "C": 3,
+        "H": 4
+      },
+      "delta_mass_mono_da": 40.0313,
+      "structure_verified": true,
+      "modification_text": "Enamination of His imidazolyl side chain by acetone",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "原图N端His咪唑N→prop-1-en-2-yl；acetone失H2O，净C3H4。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-051",
+      "pdf_page": 14,
+      "print_page": 336,
+      "nominal_average_delta_book": 40,
+      "anchor_x": 198.94889068603516,
+      "delta_formula": {
+        "C": 3,
+        "H": 4
+      },
+      "delta_mass_mono_da": 40.0313,
+      "structure_verified": true,
+      "modification_text": "Acetone induced peptide N-terminal imidazolidinone formation",
+      "reference_text": "[48]",
+      "reference_numbers": [
+        48
+      ],
+      "reference_state": "原图acetone以2,2-dimethyl-imidazolidinone桥接Nα与后邻骨架N-H，净C3H4。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-052",
+      "pdf_page": 14,
+      "print_page": 336,
+      "nominal_average_delta_book": 40,
+      "anchor_x": 273.85581970214844,
+      "delta_formula": {
+        "C": 3,
+        "H": 4
+      },
+      "delta_mass_mono_da": 40.0313,
+      "structure_verified": true,
+      "modification_text": "Insufficient deprotection of Ser/ Thr(ΨMe,Me Pro)",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "PsiMeMePro环未完全脱除，相对同ST自由目标残留C3H4；按原图N/O环保存。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-053",
+      "pdf_page": 14,
+      "print_page": 336,
+      "nominal_average_delta_book": 40,
+      "anchor_x": 353.63951110839844,
+      "delta_formula": {
+        "C": 3,
+        "H": 4
+      },
+      "delta_mass_mono_da": 40.0313,
+      "structure_verified": true,
+      "modification_text": "Allylation",
+      "reference_text": "[49]",
+      "reference_numbers": [
+        49
+      ],
+      "reference_state": "fully_dealloc_intended_primary_amine",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-054",
+      "pdf_page": 15,
+      "print_page": 337,
+      "nominal_average_delta_book": 41,
+      "anchor_x": 83.36490249633789,
+      "delta_formula": {
+        "C": 2,
+        "H": 3,
+        "N": 1
+      },
+      "delta_mass_mono_da": 41.026549,
+      "structure_verified": true,
+      "modification_text": "Modification Amidine formation",
+      "reference_text": "[50–52]",
+      "reference_numbers": [
+        50,
+        52
+      ],
+      "reference_state": "same_primary_amino_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-055",
+      "pdf_page": 15,
+      "print_page": 337,
+      "nominal_average_delta_book": 42,
+      "anchor_x": 139.4063949584961,
+      "delta_formula": {
+        "C": 2,
+        "H": 2,
+        "O": 1
+      },
+      "delta_mass_mono_da": 42.010565,
+      "structure_verified": true,
+      "modification_text": "Acetylation on Na, Lys-Nε, O-Ser/Thr",
+      "reference_text": "[53]",
+      "reference_numbers": [
+        53
+      ],
+      "reference_state": "same_free_nh_or_oh_site",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-056",
+      "pdf_page": 15,
+      "print_page": 337,
+      "nominal_average_delta_book": 44,
+      "anchor_x": 233.14049530029297,
+      "delta_formula": {
+        "C": 1,
+        "O": 2
+      },
+      "delta_mass_mono_da": 43.989829,
+      "structure_verified": true,
+      "modification_text": "Trp carbamate",
+      "reference_text": "[54]",
+      "reference_numbers": [
+        54
+      ],
+      "reference_state": "fully_deprotected_trp_indole_target",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-057",
+      "pdf_page": 15,
+      "print_page": 337,
+      "nominal_average_delta_book": 48,
+      "anchor_x": 326.48451232910156,
+      "delta_formula": {
+        "O": 3
+      },
+      "delta_mass_mono_da": 47.984744,
+      "structure_verified": true,
+      "modification_text": "Oxidation of Cys to Cys sulfonic acid",
+      "reference_text": "[55]",
+      "reference_numbers": [
+        55
+      ],
+      "reference_state": "same_free_cys_thiol_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-058",
+      "pdf_page": 16,
+      "print_page": 338,
+      "nominal_average_delta_book": 51,
+      "anchor_x": 112.45620346069336,
+      "delta_formula": {
+        "C": 5,
+        "H": 9,
+        "N": 1,
+        "S": -1
+      },
+      "delta_mass_mono_da": 51.101428,
+      "structure_verified": true,
+      "modification_text": "Cys beta-elimination and piperidide adduct formation",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "same_free_cys_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-059",
+      "pdf_page": 16,
+      "print_page": 338,
+      "nominal_average_delta_book": 56,
+      "anchor_x": 184.43059539794922,
+      "delta_formula": {
+        "C": 4,
+        "H": 8
+      },
+      "delta_mass_mono_da": 56.0626,
+      "structure_verified": true,
+      "modification_text": "tert-butylation on nucleophilic amino acid or insufficient removal of tBu protecting group",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "same_deprotected_nucleophilic_site",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-060",
+      "pdf_page": 16,
+      "print_page": 338,
+      "nominal_average_delta_book": 67,
+      "anchor_x": 250.28409576416016,
+      "delta_formula": {
+        "C": 5,
+        "H": 9,
+        "N": 1,
+        "O": -1
+      },
+      "delta_mass_mono_da": 67.078585,
+      "structure_verified": true,
+      "modification_text": "Asp-piperidide",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "自由Asp侧链酸参照：哌啶−水；图中另有isoAsp连接和D/L支路。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-061",
+      "pdf_page": 16,
+      "print_page": 338,
+      "nominal_average_delta_book": 71,
+      "anchor_x": 334.92811584472656,
+      "delta_formula": {
+        "C": 3,
+        "H": 5,
+        "N": 1,
+        "O": 1
+      },
+      "delta_mass_mono_da": 71.037114,
+      "structure_verified": true,
+      "modification_text": "Acetamidomethylated Ser/Thr",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "same_free_ser_or_thr_hydroxyl_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-062",
+      "pdf_page": 17,
+      "print_page": 339,
+      "nominal_average_delta_book": 71,
+      "anchor_x": 97.90559768676758,
+      "delta_formula": {
+        "C": 3,
+        "H": 5,
+        "N": 1,
+        "O": 1
+      },
+      "delta_mass_mono_da": 71.037114,
+      "structure_verified": true,
+      "modification_text": "endo-b-alanine",
+      "reference_text": "[56]",
+      "reference_numbers": [
+        56
+      ],
+      "reference_state": "intended_peptide_without_extra_beta_ala",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-063",
+      "pdf_page": 17,
+      "print_page": 339,
+      "nominal_average_delta_book": 72,
+      "anchor_x": 150.43830108642578,
+      "delta_formula": {
+        "C": 3,
+        "H": 4,
+        "O": 2
+      },
+      "delta_mass_mono_da": 72.021129,
+      "structure_verified": true,
+      "modification_text": "Michael addition of mercaptan to acrylic acid",
+      "reference_text": "[57]",
+      "reference_numbers": [
+        57
+      ],
+      "reference_state": "same_free_mercaptan",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-064",
+      "pdf_page": 17,
+      "print_page": 339,
+      "nominal_average_delta_book": 74,
+      "anchor_x": 201.71419525146484,
+      "delta_formula": {
+        "C": 3,
+        "H": 6,
+        "O": 2
+      },
+      "delta_mass_mono_da": 74.036779,
+      "structure_verified": true,
+      "modification_text": "Esterification of Asp/ Glu by glycerol",
+      "reference_text": "[58]",
+      "reference_numbers": [
+        58
+      ],
+      "reference_state": "same_free_asp_or_glu_sidechain_carboxyl",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-065",
+      "pdf_page": 17,
+      "print_page": 339,
+      "nominal_average_delta_book": 76,
+      "anchor_x": 258.43729400634766,
+      "delta_formula": {
+        "C": 2,
+        "H": 4,
+        "S": 2,
+        "O": -1
+      },
+      "delta_mass_mono_da": 75.980528,
+      "structure_verified": true,
+      "modification_text": "EDT-mediated dithioketal adduct on ketone",
+      "reference_text": "[59]",
+      "reference_numbers": [
+        59
+      ],
+      "reference_state": "same_explicit_ketone_substrate",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-066",
+      "pdf_page": 17,
+      "print_page": 339,
+      "nominal_average_delta_book": 80,
+      "anchor_x": 335.69361877441406,
+      "delta_formula": {
+        "S": 1,
+        "O": 3
+      },
+      "delta_mass_mono_da": 79.956815,
+      "structure_verified": true,
+      "modification_text": "Sulfonation",
+      "reference_text": "[60–62]",
+      "reference_numbers": [
+        60,
+        62
+      ],
+      "reference_state": "same_unsulfated_trp_ser_thr_arg_or_tyr_site",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-067",
+      "pdf_page": 18,
+      "print_page": 340,
+      "nominal_average_delta_book": 90,
+      "anchor_x": 96.99340438842773,
+      "delta_formula": {
+        "C": 7,
+        "H": 6
+      },
+      "delta_mass_mono_da": 90.04695,
+      "structure_verified": true,
+      "modification_text": "Modification Benzylation",
+      "reference_text": "[63]",
+      "reference_numbers": [
+        63
+      ],
+      "reference_state": "same_free_oh_or_sh_site",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-068",
+      "pdf_page": 18,
+      "print_page": 340,
+      "nominal_average_delta_book": 92,
+      "anchor_x": 161.63179779052734,
+      "delta_formula": {
+        "C": 2,
+        "H": 4,
+        "S": 2
+      },
+      "delta_mass_mono_da": 91.975442,
+      "structure_verified": true,
+      "modification_text": "Cys-EDT adduct",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "same_free_cys_thiol_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-069",
+      "pdf_page": 18,
+      "print_page": 340,
+      "nominal_average_delta_book": 96,
+      "anchor_x": 229.11319732666016,
+      "delta_formula": {
+        "C": 2,
+        "F": 3,
+        "O": 1,
+        "H": -1
+      },
+      "delta_mass_mono_da": 95.982299,
+      "structure_verified": true,
+      "modification_text": "Trifluoroacetylation of amino or hydroxyl group",
+      "reference_text": "[64]",
+      "reference_numbers": [
+        64
+      ],
+      "reference_state": "same_free_amine_or_hydroxyl",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-070",
+      "pdf_page": 18,
+      "print_page": 340,
+      "nominal_average_delta_book": 98,
+      "anchor_x": 301.3470916748047,
+      "delta_formula": {
+        "C": 5,
+        "H": 10,
+        "N": 2
+      },
+      "delta_mass_mono_da": 98.084398,
+      "structure_verified": true,
+      "modification_text": "Guanidinium formation on amino group",
+      "reference_text": "[65]",
+      "reference_numbers": [
+        65
+      ],
+      "reference_state": "same_free_primary_amino_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-071",
+      "pdf_page": 19,
+      "print_page": 341,
+      "nominal_average_delta_book": 106,
+      "anchor_x": 129.18700790405273,
+      "delta_formula": {
+        "C": 7,
+        "H": 6,
+        "O": 1
+      },
+      "delta_mass_mono_da": 106.041865,
+      "structure_verified": true,
+      "modification_text": "4-Hydroxylbenzylation",
+      "reference_text": "[66]",
+      "reference_numbers": [
+        66
+      ],
+      "reference_state": "same_free_trp_indole_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-072",
+      "pdf_page": 19,
+      "print_page": 341,
+      "nominal_average_delta_book": 117,
+      "anchor_x": 245.79839324951172,
+      "delta_formula": {
+        "C": 6,
+        "H": 13,
+        "S": 1
+      },
+      "delta_mass_mono_da": null,
+      "structure_verified": true,
+      "modification_text": "Methionine alkylation dy DODT",
+      "reference_text": "[67]",
+      "reference_numbers": [
+        67
+      ],
+      "reference_state": "Met–DODT硫鎓，附加原子C6H13S，产物固定+1电荷；与[P+H]+同电荷差116.065972/z，绝不可当中性差",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-073",
+      "pdf_page": 19,
+      "print_page": 341,
+      "nominal_average_delta_book": 126,
+      "anchor_x": 327.8614044189453,
+      "delta_formula": {
+        "C": 7,
+        "H": 14,
+        "N": 2
+      },
+      "delta_mass_mono_da": 126.115698,
+      "structure_verified": true,
+      "modification_text": "DIC-mediated guanidinium/hydantoin formation on Na",
+      "reference_text": "[68]",
+      "reference_numbers": [
+        68
+      ],
+      "reference_state": "same_free_primary_n_terminal_peptide_for_linear_guanidino_adduct_only",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-074",
+      "pdf_page": 20,
+      "print_page": 342,
+      "nominal_average_delta_book": 145,
+      "anchor_x": 113.20990371704102,
+      "delta_formula": {
+        "C": 7,
+        "H": 3,
+        "N": 3,
+        "O": 1
+      },
+      "delta_mass_mono_da": 145.027612,
+      "structure_verified": true,
+      "modification_text": "HOOBt/carbodiimide-induced Na-2-azidobenzoyl endcapping",
+      "reference_text": "[69]",
+      "reference_numbers": [
+        69
+      ],
+      "reference_state": "same_free_primary_n_terminal_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-075",
+      "pdf_page": 20,
+      "print_page": 342,
+      "nominal_average_delta_book": 148,
+      "anchor_x": 225.1825942993164,
+      "delta_formula": {
+        "C": 6,
+        "H": 12,
+        "S": 2
+      },
+      "delta_mass_mono_da": 148.038043,
+      "structure_verified": true,
+      "modification_text": "Cys-EDT-tBu adduct",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "same_free_cys_thiol_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-076",
+      "pdf_page": 21,
+      "print_page": 343,
+      "nominal_average_delta_book": 163,
+      "anchor_x": 133.53018951416016,
+      "delta_formula": {
+        "C": 9,
+        "H": 9,
+        "N": 1,
+        "O": 2
+      },
+      "delta_mass_mono_da": 163.063329,
+      "structure_verified": true,
+      "modification_text": "Degraded rink amide MBHA linker-induced Trp alkylation",
+      "reference_text": "[70]",
+      "reference_numbers": [
+        70
+      ],
+      "reference_state": "图中Rink来源苄基取代Trp吲哚C2；核对CH03连接臂规则。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-077",
+      "pdf_page": 21,
+      "print_page": 343,
+      "nominal_average_delta_book": 172,
+      "anchor_x": 251.98090362548828,
+      "delta_formula": {
+        "C": 4,
+        "H": 3,
+        "F": 3,
+        "S": 2
+      },
+      "delta_mass_mono_da": 171.962827,
+      "structure_verified": true,
+      "modification_text": "Trp EDT-TFA adduct",
+      "reference_text": "[60]",
+      "reference_numbers": [
+        60
+      ],
+      "reference_state": "图中Trp吲哚C2的EDT/TFA二硫缩醛；对应CH03-R009。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-078",
+      "pdf_page": 21,
+      "print_page": 343,
+      "nominal_average_delta_book": 178,
+      "anchor_x": 344.24400329589844,
+      "delta_formula": {
+        "C": 14,
+        "H": 10
+      },
+      "delta_mass_mono_da": 178.07825,
+      "structure_verified": true,
+      "modification_text": "Na-Fm endcapping",
+      "reference_text": "[71]",
+      "reference_numbers": [
+        71
+      ],
+      "reference_state": "normal_fmoc_deprotected_primary_amine",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-079",
+      "pdf_page": 22,
+      "print_page": 344,
+      "nominal_average_delta_book": 202,
+      "anchor_x": 113.73870468139648,
+      "delta_formula": {
+        "C": 9,
+        "H": 5,
+        "F": 3,
+        "O": 2
+      },
+      "delta_mass_mono_da": 202.024164,
+      "structure_verified": true,
+      "modification_text": "4-Trifluoroacetyoxybenzylation of Trp",
+      "reference_text": "[70]",
+      "reference_numbers": [
+        70
+      ],
+      "reference_state": "same_free_trp_indole_peptide",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-080",
+      "pdf_page": 22,
+      "print_page": 344,
+      "nominal_average_delta_book": 242,
+      "anchor_x": 188.91519927978516,
+      "delta_formula": {
+        "C": 19,
+        "H": 14
+      },
+      "delta_mass_mono_da": 242.10955,
+      "structure_verified": true,
+      "modification_text": "Trtylation",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "same_free_xh_site_if_trt_attached",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-081",
+      "pdf_page": 22,
+      "print_page": 344,
+      "nominal_average_delta_book": 252,
+      "anchor_x": 253.5597915649414,
+      "delta_formula": {
+        "C": 13,
+        "H": 16,
+        "S": 1,
+        "O": 3
+      },
+      "delta_mass_mono_da": 252.082016,
+      "structure_verified": true,
+      "modification_text": "Pbf derivatization",
+      "reference_text": "",
+      "reference_numbers": [],
+      "reference_state": "same_free_xh_site_if_pbf_attached",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    },
+    {
+      "appendix_row_id": "AI-082",
+      "pdf_page": 22,
+      "print_page": 344,
+      "nominal_average_delta_book": 265,
+      "anchor_x": 337.6186981201172,
+      "delta_formula": {
+        "C": 14,
+        "H": 19,
+        "N": 1,
+        "O": 4
+      },
+      "delta_mass_mono_da": 265.131408,
+      "structure_verified": true,
+      "modification_text": "Degraded Pal linker-induced Trp alkylation",
+      "reference_text": "[70]",
+      "reference_numbers": [
+        70
+      ],
+      "reference_state": "图中Pal来源二甲氧基苄基片段取代Trp吲哚C2；核对CH03连接臂规则。",
+      "book_mass_basis": "average_delta_mass_integer_in_book"
+    }
+  ],
+  "unmatched_modifications": []
+}

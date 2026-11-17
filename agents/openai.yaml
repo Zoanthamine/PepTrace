@@ -1,0 +1,6 @@
+interface:
+  display_name: "肽迹 · PepTrace"
+  short_description: "从多肽序列、反应条件和质量线索查副产物，保留并列位点与可追溯证据"
+  default_prompt: "使用 $peptide-side-product-diagnosis，根据我的多肽序列、处理条件和质谱结果查找副产物候选与验证方法。"
+policy:
+  allow_implicit_invocation: true

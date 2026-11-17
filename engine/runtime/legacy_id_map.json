@@ -1,0 +1,2350 @@
+{
+  "APP-I-R004": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "APP-I-R004:000"
+    ]
+  },
+  "APP-I-R035": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "APP-I-R035:000"
+    ]
+  },
+  "APP-I-R036": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "APP-I-R036:000"
+    ]
+  },
+  "APP-I-R039": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "APP-I-R039:000"
+    ]
+  },
+  "APP-I-R052": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "APP-I-R052:000"
+    ]
+  },
+  "CH01-R001": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R002": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH01-R002:000"
+    ]
+  },
+  "CH01-R003": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R004": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R005": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R006": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R007": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R008": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH01-R008:000"
+    ]
+  },
+  "CH01-R009": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH01-R009:000"
+    ]
+  },
+  "CH01-R010": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R011": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R012": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R013": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R014": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R015": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH01-R015:000"
+    ]
+  },
+  "CH01-R016": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R017": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R018": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH01-R018:000"
+    ]
+  },
+  "CH01-R019": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH01-R020": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH02-R001": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH02-R001:000"
+    ]
+  },
+  "CH02-R002": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH02-R002:000"
+    ]
+  },
+  "CH02-R003": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH02-R003:000"
+    ]
+  },
+  "CH02-R004": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH02-R004:000"
+    ]
+  },
+  "CH02-R005": {
+    "kind": "source_fact",
+    "reason": "侧链锚定消除造成肽提前脱载及物料损失；不是完整成品质谱的统一净变化。"
+  },
+  "CH02-R006": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH02-R006:000"
+    ]
+  },
+  "CH02-R007": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH02-R007:000"
+    ]
+  },
+  "CH02-R008": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH02-R008:000"
+    ]
+  },
+  "CH02-R009": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH02-R009:000"
+    ]
+  },
+  "CH03-R001": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R001:000"
+    ]
+  },
+  "CH03-R002": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R002:000"
+    ]
+  },
+  "CH03-R003": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R003:000"
+    ]
+  },
+  "CH03-R004": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R004:000"
+    ]
+  },
+  "CH03-R005": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R005:000"
+    ]
+  },
+  "CH03-R006": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R006:000"
+    ]
+  },
+  "CH03-R007": {
+    "kind": "source_fact",
+    "reason": "Trp重新树脂固定导致产率损失；非孤立分子的固定质量变化。"
+  },
+  "CH03-R008": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R008:000"
+    ]
+  },
+  "CH03-R009": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R009:000"
+    ]
+  },
+  "CH03-R010": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R010:000"
+    ]
+  },
+  "CH03-R011": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R011:000"
+    ]
+  },
+  "CH03-R012": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R012:000"
+    ]
+  },
+  "CH03-R013": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R013:000"
+    ]
+  },
+  "CH03-R014": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R014:000"
+    ]
+  },
+  "CH03-R015": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R015:000"
+    ]
+  },
+  "CH03-R016": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R016:000"
+    ]
+  },
+  "CH03-R017": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R017:000"
+    ]
+  },
+  "CH03-R018": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R018:000"
+    ]
+  },
+  "CH03-R019": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R019:000"
+    ]
+  },
+  "CH03-R020": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R020:000"
+    ]
+  },
+  "CH03-R021": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R021:000"
+    ]
+  },
+  "CH03-R022": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH03-R023": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R023:000"
+    ]
+  },
+  "CH03-R024": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R024:000"
+    ]
+  },
+  "CH03-R025": {
+    "kind": "source_fact",
+    "reason": "硫苯甲醚受体及产物未指定，保留定性现象，不编确定净式。"
+  },
+  "CH03-R026": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH03-R026:000"
+    ]
+  },
+  "CH03-R027": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH04-R001": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH04-R001:000"
+    ]
+  },
+  "CH04-R002": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH04-R002:000"
+    ]
+  },
+  "CH04-R003": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH04-R003:000"
+    ]
+  },
+  "CH04-R004": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH04-R004:000"
+    ]
+  },
+  "CH04-R005": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH04-R005:000"
+    ]
+  },
+  "CH04-R006": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH04-R007": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH04-R008": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH04-R008:000"
+    ]
+  },
+  "CH04-R009": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH04-R009:000"
+    ]
+  },
+  "CH04-R010": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH04-R010:000"
+    ]
+  },
+  "CH04-R011": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH04-R012": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R001": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R002": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R003": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R004": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH05-R004:000"
+    ]
+  },
+  "CH05-R005": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R006": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R007": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R008": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R009": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R010": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R011": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH05-R011:000"
+    ]
+  },
+  "CH05-R012": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH05-R012:000"
+    ]
+  },
+  "CH05-R013": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R014": {
+    "kind": "source_fact",
+    "reason": "β-Ala活性酯是试剂副产物；入肽后的插入由R015/R016反查。"
+  },
+  "CH05-R015": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH05-R015:000"
+    ]
+  },
+  "CH05-R016": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R017": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH05-R017:000"
+    ]
+  },
+  "CH05-R018": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R019": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R020": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R021": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R022": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R023": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R024": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R025": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R026": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R027": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R028": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R029": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R030": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R031": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH05-R032": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH05-R032:000"
+    ]
+  },
+  "CH06-R001": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R002": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R003": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R004": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R005": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R006": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH06-R006:000"
+    ]
+  },
+  "CH06-R007": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH06-R007:000"
+    ]
+  },
+  "CH06-R008": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R009": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R010": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R011": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH06-R011:000"
+    ]
+  },
+  "CH06-R012": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH06-R012:000"
+    ]
+  },
+  "CH06-R013": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH06-R013:000"
+    ]
+  },
+  "CH06-R014": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R015": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R016": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R017": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R018": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH06-R018:000"
+    ]
+  },
+  "CH06-R019": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R020": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R021": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R022": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R023": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R024": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R025": {
+    "kind": "source_fact",
+    "reason": "Asn片段失活/偶联不完全为过程现象；无统一完整目标质量。"
+  },
+  "CH06-R026": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R027": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R028": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R029": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R030": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R031": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R032": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R033": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R034": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R035": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R036": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R037": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R038": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R039": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R040": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R041": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH06-R041:000"
+    ]
+  },
+  "CH06-R042": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R043": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R044": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R045": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R046": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R047": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R048": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R049": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R050": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH06-R051": {
+    "kind": "source_reference_only",
+    "reason": "原书结构与参照已审阅；该具体骨架/保护态/片段/试剂或连续路径尚无完整模板，见本条来源及章节审阅。"
+  },
+  "CH07-R001": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R001:000"
+    ]
+  },
+  "CH07-R002": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R002:000"
+    ]
+  },
+  "CH07-R003": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R003:000"
+    ]
+  },
+  "CH07-R004": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R004:000"
+    ]
+  },
+  "CH07-R005": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R005:000"
+    ]
+  },
+  "CH07-R006": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R006:000",
+      "CH07-R006:001",
+      "CH07-R006:002"
+    ]
+  },
+  "CH07-R007": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R007:000"
+    ]
+  },
+  "CH07-R008": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R008:000"
+    ]
+  },
+  "CH07-R009": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R009:000"
+    ]
+  },
+  "CH07-R010": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R010:000"
+    ]
+  },
+  "CH07-R011": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R011:000"
+    ]
+  },
+  "CH07-R012": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R012:000"
+    ]
+  },
+  "CH07-R013": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R013:000",
+      "CH07-R013:001"
+    ]
+  },
+  "CH07-R014": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R014:000",
+      "CH07-R014:001"
+    ]
+  },
+  "CH07-R015": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R015:000"
+    ]
+  },
+  "CH07-R016": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R016:000"
+    ]
+  },
+  "CH07-R017": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R017:000",
+      "CH07-R017:001"
+    ]
+  },
+  "CH07-R018": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R018:000",
+      "CH07-R018:001"
+    ]
+  },
+  "CH07-R019": {
+    "kind": "source_reference_only",
+    "reason": "图7.13甲酰化在树脂连接的Nbz环氮；尚缺该具体连接片段和树脂/释放参照输入。不能按肽Nα处理。"
+  },
+  "CH07-R020": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R020:000"
+    ]
+  },
+  "CH07-R021": {
+    "kind": "source_reference_only",
+    "reason": "Merrifield残余氯甲基使肽N端再次连到树脂；须给出树脂连接及释放路径，单一中性溶液肽质量不适用。"
+  },
+  "CH07-R022": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R022:000"
+    ]
+  },
+  "CH07-R023": {
+    "kind": "source_reference_only",
+    "reason": "图7.16是Bpoc保护的2-硝基吡啶羟胺模型；尚未提供非肽小分子/羟胺输入。不能外推普通肽Nα。"
+  },
+  "CH07-R024": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH07-R025": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R025:000"
+    ]
+  },
+  "CH07-R026": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R026:000"
+    ]
+  },
+  "CH07-R027": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH07-R028": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R028:000",
+      "CH07-R028:001",
+      "CH07-R028:002"
+    ]
+  },
+  "CH07-R029": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R029:000",
+      "CH07-R029:001",
+      "CH07-R029:002"
+    ]
+  },
+  "CH07-R030": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R030:000",
+      "CH07-R030:001",
+      "CH07-R030:002",
+      "CH07-R030:003",
+      "CH07-R030:004",
+      "CH07-R030:005",
+      "CH07-R030:006",
+      "CH07-R030:007",
+      "CH07-R030:008"
+    ]
+  },
+  "CH07-R031": {
+    "kind": "source_reference_only",
+    "reason": "图7.20含两种桥接解释；第一种Lys–Arg双桥，第二种可涉及两个Lys和一个Arg。需多端点和多链拓扑，不能全部压成单链+C2。"
+  },
+  "CH07-R032": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R032:000"
+    ]
+  },
+  "CH07-R033": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R033:000"
+    ]
+  },
+  "CH07-R034": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R034:000"
+    ]
+  },
+  "CH07-R035": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R035:000"
+    ]
+  },
+  "CH07-R036": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R036:000"
+    ]
+  },
+  "CH07-R037": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R037:000",
+      "CH07-R037:001"
+    ]
+  },
+  "CH07-R038": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R038:000",
+      "CH07-R038:001"
+    ]
+  },
+  "CH07-R039": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH07-R040": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R040:000",
+      "CH07-R040:001"
+    ]
+  },
+  "CH07-R041": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R041:000",
+      "CH07-R041:001"
+    ]
+  },
+  "CH07-R042": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R042:000",
+      "CH07-R042:001"
+    ]
+  },
+  "CH07-R043": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R043:000",
+      "CH07-R043:001"
+    ]
+  },
+  "CH07-R044": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R044:000"
+    ]
+  },
+  "CH07-R045": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R045:000"
+    ]
+  },
+  "CH07-R046": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R046:000"
+    ]
+  },
+  "CH07-R047": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH07-R047:000"
+    ]
+  },
+  "CH08-R001": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R001:000",
+      "CH08-R001:001"
+    ]
+  },
+  "CH08-R002": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R002:000"
+    ]
+  },
+  "CH08-R003": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R003:000"
+    ]
+  },
+  "CH08-R004": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R004:000"
+    ]
+  },
+  "CH08-R005": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R005:000"
+    ]
+  },
+  "CH08-R006": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R006:000"
+    ]
+  },
+  "CH08-R007": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R007:000"
+    ]
+  },
+  "CH08-R008": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R008:000",
+      "CH08-R008:001"
+    ]
+  },
+  "CH08-R009": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R009:000"
+    ]
+  },
+  "CH08-R010": {
+    "kind": "source_reference_only",
+    "reason": "O-氨基酰化后脱保护与O→N迁移再终止生长需要阶段、支链输入和供体状态转换；不按完整母肽简单加一个酰基。"
+  },
+  "CH08-R011": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R011:000"
+    ]
+  },
+  "CH08-R012": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R012:000"
+    ]
+  },
+  "CH08-R013": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R013:000"
+    ]
+  },
+  "CH08-R014": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R014:000"
+    ]
+  },
+  "CH08-R015": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R015:000",
+      "CH08-R015:001",
+      "CH08-R015:002"
+    ]
+  },
+  "CH08-R016": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R016:000",
+      "CH08-R016:001"
+    ]
+  },
+  "CH08-R017": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R017:000",
+      "CH08-R017:001"
+    ]
+  },
+  "CH08-R018": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R018:000",
+      "CH08-R018:001"
+    ]
+  },
+  "CH08-R019": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R019:000",
+      "CH08-R019:001"
+    ]
+  },
+  "CH08-R020": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R020:000"
+    ]
+  },
+  "CH08-R021": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R021:000",
+      "CH08-R021:001",
+      "CH08-R021:002"
+    ]
+  },
+  "CH08-R022": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R022:000"
+    ]
+  },
+  "CH08-R023": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R023:000"
+    ]
+  },
+  "CH08-R024": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R024:000"
+    ]
+  },
+  "CH08-R025": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R025:000",
+      "CH08-R025:001",
+      "CH08-R025:002",
+      "CH08-R025:003"
+    ]
+  },
+  "CH08-R026": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R026:000"
+    ]
+  },
+  "CH08-R027": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH08-R027:000"
+    ]
+  },
+  "CH09-R001": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R001:000"
+    ]
+  },
+  "CH09-R002": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R002:000"
+    ]
+  },
+  "CH09-R003": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R003:000"
+    ]
+  },
+  "CH09-R004": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R004:000"
+    ]
+  },
+  "CH09-R005": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R005:000"
+    ]
+  },
+  "CH09-R006": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R006:000"
+    ]
+  },
+  "CH09-R007": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R007:000",
+      "CH09-R007:001"
+    ]
+  },
+  "CH09-R008": {
+    "kind": "source_reference_only",
+    "reason": "S–S(O)与外加RSH的巯解产生新SS和SOH；须外加巯基分子及连通分量模型。"
+  },
+  "CH09-R009": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R009:000"
+    ]
+  },
+  "CH09-R010": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R010:000"
+    ]
+  },
+  "CH09-R011": {
+    "kind": "source_reference_only",
+    "reason": "S–S(O)2与外加RSH交换产生新SS和SO2H；尚未支持外加硫醇和链分离。"
+  },
+  "CH09-R012": {
+    "kind": "source_reference_only",
+    "reason": "两SOH的歧化需成对前体、组分与共生产物状态模型；不能把某个自由Cys任意±O。"
+  },
+  "CH09-R013": {
+    "kind": "source_reference_only",
+    "reason": "四SO2H歧化涉及两磺酸组分和含硫桥，需多分子计量与共同产物模型。"
+  },
+  "CH09-R014": {
+    "kind": "source_reference_only",
+    "reason": "SOH与外加或链内胺缩合；五元后邻骨架环另由R015支持，一般胺桥尚未接入。"
+  },
+  "CH09-R015": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R015:000"
+    ]
+  },
+  "CH09-R016": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R016:000"
+    ]
+  },
+  "CH09-R017": {
+    "kind": "source_reference_only",
+    "reason": "图9.5烯/炔加成需明确非肽烯烃/炔烃反应物，当前输入不支持该类外加小分子。"
+  },
+  "CH09-R018": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R018:000"
+    ]
+  },
+  "CH09-R019": {
+    "kind": "source_reference_only",
+    "reason": "图9.8的R-X结构可变，S/O进攻并存；需明确外加烷基和连接，不能硬填一式。"
+  },
+  "CH09-R020": {
+    "kind": "source_reference_only",
+    "reason": "Michael受体R可变；需要明确受体及成键位点输入。"
+  },
+  "CH09-R021": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R021:000"
+    ]
+  },
+  "CH09-R022": {
+    "kind": "source_reference_only",
+    "reason": "LiAlH4将SO2H还原成二硫需成对前体与还原计量；不按任意单Cys局部−O2。"
+  },
+  "CH09-R023": {
+    "kind": "source_reference_only",
+    "reason": "FeCl2/乙酸导致SO2H转含硫桥，需明确配对与多组分前体。"
+  },
+  "CH09-R024": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R024:000"
+    ]
+  },
+  "CH09-R025": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R025:000"
+    ]
+  },
+  "CH09-R026": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R026:000"
+    ]
+  },
+  "CH09-R027": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R027:000"
+    ]
+  },
+  "CH09-R028": {
+    "kind": "source_reference_only",
+    "reason": "受保护硫氧化物与另一游离/保护Cys成桥涉及脱保护基，尚缺配对保护态和连续变化。"
+  },
+  "CH09-R029": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R029:000",
+      "CH09-R029:001"
+    ]
+  },
+  "CH09-R030": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R030:000"
+    ]
+  },
+  "CH09-R031": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R031:000"
+    ]
+  },
+  "CH09-R032": {
+    "kind": "source_reference_only",
+    "reason": "NH4I单独还原可伴硫酯水解；尚无明确C端硫酯输入和离去硫醇模型。"
+  },
+  "CH09-R033": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R033:000"
+    ]
+  },
+  "CH09-R034": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R034:000",
+      "CH09-R034:001"
+    ]
+  },
+  "CH09-R035": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH09-R036": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R036:000"
+    ]
+  },
+  "CH09-R037": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R037:000"
+    ]
+  },
+  "CH09-R038": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R038:000"
+    ]
+  },
+  "CH09-R039": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R039:000",
+      "CH09-R039:001"
+    ]
+  },
+  "CH09-R040": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R040:000"
+    ]
+  },
+  "CH09-R041": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R041:000"
+    ]
+  },
+  "CH09-R042": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R042:000"
+    ]
+  },
+  "CH09-R043": {
+    "kind": "source_reference_only",
+    "reason": "正文仅列DiOia名，图9.15未画其结构；需参考75等原文确证结构后才能填元素式。"
+  },
+  "CH09-R044": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R044:000"
+    ]
+  },
+  "CH09-R045": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R045:000"
+    ]
+  },
+  "CH09-R046": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R046:000"
+    ]
+  },
+  "CH09-R047": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R047:000"
+    ]
+  },
+  "CH09-R048": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R048:000"
+    ]
+  },
+  "CH09-R049": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R049:000"
+    ]
+  },
+  "CH09-R050": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R050:000"
+    ]
+  },
+  "CH09-R051": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R051:000"
+    ]
+  },
+  "CH09-R052": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R052:000"
+    ]
+  },
+  "CH09-R053": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R053:000"
+    ]
+  },
+  "CH09-R054": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R054:000"
+    ]
+  },
+  "CH09-R055": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH09-R056": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH09-R057": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R057:000"
+    ]
+  },
+  "CH09-R058": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R058:000"
+    ]
+  },
+  "CH09-R059": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R059:000"
+    ]
+  },
+  "CH09-R060": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R060:000"
+    ]
+  },
+  "CH09-R061": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH09-R061:000"
+    ]
+  },
+  "CH10-R001": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R001:000",
+      "CH10-R001:001"
+    ]
+  },
+  "CH10-R002": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R002:000",
+      "CH10-R002:001"
+    ]
+  },
+  "CH10-R003": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R003:000",
+      "CH10-R003:001",
+      "CH10-R003:002"
+    ]
+  },
+  "CH10-R004": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R004:000"
+    ]
+  },
+  "CH10-R005": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R005:000"
+    ]
+  },
+  "CH10-R006": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R006:000",
+      "CH10-R006:001"
+    ]
+  },
+  "CH10-R007": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R007:000",
+      "CH10-R007:001"
+    ]
+  },
+  "CH10-R008": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R008:000",
+      "CH10-R008:001"
+    ]
+  },
+  "CH10-R009": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R009:000",
+      "CH10-R009:001"
+    ]
+  },
+  "CH10-R010": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R010:000"
+    ]
+  },
+  "CH10-R011": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R011:000",
+      "CH10-R011:001"
+    ]
+  },
+  "CH10-R012": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R012:000"
+    ]
+  },
+  "CH10-R013": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R013:000"
+    ]
+  },
+  "CH10-R014": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R014:000"
+    ]
+  },
+  "CH10-R015": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R015:000"
+    ]
+  },
+  "CH10-R016": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH10-R016:000"
+    ]
+  },
+  "CH11-R001": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH11-R001:000"
+    ]
+  },
+  "CH11-R002": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH11-R002:000"
+    ]
+  },
+  "CH11-R003": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH11-R003:000"
+    ]
+  },
+  "CH11-R004": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH11-R004:000",
+      "CH11-R004:001",
+      "CH11-R004:002",
+      "CH11-R004:003",
+      "CH11-R004:004",
+      "CH11-R004:005",
+      "CH11-R004:006"
+    ]
+  },
+  "CH11-R005": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH11-R005:000"
+    ]
+  },
+  "CH11-R006": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH11-R006:000",
+      "CH11-R006:001"
+    ]
+  },
+  "CH11-R007": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH11-R007:000",
+      "CH11-R007:001"
+    ]
+  },
+  "CH11-R008": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH11-R008:000"
+    ]
+  },
+  "CH11-R009": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH11-R009:000",
+      "CH11-R009:001"
+    ]
+  },
+  "CH11-R010": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH11-R010:000"
+    ]
+  },
+  "CH11-R011": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH11-R011:000"
+    ]
+  },
+  "CH11-R012": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH11-R012:000"
+    ]
+  },
+  "CH11-R013": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH11-R013:000"
+    ]
+  },
+  "CH11-R014": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R015": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R016": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R017": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R018": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R019": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R020": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R021": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R022": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R023": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R024": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R025": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R026": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R027": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R028": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R029": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R030": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R031": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R032": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R033": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH11-R034": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH12-R001": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH12-R001:000"
+    ]
+  },
+  "CH12-R002": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH12-R002:000"
+    ]
+  },
+  "CH12-R003": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH12-R003:000"
+    ]
+  },
+  "CH12-R004": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH13-R001": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R001:000"
+    ]
+  },
+  "CH13-R002": {
+    "kind": "source_reference_only",
+    "reason": "链间SS交换形成寡聚需通用多链前体与连通分量模型，不能把任意二聚写成单肽0差。"
+  },
+  "CH13-R003": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH13-R004": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R004:000"
+    ]
+  },
+  "CH13-R005": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R005:000"
+    ]
+  },
+  "CH13-R006": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R006:000"
+    ]
+  },
+  "CH13-R007": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R007:000"
+    ]
+  },
+  "CH13-R008": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R008:000"
+    ]
+  },
+  "CH13-R009": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R009:000"
+    ]
+  },
+  "CH13-R010": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R010:000"
+    ]
+  },
+  "CH13-R011": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R011:000"
+    ]
+  },
+  "CH13-R012": {
+    "kind": "source_reference_only",
+    "reason": "persulfide跨链形成三硫需要明确各条母链和共生产物；单主链插硫已由R011支持。"
+  },
+  "CH13-R013": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R013:000"
+    ]
+  },
+  "CH13-R014": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R014:000",
+      "CH13-R014:001"
+    ]
+  },
+  "CH13-R015": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R015:000"
+    ]
+  },
+  "CH13-R016": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R016:000"
+    ]
+  },
+  "CH13-R017": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R017:000"
+    ]
+  },
+  "CH13-R018": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH13-R018:000"
+    ]
+  },
+  "CH13-R019": {
+    "kind": "source_reference_only",
+    "reason": "正文只列His捕获Dha产物类别，没有画具体进攻氮/连接及电荷；不能硬填精确拓扑。"
+  },
+  "CH13-R020": {
+    "kind": "source_reference_only",
+    "reason": "正文只列Trp捕获Dha类别，没有定位N/C进攻；应补参考15结构后编译具体连接。"
+  },
+  "CH14-R001": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH14-R002": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH14-R002:000"
+    ]
+  },
+  "CH14-R003": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH14-R004": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH14-R005": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH14-R006": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH14-R006:000"
+    ]
+  },
+  "CH14-R007": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH14-R007:000",
+      "CH14-R007:001"
+    ]
+  },
+  "CH14-R008": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH14-R008:000",
+      "CH14-R008:001"
+    ]
+  },
+  "CH14-R009": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH14-R009:000",
+      "CH14-R009:001"
+    ]
+  },
+  "CH14-R010": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH14-R010:000",
+      "CH14-R010:001"
+    ]
+  },
+  "CH14-R011": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH14-R011:000",
+      "CH14-R011:001"
+    ]
+  },
+  "CH14-R012": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH14-R013": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH14-R014": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH14-R015": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH14-R015:000"
+    ]
+  },
+  "CH14-R016": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH14-R016:000",
+      "CH14-R016:001",
+      "CH14-R016:002"
+    ]
+  },
+  "CH14-R017": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH14-R017:000"
+    ]
+  },
+  "CH14-R018": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH14-R018:000"
+    ]
+  },
+  "CH14-R019": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "CH14-R020": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH14-R020:000",
+      "CH14-R020:001"
+    ]
+  },
+  "CH14-R021": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "CH14-R021:000"
+    ]
+  },
+  "CH14-R022": {
+    "kind": "source_fact",
+    "reason": null
+  },
+  "SUP-001": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "SUP-001:000"
+    ]
+  },
+  "SUP-002": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "SUP-002:000"
+    ]
+  },
+  "SUP-003": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "SUP-003:000"
+    ]
+  },
+  "SUP-004": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "SUP-004:000"
+    ]
+  },
+  "SUP-005": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "SUP-005:000"
+    ]
+  },
+  "SUP-006": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-007": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-008": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-009": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-010": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-011": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-012": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-013": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-014": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-015": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-016": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-017": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-018": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-019": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-020": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-021": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-022": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-023": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-024": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-025": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-026": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-027": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-028": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-029": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "SUP-029:000"
+    ]
+  },
+  "SUP-030": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-031": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-032": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-033": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-034": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-035": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-036": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-037": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-038": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-039": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-040": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-041": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-042": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-043": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-044": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-045": {
+    "kind": "executable_template",
+    "branch_ids": [
+      "SUP-045:000"
+    ]
+  },
+  "SUP-046": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-047": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-048": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-049": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-050": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-051": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-052": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-053": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-054": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-055": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-056": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-057": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-058": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-059": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-060": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-061": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-062": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  },
+  "SUP-063": {
+    "kind": "source_reference_only",
+    "reason": "Source record has no compiled structural recipe; do not turn a lookup delta into a reaction."
+  }
+}

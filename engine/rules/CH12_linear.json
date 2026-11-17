@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_17",
+    "sha256": "9cbc56c83efd62e979cc0f6d2498797d526c8444c42de4c44ad5eb9cf61237e9"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH12-R001",
+      "source_refs": {
+        "print_pages": [
+          293,
+          294,
+          295,
+          296
+        ],
+        "figures": [
+          "12.1",
+          "12.2",
+          "12.3"
+        ]
+      },
+      "reference_state": "same_sequence_intended_free_phosphate",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T",
+          "Y"
+        ],
+        "group": "Phospho"
+      },
+      "transform": {
+        "kind": "replace_group",
+        "product_group": "HPhosphonate",
+        "delta_formula": {
+          "O": -1
+        },
+        "modification": "H-phosphonate"
+      },
+      "required_conditions": [
+        "global_phosphorylation"
+      ],
+      "required_any_conditions": [
+        "delayed_phosphite_oxidation",
+        "acidic_phosphite_exposure",
+        "water_exposure_after_phosphitylation"
+      ],
+      "product_description": "H-膦酸酯副产物",
+      "evidence_level": "book_structure_confirmed",
+      "diagnostic_evidence": [
+        "原文后续研究指出形成发生于氧化之前；不能只写成最终磷酸还原或氧化失败。",
+        "相对预期磷酸少O；相对裸OH仍净增HPO2。"
+      ]
+    },
+    {
+      "rule_id": "CH12-R002",
+      "source_refs": {
+        "print_pages": [
+          296,
+          297
+        ],
+        "figures": [
+          "12.4"
+        ]
+      },
+      "reference_state": "sum_of_two_explicit_phosphotyrosine_parent_chains",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Y"
+        ],
+        "group": "Phospho"
+      },
+      "transform": {
+        "kind": "site_bridge",
+        "source_atom": "phosphate_P",
+        "partner_atoms": {
+          "phosphate_P": {
+            "position": "any",
+            "residues": [
+              "Y"
+            ],
+            "group": "Phospho"
+          }
+        },
+        "allowed_occupied_groups": [
+          "Phospho"
+        ],
+        "bond": "P_O_P_pyrophosphate",
+        "bond_delta": {
+          "H": -2,
+          "O": -1
+        },
+        "symmetric": true,
+        "topologies": [
+          "interchain"
+        ]
+      },
+      "required_conditions": [
+        "phosphotyrosine_coupling",
+        "phosphate_activation"
+      ],
+      "product_description": "双链焦磷酸Tyr",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "分子式是两个含磷酸母肽之和−H2O；不是单肽减18。保留母链数和P–O–P位点。"
+      ]
+    },
+    {
+      "rule_id": "CH12-R003",
+      "source_refs": {
+        "print_pages": [
+          296,
+          297
+        ],
+        "figures": [
+          "12.4"
+        ]
+      },
+      "reference_state": "same_sequence_intended_phosphotyrosine_product",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Y"
+        ],
+        "group": "Phospho"
+      },
+      "transform": {
+        "kind": "delete",
+        "count": 1,
+        "allow_n_terminal": true
+      },
+      "required_conditions": [
+        "phosphotyrosine_coupling",
+        "coupling_reagent_consumed_by_phosphate"
+      ],
+      "product_description": "不完全磷酸Tyr偶联的缺失肽推断",
+      "evidence_level": "editorial_extrapolation_from_book",
+      "diagnostic_evidence": [
+        "书中直接事实为磷酸耗偶联剂、偶联缓慢/不完全；具体des-pTyr为编辑序列模型推断。",
+        "同时减去Tyr残基和其Phospho；初始树脂末端残基不自动删除。"
+      ]
+    }
+  ]
+}

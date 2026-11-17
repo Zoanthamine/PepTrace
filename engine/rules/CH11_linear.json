@@ -1,0 +1,828 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_21",
+    "sha256": "10668e99479dd26f696c2e42c8659cffc4e1597357cda5ffce7c4a9aa7bfcaa1"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH11-R001",
+      "source_refs": {
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "print_pages": [
+          257,
+          258
+        ],
+        "figures": [
+          "11.1"
+        ],
+        "reference_numbers": [
+          3,
+          4,
+          5
+        ]
+      },
+      "reference_state": "same_sequence_alpha_configuration_relative_to_declared_input",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "G",
+          "Aib",
+          "beta-Ala",
+          "Aoa",
+          "Dha",
+          "MeDha"
+        ],
+        "required_site_fact": "n_acyl_activated_precursor"
+      },
+      "transform": {
+        "kind": "epimerize_alpha",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "carboxyl_activation"
+      ],
+      "required_any_conditions": [],
+      "product_description": "经oxazol-5(4H)-one中间体的消旋",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "净式0不代表同一构型；质量不能单独鉴别。只反转Ca，不擅自改变Thr/Hyp等其他手性中心。",
+        "没有输入L/D时仅记录相对构型编辑，不指定绝对L或D，也不估计消旋比例。"
+      ]
+    },
+    {
+      "rule_id": "CH11-R002",
+      "source_refs": {
+        "pdf_pages": [
+          2,
+          3
+        ],
+        "print_pages": [
+          258,
+          259
+        ],
+        "figures": [
+          "11.2"
+        ],
+        "reference_numbers": [
+          6
+        ]
+      },
+      "reference_state": "same_sequence_alpha_configuration_relative_to_declared_input",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "G",
+          "Aib",
+          "beta-Ala",
+          "Aoa",
+          "Dha",
+          "MeDha"
+        ]
+      },
+      "transform": {
+        "kind": "epimerize_alpha",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "carbodiimide_activation"
+      ],
+      "required_any_conditions": [],
+      "product_description": "O-acylisourea/enolate途径",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "净式0不代表同一构型；质量不能单独鉴别。只反转Ca，不擅自改变Thr/Hyp等其他手性中心。",
+        "没有输入L/D时仅记录相对构型编辑，不指定绝对L或D，也不估计消旋比例。"
+      ]
+    },
+    {
+      "rule_id": "CH11-R003",
+      "source_refs": {
+        "pdf_pages": [
+          3
+        ],
+        "print_pages": [
+          259
+        ],
+        "figures": [
+          "11.3"
+        ],
+        "reference_numbers": [
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "reference_state": "same_sequence_alpha_configuration_relative_to_declared_input",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "G",
+          "Aib",
+          "beta-Ala",
+          "Aoa",
+          "Dha",
+          "MeDha"
+        ]
+      },
+      "transform": {
+        "kind": "epimerize_alpha",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "base_exposure"
+      ],
+      "required_any_conditions": [
+        "carboxyl_activation",
+        "ester_saponification"
+      ],
+      "product_description": "直接Hα抽取与再质子化",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "净式0不代表同一构型；质量不能单独鉴别。只反转Ca，不擅自改变Thr/Hyp等其他手性中心。",
+        "没有输入L/D时仅记录相对构型编辑，不指定绝对L或D，也不估计消旋比例。"
+      ]
+    },
+    {
+      "rule_id": "CH11-R004",
+      "source_refs": {
+        "pdf_pages": [
+          4
+        ],
+        "print_pages": [
+          260
+        ],
+        "figures": [
+          "11.4"
+        ],
+        "reference_numbers": [
+          11,
+          12,
+          13
+        ]
+      },
+      "reference_state": "same_sequence_alpha_configuration_relative_to_declared_input",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "G",
+          "Aib",
+          "beta-Ala",
+          "Aoa",
+          "Dha",
+          "MeDha"
+        ],
+        "residues": [
+          "D"
+        ],
+        "next_backbone_amide": true,
+        "unmodified_side_chain": true
+      },
+      "transform": {
+        "kind": "epimerize_alpha",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "aspartimide_formation",
+        "aqueous_hydrolysis"
+      ],
+      "required_any_conditions": [],
+      "product_description": "Aspartimide形成后的Asp/Asn构型失真",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "净式0不代表同一构型；质量不能单独鉴别。只反转Ca，不擅自改变Thr/Hyp等其他手性中心。",
+        "没有输入L/D时仅记录相对构型编辑，不指定绝对L或D，也不估计消旋比例。"
+      ],
+      "alternate_branches": [
+        {
+          "transform": {
+            "kind": "epimerize_alpha",
+            "linkage": "isoAsp",
+            "delta_formula": {}
+          }
+        },
+        {
+          "transform": {
+            "kind": "epimerize_alpha",
+            "linkage": "isoAsp",
+            "invert": false,
+            "delta_formula": {}
+          }
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "N"
+            ],
+            "next_backbone_amide": true,
+            "unmodified_side_chain": true
+          },
+          "transform": {
+            "kind": "epimerize_alpha",
+            "replace_residue": "D",
+            "invert": false,
+            "delta_formula": {
+              "H": -1,
+              "N": -1,
+              "O": 1
+            }
+          },
+          "reference_state": "same_sequence_asparagine_before_imide_hydrolysis"
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "N"
+            ],
+            "next_backbone_amide": true,
+            "unmodified_side_chain": true
+          },
+          "transform": {
+            "kind": "epimerize_alpha",
+            "replace_residue": "D",
+            "invert": true,
+            "delta_formula": {
+              "H": -1,
+              "N": -1,
+              "O": 1
+            }
+          },
+          "reference_state": "same_sequence_asparagine_before_imide_hydrolysis"
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "N"
+            ],
+            "next_backbone_amide": true,
+            "unmodified_side_chain": true
+          },
+          "transform": {
+            "kind": "epimerize_alpha",
+            "replace_residue": "D",
+            "invert": false,
+            "linkage": "isoAsp",
+            "delta_formula": {
+              "H": -1,
+              "N": -1,
+              "O": 1
+            }
+          },
+          "reference_state": "same_sequence_asparagine_before_imide_hydrolysis"
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "N"
+            ],
+            "next_backbone_amide": true,
+            "unmodified_side_chain": true
+          },
+          "transform": {
+            "kind": "epimerize_alpha",
+            "replace_residue": "D",
+            "invert": true,
+            "linkage": "isoAsp",
+            "delta_formula": {
+              "H": -1,
+              "N": -1,
+              "O": 1
+            }
+          },
+          "reference_state": "same_sequence_asparagine_before_imide_hydrolysis"
+        }
+      ]
+    },
+    {
+      "rule_id": "CH11-R005",
+      "source_refs": {
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "print_pages": [
+          260,
+          261
+        ],
+        "figures": [],
+        "reference_numbers": [
+          14,
+          15,
+          16
+        ]
+      },
+      "reference_state": "same_sequence_alpha_configuration_relative_to_declared_input",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "G",
+          "Aib",
+          "beta-Ala",
+          "Aoa",
+          "Dha",
+          "MeDha"
+        ]
+      },
+      "transform": {
+        "kind": "epimerize_alpha",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "strong_acid_exposure"
+      ],
+      "required_any_conditions": [],
+      "product_description": "酸催化及分析水解诱发的消旋",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "强酸/高温可能消旋；6N HCl分析水解导致的D-AA与合成产物本身必须分开，分析水解记为另外的条件事实。"
+      ]
+    },
+    {
+      "rule_id": "CH11-R006",
+      "source_refs": {
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "print_pages": [
+          261,
+          262
+        ],
+        "figures": [
+          "11.5",
+          "11.6"
+        ],
+        "reference_numbers": [
+          10,
+          17,
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      "reference_state": "same_sequence_alpha_configuration_relative_to_declared_input",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "G",
+          "Aib",
+          "beta-Ala",
+          "Aoa",
+          "Dha",
+          "MeDha"
+        ],
+        "residues": [
+          "H"
+        ],
+        "required_site_fact": "his_pi_unprotected"
+      },
+      "transform": {
+        "kind": "epimerize_alpha",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "carboxyl_activation"
+      ],
+      "required_any_conditions": [],
+      "product_description": "His的Nπ催化Hα抽取及imidazolide形成",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "净式0不代表同一构型；质量不能单独鉴别。只反转Ca，不擅自改变Thr/Hyp等其他手性中心。",
+        "没有输入L/D时仅记录相对构型编辑，不指定绝对L或D，也不估计消旋比例。"
+      ],
+      "alternate_branches": [
+        {
+          "required_conditions": [
+            "carboxyl_activation",
+            "his_imidazolide_formation"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "CH11-R007",
+      "source_refs": {
+        "pdf_pages": [
+          6,
+          7
+        ],
+        "print_pages": [
+          262,
+          263
+        ],
+        "figures": [],
+        "reference_numbers": [
+          9,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      "reference_state": "same_sequence_alpha_configuration_relative_to_declared_input",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "G",
+          "Aib",
+          "beta-Ala",
+          "Aoa",
+          "Dha",
+          "MeDha"
+        ],
+        "residues": [
+          "C"
+        ]
+      },
+      "transform": {
+        "kind": "epimerize_alpha",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "carboxyl_activation"
+      ],
+      "required_any_conditions": [],
+      "product_description": "Cys活化及C端酯在重复脱Fmoc下的消旋",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "净式0不代表同一构型；质量不能单独鉴别。只反转Ca，不擅自改变Thr/Hyp等其他手性中心。",
+        "没有输入L/D时仅记录相对构型编辑，不指定绝对L或D，也不估计消旋比例。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "end",
+            "residues": [
+              "C"
+            ],
+            "cterm": "acid",
+            "required_site_fact": "c_terminal_cys_ester_used"
+          },
+          "required_conditions": [
+            "piperidine_deprotection"
+          ],
+          "reference_state": "c_terminal_ester_phase_alpha_epimer"
+        }
+      ]
+    },
+    {
+      "rule_id": "CH11-R008",
+      "source_refs": {
+        "pdf_pages": [
+          7,
+          8
+        ],
+        "print_pages": [
+          263,
+          264
+        ],
+        "figures": [],
+        "reference_numbers": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      },
+      "reference_state": "same_sequence_alpha_configuration_relative_to_declared_input",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "G",
+          "Aib",
+          "beta-Ala",
+          "Aoa",
+          "Dha",
+          "MeDha"
+        ],
+        "residues": [
+          "S",
+          "T"
+        ],
+        "groups": [
+          "Hex",
+          "HexNAc",
+          "Ac3GalNAc"
+        ]
+      },
+      "transform": {
+        "kind": "epimerize_alpha",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "carboxyl_activation"
+      ],
+      "required_any_conditions": [],
+      "product_description": "O-糖基化Ser/Thr特别是glycoserine消旋",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "糖基保留，Ca构型反转。当前只支持明确己糖/N-乙酰己糖胺/Ac3GalNAc组件，不擅自指定异头构型。"
+      ]
+    },
+    {
+      "rule_id": "CH11-R009",
+      "source_refs": {
+        "pdf_pages": [
+          8,
+          9,
+          10
+        ],
+        "print_pages": [
+          264,
+          265,
+          266
+        ],
+        "figures": [
+          "11.7",
+          "11.8",
+          "11.9"
+        ],
+        "reference_numbers": [
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ]
+      },
+      "reference_state": "same_sequence_alpha_configuration_relative_to_declared_input",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "G",
+          "Aib",
+          "beta-Ala",
+          "Aoa",
+          "Dha",
+          "MeDha"
+        ],
+        "required_site_fact": "n_alkyl_backbone_site"
+      },
+      "transform": {
+        "kind": "epimerize_alpha",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "carboxyl_activation"
+      ],
+      "required_any_conditions": [],
+      "product_description": "N-alkyl消旋与αα双取代末端邻位消旋",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "净式0不代表同一构型；质量不能单独鉴别。只反转Ca，不擅自改变Thr/Hyp等其他手性中心。",
+        "没有输入L/D时仅记录相对构型编辑，不指定绝对L或D，也不估计消旋比例。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "exclude_residues": [
+              "G",
+              "Aib",
+              "beta-Ala",
+              "Aoa",
+              "Dha",
+              "MeDha"
+            ],
+            "next_residues": [
+              "Aib"
+            ],
+            "next_is_end": true
+          },
+          "required_conditions": [
+            "terminal_disubstituted_amino_acid_activation"
+          ],
+          "reference_state": "penultimate_alpha_center_before_c_terminal_aib_activation"
+        }
+      ]
+    },
+    {
+      "rule_id": "CH11-R010",
+      "source_refs": {
+        "pdf_pages": [
+          11
+        ],
+        "print_pages": [
+          267
+        ],
+        "figures": [],
+        "reference_numbers": [
+          52,
+          53,
+          54,
+          55,
+          56
+        ]
+      },
+      "reference_state": "same_sequence_alpha_configuration_relative_to_declared_input",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "G",
+          "Aib",
+          "beta-Ala",
+          "Aoa",
+          "Dha",
+          "MeDha"
+        ],
+        "residues": [
+          "Phg"
+        ]
+      },
+      "transform": {
+        "kind": "epimerize_alpha",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "carboxyl_activation",
+        "base_exposure"
+      ],
+      "required_any_conditions": [],
+      "product_description": "Aryl glycine/Phg的直接去Hα消旋",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "净式0不代表同一构型；质量不能单独鉴别。只反转Ca，不擅自改变Thr/Hyp等其他手性中心。",
+        "没有输入L/D时仅记录相对构型编辑，不指定绝对L或D，也不估计消旋比例。"
+      ]
+    },
+    {
+      "rule_id": "CH11-R011",
+      "source_refs": {
+        "pdf_pages": [
+          11,
+          12
+        ],
+        "print_pages": [
+          267,
+          268
+        ],
+        "figures": [],
+        "reference_numbers": [
+          27,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66
+        ]
+      },
+      "reference_state": "same_sequence_alpha_configuration_relative_to_declared_input",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "G",
+          "Aib",
+          "beta-Ala",
+          "Aoa",
+          "Dha",
+          "MeDha"
+        ]
+      },
+      "transform": {
+        "kind": "epimerize_alpha",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "dmap",
+        "carboxyl_activation"
+      ],
+      "required_any_conditions": [],
+      "product_description": "DMAP催化活化/酯化诱发的消旋",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "净式0不代表同一构型；质量不能单独鉴别。只反转Ca，不擅自改变Thr/Hyp等其他手性中心。",
+        "没有输入L/D时仅记录相对构型编辑，不指定绝对L或D，也不估计消旋比例。"
+      ]
+    },
+    {
+      "rule_id": "CH11-R012",
+      "source_refs": {
+        "pdf_pages": [
+          12
+        ],
+        "print_pages": [
+          268
+        ],
+        "figures": [],
+        "reference_numbers": [
+          55,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ]
+      },
+      "reference_state": "same_sequence_alpha_configuration_relative_to_declared_input",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "G",
+          "Aib",
+          "beta-Ala",
+          "Aoa",
+          "Dha",
+          "MeDha"
+        ],
+        "residues": [
+          "C",
+          "H"
+        ]
+      },
+      "transform": {
+        "kind": "epimerize_alpha",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "microwave_spps"
+      ],
+      "required_any_conditions": [],
+      "product_description": "微波/升温SPPS下Cys和His消旋",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "净式0不代表同一构型；质量不能单独鉴别。只反转Ca，不擅自改变Thr/Hyp等其他手性中心。",
+        "没有输入L/D时仅记录相对构型编辑，不指定绝对L或D，也不估计消旋比例。"
+      ]
+    },
+    {
+      "rule_id": "CH11-R013",
+      "source_refs": {
+        "pdf_pages": [
+          12,
+          13
+        ],
+        "print_pages": [
+          268,
+          269
+        ],
+        "figures": [],
+        "reference_numbers": [
+          74,
+          75
+        ]
+      },
+      "reference_state": "same_sequence_alpha_configuration_relative_to_declared_input",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "G",
+          "Aib",
+          "beta-Ala",
+          "Aoa",
+          "Dha",
+          "MeDha"
+        ],
+        "required_site_fact": "segment_acyl_component_end"
+      },
+      "transform": {
+        "kind": "epimerize_alpha",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "segment_condensation",
+        "carboxyl_activation"
+      ],
+      "required_any_conditions": [],
+      "product_description": "常规片段缩合时活化片段C端残基消旋",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "净式0不代表同一构型；质量不能单独鉴别。只反转Ca，不擅自改变Thr/Hyp等其他手性中心。",
+        "没有输入L/D时仅记录相对构型编辑，不指定绝对L或D，也不估计消旋比例。"
+      ]
+    }
+  ]
+}

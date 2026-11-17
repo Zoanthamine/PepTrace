@@ -1,0 +1,33 @@
+name: PepTrace validation
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  portable-validation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-msms.txt
+      - name: Install runtime and MS/MS dependencies
+        run: python -m pip install -r requirements.txt -r requirements-msms.txt
+      - name: Rebuild from canonical package data
+        run: python scripts/build.py
+      - name: Run regression, branch and five-case checks
+        run: python scripts/verify.py --full
+      - name: Save validation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: peptrace-validation
+          path: |
+            validation/acceptance.json
+            validation/five_cases.json
+            validation/*.log

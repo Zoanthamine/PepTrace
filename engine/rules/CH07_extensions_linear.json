@@ -1,0 +1,769 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_07",
+    "sha256": "a455f6e0f3a2d3cb8fe901ddeec94f0ab2e48ce31a57317681cbc1432573d0cf"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH07-R002",
+      "source_refs": {
+        "print_pages": [
+          164
+        ],
+        "figures": []
+      },
+      "reference_state": "same_sequence_declared_precursor",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "H"
+        ],
+        "group": "Ac"
+      },
+      "transform": {
+        "kind": "transfer_group_to_amine",
+        "modification": "Ac由侧链转移至胺",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "acetyl_transfer"
+      ],
+      "product_description": "Ac基团迁移",
+      "diagnostic_evidence": [
+        "以已带该基团的同一肽为参照，总式不变；逐个保存供体和受体位置。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R010",
+      "source_refs": {
+        "print_pages": [
+          170,
+          171
+        ],
+        "figures": [
+          "7.5"
+        ]
+      },
+      "reference_state": "same_sequence_declared_precursor",
+      "site_selector": {
+        "position": "start",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "group": "Trifluoroacetyl"
+      },
+      "transform": {
+        "kind": "transfer_group_to_amine",
+        "modification": "Trifluoroacetyl由侧链转移至胺",
+        "delta_formula": {},
+        "destination": "N"
+      },
+      "required_conditions": [
+        "base_neutralization"
+      ],
+      "product_description": "Trifluoroacetyl基团迁移",
+      "diagnostic_evidence": [
+        "以已带该基团的同一肽为参照，总式不变；逐个保存供体和受体位置。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R012",
+      "source_refs": {
+        "print_pages": [
+          172,
+          173
+        ],
+        "figures": [
+          "7.7"
+        ]
+      },
+      "reference_state": "same_sequence_declared_precursor",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ],
+        "group": "Formyl"
+      },
+      "transform": {
+        "kind": "transfer_group_to_amine",
+        "modification": "Formyl由侧链转移至胺",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "trp_formyl_deprotection"
+      ],
+      "product_description": "Formyl基团迁移",
+      "diagnostic_evidence": [
+        "以已带该基团的同一肽为参照，总式不变；逐个保存供体和受体位置。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R014",
+      "source_refs": {
+        "print_pages": [
+          174
+        ],
+        "figures": [
+          "7.9"
+        ]
+      },
+      "reference_state": "same_sequence_declared_precursor",
+      "site_selector": {
+        "position": "end",
+        "cterm": "hydrazide"
+      },
+      "transform": {
+        "kind": "c_terminal_delta",
+        "modification": "末端酰肼N′-甲酰",
+        "delta_formula": {
+          "C": 1,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "formic_acid",
+        "hydrazide_to_azide"
+      ],
+      "product_description": "酰肼竞争N′-甲酰化",
+      "diagnostic_evidence": [
+        "参照肽酰肼，不是肽酰叠氮或普通羧酸；未计算主反应酰叠氮。"
+      ],
+      "evidence_level": "book_reported",
+      "alternate_branches": [
+        {
+          "transform": {
+            "kind": "c_terminal_delta",
+            "modification": "末端酰肼N′-乙酰",
+            "delta_formula": {
+              "C": 2,
+              "H": 2,
+              "O": 1
+            }
+          },
+          "required_conditions": [
+            "acetic_acid",
+            "hydrazide_to_azide"
+          ],
+          "product_description": "酰肼竞争N′-乙酰化"
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R018",
+      "source_refs": {
+        "print_pages": [
+          176,
+          177
+        ],
+        "figures": [
+          "7.11"
+        ]
+      },
+      "reference_state": "same_sequence_declared_precursor",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free"
+      },
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "咪唑/DMF来源Nα-甲酰",
+        "delta_formula": {
+          "C": 1,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "dmf",
+        "imidazole",
+        "heating_60c"
+      ],
+      "product_description": "咪唑催化DMF甲酰化的肽端推广",
+      "diagnostic_evidence": [
+        "已报道底物为氨基酸/氨基酸酯；推广到肽端属于编辑推断。"
+      ],
+      "evidence_level": "editorial_extrapolation_from_book",
+      "alternate_branches": [
+        {
+          "required_conditions": [
+            "dmf",
+            "cdi_coupling"
+          ],
+          "evidence_level": "book_hypothesis",
+          "diagnostic_evidence": [
+            "原书明确表示CDI相关副反应尚未报道，只是潜在风险。"
+          ],
+          "product_description": "CDI/DMF潜在甲酰化（书中假说）"
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R030",
+      "source_refs": {
+        "print_pages": [
+          183,
+          184,
+          185,
+          186,
+          187
+        ],
+        "figures": [
+          "7.21",
+          "7.22"
+        ]
+      },
+      "reference_state": "one_chain_or_sum_of_explicit_parent_chains",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "K"
+        ]
+      },
+      "transform": {
+        "kind": "site_bridge",
+        "source_atom": "Lys_Nepsilon",
+        "partner_atoms": {
+          "sidechain_amide_N": {
+            "position": "any",
+            "residues": [
+              "N",
+              "Q"
+            ]
+          },
+          "imidazole_N": {
+            "position": "any",
+            "residues": [
+              "H"
+            ]
+          },
+          "indole_N": {
+            "position": "any",
+            "residues": [
+              "W"
+            ]
+          },
+          "indole_C2": {
+            "position": "any",
+            "residues": [
+              "W"
+            ]
+          },
+          "phenol_ortho_C3": {
+            "position": "any",
+            "residues": [
+              "Y"
+            ]
+          },
+          "phenol_ortho_C5": {
+            "position": "any",
+            "residues": [
+              "Y"
+            ]
+          },
+          "guanidino_Ndelta": {
+            "position": "any",
+            "residues": [
+              "R"
+            ]
+          },
+          "guanidino_Nomega": {
+            "position": "any",
+            "residues": [
+              "R"
+            ]
+          },
+          "guanidino_Nomega_prime": {
+            "position": "any",
+            "residues": [
+              "R"
+            ]
+          }
+        },
+        "bond": "formaldehyde_methylene_bridge",
+        "bond_delta": {
+          "C": 1
+        }
+      },
+      "required_conditions": [
+        "formaldehyde",
+        "crosslink_favorable_ph"
+      ],
+      "product_description": "甲醛单亚甲基桥",
+      "diagnostic_evidence": [
+        "一条链相对同链净+C；两条链相对两母链质量和净+C。连接模型未评估空间可行性。",
+        "只编译明确单桥；Arg双桥和多外加Gly分支另登记。"
+      ],
+      "evidence_level": "book_reported",
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "start",
+            "nterm": "free",
+            "exclude_residues": [
+              "P"
+            ]
+          },
+          "transform": {
+            "kind": "site_bridge",
+            "source_atom": "Nalpha",
+            "partner_atoms": {
+              "sidechain_amide_N": {
+                "position": "any",
+                "residues": [
+                  "N",
+                  "Q"
+                ]
+              },
+              "imidazole_N": {
+                "position": "any",
+                "residues": [
+                  "H"
+                ]
+              },
+              "indole_N": {
+                "position": "any",
+                "residues": [
+                  "W"
+                ]
+              },
+              "indole_C2": {
+                "position": "any",
+                "residues": [
+                  "W"
+                ]
+              },
+              "phenol_ortho_C3": {
+                "position": "any",
+                "residues": [
+                  "Y"
+                ]
+              },
+              "phenol_ortho_C5": {
+                "position": "any",
+                "residues": [
+                  "Y"
+                ]
+              },
+              "guanidino_Ndelta": {
+                "position": "any",
+                "residues": [
+                  "R"
+                ]
+              },
+              "guanidino_Nomega": {
+                "position": "any",
+                "residues": [
+                  "R"
+                ]
+              },
+              "guanidino_Nomega_prime": {
+                "position": "any",
+                "residues": [
+                  "R"
+                ]
+              }
+            },
+            "bond": "formaldehyde_methylene_bridge",
+            "bond_delta": {
+              "C": 1
+            },
+            "source_site": "N"
+          }
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "C"
+            ]
+          },
+          "transform": {
+            "kind": "site_bridge",
+            "source_atom": "Cys_Sgamma",
+            "partner_atoms": {
+              "guanidino_Ndelta": {
+                "position": "any",
+                "residues": [
+                  "R"
+                ]
+              },
+              "guanidino_Nomega": {
+                "position": "any",
+                "residues": [
+                  "R"
+                ]
+              },
+              "guanidino_Nomega_prime": {
+                "position": "any",
+                "residues": [
+                  "R"
+                ]
+              }
+            },
+            "bond": "formaldehyde_methylene_bridge",
+            "bond_delta": {
+              "C": 1
+            }
+          }
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "N",
+              "Q"
+            ]
+          },
+          "transform": {
+            "kind": "site_bridge",
+            "source_atom": "sidechain_amide_N",
+            "partner_atoms": {
+              "Gly_Nalpha": {
+                "position": "start",
+                "site_label": "N"
+              }
+            },
+            "bond": "formaldehyde_methylene_bridge",
+            "bond_delta": {
+              "C": 1
+            },
+            "external_partner": {
+              "sequence": [
+                "G"
+              ],
+              "nterm": "free",
+              "cterm": "acid",
+              "modifications": []
+            }
+          },
+          "required_conditions": [
+            "formaldehyde",
+            "crosslink_favorable_ph",
+            "free_gly_added"
+          ],
+          "evidence_level": "book_reported",
+          "diagnostic_evidence": [
+            "外加游离Gly + 甲醛失水相对母肽净+C3H5NO2，不能当作Gly残基插入。",
+            "每个侧链原子位置分别保存。"
+          ]
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "H"
+            ]
+          },
+          "transform": {
+            "kind": "site_bridge",
+            "source_atom": "imidazole_N",
+            "partner_atoms": {
+              "Gly_Nalpha": {
+                "position": "start",
+                "site_label": "N"
+              }
+            },
+            "bond": "formaldehyde_methylene_bridge",
+            "bond_delta": {
+              "C": 1
+            },
+            "external_partner": {
+              "sequence": [
+                "G"
+              ],
+              "nterm": "free",
+              "cterm": "acid",
+              "modifications": []
+            }
+          },
+          "required_conditions": [
+            "formaldehyde",
+            "crosslink_favorable_ph",
+            "free_gly_added"
+          ],
+          "evidence_level": "book_reported",
+          "diagnostic_evidence": [
+            "外加游离Gly + 甲醛失水相对母肽净+C3H5NO2，不能当作Gly残基插入。",
+            "每个侧链原子位置分别保存。"
+          ]
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "W"
+            ]
+          },
+          "transform": {
+            "kind": "site_bridge",
+            "source_atom": "indole_N",
+            "partner_atoms": {
+              "Gly_Nalpha": {
+                "position": "start",
+                "site_label": "N"
+              }
+            },
+            "bond": "formaldehyde_methylene_bridge",
+            "bond_delta": {
+              "C": 1
+            },
+            "external_partner": {
+              "sequence": [
+                "G"
+              ],
+              "nterm": "free",
+              "cterm": "acid",
+              "modifications": []
+            }
+          },
+          "required_conditions": [
+            "formaldehyde",
+            "crosslink_favorable_ph",
+            "free_gly_added"
+          ],
+          "evidence_level": "book_reported",
+          "diagnostic_evidence": [
+            "外加游离Gly + 甲醛失水相对母肽净+C3H5NO2，不能当作Gly残基插入。",
+            "每个侧链原子位置分别保存。"
+          ]
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "W"
+            ]
+          },
+          "transform": {
+            "kind": "site_bridge",
+            "source_atom": "indole_C2",
+            "partner_atoms": {
+              "Gly_Nalpha": {
+                "position": "start",
+                "site_label": "N"
+              }
+            },
+            "bond": "formaldehyde_methylene_bridge",
+            "bond_delta": {
+              "C": 1
+            },
+            "external_partner": {
+              "sequence": [
+                "G"
+              ],
+              "nterm": "free",
+              "cterm": "acid",
+              "modifications": []
+            }
+          },
+          "required_conditions": [
+            "formaldehyde",
+            "crosslink_favorable_ph",
+            "free_gly_added"
+          ],
+          "evidence_level": "book_reported",
+          "diagnostic_evidence": [
+            "外加游离Gly + 甲醛失水相对母肽净+C3H5NO2，不能当作Gly残基插入。",
+            "每个侧链原子位置分别保存。"
+          ]
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "Y"
+            ]
+          },
+          "transform": {
+            "kind": "site_bridge",
+            "source_atom": "phenol_ortho_C3",
+            "partner_atoms": {
+              "Gly_Nalpha": {
+                "position": "start",
+                "site_label": "N"
+              }
+            },
+            "bond": "formaldehyde_methylene_bridge",
+            "bond_delta": {
+              "C": 1
+            },
+            "external_partner": {
+              "sequence": [
+                "G"
+              ],
+              "nterm": "free",
+              "cterm": "acid",
+              "modifications": []
+            }
+          },
+          "required_conditions": [
+            "formaldehyde",
+            "crosslink_favorable_ph",
+            "free_gly_added"
+          ],
+          "evidence_level": "book_reported",
+          "diagnostic_evidence": [
+            "外加游离Gly + 甲醛失水相对母肽净+C3H5NO2，不能当作Gly残基插入。",
+            "每个侧链原子位置分别保存。"
+          ]
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "Y"
+            ]
+          },
+          "transform": {
+            "kind": "site_bridge",
+            "source_atom": "phenol_ortho_C5",
+            "partner_atoms": {
+              "Gly_Nalpha": {
+                "position": "start",
+                "site_label": "N"
+              }
+            },
+            "bond": "formaldehyde_methylene_bridge",
+            "bond_delta": {
+              "C": 1
+            },
+            "external_partner": {
+              "sequence": [
+                "G"
+              ],
+              "nterm": "free",
+              "cterm": "acid",
+              "modifications": []
+            }
+          },
+          "required_conditions": [
+            "formaldehyde",
+            "crosslink_favorable_ph",
+            "free_gly_added"
+          ],
+          "evidence_level": "book_reported",
+          "diagnostic_evidence": [
+            "外加游离Gly + 甲醛失水相对母肽净+C3H5NO2，不能当作Gly残基插入。",
+            "每个侧链原子位置分别保存。"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "CH07-R035",
+      "source_refs": {
+        "print_pages": [
+          186,
+          188
+        ],
+        "figures": [
+          "7.23"
+        ]
+      },
+      "reference_state": "same_sequence_lys_nma_protected",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "K"
+        ],
+        "group": "Nma"
+      },
+      "transform": {
+        "kind": "replace_group",
+        "modification": "Lys(Nma)侧链二氢喹唑啉酮",
+        "delta_formula": {
+          "C": 1
+        },
+        "replacement_formula": {
+          "C": 9,
+          "H": 7,
+          "N": 1,
+          "O": 1
+        },
+        "local_cycle": "Nma_dihydroquinazolinone"
+      },
+      "required_conditions": [
+        "formaldehyde"
+      ],
+      "product_description": "Lys(Nma)保护基内环化",
+      "diagnostic_evidence": [
+        "图7.23环位于侧链Nma保护基内，Nα未参与；不要求Lys在N端。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R044",
+      "source_refs": {
+        "print_pages": [
+          193,
+          194
+        ],
+        "figures": []
+      },
+      "reference_state": "same_sequence_declared_precursor",
+      "site_selector": {
+        "position": "start",
+        "group": "Fmoc",
+        "group_site": "N"
+      },
+      "transform": {
+        "kind": "remove_group",
+        "modification": "N-Fmoc提前脱除",
+        "delta_formula": {
+          "C": -15,
+          "H": -10,
+          "O": -2
+        }
+      },
+      "required_conditions": [
+        "alloc_deprotection",
+        "n_silyl_allyl_scavenger"
+      ],
+      "product_description": "烯丙基清除体系导致N-Fmoc提前脱除",
+      "diagnostic_evidence": [
+        "需参照本应仍保持Fmoc的中间体；游离N端目标不适用。"
+      ],
+      "evidence_level": "book_reported"
+    },
+    {
+      "rule_id": "CH07-R046",
+      "source_refs": {
+        "print_pages": [
+          196,
+          197,
+          198
+        ],
+        "figures": [
+          "7.32"
+        ]
+      },
+      "reference_state": "intended_sequence_at_declared_coupling_position",
+      "site_selector": {
+        "position": "any",
+        "exclude_residues": [
+          "beta-Ala"
+        ]
+      },
+      "transform": {
+        "kind": "substitute",
+        "residue": "beta-Ala"
+      },
+      "required_conditions": [
+        "fmoc_osu_beta_ala_monomer_contamination",
+        "coupling"
+      ],
+      "product_description": "β-Ala单体杂质替代预期残基的模型推断",
+      "diagnostic_evidence": [
+        "书中直接证据是Fmoc-β-Ala-OH原料杂质；进入肽链并替代Xaa属于编辑推断。",
+        "与β-Ala-Xaa二肽带来的额外插入分别计算，不能给二者同一净质量。"
+      ],
+      "evidence_level": "editorial_extrapolation_from_book"
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "$schema": "http[local-path-omitted]",
+  "$defs": {
+    "formula": {
+      "type": "object",
+      "propertyNames": {
+        "enum": [
+          "C",
+          "H",
+          "N",
+          "O",
+          "S",
+          "P",
+          "F",
+          "Cl",
+          "Br",
+          "Si",
+          "Na",
+          "K"
+        ]
+      },
+      "additionalProperties": {
+        "type": "integer"
+      }
+    },
+    "absolute_formula": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "enum": [
+          "C",
+          "H",
+          "N",
+          "O",
+          "S",
+          "P",
+          "F",
+          "Cl",
+          "Br",
+          "Si",
+          "Na",
+          "K"
+        ]
+      },
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "rule_id": {
+      "type": "string",
+      "pattern": "^(CH[0-9]{2}-R[0-9]{3}|SUP-[0-9]{3}|APP-I-R[0-9]{3})$"
+    },
+    "rule_record": {
+      "type": "object",
+      "required": [
+        "rule_id",
+        "version",
+        "origin",
+        "legacy_record",
+        "template",
+        "compatibility_pack",
+        "disposition",
+        "review_layers",
+        "runtime_constraints",
+        "branches"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "rule_id": {
+          "$ref": "#/$defs/rule_id"
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "origin": {
+          "enum": [
+            "book",
+            "supplement",
+            "book_appendix"
+          ]
+        },
+        "legacy_record": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "template": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "compatibility_pack": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "disposition": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "review_layers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "kind",
+              "content",
+              "source"
+            ]
+          }
+        },
+        "runtime_constraints": {
+          "type": "object",
+          "required": [
+            "unknown_policy",
+            "state_constraints_status",
+            "repeat_policy",
+            "exclusive_events",
+            "prerequisites",
+            "consumed_selector"
+          ],
+          "properties": {
+            "unknown_policy": {
+              "const": "retain"
+            },
+            "state_constraints_status": {
+              "enum": [
+                "pending_R03",
+                "validated"
+              ]
+            },
+            "exclusive_events": {
+              "type": "array"
+            },
+            "prerequisites": {
+              "type": "array"
+            }
+          }
+        },
+        "branches": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "branch_id",
+              "recipe"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "branch_id": {
+                "type": "string"
+              },
+              "recipe": {
+                "type": "object",
+                "required": [
+                  "rule_id",
+                  "source_refs",
+                  "reference_state",
+                  "transform",
+                  "evidence_level"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "rules": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "records",
+        "pack_metadata",
+        "legacy_book_metadata",
+        "legacy_supplement_metadata",
+        "appendix_dispositions",
+        "migration"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "codex-knowledge-rules-1"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/rule_record"
+          }
+        },
+        "pack_metadata": {
+          "type": "object"
+        },
+        "legacy_book_metadata": {
+          "type": "object"
+        },
+        "legacy_supplement_metadata": {
+          "type": "object"
+        },
+        "appendix_dispositions": {
+          "type": "array"
+        },
+        "migration": {
+          "type": "object"
+        }
+      }
+    },
+    "components": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "residues",
+        "residue_aliases",
+        "covalent_groups",
+        "neutral_molecules",
+        "sequence_examples",
+        "c_terminal_deltas",
+        "sulfur_bond_deltas",
+        "migration"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "mass-components-2"
+        },
+        "residues": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": [
+              "residue_formula",
+              "free_amino_acid_formula",
+              "reference_state",
+              "component_kind",
+              "provenance"
+            ],
+            "properties": {
+              "residue_formula": {
+                "$ref": "#/$defs/absolute_formula"
+              },
+              "free_amino_acid_formula": {
+                "$ref": "#/$defs/absolute_formula"
+              },
+              "component_kind": {
+                "const": "amino_acid"
+              }
+            }
+          }
+        },
+        "residue_aliases": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "covalent_groups": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": [
+              "net_formula",
+              "reference_state",
+              "attachment_scope",
+              "scope_status",
+              "component_kind",
+              "intrinsic_charge_change",
+              "provenance"
+            ],
+            "properties": {
+              "net_formula": {
+                "$ref": "#/$defs/formula"
+              },
+              "attachment_scope": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "intrinsic_charge_change": {
+                "type": "integer"
+              },
+              "scope_status": {
+                "enum": [
+                  "defined_sites",
+                  "explicit_element_bookkeeping_only"
+                ]
+              },
+              "component_kind": {
+                "const": "covalent_net_change"
+              }
+            }
+          }
+        },
+        "neutral_molecules": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": [
+              "formula",
+              "component_kind"
+            ],
+            "properties": {
+              "formula": {
+                "$ref": "#/$defs/absolute_formula"
+              },
+              "component_kind": {
+                "const": "neutral_reagent_molecule"
+              }
+            }
+          }
+        },
+        "sequence_examples": {
+          "type": "object"
+        },
+        "c_terminal_deltas": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/formula"
+          }
+        },
+        "sulfur_bond_deltas": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/formula"
+          }
+        },
+        "migration": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "archive": "ScienceDirect_articles_16Nov2026_15-13-41.796.zip",
+  "bytes": 17064653,
+  "sha256": "efcd82127da13f2d2dcb3e815eb98da3429204bc04b8cf77e1f09125ed241b27",
+  "verified_source_pdfs": 21,
+  "source_pages": 361,
+  "rows": [
+    {
+      "doc_id": "doc_01",
+      "filename": "Appendix-II---List-of-Abbreviations_2016_Side-Reactions-in-Peptide-Synthesis.pdf",
+      "sha256": "af75f4acdd6a455242428856200b629e6be64501c3a45353b4e39808ceea88c2",
+      "pages": 6,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_02",
+      "filename": "Front-matter_2016_Side-Reactions-in-Peptide-Synthesis.pdf",
+      "sha256": "b148849d294245ff5fd05704d95c1a1a16efffba6d9af56f8cb7fcbfab12caf9",
+      "pages": 1,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_03",
+      "filename": "Copyright_2016_Side-Reactions-in-Peptide-Synthesis.pdf",
+      "sha256": "192b7a2a34db50f1db1bbadcf520c5d9f82b5fe0a406ac22d5e10495f96b133a",
+      "pages": 1,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_04",
+      "filename": "Chapter-2-----Elimination-Side-Reactio_2016_Side-Reactions-in-Peptide-Synthe.pdf",
+      "sha256": "dfbe14fad3e31799be23f0f80e8c36786ab48b43fde1ea23dc139599c5e1a64e",
+      "pages": 10,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_05",
+      "filename": "Chapter-8---Side-Reactions-on-Hydroxyl-and-Carbox_2016_Side-Reactions-in-Pep.pdf",
+      "sha256": "1a73d0e4751eaea253141fba15d4aea1315f42584737770f609a4c729616ad60",
+      "pages": 14,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_06",
+      "filename": "Chapter-9---Peptide-Oxidation-Reduction-Sid_2016_Side-Reactions-in-Peptide-S.pdf",
+      "sha256": "af6c859169dbc407e319a014d129a5033a7bdc7a409e392ec23a893e304fbcb5",
+      "pages": 17,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_07",
+      "filename": "Chapter-7---Side-Reactions-on-Amino-Groups-in-_2016_Side-Reactions-in-Peptid.pdf",
+      "sha256": "a455f6e0f3a2d3cb8fe901ddeec94f0ab2e48ce31a57317681cbc1432573d0cf",
+      "pages": 39,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_08",
+      "filename": "Preface_2016_Side-Reactions-in-Peptide-Synthesis.pdf",
+      "sha256": "0a36b72d947cbcee5f2502ffebf75f141043957cc3bd69bbf0b13a554cc796c9",
+      "pages": 2,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_09",
+      "filename": "Chapter-14---Solvent-Induced-Side-Reactions-in_2016_Side-Reactions-in-Peptid.pdf",
+      "sha256": "95a96f5eed07b5b8da215d95cf5766a43a2cb93184fa2429b3f579d025e51514",
+      "pages": 12,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_10",
+      "filename": "Chapter-13---Cys-Disulfide-Related-Side-Reactio_2016_Side-Reactions-in-Pepti.pdf",
+      "sha256": "f8ae8c8c0547d28a8a699d6d6a150f9b9177d7ab50d34b56a361c0a5eea10d2a",
+      "pages": 12,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_11",
+      "filename": "Appendix-I---Molecular-Weight-Deviation-of-P_2016_Side-Reactions-in-Peptide-.pdf",
+      "sha256": "57c98b50632c6c9a70f0face7bc6ce1fb29f5612cae6be59287fe3d96815c31c",
+      "pages": 24,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_12",
+      "filename": "Subject-Index_2016_Side-Reactions-in-Peptide-Synthesis.pdf",
+      "sha256": "34e4f8f57a433b968a2a49a1b28d9ce517a0b9c8790aa0f6dc3ec28e18d6fcb8",
+      "pages": 10,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_13",
+      "filename": "Dedication_2016_Side-Reactions-in-Peptide-Synthesis.pdf",
+      "sha256": "1e38008edbb4acf89a04503d3f1ecb70a384e1af674c1e77614ea017f738ecea",
+      "pages": 1,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_14",
+      "filename": "Chapter-4---Peptide-Rearrangement-Side-Re_2016_Side-Reactions-in-Peptide-Syn.pdf",
+      "sha256": "333d2cafe9a8347fc94e0e0f4ec256976e91ac4c29d989292c1cfa5d4879fd29",
+      "pages": 17,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_15",
+      "filename": "Chapter-10---Redundant-Amino-Acid-Coupling-S_2016_Side-Reactions-in-Peptide-.pdf",
+      "sha256": "c0268b80e8a3eb1d1bb7ef84aeca258c732b5812e132ddc59be4e502d47cc9ad",
+      "pages": 22,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_16",
+      "filename": "Chapter-1---Peptide-Fragmentation-Deletion-S_2016_Side-Reactions-in-Peptide-.pdf",
+      "sha256": "88e95d54cd21dadc015d93501113fa2c8a06d7a23ddab2b7b0603828bb5f5895",
+      "pages": 31,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_17",
+      "filename": "Chapter-12---Side-Reactions-in-Peptide-Phos_2016_Side-Reactions-in-Peptide-S.pdf",
+      "sha256": "9cbc56c83efd62e979cc0f6d2498797d526c8444c42de4c44ad5eb9cf61237e9",
+      "pages": 6,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_18",
+      "filename": "Chapter-6---Intramolecular-Cyclization-Side_2016_Side-Reactions-in-Peptide-S.pdf",
+      "sha256": "7e9962dbe5d2a8cfca307b72012b053f8a4c0db5c668b5eb0e7e2dee670bc6d1",
+      "pages": 43,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_19",
+      "filename": "Chapter-3---Peptide-Global-Deprotection-Scavenge_2016_Side-Reactions-in-Pept.pdf",
+      "sha256": "624ba58f2b7fa41b3e77fa95da65427846acbf43635e5c9b2d5602f45dd73aeb",
+      "pages": 33,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_20",
+      "filename": "Chapter-5---Side-Reactions-Upon-Amino-Acid-Pept_2016_Side-Reactions-in-Pepti.pdf",
+      "sha256": "bc57bad0c710f68fec27156d1271a37cd72553307fc12228055934639333af9c",
+      "pages": 24,
+      "pass": true
+    },
+    {
+      "doc_id": "doc_21",
+      "filename": "Chapter-11---Peptide-Racemization_2016_Side-Reactions-in-Peptide-Synthesis.pdf",
+      "sha256": "10668e99479dd26f696c2e42c8659cffc4e1597357cda5ffce7c4a9aa7bfcaa1",
+      "pages": 36,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

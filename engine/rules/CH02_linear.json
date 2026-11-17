@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_04",
+    "sha256": "dfbe14fad3e31799be23f0f80e8c36786ab48b43fde1ea23dc139599c5e1a64e"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH02-R004",
+      "source_refs": {
+        "print_pages": [
+          35,
+          36
+        ],
+        "figures": [
+          "2.3"
+        ]
+      },
+      "reference_state": "target_with_free_cys",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      },
+      "required_conditions": [
+        "tributylphosphine"
+      ],
+      "required_site_fact": "cys_stbu_at_reaction_site",
+      "transform": {
+        "kind": "substitute",
+        "residue": "Dha"
+      },
+      "product_description": "三丁基膦脱StBu过程中Cys消除成Dha",
+      "evidence_level": "book_reported_pathway",
+      "diagnostic_evidence": [
+        "核对该位点反应时确有StBu，质量以最终游离Cys为参照。"
+      ]
+    },
+    {
+      "reference_state": "deprotected_phospho_ser_thr_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "group": "Phospho"
+      },
+      "source_refs": {
+        "print_pages": [
+          37,
+          38,
+          39,
+          40,
+          41
+        ],
+        "figures": [
+          "2.5",
+          "2.6",
+          "2.7"
+        ],
+        "tables": [
+          "2.1"
+        ]
+      },
+      "rule_id": "CH02-R006",
+      "required_conditions": [],
+      "supporting_any_conditions": [
+        "base_deprotection",
+        "piperidine",
+        "4-methylpiperidine",
+        "pyrrolidine"
+      ],
+      "transform": {
+        "kind": "substitute",
+        "residues_by_input": {
+          "S": "Dha",
+          "T": "MeDha"
+        }
+      },
+      "product_description": "磷酸Ser/Thr消除成Dha或MeDha",
+      "evidence_level": "book_drawn_and_described",
+      "diagnostic_evidence": [
+        "核对片段是否跨越原磷酸化位点，并区分溶液降解和仅在MS/MS中出现的磷酸中性丢失。"
+      ]
+    },
+    {
+      "reference_state": "deprotected_phospho_ser_thr_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "group": "Phospho"
+      },
+      "source_refs": {
+        "print_pages": [
+          37,
+          38,
+          39,
+          40,
+          41
+        ],
+        "figures": [
+          "2.5",
+          "2.6",
+          "2.7"
+        ],
+        "tables": [
+          "2.1"
+        ]
+      },
+      "rule_id": "CH02-R007",
+      "required_conditions": [
+        "piperidine"
+      ],
+      "transform": {
+        "kind": "substitute",
+        "residues_by_input": {
+          "S": "Dha+piperidine",
+          "T": "MeDha+piperidine"
+        }
+      },
+      "product_description": "磷酸Ser/Thr消除后哌啶加成，构型待定",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "核对片段是否跨越原磷酸化位点，并区分溶液降解和仅在MS/MS中出现的磷酸中性丢失。"
+      ]
+    },
+    {
+      "reference_state": "deprotected_phospho_ser_thr_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "group": "Phospho"
+      },
+      "source_refs": {
+        "print_pages": [
+          37,
+          38,
+          39,
+          40,
+          41
+        ],
+        "figures": [
+          "2.5",
+          "2.6",
+          "2.7"
+        ],
+        "tables": [
+          "2.1"
+        ]
+      },
+      "rule_id": "CH02-R008",
+      "required_conditions": [
+        "4-methylpiperidine"
+      ],
+      "transform": {
+        "kind": "substitute",
+        "residues_by_input": {
+          "S": "Dha+4-methylpiperidine",
+          "T": "MeDha+4-methylpiperidine"
+        }
+      },
+      "product_description": "磷酸Ser/Thr消除后4-甲基哌啶加成假说，构型待定",
+      "evidence_level": "inferred_adduct_from_book_elimination_comparison",
+      "diagnostic_evidence": [
+        "核对片段是否跨越原磷酸化位点，并区分溶液降解和仅在MS/MS中出现的磷酸中性丢失。",
+        "原书表2.1记录此胺条件下消除及粗品纯度比较，具体共价加成是由Fig.2.6和胺结构推算，须额外验证。"
+      ]
+    },
+    {
+      "reference_state": "deprotected_phospho_ser_thr_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S"
+        ],
+        "group": "Phospho"
+      },
+      "source_refs": {
+        "print_pages": [
+          37,
+          38,
+          39,
+          40,
+          41
+        ],
+        "figures": [
+          "2.5",
+          "2.6",
+          "2.7"
+        ],
+        "tables": [
+          "2.1"
+        ]
+      },
+      "rule_id": "CH02-R009",
+      "required_conditions": [
+        "pyrrolidine"
+      ],
+      "transform": {
+        "kind": "substitute",
+        "residues_by_input": {
+          "S": "Dha+pyrrolidine"
+        }
+      },
+      "product_description": "磷酸Ser消除后吡咯烷加成假说，构型待定",
+      "evidence_level": "inferred_adduct_from_book_elimination_comparison",
+      "diagnostic_evidence": [
+        "核对片段是否跨越原磷酸化位点，并区分溶液降解和仅在MS/MS中出现的磷酸中性丢失。",
+        "原书表2.1记录此胺条件下消除及粗品纯度比较，具体共价加成是由Fig.2.6和胺结构推算，须额外验证。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "case_id": "holdout-3",
+  "intended_product": {
+    "sequence": "ALCLL",
+    "nterm": "free",
+    "cterm": "acid"
+  },
+  "reaction": {
+    "description": "文献质量家族回查；反应条件未提供"
+  },
+  "observations": [
+    {
+      "kind": "peak_pair",
+      "reference": "intended_product",
+      "peaks": [
+        {
+          "kind": "mz",
+          "value": 532.3163316511309,
+          "charge": 1,
+          "ions": {
+            "H": 1
+          },
+          "tolerance": 0.003,
+          "tolerance_unit": "Da"
+        },
+        {
+          "kind": "mz",
+          "value": 274.65926136865596,
+          "charge": 2,
+          "ions": {
+            "H": 2
+          },
+          "tolerance": 0.003,
+          "tolerance_unit": "Da"
+        }
+      ]
+    }
+  ],
+  "max_events": 1,
+  "max_nodes": 100000
+}

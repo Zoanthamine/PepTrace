@@ -1,0 +1,35 @@
+[
+  {
+    "case_id": "holdout-1",
+    "expected_appendix_id": "AI-014",
+    "source_formula": {
+      "N": -1,
+      "H": -3
+    },
+    "independent_delta": -17.02654910101,
+    "independent_reference_mass": 486.28019758437995,
+    "oracle": "original checked appendix ledger + Pyteomics; no solver functions"
+  },
+  {
+    "case_id": "holdout-2",
+    "expected_appendix_id": "AI-005",
+    "source_formula": {
+      "C": -1,
+      "H": -2,
+      "N": -2
+    },
+    "independent_delta": -42.02179807374,
+    "independent_reference_mass": 514.3227311027,
+    "oracle": "original checked appendix ledger + Pyteomics; no solver functions"
+  },
+  {
+    "case_id": "holdout-3",
+    "expected_appendix_id": "AI-031",
+    "source_formula": {
+      "O": 1
+    },
+    "independent_delta": 15.99491461956,
+    "independent_reference_mass": 531.3090551845099,
+    "oracle": "original checked appendix ledger + Pyteomics; no solver functions"
+  }
+]

@@ -1,0 +1,123 @@
+{
+  "baseline": [
+    {
+      "sequence": "M",
+      "length": 1,
+      "event_budget": 2,
+      "node_budget": 100000,
+      "warm_seconds": [
+        0.5723095000721514,
+        0.5490779001265764,
+        0.5648971998598427
+      ],
+      "cold_seconds": [
+        0.902888499898836,
+        0.8656254999805242
+      ],
+      "counts": [
+        {
+          "nodes": 1848,
+          "candidates": 6,
+          "truncated": false
+        },
+        {
+          "nodes": 1848,
+          "candidates": 6,
+          "truncated": false
+        },
+        {
+          "nodes": 1848,
+          "candidates": 6,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "sequence": "GC",
+      "length": 2,
+      "event_budget": 2,
+      "node_budget": 100000,
+      "warm_seconds": [
+        3.36645370000042,
+        2.928903699852526,
+        3.603261499898508
+      ],
+      "cold_seconds": [
+        2.0170485000126064,
+        1.715955700026825
+      ],
+      "counts": [
+        {
+          "nodes": 4611,
+          "candidates": 3,
+          "truncated": false
+        },
+        {
+          "nodes": 4611,
+          "candidates": 3,
+          "truncated": false
+        },
+        {
+          "nodes": 4611,
+          "candidates": 3,
+          "truncated": false
+        }
+      ]
+    },
+    {
+      "sequence": "MELK",
+      "length": 4,
+      "event_budget": 2,
+      "node_budget": 100000,
+      "warm_seconds": [
+        8.532361599849537,
+        9.260698400205001,
+        8.533115800004452
+      ],
+      "cold_seconds": [
+        5.341841000132263,
+        5.982483899919316
+      ],
+      "counts": [
+        {
+          "nodes": 13427,
+          "candidates": 15,
+          "truncated": false
+        },
+        {
+          "nodes": 13427,
+          "candidates": 15,
+          "truncated": false
+        },
+        {
+          "nodes": 13427,
+          "candidates": 15,
+          "truncated": false
+        }
+      ]
+    }
+  ],
+  "fixed_after_baseline_threshold": {
+    "warm_seconds": 10.0,
+    "cold_seconds": 10.0
+  },
+  "fresh_verification": [
+    {
+      "sequence": "M",
+      "seconds": 1.2626399002037942,
+      "pass": true
+    },
+    {
+      "sequence": "GC",
+      "seconds": 3.1705541000701487,
+      "pass": true
+    },
+    {
+      "sequence": "MELK",
+      "seconds": 8.284195999847725,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "scope": "short practical sequences, all compiled rules, two applications; not a hardware stress test"
+}

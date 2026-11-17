@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_18",
+    "sha256": "7e9962dbe5d2a8cfca307b72012b053f8a4c0db5c668b5eb0e7e2dee670bc6d1"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "SUP-001",
+      "source_refs": {
+        "print_pages": [
+          137,
+          138
+        ]
+      },
+      "reference_state": "same_declared_peptide_before_side_transformation",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "N"
+        ]
+      },
+      "transform": {
+        "kind": "substitute",
+        "residue": "D",
+        "unresolved_linkage": "Asp/isoAsp及构型待区分",
+        "delta_formula": {
+          "O": 1,
+          "N": -1,
+          "H": -1
+        }
+      },
+      "required_conditions": [],
+      "supporting_any_conditions": [
+        "acid_exposure",
+        "base_exposure",
+        "storage"
+      ],
+      "product_description": "Asn→Asp（脱酰胺）",
+      "evidence_level": "editorial_supplement_with_reviewed_book_family",
+      "diagnostic_evidence": [
+        "质量不能单独区分连接和构型；结合保护及合成历史核对。"
+      ]
+    },
+    {
+      "rule_id": "SUP-002",
+      "source_refs": {
+        "print_pages": [
+          137,
+          138
+        ]
+      },
+      "reference_state": "same_declared_peptide_before_side_transformation",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Q"
+        ]
+      },
+      "transform": {
+        "kind": "substitute",
+        "residue": "E",
+        "unresolved_linkage": "Glu/isoGlu及构型待区分",
+        "delta_formula": {
+          "O": 1,
+          "N": -1,
+          "H": -1
+        }
+      },
+      "required_conditions": [],
+      "supporting_any_conditions": [
+        "acid_exposure",
+        "base_exposure",
+        "storage"
+      ],
+      "product_description": "Gln→Glu（脱酰胺）",
+      "evidence_level": "editorial_supplement_with_reviewed_book_family",
+      "diagnostic_evidence": [
+        "质量不能单独区分连接和构型；结合保护及合成历史核对。"
+      ]
+    },
+    {
+      "rule_id": "SUP-003",
+      "source_refs": {
+        "print_pages": [
+          119,
+          120
+        ]
+      },
+      "reference_state": "same_declared_peptide_before_side_transformation",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "D"
+        ],
+        "next_backbone_amide": true
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "isoAsp",
+        "local_cycle": "isoaspartyl_linkage",
+        "delta_formula": {}
+      },
+      "required_conditions": [],
+      "supporting_any_conditions": [
+        "acid_exposure",
+        "base_exposure",
+        "storage"
+      ],
+      "product_description": "isoAsp（天冬氨酸异构化）",
+      "evidence_level": "editorial_supplement_with_reviewed_book_family",
+      "diagnostic_evidence": [
+        "质量不能单独区分连接和构型；结合保护及合成历史核对。"
+      ]
+    },
+    {
+      "rule_id": "SUP-004",
+      "source_refs": {
+        "print_pages": [
+          144,
+          145,
+          146,
+          147
+        ]
+      },
+      "reference_state": "same_declared_peptide_before_side_transformation",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "residues": [
+          "E"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Glu源N端pGlu",
+        "local_cycle": "pyroglutamyl",
+        "consume_nterm": true,
+        "delta_formula": {
+          "H": -2,
+          "O": -1
+        }
+      },
+      "required_conditions": [],
+      "supporting_any_conditions": [
+        "acid_exposure",
+        "storage"
+      ],
+      "product_description": "N端Glu→焦谷氨酸",
+      "evidence_level": "editorial_supplement_with_reviewed_book_family",
+      "diagnostic_evidence": [
+        "质量不能单独区分连接和构型；结合保护及合成历史核对。"
+      ]
+    },
+    {
+      "rule_id": "SUP-005",
+      "source_refs": {
+        "print_pages": [
+          144,
+          145,
+          146,
+          147
+        ]
+      },
+      "reference_state": "same_declared_peptide_before_side_transformation",
+      "site_selector": {
+        "position": "start",
+        "nterm": "free",
+        "residues": [
+          "Q"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Gln源N端pGlu",
+        "local_cycle": "pyroglutamyl",
+        "consume_nterm": true,
+        "delta_formula": {
+          "N": -1,
+          "H": -3
+        }
+      },
+      "required_conditions": [],
+      "supporting_any_conditions": [
+        "acid_exposure",
+        "storage"
+      ],
+      "product_description": "N端Gln→焦谷氨酸",
+      "evidence_level": "editorial_supplement_with_reviewed_book_family",
+      "diagnostic_evidence": [
+        "质量不能单独区分连接和构型；结合保护及合成历史核对。"
+      ]
+    },
+    {
+      "rule_id": "SUP-029",
+      "source_refs": {
+        "print_pages": [
+          119,
+          120
+        ]
+      },
+      "reference_state": "same_declared_peptide_before_side_transformation",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "D"
+        ],
+        "next_backbone_amide": true
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "aspartimide",
+        "local_cycle": "aspartimide",
+        "delta_formula": {
+          "H": -2,
+          "O": -1
+        }
+      },
+      "required_conditions": [],
+      "supporting_any_conditions": [
+        "acid_exposure",
+        "base_exposure",
+        "storage"
+      ],
+      "product_description": "Aspartimide中间体（未水解）",
+      "evidence_level": "editorial_supplement_with_reviewed_book_family",
+      "diagnostic_evidence": [
+        "质量不能单独区分连接和构型；结合保护及合成历史核对。"
+      ]
+    },
+    {
+      "rule_id": "SUP-045",
+      "source_refs": {
+        "print_pages": []
+      },
+      "reference_state": "same_declared_peptide_before_side_transformation",
+      "site_selector": {
+        "position": "end",
+        "cterm": "amide"
+      },
+      "transform": {
+        "kind": "c_terminal_acid",
+        "delta_formula": {
+          "O": 1,
+          "N": -1,
+          "H": -1
+        }
+      },
+      "required_conditions": [],
+      "supporting_any_conditions": [
+        "acid_exposure",
+        "base_exposure",
+        "storage"
+      ],
+      "product_description": "C 端酰胺转化为羧酸",
+      "evidence_level": "editorial_supplement_with_reviewed_book_family",
+      "diagnostic_evidence": [
+        "质量不能单独区分连接和构型；结合保护及合成历史核对。"
+      ]
+    }
+  ]
+}

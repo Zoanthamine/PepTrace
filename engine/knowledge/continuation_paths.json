@@ -1,0 +1,102 @@
+{
+  "schema_version": "codex-continuation-paths-1",
+  "paths": [
+    {
+      "next_rule_id": "CH09-R002",
+      "previous_groups": [
+        "CysSulfenic"
+      ],
+      "resource": "same_cys_sulfur",
+      "source": {
+        "chapter": 9,
+        "figures": [
+          "9.1"
+        ],
+        "print_pages": [
+          217,
+          218
+        ]
+      },
+      "basis": "replace endpoint state; recompute from current SOH rather than add O2"
+    },
+    {
+      "next_rule_id": "CH09-R003",
+      "previous_groups": [
+        "CysSulfenic",
+        "CysSulfinic"
+      ],
+      "resource": "same_cys_sulfur",
+      "source": {
+        "chapter": 9,
+        "figures": [
+          "9.1"
+        ],
+        "print_pages": [
+          217,
+          218
+        ]
+      },
+      "basis": "replace endpoint state; current oxygen content is subtracted"
+    },
+    {
+      "next_rule_id": "CH09-R030",
+      "previous_rule_ids": [
+        "CH09-R029"
+      ],
+      "resource": "same_met_sulfur",
+      "source": {
+        "chapter": 9,
+        "figures": [
+          "9.11",
+          "9.12"
+        ],
+        "print_pages": [
+          223,
+          224
+        ]
+      },
+      "basis": "sulfoxide to sulfone adds O relative to the current state"
+    },
+    {
+      "next_rule_id": "CH07-R038",
+      "previous_rule_ids": [
+        "CH07-R037"
+      ],
+      "previous_groups": [
+        "Methyl"
+      ],
+      "resource": "same_primary_amine",
+      "source": {
+        "chapter": 7,
+        "figures": [
+          "7.24"
+        ],
+        "print_pages": [
+          187,
+          189
+        ]
+      },
+      "basis": "second methylation replaces the monomethyl state; no third step inferred"
+    },
+    {
+      "next_rule_id": "CH08-R024",
+      "previous_rule_ids": [
+        "CH08-R023"
+      ],
+      "resource": "same_oxazoline_ring",
+      "source": {
+        "chapter": 8,
+        "figures": [
+          "8.9"
+        ],
+        "print_pages": [
+          212,
+          213,
+          214
+        ]
+      },
+      "basis": "aromatization of the existing oxazoline; net step loss H2"
+    }
+  ],
+  "restriction": "These are explicit supported continuations. Other consumed sites are not reset merely to make combinations match mass. Source-model gaps stay required."
+}

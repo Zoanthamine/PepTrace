@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_14",
+    "sha256": "333d2cafe9a8347fc94e0e0f4ec256976e91ac4c29d989292c1cfa5d4879fd29"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH04-R001",
+      "source_refs": {
+        "print_pages": [
+          77,
+          78,
+          79
+        ],
+        "figures": [
+          "4.1",
+          "4.2"
+        ]
+      },
+      "reference_state": "intended_linear_peptide_with_declared_termini",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "previous_required": true
+      },
+      "required_conditions": [],
+      "required_any_conditions": [
+        "acid_exposure",
+        "acid_global_deprotection"
+      ],
+      "transform": {
+        "kind": "backbone_amide_to_ester",
+        "delta_formula": {}
+      },
+      "product_description": "Xaa–Ser/Thr前键N→O迁移成同式酯",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "同式不等于同一连接。结合保留时间和可逆迁移对照；水解则分别核对两条片段的新端基。"
+      ]
+    },
+    {
+      "rule_id": "CH04-R002",
+      "source_refs": {
+        "print_pages": [
+          79,
+          80
+        ],
+        "figures": [
+          "4.2"
+        ]
+      },
+      "reference_state": "intended_linear_peptide_with_declared_termini",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "previous_required": true
+      },
+      "required_conditions": [
+        "aqueous_exposure"
+      ],
+      "required_any_conditions": [
+        "acid_exposure",
+        "acid_global_deprotection"
+      ],
+      "transform": {
+        "kind": "hydrolytic_split",
+        "before_site": true
+      },
+      "product_description": "Xaa–Ser/Thr前键迁移再水解",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "同式不等于同一连接。结合保留时间和可逆迁移对照；水解则分别核对两条片段的新端基。"
+      ]
+    },
+    {
+      "rule_id": "CH04-R003",
+      "source_refs": {
+        "print_pages": [
+          79,
+          80
+        ],
+        "figures": [
+          "4.3"
+        ]
+      },
+      "reference_state": "intended_linear_peptide_with_declared_termini",
+      "site_selector": {
+        "position": "start",
+        "residues": [
+          "S"
+        ],
+        "nterm": "acetyl"
+      },
+      "required_conditions": [],
+      "required_any_conditions": [
+        "acid_exposure",
+        "acid_global_deprotection"
+      ],
+      "transform": {
+        "kind": "n_acetyl_change",
+        "move_to_oxygen": true,
+        "delta_formula": {}
+      },
+      "product_description": "N-乙酰Ser迁移为O-乙酰Ser",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "同式不等于同一连接。结合保留时间和可逆迁移对照；水解则分别核对两条片段的新端基。"
+      ]
+    },
+    {
+      "rule_id": "CH04-R004",
+      "source_refs": {
+        "print_pages": [
+          79,
+          80
+        ],
+        "figures": [
+          "4.3"
+        ]
+      },
+      "reference_state": "intended_linear_peptide_with_declared_termini",
+      "site_selector": {
+        "position": "start",
+        "residues": [
+          "S"
+        ],
+        "nterm": "acetyl"
+      },
+      "required_conditions": [
+        "aqueous_exposure"
+      ],
+      "required_any_conditions": [
+        "acid_exposure",
+        "acid_global_deprotection"
+      ],
+      "transform": {
+        "kind": "n_acetyl_change",
+        "move_to_oxygen": false,
+        "delta_formula": {
+          "C": -2,
+          "H": -2,
+          "O": -1
+        }
+      },
+      "product_description": "N-乙酰Ser迁移后水解成游离N端",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "同式不等于同一连接。结合保留时间和可逆迁移对照；水解则分别核对两条片段的新端基。"
+      ]
+    },
+    {
+      "rule_id": "CH04-R005",
+      "source_refs": {
+        "print_pages": [
+          80,
+          81
+        ],
+        "figures": [
+          "4.4",
+          "4.5"
+        ]
+      },
+      "reference_state": "intended_linear_peptide_with_declared_termini",
+      "site_selector": {
+        "position": "start",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "nterm": "free"
+      },
+      "required_conditions": [
+        "tfa",
+        "neutralization"
+      ],
+      "required_any_conditions": [],
+      "transform": {
+        "kind": "n_terminal_delta",
+        "modification": "N-三氟乙酰",
+        "delta_formula": {
+          "C": 2,
+          "H": -1,
+          "F": 3,
+          "O": 1
+        }
+      },
+      "product_description": "N端Ser/Thr经O→N迁移形成Nα-三氟乙酰封端",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "与非共价TFA盐或加合分开。此模板按同序列游离N端参照，若发生在中途造成截短须按当时序列重算。"
+      ]
+    }
+  ]
+}

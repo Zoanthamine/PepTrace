@@ -1,0 +1,1325 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_05",
+    "sha256": "1a73d0e4751eaea253141fba15d4aea1315f42584737770f609a4c729616ad60"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH08-R001",
+      "source_refs": {
+        "print_pages": [
+          203,
+          204,
+          205
+        ],
+        "figures": [
+          "8.1",
+          "8.2"
+        ]
+      },
+      "reference_state": "fully_deprotected_free_sidechain_carboxyl_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "D",
+          "E"
+        ],
+        "required_site_fact": "benzyl_ester_used"
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "侧链甲酯滞留",
+        "delta_formula": {
+          "C": 1,
+          "H": 2
+        }
+      },
+      "required_conditions": [
+        "methanol",
+        "tmah",
+        "chloromethyl_resin_loading",
+        "hf_global_deprotection"
+      ],
+      "product_description": "Asp/Glu侧链甲酯滞留",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "相对游离侧链酸为+CH2；直接OBzl→OMe相对保护前体为−C6H4，分别记账。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "D",
+              "E"
+            ],
+            "group": "Bzl"
+          },
+          "reference_state": "same_sequence_sidechain_benzyl_ester_precursor",
+          "required_conditions": [
+            "methanol",
+            "tmah",
+            "chloromethyl_resin_loading"
+          ],
+          "transform": {
+            "kind": "replace_group",
+            "modification": "侧链OBzl→OMe",
+            "replacement_formula": {
+              "C": 1,
+              "H": 2
+            },
+            "delta_formula": {
+              "C": -6,
+              "H": -4
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH08-R002",
+      "source_refs": {
+        "print_pages": [
+          203,
+          204,
+          205
+        ],
+        "figures": [
+          "8.1",
+          "8.2"
+        ]
+      },
+      "reference_state": "same_sequence_benzyl_ester_precursor",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "D",
+          "E"
+        ],
+        "group": "Bzl"
+      },
+      "transform": {
+        "kind": "replace_group",
+        "modification": "侧链OBzl→OtBu",
+        "replacement_formula": {
+          "C": 4,
+          "H": 8
+        },
+        "delta_formula": {
+          "C": -3,
+          "H": 2
+        }
+      },
+      "required_conditions": [
+        "tmah",
+        "tert_butanol"
+      ],
+      "product_description": "侧链苄酯转为叔丁酯",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": []
+    },
+    {
+      "rule_id": "CH08-R003",
+      "source_refs": {
+        "print_pages": [
+          203,
+          204,
+          205
+        ],
+        "figures": [
+          "8.1",
+          "8.2"
+        ]
+      },
+      "reference_state": "same_sequence_released_carboxylic_acid_reference",
+      "site_selector": {
+        "position": "end",
+        "cterm": "acid"
+      },
+      "transform": {
+        "kind": "c_terminal_delta",
+        "modification": "释放C端叔丁酯",
+        "delta_formula": {
+          "C": 4,
+          "H": 8
+        }
+      },
+      "required_conditions": [
+        "tmah",
+        "tert_butanol",
+        "heating_70c",
+        "peptidyl_merrifield_resin"
+      ],
+      "product_description": "Merrifield树脂酯转酯脱载生成C端叔丁酯",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "只以相同已释放游离酸为质量参照；树脂总质量/脱载差尚不计算。侧链OBzl→OtBu是另一个事件。"
+      ]
+    },
+    {
+      "rule_id": "CH08-R004",
+      "source_refs": {
+        "print_pages": [
+          204,
+          205,
+          206,
+          207
+        ],
+        "figures": [
+          "8.3"
+        ]
+      },
+      "reference_state": "same_sequence_free_carboxylic_acid",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "D",
+          "E"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "甲酯化",
+        "delta_formula": {
+          "C": 1,
+          "H": 2
+        }
+      },
+      "required_conditions": [
+        "methanol",
+        "rp_hplc",
+        "concentration"
+      ],
+      "product_description": "纯化浓缩中Asp/Glu侧链甲酯化",
+      "evidence_level": "book_author_unpublished",
+      "diagnostic_evidence": [
+        "原书为作者未发表结果；酸/甲醇暴露时间与浓缩条件影响，不能由单标签确证。"
+      ],
+      "required_any_conditions": [
+        "acidic_conditions",
+        "tfa",
+        "formic_acid",
+        "acetic_acid"
+      ]
+    },
+    {
+      "rule_id": "CH08-R005",
+      "source_refs": {
+        "print_pages": [
+          204,
+          205,
+          206,
+          207
+        ],
+        "figures": [
+          "8.3"
+        ]
+      },
+      "reference_state": "same_sequence_free_carboxylic_acid",
+      "site_selector": {
+        "position": "end",
+        "cterm": "acid"
+      },
+      "transform": {
+        "kind": "c_terminal_delta",
+        "modification": "甲酯化",
+        "delta_formula": {
+          "C": 1,
+          "H": 2
+        }
+      },
+      "required_conditions": [
+        "methanol",
+        "rp_hplc",
+        "concentration"
+      ],
+      "product_description": "纯化浓缩中C端甲酯化",
+      "evidence_level": "book_author_unpublished",
+      "diagnostic_evidence": [
+        "原书为作者未发表结果；酸/甲醇暴露时间与浓缩条件影响，不能由单标签确证。"
+      ],
+      "required_any_conditions": [
+        "acidic_conditions",
+        "tfa",
+        "formic_acid",
+        "acetic_acid"
+      ]
+    },
+    {
+      "rule_id": "CH08-R006",
+      "source_refs": {
+        "print_pages": [
+          204,
+          205,
+          206,
+          207
+        ],
+        "figures": [
+          "8.3"
+        ]
+      },
+      "reference_state": "same_sequence_free_carboxylic_acid",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "D",
+          "E"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "甲酯化",
+        "delta_formula": {
+          "C": 1,
+          "H": 2
+        }
+      },
+      "required_conditions": [
+        "methanol",
+        "global_deprotection"
+      ],
+      "product_description": "残留甲醇酸切割时侧链甲酯化",
+      "evidence_level": "book_author_unpublished",
+      "diagnostic_evidence": [
+        "原书为作者未发表结果；酸/甲醇暴露时间与浓缩条件影响，不能由单标签确证。"
+      ],
+      "required_any_conditions": [
+        "acidic_conditions",
+        "tfa",
+        "formic_acid",
+        "acetic_acid"
+      ]
+    },
+    {
+      "rule_id": "CH08-R007",
+      "source_refs": {
+        "print_pages": [
+          204,
+          205,
+          206,
+          207
+        ],
+        "figures": [
+          "8.3"
+        ]
+      },
+      "reference_state": "same_sequence_free_carboxylic_acid",
+      "site_selector": {
+        "position": "end",
+        "cterm": "acid"
+      },
+      "transform": {
+        "kind": "c_terminal_delta",
+        "modification": "甲酯化",
+        "delta_formula": {
+          "C": 1,
+          "H": 2
+        }
+      },
+      "required_conditions": [
+        "methanol",
+        "global_deprotection"
+      ],
+      "product_description": "残留甲醇酸切割时C端甲酯化",
+      "evidence_level": "book_author_unpublished",
+      "diagnostic_evidence": [
+        "原书为作者未发表结果；酸/甲醇暴露时间与浓缩条件影响，不能由单标签确证。"
+      ],
+      "required_any_conditions": [
+        "acidic_conditions",
+        "tfa",
+        "formic_acid",
+        "acetic_acid"
+      ]
+    },
+    {
+      "rule_id": "CH08-R008",
+      "source_refs": {
+        "print_pages": [
+          207,
+          208
+        ],
+        "figures": [
+          "8.4"
+        ]
+      },
+      "reference_state": "same_sequence_deprotected_sidechain_hydroxyl",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "required_site_fact": "o_alloc_protected"
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "侧链O-烯丙基",
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        }
+      },
+      "required_conditions": [
+        "alloc_deprotection",
+        "pd0"
+      ],
+      "product_description": "O-Alloc脱保护诱发O-烯丙基醚",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "O-Alloc是碳酸酯，O-All是烯丙醚；原文指出后者不能靠延长Pd(0)处理再生羟基。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "S",
+              "T"
+            ],
+            "group": "Alloc"
+          },
+          "transform": {
+            "kind": "replace_group",
+            "modification": "O-Alloc→O-All",
+            "delta_formula": {
+              "C": -1,
+              "O": -2
+            },
+            "replacement_formula": {
+              "C": 3,
+              "H": 4
+            }
+          },
+          "reference_state": "same_sequence_o_alloc_precursor"
+        }
+      ]
+    },
+    {
+      "rule_id": "CH08-R009",
+      "source_refs": {
+        "print_pages": [
+          208,
+          209
+        ],
+        "figures": []
+      },
+      "reference_state": "declared_target_plus_explicit_acyl_donor_minus_water",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T",
+          "Hyp"
+        ]
+      },
+      "transform": {
+        "kind": "o_acylate"
+      },
+      "required_conditions": [
+        "coupling",
+        "minimal_protection"
+      ],
+      "product_description": "偶联中侧链O-氨基酰化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "必须给出reaction.acyl_donors；保留供体N保护状态和受体位点，供体未给时显式登记未执行。"
+      ]
+    },
+    {
+      "rule_id": "CH08-R011",
+      "source_refs": {
+        "print_pages": [
+          208,
+          209
+        ],
+        "figures": []
+      },
+      "reference_state": "same_sequence_final_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ]
+      },
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "required_conditions": [
+        "minimal_protection",
+        "base_deprotection"
+      ],
+      "product_description": "O→N迁移后氨基酸重复偶联",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "此模板覆盖图4.8的Ser/Thr自身重复；其他供体重复仍须阶段/供体连接模型。"
+      ],
+      "related_rule_ids": [
+        "CH04-R008"
+      ]
+    },
+    {
+      "rule_id": "CH08-R012",
+      "source_refs": {
+        "print_pages": [
+          209
+        ],
+        "figures": []
+      },
+      "reference_state": "same_sequence_free_sidechain_hydroxyl",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "侧链O-酰化",
+        "delta_formula": {
+          "C": 1,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "formic_acid"
+      ],
+      "product_description": "Ser/Thr甲酸酯",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": []
+    },
+    {
+      "rule_id": "CH08-R013",
+      "source_refs": {
+        "print_pages": [
+          209
+        ],
+        "figures": []
+      },
+      "reference_state": "same_sequence_free_sidechain_hydroxyl",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "侧链O-酰化",
+        "delta_formula": {
+          "C": 2,
+          "H": 2,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "acetic_acid"
+      ],
+      "product_description": "Ser/Thr乙酸酯",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": []
+    },
+    {
+      "rule_id": "CH08-R014",
+      "source_refs": {
+        "print_pages": [
+          209
+        ],
+        "figures": []
+      },
+      "reference_state": "same_sequence_free_sidechain_hydroxyl",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "侧链O-酰化",
+        "delta_formula": {
+          "C": 2,
+          "H": -1,
+          "F": 3,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "tfa"
+      ],
+      "product_description": "Ser/Thr三氟乙酸酯",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": []
+    },
+    {
+      "rule_id": "CH08-R015",
+      "source_refs": {
+        "print_pages": [
+          209,
+          210
+        ],
+        "figures": []
+      },
+      "reference_state": "same_sequence_n_acyl_precursor",
+      "site_selector": {
+        "position": "start",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "nterm": "acetyl"
+      },
+      "transform": {
+        "kind": "n_acetyl_change",
+        "move_to_oxygen": true,
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "acid_exposure"
+      ],
+      "product_description": "N端酰基迁移到Ser/Thr氧",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "N→O迁移总式不变；分别支持乙酰、甲酰和棕榈酰，不扩展未知酰基。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "start",
+            "residues": [
+              "S",
+              "T"
+            ],
+            "group": "Formyl",
+            "group_site": "N"
+          },
+          "transform": {
+            "kind": "transfer_group_to_oxygen",
+            "modification": "N→O Formyl",
+            "delta_formula": {}
+          }
+        },
+        {
+          "site_selector": {
+            "position": "start",
+            "residues": [
+              "S",
+              "T"
+            ],
+            "group": "Palmitoyl",
+            "group_site": "N"
+          },
+          "transform": {
+            "kind": "transfer_group_to_oxygen",
+            "modification": "N→O Palmitoyl",
+            "delta_formula": {}
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH08-R016",
+      "source_refs": {
+        "print_pages": [
+          210,
+          211,
+          212
+        ],
+        "figures": [
+          "8.5",
+          "8.6",
+          "8.7"
+        ]
+      },
+      "reference_state": "same_sequence_free_hydroxyl_reference",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S"
+        ]
+      },
+      "transform": {
+        "kind": "substitute",
+        "residue": "Dha",
+        "delta_formula": {
+          "H": -2,
+          "O": -1
+        }
+      },
+      "required_conditions": [
+        "base_exposure"
+      ],
+      "product_description": "Ser消除生成脱氢丙氨酸",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "羟基活化、保护基、碱浓度和温度影响；游离羟基也可能发生，序列不是充分条件。",
+        "相对受保护或活化中间体不能直接使用−H2O，需另外减掉相应共价基团。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "S"
+            ],
+            "groups": [
+              "Ac",
+              "Formyl",
+              "Trifluoroacetyl",
+              "Boc",
+              "Phospho"
+            ]
+          },
+          "transform": {
+            "kind": "substitute",
+            "residue": "Dha"
+          },
+          "reference_state": "same_sequence_explicit_o_protected_or_activated_precursor",
+          "diagnostic_evidence": [
+            "逐个扣除实际O保护/活化基；O-酰基及磷酸、碳酸酯按书中机理类别纳入，条件未知仍保留。"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "CH08-R017",
+      "source_refs": {
+        "print_pages": [
+          210,
+          211,
+          212
+        ],
+        "figures": [
+          "8.5",
+          "8.6",
+          "8.7"
+        ]
+      },
+      "reference_state": "same_sequence_free_hydroxyl_reference",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "T"
+        ]
+      },
+      "transform": {
+        "kind": "substitute",
+        "residue": "MeDha",
+        "delta_formula": {
+          "H": -2,
+          "O": -1
+        }
+      },
+      "required_conditions": [
+        "base_exposure"
+      ],
+      "product_description": "Thr消除生成脱氢丁氨酸",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "羟基活化、保护基、碱浓度和温度影响；游离羟基也可能发生，序列不是充分条件。",
+        "相对受保护或活化中间体不能直接使用−H2O，需另外减掉相应共价基团。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "T"
+            ],
+            "groups": [
+              "Ac",
+              "Formyl",
+              "Trifluoroacetyl",
+              "Boc",
+              "Phospho"
+            ]
+          },
+          "transform": {
+            "kind": "substitute",
+            "residue": "MeDha"
+          },
+          "reference_state": "same_sequence_explicit_o_protected_or_activated_precursor",
+          "diagnostic_evidence": [
+            "逐个扣除实际O保护/活化基；O-酰基及磷酸、碳酸酯按书中机理类别纳入，条件未知仍保留。"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "CH08-R018",
+      "source_refs": {
+        "print_pages": [
+          210,
+          211,
+          212
+        ],
+        "figures": [
+          "8.5",
+          "8.6",
+          "8.7"
+        ]
+      },
+      "reference_state": "same_sequence_free_ser_reference",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S"
+        ]
+      },
+      "transform": {
+        "kind": "substitute",
+        "residue": "Dha+piperidine",
+        "delta_formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "O": -1
+        }
+      },
+      "required_conditions": [
+        "base_exposure",
+        "piperidine"
+      ],
+      "product_description": "Dha被哌啶捕获",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "S"
+            ],
+            "groups": [
+              "Ac",
+              "Formyl",
+              "Trifluoroacetyl",
+              "Boc",
+              "Phospho"
+            ]
+          },
+          "transform": {
+            "kind": "substitute",
+            "residue": "Dha+piperidine"
+          },
+          "reference_state": "same_sequence_explicit_o_protected_or_activated_precursor",
+          "diagnostic_evidence": [
+            "逐个扣除实际O保护/活化基；O-酰基及磷酸、碳酸酯按书中机理类别纳入，条件未知仍保留。"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "CH08-R019",
+      "source_refs": {
+        "print_pages": [
+          210,
+          211,
+          212
+        ],
+        "figures": [
+          "8.5",
+          "8.6",
+          "8.7"
+        ]
+      },
+      "reference_state": "same_sequence_free_thr_reference",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "T"
+        ]
+      },
+      "transform": {
+        "kind": "substitute",
+        "residue": "MeDha+piperidine",
+        "delta_formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "O": -1
+        }
+      },
+      "required_conditions": [
+        "base_exposure",
+        "piperidine"
+      ],
+      "product_description": "Dhb及其他不饱和位点亲核加成",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "当前只编明确哌啶捕获；未知其他亲核试剂不硬填质量。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "T"
+            ],
+            "groups": [
+              "Ac",
+              "Formyl",
+              "Trifluoroacetyl",
+              "Boc",
+              "Phospho"
+            ]
+          },
+          "transform": {
+            "kind": "substitute",
+            "residue": "MeDha+piperidine"
+          },
+          "reference_state": "same_sequence_explicit_o_protected_or_activated_precursor",
+          "diagnostic_evidence": [
+            "逐个扣除实际O保护/活化基；O-酰基及磷酸、碳酸酯按书中机理类别纳入，条件未知仍保留。"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "CH08-R020",
+      "source_refs": {
+        "print_pages": [
+          210,
+          211,
+          212
+        ],
+        "figures": [
+          "8.5",
+          "8.6",
+          "8.7"
+        ]
+      },
+      "reference_state": "same_sequence_fully_deprotected_target",
+      "site_selector": {
+        "position": "internal",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "required_site_fact": "o_acyl_isodipeptide_site"
+      },
+      "transform": {
+        "kind": "delete",
+        "count": 1
+      },
+      "required_conditions": [
+        "o_acyl_isodipeptide_activation"
+      ],
+      "product_description": "O-acylisodipeptide活化导致des-Ser/Thr",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "related_rule_ids": [
+        "CH01-R002"
+      ]
+    },
+    {
+      "rule_id": "CH08-R021",
+      "source_refs": {
+        "print_pages": [
+          212,
+          213,
+          214
+        ],
+        "figures": [
+          "8.8",
+          "8.9"
+        ]
+      },
+      "reference_state": "same_sequence_n_urethane_protected_precursor",
+      "site_selector": {
+        "position": "start",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "group": "Moz",
+        "group_site": "N",
+        "side_chain_required": true
+      },
+      "transform": {
+        "kind": "replace_group",
+        "modification": "N端oxazolidone",
+        "replacement_formula": {
+          "C": 1,
+          "H": -2,
+          "O": 1
+        },
+        "delta_formula": {
+          "C": -8,
+          "H": -10,
+          "O": -2
+        },
+        "local_cycle": "Nterminal_oxazolidone"
+      },
+      "required_conditions": [
+        "base_exposure"
+      ],
+      "product_description": "N端urethane-Ser/Thr形成oxazolidone",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "图8.8从N-Moz前体失去4-甲氧基苄醇；环保留碳酸酯的羰基。不是游离Ser脱水。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "start",
+            "residues": [
+              "S",
+              "T"
+            ],
+            "group": "Cbz",
+            "group_site": "N",
+            "side_chain_required": true
+          },
+          "transform": {
+            "kind": "replace_group",
+            "modification": "N端oxazolidone",
+            "replacement_formula": {
+              "C": 1,
+              "H": -2,
+              "O": 1
+            },
+            "delta_formula": {
+              "C": -7,
+              "H": -8,
+              "O": -1
+            },
+            "local_cycle": "Nterminal_oxazolidone"
+          }
+        },
+        {
+          "site_selector": {
+            "position": "start",
+            "residues": [
+              "S",
+              "T"
+            ],
+            "group": "Boc",
+            "group_site": "N",
+            "side_chain_required": true
+          },
+          "transform": {
+            "kind": "replace_group",
+            "modification": "N端oxazolidone",
+            "replacement_formula": {
+              "C": 1,
+              "H": -2,
+              "O": 1
+            },
+            "delta_formula": {
+              "C": -4,
+              "H": -10,
+              "O": -1
+            },
+            "local_cycle": "Nterminal_oxazolidone"
+          }
+        }
+      ]
+    },
+    {
+      "rule_id": "CH08-R022",
+      "source_refs": {
+        "print_pages": [
+          212,
+          213,
+          214
+        ],
+        "figures": [
+          "8.8",
+          "8.9"
+        ]
+      },
+      "reference_state": "same_sequence_backbone_amide",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "previous_required": true
+      },
+      "transform": {
+        "kind": "backbone_amide_to_ester",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "acid_exposure"
+      ],
+      "product_description": "内位Ser/Thr酰胺转酯异构",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "related_rule_ids": [
+        "CH04-R001"
+      ]
+    },
+    {
+      "rule_id": "CH08-R023",
+      "source_refs": {
+        "print_pages": [
+          212,
+          213,
+          214
+        ],
+        "figures": [
+          "8.8",
+          "8.9"
+        ]
+      },
+      "reference_state": "same_sequence_backbone_amide",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "previous_required": true
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "oxazoline",
+        "delta_formula": {
+          "H": -2,
+          "O": -1
+        },
+        "local_cycle": "oxazoline"
+      },
+      "required_conditions": [
+        "cyclodehydration_conditions"
+      ],
+      "product_description": "内位Ser/Thr生成oxazoline",
+      "evidence_level": "book_proposed_mechanism",
+      "diagnostic_evidence": [
+        "图8.9环包含该位点和前一残基羰基；烯唑啉相对母链−H2O，氧化后的芳香唑再失H2。"
+      ]
+    },
+    {
+      "rule_id": "CH08-R024",
+      "source_refs": {
+        "print_pages": [
+          212,
+          213,
+          214
+        ],
+        "figures": [
+          "8.8",
+          "8.9"
+        ]
+      },
+      "reference_state": "same_sequence_backbone_amide",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "previous_required": true
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "oxazole",
+        "delta_formula": {
+          "H": -4,
+          "O": -1
+        },
+        "local_cycle": "oxazole"
+      },
+      "required_conditions": [
+        "cyclodehydration_conditions",
+        "oxidation"
+      ],
+      "product_description": "oxazoline进一步氧化为oxazole",
+      "evidence_level": "book_proposed_mechanism",
+      "diagnostic_evidence": [
+        "图8.9环包含该位点和前一残基羰基；烯唑啉相对母链−H2O，氧化后的芳香唑再失H2。"
+      ]
+    },
+    {
+      "rule_id": "CH08-R025",
+      "source_refs": {
+        "print_pages": [
+          212,
+          213,
+          214
+        ],
+        "figures": [
+          "8.8",
+          "8.9"
+        ]
+      },
+      "reference_state": "same_sequence_backbone_amide",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "previous_required": true
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "thiazoline",
+        "delta_formula": {
+          "H": -2,
+          "O": -1
+        },
+        "local_cycle": "thiazoline"
+      },
+      "required_conditions": [
+        "cyclodehydration_conditions"
+      ],
+      "product_description": "Cys及β-amino alanine的类比杂环",
+      "evidence_level": "book_proposed_mechanism",
+      "diagnostic_evidence": [
+        "Cys与Dap类比，分别保留硫/氮，氧化后再失H2；Dap对应β-amino alanine。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "C"
+            ],
+            "previous_required": true
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "thiazole",
+            "delta_formula": {
+              "H": -4,
+              "O": -1
+            },
+            "local_cycle": "thiazole"
+          },
+          "required_conditions": [
+            "cyclodehydration_conditions",
+            "oxidation"
+          ]
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "Dap"
+            ],
+            "previous_required": true
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "imidazoline",
+            "delta_formula": {
+              "H": -2,
+              "O": -1
+            },
+            "local_cycle": "imidazoline"
+          },
+          "required_conditions": [
+            "cyclodehydration_conditions"
+          ]
+        },
+        {
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "Dap"
+            ],
+            "previous_required": true
+          },
+          "transform": {
+            "kind": "local_delta",
+            "modification": "imidazole",
+            "delta_formula": {
+              "H": -4,
+              "O": -1
+            },
+            "local_cycle": "imidazole"
+          },
+          "required_conditions": [
+            "cyclodehydration_conditions",
+            "oxidation"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "CH08-R026",
+      "source_refs": {
+        "print_pages": [
+          214,
+          215
+        ],
+        "figures": [
+          "8.10",
+          "8.11",
+          "8.12"
+        ]
+      },
+      "reference_state": "same_sequence_free_hydroxyl_precursor",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S"
+        ]
+      },
+      "transform": {
+        "kind": "substitute",
+        "residue": "G",
+        "delta_formula": {
+          "C": -1,
+          "H": -2,
+          "O": -1
+        }
+      },
+      "required_conditions": [
+        "base_ester_hydrolysis"
+      ],
+      "product_description": "Ser逆醛醇转Gly",
+      "evidence_level": "book_reported_rare_pathway",
+      "diagnostic_evidence": [
+        "Ser失CH2O、Thr失C2H4O；图8.12不涉及肽主链断成两个肽。原文指出该反应不普遍。"
+      ]
+    },
+    {
+      "rule_id": "CH08-R027",
+      "source_refs": {
+        "print_pages": [
+          214,
+          215
+        ],
+        "figures": [
+          "8.10",
+          "8.11",
+          "8.12"
+        ]
+      },
+      "reference_state": "same_sequence_free_hydroxyl_precursor",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "T"
+        ]
+      },
+      "transform": {
+        "kind": "substitute",
+        "residue": "G",
+        "delta_formula": {
+          "C": -2,
+          "H": -4,
+          "O": -1
+        }
+      },
+      "required_conditions": [
+        "base_ester_hydrolysis"
+      ],
+      "product_description": "Thr逆醛醇转Gly",
+      "evidence_level": "book_reported_rare_pathway",
+      "diagnostic_evidence": [
+        "Ser失CH2O、Thr失C2H4O；图8.12不涉及肽主链断成两个肽。原文指出该反应不普遍。"
+      ]
+    }
+  ]
+}

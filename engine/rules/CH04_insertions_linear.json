@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_14",
+    "sha256": "333d2cafe9a8347fc94e0e0f4ec256976e91ac4c29d989292c1cfa5d4879fd29"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH04-R008",
+      "source_refs": {
+        "print_pages": [
+          82,
+          83,
+          84,
+          85
+        ],
+        "figures": [
+          "4.7",
+          "4.8"
+        ]
+      },
+      "reference_state": "same_terminal_target_at_declared_final_stage",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ]
+      },
+      "required_conditions": [
+        "minimal_protection",
+        "base_deprotection"
+      ],
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "product_description": "Ser/Thr过酰化迁移后同残基重复掺入",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "保留所有可能掺入位置，核对合成步骤与跨位点碎片；相同序列位置的重复残基可能无法定位。"
+      ]
+    },
+    {
+      "rule_id": "CH04-R009",
+      "source_refs": {
+        "print_pages": [
+          82,
+          83,
+          84,
+          85
+        ],
+        "figures": [
+          "4.7",
+          "4.8"
+        ]
+      },
+      "reference_state": "same_terminal_target_at_declared_final_stage",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T"
+        ],
+        "group": "Phospho"
+      },
+      "required_conditions": [
+        "minimal_protection",
+        "global_phosphorylation"
+      ],
+      "transform": {
+        "kind": "duplicate_residue",
+        "insert_phosphorylated": true
+      },
+      "product_description": "Ser/Thr重复掺入且额外磷酸化",
+      "evidence_level": "book_author_unpublished_observation",
+      "diagnostic_evidence": [
+        "保留所有可能掺入位置，核对合成步骤与跨位点碎片；相同序列位置的重复残基可能无法定位。"
+      ]
+    },
+    {
+      "rule_id": "CH04-R010",
+      "source_refs": {
+        "print_pages": [
+          86,
+          87,
+          88
+        ],
+        "figures": [
+          "4.9",
+          "4.10"
+        ]
+      },
+      "reference_state": "same_terminal_target_at_declared_final_stage",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "H"
+        ]
+      },
+      "required_conditions": [
+        "his_imidazole_unprotected",
+        "gly_coupling",
+        "base_deprotection"
+      ],
+      "transform": {
+        "kind": "insert_gly_before",
+        "delta_formula": {
+          "C": 2,
+          "H": 3,
+          "N": 1,
+          "O": 1
+        }
+      },
+      "product_description": "His介导骨架额外掺入Gly",
+      "evidence_level": "book_reported_mechanism",
+      "diagnostic_evidence": [
+        "保留所有可能掺入位置，核对合成步骤与跨位点碎片；相同序列位置的重复残基可能无法定位。"
+      ]
+    }
+  ]
+}

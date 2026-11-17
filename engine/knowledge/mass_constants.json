@@ -1,0 +1,40 @@
+{
+  "schema_version": "mass-constants-1",
+  "monoisotopic_atoms": {
+    "C": 12.0,
+    "H": 1.00782503223,
+    "N": 14.00307400443,
+    "O": 15.99491461957,
+    "S": 31.9720711744,
+    "P": 30.97376199842,
+    "F": 18.99840316273,
+    "Cl": 34.968852682,
+    "Br": 78.9183376,
+    "Si": 27.976926535,
+    "Na": 22.989769282,
+    "K": 38.9637064864
+  },
+  "proton_da": 1.007276466621,
+  "electron_da": 0.000548579909,
+  "average_atoms": {
+    "C": 12.011,
+    "H": 1.008,
+    "N": 14.007,
+    "O": 15.999,
+    "S": 32.06,
+    "P": 30.97376199842,
+    "F": 18.99840316273,
+    "Cl": 35.45,
+    "Br": 79.904,
+    "Si": 28.085,
+    "Na": 22.989769282,
+    "K": 39.0983
+  },
+  "mono_reference": "Existing Codex isotope-specific atomic table; cross-check with Pyteomics NIST table",
+  "average_reference": "Conventional atomic weights (explicit fixed values); not monoisotopic rounding",
+  "legacy_sources": {
+    "mass_ledger.py": "acdb24cfe2b2bcb12321acb104078da937e6a596c4363ff8849a60183cb9032c",
+    "mass_catalog.py": "7f26742016242a3089043d336e6121e80afb8fb94e04d0472cd4ea3ecbfcf2a8",
+    "case_input.py": "ce81186bd6c521db8202f8b542789549c7c21e28765e911035d41865bf30b8ab"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_19",
+    "sha256": "624ba58f2b7fa41b3e77fa95da65427846acbf43635e5c9b2d5602f45dd73aeb"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH03-R009",
+      "source_refs": {
+        "chapter": 3,
+        "section": "3.3",
+        "pdf_pages": [
+          11,
+          12,
+          13
+        ],
+        "print_pages": [
+          53,
+          54,
+          55
+        ],
+        "figures": [
+          "3.9"
+        ],
+        "reference_numbers": [
+          7,
+          12,
+          16,
+          45,
+          46
+        ]
+      },
+      "reference_state": "Fig. 3.9：同序列同端基、未发生Trp吲哚C2修饰的目标肽。",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      },
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Trp吲哚C2-EDT/TFA环状二硫缩醛",
+        "delta_formula": {
+          "C": 4,
+          "H": 3,
+          "F": 3,
+          "S": 2
+        }
+      },
+      "required_conditions": [
+        "acid_global_deprotection",
+        "edt"
+      ],
+      "supporting_any_conditions": [],
+      "product_description": "Trp–EDT–TFA环状二硫缩醛加合",
+      "evidence_level": "reviewed_book_family_from_legacy_adapter",
+      "diagnostic_evidence": [
+        [
+          "已目视核对印刷页53 Fig. 3.9。净式只指图示Trp吲哚C2产物12；书中转述NMR确认该实物，不能据其他样品的+172直接归属，也不能泛化为Tyr/Phe产物已鉴定。"
+        ]
+      ]
+    }
+  ]
+}

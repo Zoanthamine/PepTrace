@@ -1,0 +1,43 @@
+{
+  "case_id": "user-five-1",
+  "intended_product": {
+    "sequence": "SYGRKA",
+    "nterm": "free",
+    "cterm": "amide"
+  },
+  "reaction": {
+    "description": "Mtt→TFA/TES/DCM，DIC/HOBt偶联Fmoc-Phe，哌啶去Fmoc，TFA切割；按最终脱保护Phe供体列终点候选。",
+    "stage_tags": [
+      "fmoc_spps",
+      "tfa",
+      "acid_exposure",
+      "dic",
+      "hobt",
+      "coupling",
+      "lys_sidechain_acylation",
+      "piperidine",
+      "global_deprotection"
+    ],
+    "acyl_donors": [
+      {
+        "sequence": "F",
+        "nterm": "free",
+        "cterm": "acid"
+      }
+    ]
+  },
+  "observations": [
+    {
+      "kind": "mz",
+      "value": 827.45,
+      "charge": 1,
+      "ions": {
+        "H": 1
+      },
+      "tolerance": 0.1,
+      "tolerance_unit": "Da"
+    }
+  ],
+  "max_events": 2,
+  "max_nodes": 100000
+}

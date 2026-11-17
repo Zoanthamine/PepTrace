@@ -1,0 +1,705 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_15",
+    "sha256": "c0268b80e8a3eb1d1bb7ef84aeca258c732b5812e132ddc59be4e502d47cc9ad"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH10-R001",
+      "source_refs": {
+        "print_pages": [
+          235,
+          236,
+          237,
+          238
+        ],
+        "figures": [
+          "10.1",
+          "10.2",
+          "10.3"
+        ]
+      },
+      "site_selector": {
+        "position": "any"
+      },
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "required_conditions": [
+        "dipeptide_amino_acid_raw_material"
+      ],
+      "reference_state": "same_sequence_final_deprotected_target",
+      "product_description": "Fmoc氨基酸原料中的二/三肽杂质导致同残基多掺",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "原料二/三肽杂质分别多一/二枚相同残基；不把游离AA质量当残基质量。"
+      ],
+      "alternate_branches": [
+        {
+          "transform": {
+            "kind": "duplicate_residue",
+            "count": 2
+          },
+          "required_conditions": [
+            "tripeptide_amino_acid_raw_material"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "CH10-R002",
+      "source_refs": {
+        "print_pages": [
+          238,
+          239
+        ],
+        "figures": [
+          "10.4"
+        ]
+      },
+      "site_selector": {
+        "position": "any"
+      },
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "required_conditions": [
+        "fmoc_premature_deprotection",
+        "coupling"
+      ],
+      "reference_state": "same_sequence_final_target",
+      "product_description": "偶联时Fmoc提前脱除造成再偶联",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "start",
+            "group": "Fmoc",
+            "group_site": "N"
+          },
+          "transform": {
+            "kind": "remove_group",
+            "delta_formula": {
+              "C": -15,
+              "H": -10,
+              "O": -2
+            }
+          },
+          "required_conditions": [
+            "fmoc_premature_deprotection"
+          ],
+          "reference_state": "same_sequence_still_fmoc_protected_precursor"
+        }
+      ]
+    },
+    {
+      "rule_id": "CH10-R003",
+      "source_refs": {
+        "print_pages": [
+          239,
+          240,
+          241,
+          242
+        ],
+        "figures": [
+          "10.5"
+        ]
+      },
+      "site_selector": {
+        "position": "start",
+        "group": "Fmoc",
+        "group_site": "N",
+        "requires_residues": [
+          "K"
+        ]
+      },
+      "transform": {
+        "kind": "remove_group",
+        "delta_formula": {
+          "C": -15,
+          "H": -10,
+          "O": -2
+        }
+      },
+      "required_conditions": [
+        "lys_free_nepsilon",
+        "lys_sidechain_acylation"
+      ],
+      "reference_state": "same_sequence_n_fmoc_precursor",
+      "product_description": "Lys侧链游离Nε诱发Fmoc提前脱除与骨架多酰化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "此模板只处理提前脱Fmoc；图10.5的Lys侧链Phe与额外Nα-Phe分支需要完整支链状态。"
+      ],
+      "alternate_branches": [
+        {
+          "rule_id": "CH10-R003",
+          "source_refs": {
+            "print_pages": [
+              239,
+              240,
+              241,
+              242
+            ],
+            "figures": [
+              "10.5"
+            ]
+          },
+          "reference_state": "final_target_plus_explicit_acyl_donor_minus_water",
+          "site_selector": {
+            "position": "start",
+            "nterm": "free",
+            "requires_residues": [
+              "K"
+            ]
+          },
+          "transform": {
+            "kind": "n_acylate",
+            "source_atom": "Nalpha",
+            "source_site": "N"
+          },
+          "required_conditions": [
+            "coupling",
+            "lys_sidechain_acylation"
+          ],
+          "product_description": "显式氨基酰供体的额外N端偶联",
+          "evidence_level": "editorial_endpoint_model_from_book",
+          "diagnostic_evidence": [
+            "图10.5支持Nα额外Phe与Lys支链Phe；位点质量等价，需MS/MS/测序。",
+            "供体必须显式输入；最终脱保护产物使用最终供体状态，保护历史作为条件，不能自动删除供体Fmoc。"
+          ]
+        },
+        {
+          "rule_id": "CH10-R003",
+          "source_refs": {
+            "print_pages": [
+              239,
+              240,
+              241,
+              242
+            ],
+            "figures": [
+              "10.5"
+            ]
+          },
+          "reference_state": "final_target_plus_explicit_acyl_donor_minus_water",
+          "site_selector": {
+            "position": "any",
+            "residues": [
+              "K"
+            ]
+          },
+          "transform": {
+            "kind": "n_acylate",
+            "source_atom": "Lys_Nepsilon"
+          },
+          "required_conditions": [
+            "coupling",
+            "lys_sidechain_acylation"
+          ],
+          "product_description": "Lys侧链εN氨基酰化",
+          "evidence_level": "editorial_endpoint_model_from_book",
+          "diagnostic_evidence": [
+            "图10.5支持Nα额外Phe与Lys支链Phe；位点质量等价，需MS/MS/测序。",
+            "供体必须显式输入；最终脱保护产物使用最终供体状态，保护历史作为条件，不能自动删除供体Fmoc。"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "CH10-R004",
+      "source_refs": {
+        "print_pages": [
+          242,
+          243
+        ],
+        "figures": [
+          "10.6"
+        ]
+      },
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "P",
+          "Hyp"
+        ]
+      },
+      "transform": {
+        "kind": "acyl_donor_self_condensation"
+      },
+      "required_conditions": [
+        "pro_hyp_induced_fmoc_deprotection",
+        "segment_condensation"
+      ],
+      "reference_state": "declared_condensation_target_and_explicit_fmoc_donor",
+      "product_description": "Pro/Hyp自由次胺引起片段提前脱Fmoc与自缩合",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "图10.6：Fmoc-GP与H-Hyp的目标是Fmoc-GP-Hyp；供体自缩合产物是Fmoc-GP-GP-OH，不含Hyp。",
+        "必须给reaction.acyl_donors；尚未建活性OSu和树脂质量。"
+      ]
+    },
+    {
+      "rule_id": "CH10-R005",
+      "source_refs": {
+        "print_pages": [
+          243,
+          244,
+          245
+        ],
+        "figures": [
+          "10.7",
+          "10.8",
+          "10.9"
+        ]
+      },
+      "site_selector": {
+        "position": "any",
+        "motif": [
+          "P",
+          "P"
+        ]
+      },
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "required_conditions": [
+        "fmoc_spps",
+        "proline_induced_fmoc_deprotection"
+      ],
+      "reference_state": "same_sequence_final_target",
+      "product_description": "Pro重复序列由Fmoc策略引起的多掺Pro",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "重复Pro区段各可能合成来源位点保留；同最终序列不代表可以定位合成出错步骤。"
+      ],
+      "supersedes_legacy": true
+    },
+    {
+      "rule_id": "CH10-R006",
+      "source_refs": {
+        "print_pages": [
+          245,
+          246
+        ],
+        "figures": []
+      },
+      "site_selector": {
+        "position": "any"
+      },
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "required_conditions": [
+        "amine_contaminated_dmf_or_nmp",
+        "coupling"
+      ],
+      "reference_state": "same_sequence_final_target",
+      "product_description": "DMF/NMP胺杂质与长时放置造成提前Fmoc脱除和误补偶联",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "只编单枚相同残基重复；任意片段/更高聚合数、真实阶段与保护状态仍待连续反应模型。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "start",
+            "group": "Fmoc",
+            "group_site": "N"
+          },
+          "transform": {
+            "kind": "remove_group",
+            "delta_formula": {
+              "C": -15,
+              "H": -10,
+              "O": -2
+            }
+          },
+          "required_conditions": [
+            "amine_contaminated_dmf_or_nmp"
+          ],
+          "reference_state": "same_sequence_n_fmoc_precursor"
+        }
+      ]
+    },
+    {
+      "rule_id": "CH10-R007",
+      "source_refs": {
+        "print_pages": [
+          246,
+          247
+        ],
+        "figures": []
+      },
+      "site_selector": {
+        "position": "any"
+      },
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "required_conditions": [
+        "residual_piperidine",
+        "coupling"
+      ],
+      "reference_state": "same_sequence_final_target",
+      "product_description": "树脂脱Fmoc后残余piperidine引发下一轮多掺",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "只编单枚相同残基重复；任意片段/更高聚合数、真实阶段与保护状态仍待连续反应模型。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "start",
+            "group": "Fmoc",
+            "group_site": "N"
+          },
+          "transform": {
+            "kind": "remove_group",
+            "delta_formula": {
+              "C": -15,
+              "H": -10,
+              "O": -2
+            }
+          },
+          "required_conditions": [
+            "residual_piperidine"
+          ],
+          "reference_state": "same_sequence_n_fmoc_precursor"
+        }
+      ]
+    },
+    {
+      "rule_id": "CH10-R008",
+      "source_refs": {
+        "print_pages": [
+          247,
+          248
+        ],
+        "figures": []
+      },
+      "site_selector": {
+        "position": "any"
+      },
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "required_conditions": [
+        "dmap",
+        "coupling"
+      ],
+      "reference_state": "same_sequence_final_target",
+      "product_description": "DMAP催化下提前Fmoc脱保护导致残基或片段多掺",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "只编单枚相同残基重复；任意片段/更高聚合数、真实阶段与保护状态仍待连续反应模型。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "start",
+            "group": "Fmoc",
+            "group_site": "N"
+          },
+          "transform": {
+            "kind": "remove_group",
+            "delta_formula": {
+              "C": -15,
+              "H": -10,
+              "O": -2
+            }
+          },
+          "required_conditions": [
+            "dmap"
+          ],
+          "reference_state": "same_sequence_n_fmoc_precursor"
+        }
+      ]
+    },
+    {
+      "rule_id": "CH10-R009",
+      "source_refs": {
+        "print_pages": [
+          248
+        ],
+        "figures": []
+      },
+      "site_selector": {
+        "position": "any"
+      },
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "required_conditions": [
+        "diea",
+        "slow_coupling"
+      ],
+      "reference_state": "same_sequence_final_target",
+      "product_description": "DIEA等叔胺在慢偶联中诱发提前Fmoc脱除",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "只编单枚相同残基重复；任意片段/更高聚合数、真实阶段与保护状态仍待连续反应模型。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "start",
+            "group": "Fmoc",
+            "group_site": "N"
+          },
+          "transform": {
+            "kind": "remove_group",
+            "delta_formula": {
+              "C": -15,
+              "H": -10,
+              "O": -2
+            }
+          },
+          "required_conditions": [
+            "diea",
+            "slow_coupling"
+          ],
+          "reference_state": "same_sequence_n_fmoc_precursor"
+        }
+      ]
+    },
+    {
+      "rule_id": "CH10-R010",
+      "source_refs": {
+        "print_pages": [
+          248
+        ],
+        "figures": []
+      },
+      "site_selector": {
+        "position": "start",
+        "group": "Fmoc",
+        "group_site": "N"
+      },
+      "transform": {
+        "kind": "remove_group",
+        "delta_formula": {
+          "C": -15,
+          "H": -10,
+          "O": -2
+        }
+      },
+      "required_conditions": [
+        "catalytic_hydrogenation"
+      ],
+      "reference_state": "same_sequence_n_fmoc_precursor",
+      "product_description": "氢化处理使本应保留的Fmoc脱除并引发后续错位多酰化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "原书既讨论酸催化也讨论中性Pd/C，CH3CN或高H2压可促进；不把旧稳定性声明作绝对排除。"
+      ]
+    },
+    {
+      "rule_id": "CH10-R011",
+      "source_refs": {
+        "print_pages": [
+          248,
+          249
+        ],
+        "figures": []
+      },
+      "site_selector": {
+        "position": "any"
+      },
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "required_conditions": [
+        "fmoc_amino_acid_storage_degradation",
+        "coupling"
+      ],
+      "reference_state": "same_sequence_final_target",
+      "product_description": "Fmoc原料热或长期储存失效导致多掺",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "只编单枚相同残基重复；任意片段/更高聚合数、真实阶段与保护状态仍待连续反应模型。"
+      ],
+      "alternate_branches": [
+        {
+          "site_selector": {
+            "position": "start",
+            "group": "Fmoc",
+            "group_site": "N"
+          },
+          "transform": {
+            "kind": "remove_group",
+            "delta_formula": {
+              "C": -15,
+              "H": -10,
+              "O": -2
+            }
+          },
+          "required_conditions": [
+            "fmoc_amino_acid_storage_degradation"
+          ],
+          "reference_state": "same_sequence_n_fmoc_precursor"
+        }
+      ]
+    },
+    {
+      "rule_id": "CH10-R012",
+      "source_refs": {
+        "print_pages": [
+          249,
+          250
+        ],
+        "figures": [
+          "10.10"
+        ]
+      },
+      "site_selector": {
+        "position": "any"
+      },
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "required_conditions": [
+        "nca_formation",
+        "coupling"
+      ],
+      "reference_state": "same_sequence_final_target",
+      "product_description": "Boc/Z活化体转NCA后无保护聚合多掺",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "只编单枚相同残基重复；任意片段/更高聚合数、真实阶段与保护状态仍待连续反应模型。"
+      ],
+      "alternate_branches": []
+    },
+    {
+      "rule_id": "CH10-R013",
+      "source_refs": {
+        "print_pages": [
+          250
+        ],
+        "figures": []
+      },
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "H"
+        ]
+      },
+      "transform": {
+        "kind": "insert_gly_before",
+        "delta_formula": {
+          "C": 2,
+          "H": 3,
+          "N": 1,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "his_imidazole_unprotected",
+        "gly_coupling",
+        "base_deprotection"
+      ],
+      "reference_state": "same_sequence_final_target",
+      "product_description": "His游离Nim的酰基转移导致Gly多掺",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "与CH04-R010同一路径，保留本章交叉出处；基于合成位置而非临时单一加质量。"
+      ]
+    },
+    {
+      "rule_id": "CH10-R014",
+      "source_refs": {
+        "print_pages": [
+          250,
+          251,
+          252
+        ],
+        "figures": [
+          "10.11"
+        ]
+      },
+      "site_selector": {
+        "position": "end",
+        "residues": [
+          "G"
+        ],
+        "cterm": "acid"
+      },
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "required_conditions": [
+        "gly_ctc_resin",
+        "initial_second_residue_coupling",
+        "dic"
+      ],
+      "reference_state": "same_sequence_released_acid_target",
+      "product_description": "初始Gly-CTC树脂酸敏脱落再连接导致多Gly",
+      "evidence_level": "book_author_unpublished",
+      "diagnostic_evidence": [
+        "图10.11在初始Gly-CTC阶段；额外Gly在C端Gly邻位，不泛化到所有内部Gly。"
+      ]
+    },
+    {
+      "rule_id": "CH10-R015",
+      "source_refs": {
+        "print_pages": [
+          252,
+          253
+        ],
+        "figures": []
+      },
+      "site_selector": {
+        "position": "any"
+      },
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "required_conditions": [
+        "residual_previous_amino_acid",
+        "coupling"
+      ],
+      "reference_state": "same_sequence_final_target",
+      "product_description": "上轮残余氨基酸被下轮再活化造成多掺",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "只编单枚相同残基重复；任意片段/更高聚合数、真实阶段与保护状态仍待连续反应模型。"
+      ],
+      "alternate_branches": []
+    },
+    {
+      "rule_id": "CH10-R016",
+      "source_refs": {
+        "print_pages": [
+          253,
+          254
+        ],
+        "figures": [
+          "10.12"
+        ]
+      },
+      "site_selector": {
+        "position": "start",
+        "residues": [
+          "Aoa"
+        ],
+        "nterm": "free"
+      },
+      "transform": {
+        "kind": "duplicate_residue"
+      },
+      "required_conditions": [
+        "aminooxy_acyl_activation",
+        "global_deprotection"
+      ],
+      "reference_state": "same_sequence_fully_deprotected_aminooxy_target",
+      "product_description": "Aoa氨氧基原料过酰化导致多Aoa",
+      "evidence_level": "structure_derived_from_book",
+      "diagnostic_evidence": [
+        "按图10.12推导完全脱保护终产物多一Aoa(C2H3NO2)；图示有两个Boc，保护前体不能套该净式。"
+      ]
+    }
+  ]
+}

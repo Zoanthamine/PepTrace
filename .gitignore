@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+validation/work/
+validation/*.log
+validation/five_results/
+engine/rebuild/*
+!engine/rebuild/holdouts/
+!engine/rebuild/r01_ledger_summary.json
+engine/rebuild/holdouts/result-*.json
+engine/rebuild/holdouts/report.json
+*.zip
+result.json
+report.md

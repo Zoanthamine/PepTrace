@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_07",
+    "sha256": "a455f6e0f3a2d3cb8fe901ddeec94f0ab2e48ce31a57317681cbc1432573d0cf"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH07-R003",
+      "source_refs": {
+        "print_pages": [
+          164
+        ],
+        "figures": []
+      },
+      "reference_state": "same_sequence_unacetylated_lys",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "K"
+        ]
+      },
+      "required_conditions": [],
+      "required_any_conditions": [
+        "acetic_anhydride",
+        "acetyl_imidazole"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Lys侧链Nε乙酰化",
+        "delta_formula": {
+          "C": 2,
+          "H": 2,
+          "O": 1
+        }
+      },
+      "product_description": "Lys侧链乙酰化",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "也可由乙酰化His转移；精确质量不能单独定位。"
+      ]
+    },
+    {
+      "rule_id": "CH07-R004",
+      "source_refs": {
+        "print_pages": [
+          164
+        ],
+        "figures": []
+      },
+      "reference_state": "same_sequence_unacetylated_arg",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "R"
+        ]
+      },
+      "required_conditions": [],
+      "required_any_conditions": [
+        "acetic_anhydride"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Arg胍基乙酰化",
+        "delta_formula": {
+          "C": 2,
+          "H": 2,
+          "O": 1
+        }
+      },
+      "product_description": "Arg胍基乙酰化",
+      "evidence_level": "editorial_extrapolation_from_book",
+      "diagnostic_evidence": [
+        "书中讨论Tos或NO₂单保护Arg；向游离Arg推广属推断，并非书中该例的直接证据。Pbf位阻影响条件。"
+      ]
+    },
+    {
+      "rule_id": "CH07-R009",
+      "source_refs": {
+        "print_pages": [
+          166,
+          170
+        ],
+        "figures": [
+          "7.2"
+        ]
+      },
+      "reference_state": "same_sequence_unprotected_hydroxyl",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "S",
+          "T",
+          "Y"
+        ]
+      },
+      "required_conditions": [],
+      "required_any_conditions": [
+        "tfa"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "侧链O三氟乙酰化",
+        "delta_formula": {
+          "C": 2,
+          "H": -1,
+          "F": 3,
+          "O": 1
+        }
+      },
+      "product_description": "Ser/Thr/Tyr侧链O三氟乙酰化",
+      "evidence_level": "book_author_unpublished",
+      "diagnostic_evidence": [
+        "N端Ser/Thr可发生O到N迁移；两种连接总式相同；书中另有肽醇分支尚未覆盖。"
+      ]
+    }
+  ]
+}

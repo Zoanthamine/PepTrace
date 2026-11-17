@@ -1,0 +1,28 @@
+{
+  "case_id": "user-five-5",
+  "intended_product": {
+    "sequence": "GWYCMA",
+    "nterm": "free",
+    "cterm": "amide"
+  },
+  "reaction": {
+    "description": "MTBE萃取/沉淀；未明确报告残酸或叔丁基来源，不能自动当成已满足强酸。",
+    "stage_tags": [
+      "mtbe"
+    ]
+  },
+  "observations": [
+    {
+      "kind": "mz",
+      "value": 785.35,
+      "charge": 1,
+      "ions": {
+        "H": 1
+      },
+      "tolerance": 0.1,
+      "tolerance_unit": "Da"
+    }
+  ],
+  "max_events": 2,
+  "max_nodes": 100000
+}

@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_10",
+    "sha256": "f8ae8c8c0547d28a8a699d6d6a150f9b9177d7ab50d34b56a361c0a5eea10d2a"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH13-R001",
+      "source_refs": {
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "print_pages": [
+          299,
+          300
+        ],
+        "figures": [
+          "13.1"
+        ],
+        "reference_numbers": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "transform": {
+        "kind": "scramble_disulfides",
+        "max_network_states": 100000
+      },
+      "required_conditions": [
+        "thiol_disulfide_exchange"
+      ],
+      "reference_state": "explicit_same_backbone_same_ss_count",
+      "product_description": "链内等桥数二硫配对重排",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "枚举同主链、同桥数的所有可用Cys配对，排除原始配对；这是网络终态假设，不把它当一条已枚举的基元反应。",
+        "超过显式状态预算会报错，不截断候选；几何/折叠能量尚未评估。"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "disulfide"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH13-R004",
+      "source_refs": {
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "print_pages": [
+          302,
+          303
+        ],
+        "figures": [
+          "13.5"
+        ],
+        "reference_numbers": [
+          15,
+          16,
+          17,
+          19,
+          21
+        ]
+      },
+      "transform": {
+        "kind": "hydrolyze_disulfide",
+        "delta_formula": {
+          "H": 2,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "base_exposure",
+        "aqueous_exposure"
+      ],
+      "reference_state": "neutral_conjugate_acid_of_explicit_disulfide_hydrolysis_products",
+      "product_description": "二硫水解成thiolate与sulfenic",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "书中图画thiolate；中性质量以SH共轭酸参照，去质子化离子由观测离子组成另算。两端SOH方向分别保存。"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "disulfide"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH13-R006",
+      "source_refs": {
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "print_pages": [
+          303,
+          304
+        ],
+        "figures": [
+          "13.6"
+        ],
+        "reference_numbers": [
+          22,
+          23
+        ]
+      },
+      "transform": {
+        "kind": "disulfide_beta_elimination",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "base_exposure"
+      ],
+      "reference_state": "explicit_intrachain_disulfide",
+      "product_description": "二硫β消除生成Dha与persulfide",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "Dha与Cys-SSH是同一主链的两个位置变化，总式0；链间片段质量另需模型。"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "disulfide"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH13-R009",
+      "source_refs": {
+        "pdf_pages": [
+          5,
+          7
+        ],
+        "print_pages": [
+          303,
+          305
+        ],
+        "figures": [
+          "13.7"
+        ],
+        "reference_numbers": [
+          16
+        ]
+      },
+      "transform": {
+        "kind": "disulfide_alpha_elimination",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "base_exposure"
+      ],
+      "reference_state": "neutral_products_of_explicit_intrachain_disulfide",
+      "product_description": "二硫α消除为thiolate与thioaldehyde",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "图13.7抽Cb-H形成侧链CH=S；中性SH/硫醛同主链合计总式不变。"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "disulfide"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH13-R011",
+      "source_refs": {
+        "pdf_pages": [
+          5,
+          7,
+          8
+        ],
+        "print_pages": [
+          303,
+          305,
+          306
+        ],
+        "figures": [
+          "13.8"
+        ],
+        "reference_numbers": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ]
+      },
+      "transform": {
+        "kind": "convert_sulfur_bridge",
+        "product_kind": "trisulfide",
+        "delta_formula": {
+          "S": 1
+        }
+      },
+      "required_conditions": [
+        "trisulfide_formation"
+      ],
+      "reference_state": "same_sites_explicit_disulfide_target",
+      "product_description": "同拓扑二硫插硫成trisulfide",
+      "evidence_level": "book_observed_product_proposed_mechanism",
+      "diagnostic_evidence": [
+        "同拓扑桥中的额外硫数按三硫/四硫区分；形成机制有推测，不能据质量判定来源。"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "disulfide"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH13-R013",
+      "source_refs": {
+        "pdf_pages": [
+          7,
+          9
+        ],
+        "print_pages": [
+          305,
+          307
+        ],
+        "figures": [
+          "13.9"
+        ],
+        "reference_numbers": [
+          39
+        ]
+      },
+      "transform": {
+        "kind": "convert_sulfur_bridge",
+        "product_kind": "tetrasulfide",
+        "delta_formula": {
+          "S": 2
+        }
+      },
+      "required_conditions": [
+        "solid_phase_npys_disulfide_oxidant"
+      ],
+      "reference_state": "same_sites_explicit_disulfide_target",
+      "product_description": "固相(Npys)2诱发同拓扑tetrasulfide",
+      "evidence_level": "book_observed_product_proposed_mechanism",
+      "diagnostic_evidence": [
+        "同拓扑桥中的额外硫数按三硫/四硫区分；形成机制有推测，不能据质量判定来源。"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "disulfide"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH13-R014",
+      "source_refs": {
+        "pdf_pages": [
+          10
+        ],
+        "print_pages": [
+          308
+        ],
+        "figures": [
+          "13.11"
+        ],
+        "reference_numbers": [
+          41,
+          42
+        ]
+      },
+      "transform": {
+        "kind": "convert_sulfur_bridge",
+        "product_kind": "trisulfide",
+        "delta_formula": {
+          "S": 1
+        }
+      },
+      "required_conditions": [
+        "cystine_coupling",
+        "dcc"
+      ],
+      "reference_state": "same_sites_explicit_disulfide_target",
+      "product_description": "DCC介导的二硫插硫终点假设",
+      "evidence_level": "book_observed_product_proposed_mechanism",
+      "diagnostic_evidence": [
+        "图13.11的具体双Z-cystine/胺体系无DCC不产三硫；迁移到当前序列仅为终点假设，机制未确定。"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "disulfide"
+        ]
+      },
+      "alternate_branches": [
+        {
+          "rule_id": "CH13-R014",
+          "source_refs": {
+            "pdf_pages": [
+              10
+            ],
+            "print_pages": [
+              308
+            ],
+            "figures": [
+              "13.11"
+            ],
+            "reference_numbers": [
+              41,
+              42
+            ]
+          },
+          "transform": {
+            "kind": "convert_sulfur_bridge",
+            "product_kind": "trisulfide",
+            "delta_formula": {
+              "S": 1
+            }
+          },
+          "required_conditions": [
+            "cystine_coupling"
+          ],
+          "reference_state": "same_sites_explicit_disulfide_target",
+          "product_description": "BOP/HOBt或HBTU/HOBt促进的二硫插硫终点假设",
+          "evidence_level": "book_observed_product_proposed_mechanism",
+          "diagnostic_evidence": [
+            "原书p308另报BOP/HOBt及HBTU/HOBt；明确未用DCC只否定DCC分支，不否定替代偶联剂或其他硫来源。"
+          ],
+          "bond_selector": {
+            "kinds": [
+              "disulfide"
+            ]
+          },
+          "required_any_conditions": [
+            "bop",
+            "hbtu"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "CH13-R015",
+      "source_refs": {
+        "pdf_pages": [
+          7
+        ],
+        "print_pages": [
+          305
+        ],
+        "figures": [],
+        "reference_numbers": [
+          27,
+          28,
+          30,
+          34
+        ]
+      },
+      "transform": {
+        "kind": "reduce_sulfur_bridge",
+        "delta_formula": {
+          "H": 2,
+          "S": -1
+        }
+      },
+      "required_conditions": [
+        "trisulfide_reduction"
+      ],
+      "reference_state": "explicit_trisulfide_precursor",
+      "product_description": "Trisulfide被还原成自由SH",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "三硫桥还原成两SH净+H2−S。"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "trisulfide"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH13-R016",
+      "source_refs": {
+        "pdf_pages": [
+          10,
+          11
+        ],
+        "print_pages": [
+          308,
+          309
+        ],
+        "figures": [
+          "13.12"
+        ],
+        "reference_numbers": [
+          15,
+          18,
+          35,
+          43,
+          44,
+          45
+        ]
+      },
+      "transform": {
+        "kind": "convert_sulfur_bridge",
+        "product_kind": "lanthionine",
+        "delta_formula": {
+          "S": -1
+        }
+      },
+      "required_conditions": [
+        "base_exposure"
+      ],
+      "reference_state": "same_sites_explicit_disulfide_target",
+      "product_description": "二硫硫挤出形成lanthionine桥",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "图13.12为Dha生成后SH进攻，形成单硫lanthionine桥；原SS少一个S。Dha来源端的新Cα构型不指定，两个端方向分开。"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "disulfide"
+        ]
+      }
+    }
+  ]
+}

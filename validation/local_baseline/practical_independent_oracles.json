@@ -1,0 +1,132 @@
+{
+  "expected_endpoints": 8,
+  "checks": [
+    {
+      "expected_rules": [
+        []
+      ],
+      "actual_rules": [
+        []
+      ],
+      "pass": true,
+      "delta": 0
+    },
+    {
+      "expected_rules": [
+        [
+          "CH09-R001"
+        ]
+      ],
+      "actual_rules": [
+        [
+          "CH09-R001"
+        ]
+      ],
+      "pass": true,
+      "delta": 15.994915
+    },
+    {
+      "expected_rules": [
+        [
+          "CH01-R002"
+        ],
+        [
+          "CH01-R002",
+          "CH07-R013"
+        ]
+      ],
+      "actual_rules": [
+        [
+          "CH01-R002"
+        ],
+        [
+          "CH01-R002",
+          "CH07-R013"
+        ]
+      ],
+      "pass": true,
+      "delta": -87.032028
+    },
+    {
+      "expected_rules": [
+        [
+          "CH07-R013"
+        ]
+      ],
+      "actual_rules": [
+        [
+          "CH07-R013"
+        ]
+      ],
+      "pass": true,
+      "delta": 27.994915
+    },
+    {
+      "expected_rules": [
+        [
+          "CH01-R002",
+          "CH09-R001"
+        ]
+      ],
+      "actual_rules": [
+        [
+          "CH01-R002",
+          "CH09-R001"
+        ]
+      ],
+      "pass": true,
+      "delta": -71.037114
+    },
+    {
+      "expected_rules": [
+        [
+          "CH07-R013",
+          "CH09-R001"
+        ]
+      ],
+      "actual_rules": [
+        [
+          "CH07-R013",
+          "CH09-R001"
+        ]
+      ],
+      "pass": true,
+      "delta": 43.989829
+    },
+    {
+      "expected_rules": [
+        [
+          "CH01-R002",
+          "CH07-R013"
+        ]
+      ],
+      "actual_rules": [
+        [
+          "CH01-R002",
+          "CH07-R013"
+        ]
+      ],
+      "pass": true,
+      "delta": -59.037114
+    },
+    {
+      "expected_rules": [
+        [
+          "CH07-R013",
+          "CH07-R013"
+        ]
+      ],
+      "actual_rules": [
+        [
+          "CH07-R013",
+          "CH07-R013"
+        ]
+      ],
+      "pass": true,
+      "delta": 55.989829
+    }
+  ],
+  "tolerance_and_irrelevant_context_monotonicity": true,
+  "pass": true,
+  "oracle": "independent Cys oxidation/Ser deletion/N-formyl/Ser O-formyl ordered choices; deleting Ser removes its O-formyl; Pyteomics formulas, no transform reused"
+}

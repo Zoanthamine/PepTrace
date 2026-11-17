@@ -1,0 +1,182 @@
+{
+  "schema_version": "codex-legacy-adapters-1",
+  "site_rules": {
+    "SUP-001": [
+      "N",
+      "Asp/isoAsp；连接与构型待定"
+    ],
+    "SUP-002": [
+      "Q",
+      "Glu/isoGlu；连接与构型待定"
+    ],
+    "CH09-R029": [
+      "M",
+      "Met亚砜；硫构型待定"
+    ],
+    "CH09-R030": [
+      "M",
+      "Met砜"
+    ],
+    "CH02-R001": [
+      "C",
+      "Dha"
+    ],
+    "CH02-R002": [
+      "C",
+      "Dha–哌啶加成物"
+    ],
+    "CH02-R003": [
+      "C",
+      "Dha–4-甲基哌啶加成物"
+    ],
+    "CH03-R009": [
+      "W",
+      "Trp吲哚C2的TFA/EDT环状二硫缩醛"
+    ]
+  },
+  "retention_rules": {
+    "Fmoc": "SUP-014",
+    "Boc": "SUP-015",
+    "tBu": "SUP-016",
+    "Trt": "SUP-017",
+    "Pbf": "SUP-018"
+  },
+  "reviewed_ids": [
+    "CH02-R001",
+    "CH02-R002",
+    "CH02-R003",
+    "CH03-R009",
+    "CH09-R029",
+    "CH09-R030",
+    "CH10-R005",
+    "SUP-001",
+    "SUP-002",
+    "SUP-003",
+    "SUP-004",
+    "SUP-005",
+    "SUP-014",
+    "SUP-015",
+    "SUP-016",
+    "SUP-017",
+    "SUP-018",
+    "SUP-029",
+    "SUP-045"
+  ],
+  "relative_profiles": {
+    "CH02-R001": {
+      "residues": [
+        "C"
+      ]
+    },
+    "CH02-R002": {
+      "stage_tags": [
+        "piperidine"
+      ],
+      "residues": [
+        "C"
+      ]
+    },
+    "CH02-R003": {
+      "stage_tags": [
+        "4-methylpiperidine"
+      ],
+      "residues": [
+        "C"
+      ]
+    },
+    "CH03-R001": {
+      "stage_tags": [
+        "acid_global_deprotection"
+      ],
+      "residues": [
+        "W"
+      ]
+    },
+    "CH03-R009": {
+      "stage_tags": [
+        "acid_global_deprotection",
+        "edt"
+      ],
+      "residues": [
+        "W"
+      ]
+    },
+    "CH06-R001": {
+      "stage_tags": [
+        "base_deprotection"
+      ],
+      "residues": [
+        "D"
+      ]
+    },
+    "CH07-R006": {
+      "stage_tags": [
+        "acid_global_deprotection"
+      ]
+    },
+    "CH08-R001": {
+      "stage_tags": [
+        "merrifield_loading",
+        "methanol"
+      ]
+    },
+    "CH10-R005": {
+      "stage_tags": [
+        "fmoc_spps"
+      ],
+      "residues": [
+        "P"
+      ]
+    },
+    "CH12-R001": {
+      "stage_tags": [
+        "phosphitylation"
+      ],
+      "features": [
+        "phosphopeptide_target"
+      ]
+    },
+    "CH14-R012": {
+      "stage_tags": [
+        "acetonitrile_stress"
+      ],
+      "features": [
+        "ketone"
+      ]
+    },
+    "SUP-014": {
+      "stage_tags": [
+        "deprotection"
+      ]
+    },
+    "SUP-015": {
+      "stage_tags": [
+        "deprotection"
+      ]
+    },
+    "SUP-016": {
+      "stage_tags": [
+        "deprotection"
+      ]
+    },
+    "SUP-017": {
+      "stage_tags": [
+        "deprotection"
+      ]
+    },
+    "SUP-018": {
+      "stage_tags": [
+        "deprotection"
+      ]
+    }
+  },
+  "stage_alternatives": {
+    "CH02-R001": [
+      "4-methylpiperidine",
+      "base_deprotection",
+      "cys_elimination",
+      "piperidine"
+    ]
+  },
+  "scope": "legacy mass adapter; continuous state constraints still required in R03"
+}

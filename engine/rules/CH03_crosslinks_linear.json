@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_19",
+    "sha256": "624ba58f2b7fa41b3e77fa95da65427846acbf43635e5c9b2d5602f45dd73aeb"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH03-R011",
+      "source_refs": {
+        "print_pages": [
+          55,
+          56
+        ],
+        "figures": [
+          "3.11"
+        ]
+      },
+      "reference_state": "single_unmodified_target_for_observation_two_copies_for_interchain_element_balance",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "required_any_conditions": [],
+      "transform": {
+        "kind": "trp_crosslink",
+        "bond": "indole_indoline",
+        "bond_delta": {},
+        "symmetric": false,
+        "intrachain": false
+      },
+      "product_description": "酸诱导Trp C2–C2吲哚–吲哚啉",
+      "evidence_level": "book_described_homodimer",
+      "diagnostic_evidence": [
+        "同序列双链为本模型的双链候选；各链和Trp位点分别记录。核对电荷、排除非共价二聚，并用谱学区分连接和构型。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R012",
+      "source_refs": {
+        "print_pages": [
+          55,
+          56
+        ],
+        "figures": [
+          "3.11",
+          "3.12"
+        ]
+      },
+      "reference_state": "single_unmodified_target_for_observation_two_copies_for_interchain_element_balance",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "required_any_conditions": [
+        "ddq",
+        "air_oxidation",
+        "light_exposure",
+        "other_oxidation"
+      ],
+      "transform": {
+        "kind": "trp_crosslink",
+        "bond": "indole_indole",
+        "bond_delta": {
+          "H": -2
+        },
+        "symmetric": true,
+        "intrachain": true
+      },
+      "product_description": "氧化后Trp C2–C2吲哚–吲哚交联",
+      "evidence_level": "book_reported_intra_and_intermolecular",
+      "diagnostic_evidence": [
+        "同序列双链为本模型的双链候选；各链和Trp位点分别记录。核对电荷、排除非共价二聚，并用谱学区分连接和构型。"
+      ]
+    }
+  ]
+}

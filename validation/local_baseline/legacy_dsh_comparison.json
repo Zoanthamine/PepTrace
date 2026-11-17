@@ -1,0 +1,743 @@
+[
+  {
+    "case": 1,
+    "mass_delta": 147.06616594881905,
+    "candidates": [
+      {
+        "rule_id": "CH10-R003",
+        "name_cn": "Lys侧链游离Nε诱发Fmoc提前脱除与骨架多酰化",
+        "chapter": 10,
+        "print_pages": [
+          239,
+          240,
+          241,
+          242
+        ],
+        "origin": "book",
+        "predicted_delta_da": 147.068414,
+        "error_da": -0.002248,
+        "error_ppm": -15.29,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "weak",
+        "condition_label": "条件旁证",
+        "condition_reason": "该规则正文提到 DIC/Piperidine/TFA，与你的报告一致；无权威条件要求，仅作旁证",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "A",
+            "positions": [
+              6
+            ]
+          },
+          {
+            "residue": "K",
+            "positions": [
+              5
+            ]
+          }
+        ],
+        "expected_product_mass": 826.444971,
+        "product_formula": "C38H58N12O9",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      }
+    ],
+    "excluded": [],
+    "limitations": "historical DSH single-event scalar model, old condition map; not the formal structural executor"
+  },
+  {
+    "case": 2,
+    "mass_delta": 14.015613494328022,
+    "candidates": [
+      {
+        "rule_id": "CH08-R004",
+        "name_cn": "纯化浓缩中Asp/Glu侧链甲酯化",
+        "chapter": 8,
+        "print_pages": [
+          204,
+          205,
+          206,
+          207
+        ],
+        "origin": "book",
+        "predicted_delta_da": 14.01565,
+        "error_da": -3.7e-05,
+        "error_ppm": -2.6,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "satisfied",
+        "condition_label": "条件支持",
+        "condition_reason": "你报告了 TFA，与该规则条件一致（该规则还提到 AceticAcid/FormicAcid，你未报告；有其一即可支持）",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "D",
+            "positions": [
+              2
+            ]
+          },
+          {
+            "residue": "E",
+            "positions": [
+              6
+            ]
+          }
+        ],
+        "expected_product_mass": 716.334084,
+        "product_formula": "C29H48N8O13",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      },
+      {
+        "rule_id": "CH08-R005",
+        "name_cn": "纯化浓缩中C端甲酯化",
+        "chapter": 8,
+        "print_pages": [
+          204,
+          205,
+          206,
+          207
+        ],
+        "origin": "book",
+        "predicted_delta_da": 14.01565,
+        "error_da": -3.7e-05,
+        "error_ppm": -2.6,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "satisfied",
+        "condition_label": "条件支持",
+        "condition_reason": "你报告了 TFA，与该规则条件一致（该规则还提到 AceticAcid/FormicAcid，你未报告；有其一即可支持）",
+        "applicability": "applicable",
+        "sites": [],
+        "expected_product_mass": 716.334084,
+        "product_formula": "C29H48N8O13",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      },
+      {
+        "rule_id": "CH08-R006",
+        "name_cn": "残留甲醇酸切割时侧链甲酯化",
+        "chapter": 8,
+        "print_pages": [
+          204,
+          205,
+          206,
+          207
+        ],
+        "origin": "book",
+        "predicted_delta_da": 14.01565,
+        "error_da": -3.7e-05,
+        "error_ppm": -2.6,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "satisfied",
+        "condition_label": "条件支持",
+        "condition_reason": "你报告了 TFA，与该规则条件一致（该规则还提到 AceticAcid/FormicAcid，你未报告；有其一即可支持）",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "D",
+            "positions": [
+              2
+            ]
+          }
+        ],
+        "expected_product_mass": 716.334084,
+        "product_formula": "C29H48N8O13",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      },
+      {
+        "rule_id": "CH08-R007",
+        "name_cn": "残留甲醇酸切割时C端甲酯化",
+        "chapter": 8,
+        "print_pages": [
+          204,
+          205,
+          206,
+          207
+        ],
+        "origin": "book",
+        "predicted_delta_da": 14.01565,
+        "error_da": -3.7e-05,
+        "error_ppm": -2.6,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "satisfied",
+        "condition_label": "条件支持",
+        "condition_reason": "你报告了 TFA，与该规则条件一致（该规则还提到 AceticAcid/FormicAcid，你未报告；有其一即可支持）",
+        "applicability": "applicable",
+        "sites": [],
+        "expected_product_mass": 716.334084,
+        "product_formula": "C29H48N8O13",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      },
+      {
+        "rule_id": "CH06-R011",
+        "name_cn": "α-Asp methyl ester27",
+        "chapter": 6,
+        "print_pages": [
+          136,
+          137
+        ],
+        "origin": "book",
+        "predicted_delta_da": 14.01565,
+        "error_da": -3.7e-05,
+        "error_ppm": -2.6,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "unknown",
+        "condition_label": "条件未知（保留）",
+        "condition_reason": "该规则需要 DIEA 之一，你既未报告也未否定；**保留候选、条件待确认**",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "D",
+            "positions": [
+              2
+            ]
+          }
+        ],
+        "expected_product_mass": 716.334084,
+        "product_formula": "C29H48N8O13",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      },
+      {
+        "rule_id": "CH06-R012",
+        "name_cn": "iso-Asp methyl ester28",
+        "chapter": 6,
+        "print_pages": [
+          136,
+          137
+        ],
+        "origin": "book",
+        "predicted_delta_da": 14.01565,
+        "error_da": -3.7e-05,
+        "error_ppm": -2.6,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "unknown",
+        "condition_label": "条件未知（保留）",
+        "condition_reason": "该规则需要 DIEA 之一，你既未报告也未否定；**保留候选、条件待确认**",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "D",
+            "positions": [
+              2
+            ]
+          }
+        ],
+        "expected_product_mass": 716.334084,
+        "product_formula": "C29H48N8O13",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      },
+      {
+        "rule_id": "CH08-R001",
+        "name_cn": "Asp/Glu侧链甲酯滞留",
+        "chapter": 8,
+        "print_pages": [
+          203,
+          204,
+          205
+        ],
+        "origin": "book",
+        "predicted_delta_da": 14.01565,
+        "error_da": -3.7e-05,
+        "error_ppm": -2.6,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "unknown",
+        "condition_label": "条件未知（保留）",
+        "condition_reason": "你报告的条件与该规则无交集，既不支持也不否定；保留候选",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "D",
+            "positions": [
+              2
+            ]
+          },
+          {
+            "residue": "E",
+            "positions": [
+              6
+            ]
+          }
+        ],
+        "expected_product_mass": 716.334084,
+        "product_formula": "C29H48N8O13",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      },
+      {
+        "rule_id": "CH14-R007",
+        "name_cn": "甲醇/TFA导致Asp/Glu及C端甲酯化",
+        "chapter": 14,
+        "print_pages": [
+          315
+        ],
+        "origin": "book",
+        "predicted_delta_da": 14.01565,
+        "error_da": -3.7e-05,
+        "error_ppm": -2.6,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "unknown",
+        "condition_label": "条件未知（保留）",
+        "condition_reason": "你报告的条件与该规则无交集，既不支持也不否定；保留候选",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "D",
+            "positions": [
+              2
+            ]
+          },
+          {
+            "residue": "E",
+            "positions": [
+              6
+            ]
+          }
+        ],
+        "expected_product_mass": 716.334084,
+        "product_formula": "C29H48N8O13",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      },
+      {
+        "rule_id": "CH14-R008",
+        "name_cn": "MeOH/Pd/O2氢解中的单N-methylation",
+        "chapter": 14,
+        "print_pages": [
+          315,
+          316
+        ],
+        "origin": "book",
+        "predicted_delta_da": 14.01565,
+        "error_da": -3.7e-05,
+        "error_ppm": -2.6,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "unknown",
+        "condition_label": "条件未知（保留）",
+        "condition_reason": "你报告的条件与该规则无交集，既不支持也不否定；保留候选",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "K",
+            "positions": [
+              5
+            ]
+          }
+        ],
+        "expected_product_mass": 716.334084,
+        "product_formula": "C29H48N8O13",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      },
+      {
+        "rule_id": "SUP-034",
+        "name_cn": "N 端还原胺化甲基化",
+        "chapter": 0,
+        "print_pages": [],
+        "origin": "supplement",
+        "predicted_delta_da": 14.01565,
+        "error_da": -3.7e-05,
+        "error_ppm": -2.6,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "unknown",
+        "condition_label": "条件未知（保留）",
+        "condition_reason": "你报告的条件与该规则无交集，既不支持也不否定；保留候选",
+        "applicability": "applicable",
+        "sites": [],
+        "expected_product_mass": 716.334084,
+        "product_formula": "C29H48N8O13",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      },
+      {
+        "rule_id": "CH07-R037",
+        "name_cn": "甲醛/甲酸协同N-单甲基化",
+        "chapter": 7,
+        "print_pages": [
+          187,
+          189,
+          190
+        ],
+        "origin": "book",
+        "predicted_delta_da": 14.01565,
+        "error_da": -3.7e-05,
+        "error_ppm": -2.61,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "unknown",
+        "condition_label": "条件未知（保留）",
+        "condition_reason": "该规则需要 Formaldehyde/FormicAcid 之一，你既未报告也未否定；**保留候选、条件待确认**",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "K",
+            "positions": [
+              5
+            ]
+          }
+        ],
+        "expected_product_mass": 716.334084,
+        "product_formula": "C29H48N8O13",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      }
+    ],
+    "excluded": [
+      {
+        "rule_id": "SUP-038",
+        "name_cn": "Cys S-甲基化",
+        "chapter": 0,
+        "print_pages": [],
+        "origin": "supplement",
+        "predicted_delta_da": 14.01565,
+        "error_da": -3.7e-05,
+        "error_ppm": -2.6,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "unknown",
+        "condition_label": "条件未知（保留）",
+        "condition_reason": "你报告的条件与该规则无交集，既不支持也不否定；保留候选",
+        "applicability": "residue_missing",
+        "sites": [],
+        "expected_product_mass": 716.334084,
+        "product_formula": "C29H48N8O13",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "excluded",
+        "excluded_reason": "序列不具备该规则的残基前提：规则涉及 C，而序列 A/D/E/G/K/P/S 一个都不含"
+      }
+    ],
+    "limitations": "historical DSH single-event scalar model, old condition map; not the formal structural executor"
+  },
+  {
+    "case": 3,
+    "mass_delta": 31.97219999999993,
+    "candidates": [
+      {
+        "rule_id": "CH13-R014",
+        "name_cn": "DCC及其他偶联剂促进trisulfide",
+        "chapter": 13,
+        "print_pages": [
+          303,
+          304,
+          305,
+          306,
+          307,
+          308
+        ],
+        "origin": "book",
+        "predicted_delta_da": 31.972071,
+        "error_da": 0.000129,
+        "error_ppm": 4.03,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "satisfied",
+        "condition_label": "条件支持",
+        "condition_reason": "你报告了 DCC/HOBt，与该规则条件一致",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "C",
+            "positions": [
+              1,
+              5
+            ]
+          }
+        ],
+        "expected_product_mass": 785.240735,
+        "product_formula": "C29H43N11O9S3",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      },
+      {
+        "rule_id": "CH13-R011",
+        "name_cn": "同拓扑二硫插硫成trisulfide",
+        "chapter": 13,
+        "print_pages": [
+          303,
+          304,
+          305,
+          306,
+          307,
+          308
+        ],
+        "origin": "book",
+        "predicted_delta_da": 31.972071,
+        "error_da": 0.000129,
+        "error_ppm": 4.03,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "weak",
+        "condition_label": "条件旁证",
+        "condition_reason": "该规则正文提到 DCC/HOBt，与你的报告一致；无权威条件要求，仅作旁证",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "C",
+            "positions": [
+              1,
+              5
+            ]
+          }
+        ],
+        "expected_product_mass": 785.240735,
+        "product_formula": "C29H43N11O9S3",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      }
+    ],
+    "excluded": [],
+    "limitations": "historical DSH single-event scalar model, old condition map; not the formal structural executor"
+  },
+  {
+    "case": 4,
+    "mass_delta": 31.97219999999993,
+    "candidates": [
+      {
+        "rule_id": "CH13-R011",
+        "name_cn": "同拓扑二硫插硫成trisulfide",
+        "chapter": 13,
+        "print_pages": [
+          303,
+          304,
+          305,
+          306,
+          307,
+          308
+        ],
+        "origin": "book",
+        "predicted_delta_da": 31.972071,
+        "error_da": 0.000129,
+        "error_ppm": 4.03,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "weak",
+        "condition_label": "条件旁证",
+        "condition_reason": "该规则正文提到 HOBt，与你的报告一致；无权威条件要求，仅作旁证",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "C",
+            "positions": [
+              1,
+              5
+            ]
+          }
+        ],
+        "expected_product_mass": 785.240735,
+        "product_formula": "C29H43N11O9S3",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      }
+    ],
+    "excluded": [
+      {
+        "rule_id": "CH13-R014",
+        "name_cn": "DCC及其他偶联剂促进trisulfide",
+        "chapter": 13,
+        "print_pages": [
+          303,
+          304,
+          305,
+          306,
+          307,
+          308
+        ],
+        "origin": "book",
+        "predicted_delta_da": 31.972071,
+        "error_da": 0.000129,
+        "error_ppm": 4.03,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "violated",
+        "condition_label": "条件冲突（排除）",
+        "condition_reason": "你明确否定使用 DCC，而该规则要求 DCC/HOBt 之一；按阴性证据将该候选排除（不是忽略你的说明）",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "C",
+            "positions": [
+              1,
+              5
+            ]
+          }
+        ],
+        "expected_product_mass": 785.240735,
+        "product_formula": "C29H43N11O9S3",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "excluded",
+        "excluded_reason": "你明确否定使用 DCC，而该规则要求 DCC/HOBt 之一；按阴性证据将该候选排除（不是忽略你的说明）"
+      }
+    ],
+    "limitations": "historical DSH single-event scalar model, old condition map; not the formal structural executor"
+  },
+  {
+    "case": 5,
+    "mass_delta": 56.06528539402905,
+    "candidates": [
+      {
+        "rule_id": "CH03-R001",
+        "name_cn": "Trp吲哚叔丁基化",
+        "chapter": 3,
+        "print_pages": [
+          44,
+          45,
+          46,
+          47
+        ],
+        "origin": "book",
+        "predicted_delta_da": 56.0626,
+        "error_da": 0.002685,
+        "error_ppm": 47.9,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "unknown",
+        "condition_label": "条件未知（保留）",
+        "condition_reason": "你报告的条件与该规则无交集，既不支持也不否定；保留候选",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "W",
+            "positions": [
+              2
+            ]
+          },
+          {
+            "residue": "Y",
+            "positions": [
+              3
+            ]
+          }
+        ],
+        "expected_product_mass": 784.340038,
+        "product_formula": "C37H52N8O7S2",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      },
+      {
+        "rule_id": "CH03-R014",
+        "name_cn": "Cys硫醇叔丁基化",
+        "chapter": 3,
+        "print_pages": [
+          58,
+          59
+        ],
+        "origin": "book",
+        "predicted_delta_da": 56.0626,
+        "error_da": 0.002685,
+        "error_ppm": 47.9,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "unknown",
+        "condition_label": "条件未知（保留）",
+        "condition_reason": "你报告的条件与该规则无交集，既不支持也不否定；保留候选",
+        "applicability": "applicable",
+        "sites": [
+          {
+            "residue": "C",
+            "positions": [
+              4
+            ]
+          }
+        ],
+        "expected_product_mass": 784.340038,
+        "product_formula": "C37H52N8O7S2",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      },
+      {
+        "rule_id": "SUP-016",
+        "name_cn": "tBu残留",
+        "chapter": 0,
+        "print_pages": [],
+        "origin": "supplement",
+        "predicted_delta_da": 56.0626,
+        "error_da": 0.002685,
+        "error_ppm": 47.9,
+        "mass_grade": "exact",
+        "match_note": "精确质量差匹配",
+        "mass_status": "formula_confirmed",
+        "condition_state": "unknown",
+        "condition_label": "条件未知（保留）",
+        "condition_reason": "你报告的条件与该规则无交集，既不支持也不否定；保留候选",
+        "applicability": "applicable",
+        "sites": [],
+        "expected_product_mass": 784.340038,
+        "product_formula": "C37H52N8O7S2",
+        "expected_mz": null,
+        "isotope_lines": [],
+        "verdict": "retained",
+        "excluded_reason": ""
+      }
+    ],
+    "excluded": [],
+    "limitations": "historical DSH single-event scalar model, old condition map; not the formal structural executor"
+  }
+]

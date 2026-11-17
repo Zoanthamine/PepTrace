@@ -1,0 +1,1044 @@
+{
+  "description": "编辑者补充的诊断规则：原书未以质量差形式给出的常见副反应、加合离子换算与同质量异构，均标注 origin=supplement，不得当作原书数据引用。",
+  "count": 63,
+  "rejected_ideas": [
+    {
+      "item": "Arg 与乙二醛/甲基乙二醛的 AGE 产物",
+      "reason": "结构不唯一（咪唑酮 vs 精氨嘧啶），不给单一净式"
+    },
+    {
+      "item": "Cys S-谷胱甘肽化",
+      "reason": "需按 GSH 实际式扣除 H2，属试剂相关，不给固定值"
+    },
+    {
+      "item": "金属/含胍特殊体系",
+      "reason": "超出中性闭壳层质量账本范围"
+    }
+  ],
+  "generated_from": "knowledge/rules.json; do not edit",
+  "items": [
+    {
+      "rule_id": "SUP-001",
+      "name_cn": "Asn→Asp（脱酰胺）",
+      "name_en": "Asn deamidation to Asp",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "O": 1,
+        "N": -1,
+        "H": -1
+      },
+      "delta_mass_mono_da": 0.984016,
+      "source_basis": "第6章脱酰胺；(NH2→OH)",
+      "applies_to": "含Asn侧链酰胺，包括C端残基为Asn时的侧链；C端主链酰胺水解是SUP-045，可同时成为候选。",
+      "note": "与C端酰胺水解净式相同；isoAsp为同质量异构",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-002",
+      "name_cn": "Gln→Glu（脱酰胺）",
+      "name_en": "Gln deamidation to Glu",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "O": 1,
+        "N": -1,
+        "H": -1
+      },
+      "delta_mass_mono_da": 0.984016,
+      "source_basis": "第6章脱酰胺",
+      "applies_to": "序列中的Gln",
+      "note": "与Asn脱酰胺同式；Glu为正常残基，需MS/MS定位",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-003",
+      "name_cn": "isoAsp（天冬氨酸异构化）",
+      "name_en": "Isoaspartate formation",
+      "origin": "supplement",
+      "mass_status": "isomeric",
+      "delta_formula": {},
+      "delta_mass_mono_da": 0,
+      "source_basis": "第6章Asp水解/重排",
+      "applies_to": "Asp-Xaa（尤其Asp-Gly/Asp-Ser）",
+      "note": "与目标同质量（0 Da），必须用MS/MS特征离子、isoAsp特异性酶或标准品区分",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-004",
+      "name_cn": "N端Glu→焦谷氨酸",
+      "name_en": "N-terminal Glu to pyroglutamate",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "H": -2,
+        "O": -1
+      },
+      "delta_mass_mono_da": -18.010565,
+      "source_basis": "第6章pGlu形成",
+      "applies_to": "N端游离Glu",
+      "note": "与Asp琥珀酰亚胺、Ser/Thr脱水同式",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-005",
+      "name_cn": "N端Gln→焦谷氨酸",
+      "name_en": "N-terminal Gln to pyroglutamate",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "N": -1,
+        "H": -3
+      },
+      "delta_mass_mono_da": -17.026549,
+      "source_basis": "第6章pGlu形成",
+      "applies_to": "N端游离Gln",
+      "note": "与Asn→imide同式",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-006",
+      "name_cn": "Met亚砜（R/S两个异构体）",
+      "name_en": "Met sulfoxide (R/S epimers)",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "O": 1
+      },
+      "delta_mass_mono_da": 15.994915,
+      "source_basis": "第9章Met氧化",
+      "applies_to": "Met",
+      "note": "亚砜硫为手性，R/S为0 Da异构体，常出现两个峰",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-007",
+      "name_cn": "Met砜",
+      "name_en": "Met sulfone",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "O": 2
+      },
+      "delta_mass_mono_da": 31.989829,
+      "source_basis": "第9章Met氧化",
+      "applies_to": "Met",
+      "note": "与三硫桥+S近等（差0.017758），高分辨可区分",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-008",
+      "name_cn": "Trp→5-羟基/氧代Trp（+O）",
+      "name_en": "Trp oxidation +O",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "O": 1
+      },
+      "delta_mass_mono_da": 15.994915,
+      "source_basis": "第9章Trp氧化",
+      "applies_to": "Trp",
+      "note": "位点异构需MS/MS",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-009",
+      "name_cn": "Trp→N-甲酰犬尿氨酸",
+      "name_en": "Trp to N-formylkynurenine",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "O": 2
+      },
+      "delta_mass_mono_da": 31.989829,
+      "source_basis": "第9章Trp氧化深入",
+      "applies_to": "Trp",
+      "note": "与两次氧化同式，碎裂特征不同",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-010",
+      "name_cn": "His→2-氧代His",
+      "name_en": "His to 2-oxo-histidine",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "O": 1
+      },
+      "delta_mass_mono_da": 15.994915,
+      "source_basis": "第9章His氧化",
+      "applies_to": "His",
+      "note": "金属催化条件常见",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-011",
+      "name_cn": "Tyr→二酪氨酸/交联",
+      "name_en": "Tyr dityrosine cross-link",
+      "origin": "supplement",
+      "mass_status": "sequence_dependent",
+      "delta_formula": null,
+      "delta_mass_mono_da": null,
+      "source_basis": "第9章Tyr氧化",
+      "applies_to": "Tyr",
+      "note": "两分子交联：M = 2M_Tyr - 2H - 2H(苯酚偶联)；须按实际交联位点计算",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-012",
+      "name_cn": "Cys→磺酸",
+      "name_en": "Cys sulfonic acid",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "O": 3
+      },
+      "delta_mass_mono_da": 47.984744,
+      "source_basis": "第9章Cys深度氧化",
+      "applies_to": "游离Cys",
+      "note": "强氧化/过甲酸条件",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-013",
+      "name_cn": "N端二肽DKP切除（残基相关）",
+      "name_en": "N-terminal diketopiperazine loss",
+      "origin": "supplement",
+      "mass_status": "sequence_dependent",
+      "delta_formula": null,
+      "delta_mass_mono_da": null,
+      "source_basis": "第1章/第10章DKP",
+      "applies_to": "自由N端肽，尤其第二位Pro/N-Me",
+      "note": "Δ = −[R(AA1)+R(AA2)]，须按实际两残基计算；与单纯缺失两残基（−ΣR）同式，方向/端基不同",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-014",
+      "name_cn": "Fmoc残留（不完全脱保护）",
+      "name_en": "Fmoc retention",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 15,
+        "H": 10,
+        "O": 2
+      },
+      "delta_mass_mono_da": 222.06808,
+      "source_basis": "第10章/第14章Fmoc",
+      "applies_to": "N端或侧链胺",
+      "note": "Fm结构（C14H10）不同，勿混",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-015",
+      "name_cn": "Boc残留",
+      "name_en": "Boc retention",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 5,
+        "H": 8,
+        "O": 2
+      },
+      "delta_mass_mono_da": 100.052429,
+      "source_basis": "第3章",
+      "applies_to": "N端/Lys",
+      "note": "TFA切割不彻底",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-016",
+      "name_cn": "tBu残留",
+      "name_en": "tert-Butyl retention",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 4,
+        "H": 8
+      },
+      "delta_mass_mono_da": 56.0626,
+      "source_basis": "第3章",
+      "applies_to": "Ser/Thr/Tyr/Asp/Glu",
+      "note": "与叔丁基烷基化同式",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-017",
+      "name_cn": "Trt残留",
+      "name_en": "Trityl retention",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 19,
+        "H": 14
+      },
+      "delta_mass_mono_da": 242.10955,
+      "source_basis": "第3章",
+      "applies_to": "Cys/His/Asn/Gln",
+      "note": "与苄基化不同",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-018",
+      "name_cn": "Pbf残留",
+      "name_en": "Pbf retention",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 13,
+        "H": 16,
+        "S": 1,
+        "O": 3
+      },
+      "delta_mass_mono_da": 252.082016,
+      "source_basis": "第3章Arg保护",
+      "applies_to": "Arg",
+      "note": "附录条目+252",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-019",
+      "name_cn": "乙酰化（N端/Lys/Ser/Thr）",
+      "name_en": "Acetylation",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 2,
+        "H": 2,
+        "O": 1
+      },
+      "delta_mass_mono_da": 42.010565,
+      "source_basis": "第7章酰化",
+      "applies_to": "N端、Lys、Ser/Thr/Tyr-OH",
+      "note": "与Arg→Orn反向近等",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-020",
+      "name_cn": "甲酰化",
+      "name_en": "Formylation",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 1,
+        "O": 1
+      },
+      "delta_mass_mono_da": 27.994915,
+      "source_basis": "第7章/第14章DMF",
+      "applies_to": "N端/Lys/Trp/His",
+      "note": "DMF降解或甲酸残留",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-021",
+      "name_cn": "HOBt酯/O-酰基异脲残留（活化中间体）",
+      "name_en": "OBt ester or O-acylisourea intermediate",
+      "origin": "supplement",
+      "mass_status": "not_product_mass_rule",
+      "delta_formula": null,
+      "delta_mass_mono_da": null,
+      "source_basis": "第5章羧基活化",
+      "applies_to": "偶联中间体，通常后处理水解",
+      "note": "若在最终产物中检出需按实际结构计算；不作为固定肽杂质",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-022",
+      "name_cn": "N-酰基脲（N-acylurea）",
+      "name_en": "N-acylurea formation",
+      "origin": "supplement",
+      "mass_status": "structure_required",
+      "delta_formula": null,
+      "delta_mass_mono_da": null,
+      "source_basis": "第5章DIC/DCC",
+      "applies_to": "酸组分失活",
+      "note": "与O-酰基异脲同组成；相对最终肽的差取决于连接结构",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-023",
+      "name_cn": "多电荷换算：[M+zH]z+",
+      "name_en": "Charge-state conversion",
+      "origin": "supplement",
+      "mass_status": "not_product_mass_rule",
+      "delta_formula": null,
+      "delta_mass_mono_da": null,
+      "source_basis": "质谱通用换算（编辑者提供）",
+      "applies_to": "所有ESI数据",
+      "note": "m/z=(M + z·1.007276)/z；相邻电荷态质量差1.007276/z，可用于去卷积验证",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-024",
+      "name_cn": "钠加合离子 [M+Na]+",
+      "name_en": "Sodium adduct",
+      "origin": "supplement",
+      "mass_status": "not_product_mass_rule",
+      "delta_formula": null,
+      "delta_mass_mono_da": null,
+      "source_basis": "质谱通用（编辑者提供）",
+      "applies_to": "MALDI/ESI",
+      "note": "与[M+H]+差21.981943；常被误当作共价+22",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-025",
+      "name_cn": "钾加合离子 [M+K]+",
+      "name_en": "Potassium adduct",
+      "origin": "supplement",
+      "mass_status": "not_product_mass_rule",
+      "delta_formula": null,
+      "delta_mass_mono_da": null,
+      "source_basis": "质谱通用（编辑者提供）",
+      "applies_to": "MALDI/ESI",
+      "note": "与[M+H]+差37.955882",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-026",
+      "name_cn": "盐/缓冲剂加合（TFA、乙酸）",
+      "name_en": "Salt and buffer adducts",
+      "origin": "supplement",
+      "mass_status": "not_product_mass_rule",
+      "delta_formula": null,
+      "delta_mass_mono_da": null,
+      "source_basis": "样品处理（编辑者提供）",
+      "applies_to": "LC-MS冻干样品",
+      "note": "TFA加合为+113.992864（中性簇），乙酸为+60.021129；不是共价修饰，去卷积前须去除",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-027",
+      "name_cn": "二硫键错配（配对不同、桥数相同）",
+      "name_en": "Disulfide scrambling with conserved bridge count",
+      "origin": "supplement",
+      "mass_status": "isomeric",
+      "delta_formula": {},
+      "delta_mass_mono_da": 0,
+      "source_basis": "第13章",
+      "applies_to": "多Cys肽",
+      "note": "与目标0 Da；需桥连mapping/酶切/HPLC保留时间",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-028",
+      "name_cn": "链间二硫二聚",
+      "name_en": "Intermolecular disulfide dimer",
+      "origin": "supplement",
+      "mass_status": "sequence_dependent",
+      "delta_formula": null,
+      "delta_mass_mono_da": null,
+      "source_basis": "第13章",
+      "applies_to": "含游离Cys肽",
+      "note": "M_dimer = 2·M_monomer − 2H（一处桥）；多桥按桥数计；与单体差不是−2",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-029",
+      "name_cn": "Aspartimide中间体（未水解）",
+      "name_en": "Aspartimide intermediate",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "H": -2,
+        "O": -1
+      },
+      "delta_mass_mono_da": -18.010565,
+      "source_basis": "第6章",
+      "applies_to": "Asp-Xaa",
+      "note": "与脱水同式；水解后得Asp/isoAsp（0 Da与目标）",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-030",
+      "name_cn": "N端乙酰基丢失",
+      "name_en": "Loss of N-terminal acetyl",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": -2,
+        "H": -2,
+        "O": -1
+      },
+      "delta_mass_mono_da": -42.010565,
+      "source_basis": "第1章N-Ac-N-alkyl酸解",
+      "applies_to": "N端Ac肽",
+      "note": "与Arg→Orn差0.011233，须高分辨",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-031",
+      "name_cn": "Lys 侧链氨甲酰化（ε-N-羧酰胺）",
+      "name_en": "Lys epsilon-N-carbamylation",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 1,
+        "H": 1,
+        "N": 1,
+        "O": 1
+      },
+      "delta_mass_mono_da": 43.005814,
+      "source_basis": "补充（非原书）：尿素/氰酸盐缓冲、含尿素变性、储存",
+      "applies_to": "含 Lys 肽，ε-NH2 未保护",
+      "note": "与 N 端氨基甲酰化同式；质量与 +43 类其他修饰（如 N 端乙酰化的近似整数）需 MS/MS 区分",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-032",
+      "name_cn": "N 端甲酰化",
+      "name_en": "N-terminal formylation",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 1,
+        "O": 1
+      },
+      "delta_mass_mono_da": 27.994915,
+      "source_basis": "补充（非原书）：DMF 降解产物、甲酸作酸、储存",
+      "applies_to": "自由 Nα 肽",
+      "note": "原书第 14 章讨论 DMF 残留但未给该净式",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-033",
+      "name_cn": "Trp 吲哚 N1-甲酰化",
+      "name_en": "Trp indole N1-formylation",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 1,
+        "O": 1
+      },
+      "delta_mass_mono_da": 27.994915,
+      "source_basis": "补充（非原书）：甲酸/DMF 残留",
+      "applies_to": "含 Trp 肽",
+      "note": "与 N 端甲酰化同质量，需 MS/MS 定位",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-034",
+      "name_cn": "N 端还原胺化甲基化",
+      "name_en": "N-terminal reductive methylation",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 1,
+        "H": 2
+      },
+      "delta_mass_mono_da": 14.01565,
+      "source_basis": "补充（非原书）：含甲醛缓冲液、PEG 化/还原胺化试剂",
+      "applies_to": "自由 Nα 肽",
+      "note": "甲醛在肽上既可与 Trp/Arg 成 +12 型交联（CH07），也可在 N 端经还原胺化给 +14.015650，两者必须分开",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-035",
+      "name_cn": "N 端还原胺化二甲基化",
+      "name_en": "N-terminal reductive dimethylation",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 2,
+        "H": 4
+      },
+      "delta_mass_mono_da": 28.0313,
+      "source_basis": "补充（非原书）：同上，过量甲醛",
+      "applies_to": "自由 Nα 肽",
+      "note": "定量标记常用；+28 与 Lys 二甲基化同式",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-036",
+      "name_cn": "Tyr/Ser/Thr 硫酸酯化",
+      "name_en": "O-sulfation (Tyr/Ser/Thr)",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "S": 1,
+        "O": 3
+      },
+      "delta_mass_mono_da": 79.956815,
+      "source_basis": "补充（非原书）：硫酸铵沉淀、含硫酸盐缓冲、储存",
+      "applies_to": "含 Tyr/Ser/Thr 的肽",
+      "note": "+79.956815 与磷酸化 +79.966331 仅差 0.009516 Da；低分辨或 >10 ppm 误差时不可凭质量区分",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-037",
+      "name_cn": "Cys S-氰基化",
+      "name_en": "Cys S-cyanylation",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 1,
+        "N": 1,
+        "H": -1
+      },
+      "delta_mass_mono_da": 24.995249,
+      "source_basis": "补充（非原书）：含氰化物缓冲、NTCB 部分反应",
+      "applies_to": "含自由 Cys 肽",
+      "note": "S–氰化是巯基 H 被 CN 取代，净 +C1N1H−1 = +24.995249 Da（不是 +CN 加成的 26.003074）；原书附录Ⅰ AI-036 整数 +25 与净式一致。Met 版硫醚无 S–H，若成 S-氰基锍则净 +CN 且带 +1 电荷，不可与 Cys 版共用中性 ΔM（见 17_附录I无正文对应条目处置.md）。",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-038",
+      "name_cn": "Cys S-甲基化",
+      "name_en": "Cys S-methylation",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 1,
+        "H": 2
+      },
+      "delta_mass_mono_da": 14.01565,
+      "source_basis": "补充（非原书）：碘甲烷/MeOTf 淬灭、甲基化试剂残留",
+      "applies_to": "含自由 Cys 肽",
+      "note": "与 N-甲基化同质量，需 MS/MS 定位",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-039",
+      "name_cn": "Met 甲基锍（中性化计）",
+      "name_en": "Met sulfonium methylation (neutralized)",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 1,
+        "H": 3
+      },
+      "delta_mass_mono_da": 15.023475,
+      "source_basis": "补充（非原书）：碘甲烷淬灭不完全",
+      "applies_to": "含 Met 肽",
+      "note": "本值为中性化口径；实测常观察到固定正电荷的锍离子，其 m/z 与中性增重不是一回事，绝不可按中性 +15 处理",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-040",
+      "name_cn": "N 端乳酸化",
+      "name_en": "N-terminal lactylation",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 3,
+        "H": 4,
+        "O": 2
+      },
+      "delta_mass_mono_da": 72.021129,
+      "source_basis": "补充（非原书）：酰化试剂误用、代谢样本",
+      "applies_to": "自由 Nα 肽",
+      "note": "与 N 端丙二酰化的近似整数 +72 需高分辨区分",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-041",
+      "name_cn": "N 端丙二酰化",
+      "name_en": "N-terminal malonylation",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 3,
+        "H": 2,
+        "O": 3
+      },
+      "delta_mass_mono_da": 86.000394,
+      "source_basis": "补充（非原书）：同上",
+      "applies_to": "自由 Nα 肽",
+      "note": "Lys 侧链亦可丙二酰化，同式",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-042",
+      "name_cn": "N 端琥珀酰化",
+      "name_en": "N-terminal succinylation",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 4,
+        "H": 4,
+        "O": 3
+      },
+      "delta_mass_mono_da": 100.016044,
+      "source_basis": "补充（非原书）：同上",
+      "applies_to": "自由 Nα 肽",
+      "note": "Lys 侧链亦可，同式",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-043",
+      "name_cn": "Asn 侧链环化为环化琥珀酰亚胺（Asu）",
+      "name_en": "Asn side-chain cyclization to Asu",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "N": -1,
+        "H": -1
+      },
+      "delta_mass_mono_da": -15.010899,
+      "source_basis": "补充（非原书）：中性/弱酸储存、碱性偶联",
+      "applies_to": "含 Asn 肽",
+      "note": "−15.010899 与 Asp 琥珀酰亚胺 −18.010565 不同：Asn 侧链本身已是酰胺，少掉的是 NH 而非 H2O，务必区分",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-044",
+      "name_cn": "Asn 侧链 CYP 加合物（氰基半胱氨酸加成）",
+      "name_en": "Asn side-chain cyanylated cysteine adduct (CYP)",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 4,
+        "H": 4,
+        "N": 2,
+        "O": 3,
+        "S": 1
+      },
+      "delta_mass_mono_da": 159.994263,
+      "source_basis": "补充（非原书）：中性 pH 储存、蛋白/细胞样本",
+      "applies_to": "Asn 侧链酰胺，不适用于 Asp",
+      "note": "先 NTCB 氰基化再与 Asn 酰胺加成；结构经公布但本库未做原图核验",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-045",
+      "name_cn": "C 端酰胺转化为羧酸",
+      "name_en": "C-terminal amide to acid",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "O": 1,
+        "N": -1,
+        "H": -1
+      },
+      "delta_mass_mono_da": 0.984016,
+      "source_basis": "补充（非原书）：C 端酰胺肽在缓冲液中储存",
+      "applies_to": "C 端为 -CONH2 的肽",
+      "note": "与 Asn/Gln 脱酰胺同净式（+0.984016）；端基 vs 侧链必须靠 MS/MS 或 C 端序列分析区分",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-046",
+      "name_cn": "D-氨基酸残留的手性诊断口径",
+      "name_en": "Chirality-readout protocol for D-residue epimers",
+      "origin": "supplement",
+      "mass_status": "isomeric",
+      "delta_formula": null,
+      "delta_mass_mono_da": 0.0,
+      "source_basis": "补充（CH11 消旋诊断的操作性口径，非质量规则）",
+      "applies_to": "任何怀疑消旋的肽段（CH11 全部 0 Da 条目的联合使用口径）",
+      "note": "消旋/差向异构体与目标肽分子式完全相同，一级质量差为 0，因此绝不靠称重与一级 MS 判定。判据链：非对映体在普通 C18 反相上通常可部分分开（相邻出峰、峰宽对称性差）→ 手性柱或 Marfey/其他手性衍生后 LC-MS 与 L-标准品对照 → 酶解（如 L-氨基肽酶）后再测手性，确认具体哪一残基反转。含 Trp 的肽水解时 Trp 会破坏，不能只靠 6N HCl 全水解定手性，需改用含巯基丙酸/苯酚的酸解或酶解体系，并设水解空白。",
+      "references": [
+        "CH11"
+      ]
+    },
+    {
+      "rule_id": "SUP-047",
+      "name_cn": "N-Me/αα-双取代末端活化时邻位残基消旋",
+      "name_en": "Epimerization of the residue preceding activated N-methyl or alpha,alpha-disubstituted residues",
+      "origin": "supplement",
+      "mass_status": "isomeric",
+      "delta_formula": null,
+      "delta_mass_mono_da": 0.0,
+      "source_basis": "补充（CH11-R009 细化）",
+      "applies_to": "Fmoc-NMe-AA 或其酰氯/BTC 活化、Aib 位于 C 端的偶联",
+      "note": "N-Me 或 αα-双取代残基自身没有 α-H，不能消旋；但它们的活化会降低相邻（N 侧）残基酰胺氮的平面性、增强其烯醇化倾向，导致倒数第二位残基翻转。质量差仍为 0（isomeric），必须靠手性分析定位。",
+      "references": [
+        "CH11"
+      ]
+    },
+    {
+      "rule_id": "SUP-048",
+      "name_cn": "磷酸肽少一个氧（H-膦酸酯残留）",
+      "name_en": "Phosphopeptide with one oxygen missing (H-phosphonate residue)",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "O": -1
+      },
+      "delta_mass_mono_da": -15.994915,
+      "source_basis": "补充（CH12-R001 的分流口径）",
+      "applies_to": "磷酸肽合成/储存样品中出现的 -15.994915 Da 峰",
+      "note": "只在结构确认为 H-膦酸酯时使用。同值干扰：亚砜类的 +O 为 +15.994915（方向相反），+31.972071 属于 +S 类（trisulfide），不可混算。若实测同时出现 -15.994915 与 -80（PO3）系列，应按 CH12 的氧化不足/重排分层判断。",
+      "references": [
+        "CH12"
+      ]
+    },
+    {
+      "rule_id": "SUP-049",
+      "name_cn": "二硫还原为自由 Cys（两 SH）",
+      "name_en": "Disulfide reduction to two free thiols",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "H": -2
+      },
+      "delta_mass_mono_da": -2.01565,
+      "source_basis": "补充（CH13 还原相关条目的公共参照态）",
+      "applies_to": "DTT/TCEP/β-巯基乙醇处理后的样品；分子内与分子间二硫均适用（分子间须按两分子加和计，不可单独给单肽 ΔM）",
+      "note": "分子内二硫还原：单分子 Δ = -H2 = -2.015650。分子间二硫还原：M_产物 = M_A + M_B - 2H，不得写成单肽 -2.015650。",
+      "references": [
+        "CH13"
+      ]
+    },
+    {
+      "rule_id": "SUP-050",
+      "name_cn": "Met 单氧化为亚砜",
+      "name_en": "Methionine sulfoxide formation",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "O": 1
+      },
+      "delta_mass_mono_da": 15.994915,
+      "source_basis": "补充（CH13/CH14 氧化类条目的公共参照态）",
+      "applies_to": "含 Met 肽在空气、H2O2、DMSO/TFA 储存中的样品",
+      "note": "每个 Met 氧化一次 +15.994915，多次氧化按位点数累加。同值方向相反的条目为 H-膦酸酯（-15.994915）；与 +S（+31.972071）不可混淆。Met(O) 在酸性条件可部分还原，储存/处理条件会影响比例。",
+      "references": [
+        "CH13",
+        "CH14"
+      ]
+    },
+    {
+      "rule_id": "SUP-051",
+      "name_cn": "三硫还原后额外硫不留在肽上",
+      "name_en": "Extra sulfur of trisulfide lost on reduction (RSSSR -> 2 SH)",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "H": 2,
+        "S": -1
+      },
+      "delta_mass_mono_da": -29.956421,
+      "source_basis": "补充（CH13-R011 的条件净式）",
+      "applies_to": "碱性还原条件下 trisulfide 被还原为两个自由 Cys 的情形",
+      "note": "trisulfide 相对二硫目标为 +S（+31.972071）；若随后在碱中被还原成两个 SH，额外硫以 H2S 形式离去，净变为 +S - H2S = +H2 - S = -29.956421（相对二硫目标）。两条必须分阶段记录，不能合并成一个数字。",
+      "references": [
+        "CH13"
+      ]
+    },
+    {
+      "rule_id": "SUP-052",
+      "name_cn": "pGlu 原始残基判别（Gln 版 vs Glu 版）",
+      "name_en": "Pyroglutamate origin discrimination: Gln-derived vs Glu-derived",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "N": -1,
+        "H": -3
+      },
+      "delta_mass_mono_da": -17.026549,
+      "source_basis": "补充（由 CH06 R014–R020 与 CH07 pGlu 条目之间的差值得出的判别口径，书内未写成判据）",
+      "applies_to": "N 端出现 pGlu 的样品：由 Gln 生成 pGlu 为 本条目值，由 N 端 Glu 生成 pGlu 为 -H2O = -18.010565",
+      "note": "两者相差 0.984016 Da：Gln→pGlu 失 NH3（-N1H3 = -17.026549），N 端 Glu→pGlu 失 H2O（-H2O = -18.010565）。HRMS 在 m/z 1000 上 1 ppm ≈ 1 mDa，故 0.984 Da 的差完全可分，是反推 N 端原始残基的独立证据。注意：只有 N 端残基适用；链中 Glu 成 pGlu 会断链，不能套用单分子净式（见 CH06-R028）。",
+      "references": [
+        "CH06",
+        "CH07"
+      ]
+    },
+    {
+      "rule_id": "SUP-053",
+      "name_cn": "His 咪唑 N-羧基化（CO2 加成，可逆）",
+      "name_en": "Reversible CO2 adduct (N-carboxy) on His imidazole",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 1,
+        "O": 2
+      },
+      "delta_mass_mono_da": 43.989829,
+      "source_basis": "编辑者补充（六技能审阅 rev-h2）；非原书条目",
+      "applies_to": "自由 His 侧链；His(Bum/Bom) 脱保护后、弱碱水相/碳酸氢铵缓冲体系",
+      "note": "编辑者候选，按同一His母肽与中性CO2加成式比较 +43.989829 Da。实际离子需核对电荷与加合；该条不对应附录AI-056的Trp。",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-054",
+      "name_cn": "Arg 胍基水解为 Orn（净水解口径）",
+      "name_en": "Net hydrolysis of Arg guanidino group to Orn",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": -1,
+        "N": -2,
+        "H": -2
+      },
+      "delta_mass_mono_da": -42.021798,
+      "source_basis": "编辑者补充（六技能审阅 rev-h2）；非原书条目",
+      "applies_to": "游离 Arg 肽；强碱/高温长时间处理或极端 pH 后处理",
+      "note": "同一端基肽的Arg→Orn净式为−CH2N2（−42.021798 Da）。该净差描述母肽与产物组成，路径仍需前体和反应条件支持。",
+      "references": []
+    },
+    {
+      "rule_id": "SUP-055",
+      "name_cn": "去磷酸化（磷酸单酯水解为羟基）",
+      "name_en": "Dephosphorylation (phosphomonoester hydrolysis)",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "P": -1,
+        "O": -3,
+        "H": -1
+      },
+      "delta_mass_mono_da": -79.966331,
+      "source_basis": "编辑者补充（按反应路径组成补算；原书附录Ⅰ仅给整数）",
+      "applies_to": "磷酸化 Ser/Thr/Tyr 肽；磷酸酶处理、弱酸水解、储存水解",
+      "note": "净 −HPO3 = −79.966331 Da。与 CH02 的碱/哌啶诱导 β-消除（净 −H3PO4 = −97.976896 Da）不是同一反应：后者多失一个 H2O 并生成 dehydroalanine；本条目是 P–O 键水解、骨架不动。原书附录Ⅰ p324（ref 2）只给整数 −80，正文未展开，此条为编辑者按标准化学补算。",
+      "references": [
+        "Yang 2016 Appendix I, AI-002 (p324, ref2)"
+      ]
+    },
+    {
+      "rule_id": "SUP-056",
+      "name_cn": "Met按附录图降解为vinylglycine（原文名称allylglycine不一致）",
+      "name_en": "Met degradation to allylglycine",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": -1,
+        "H": -4,
+        "S": -1
+      },
+      "delta_mass_mono_da": -48.003371,
+      "source_basis": "编辑者补充（按反应路径组成补算；原书附录Ⅰ仅给整数）",
+      "applies_to": "含 Met 肽；氧化/金属/长期储存老化路径",
+      "note": "净 −CH4S = −48.003371 Da（Met 侧链 −CH2CH2SCH3 变为 −CH2CH=CH2，即失去甲硫醇）。原书附录Ⅰ p325（ref 4）只给整数 −48。注意与其它 −48 条目（如 −CH4S 型 Cys/Acm 相关路径）同式并列，需 MS/MS 或标准品区分。",
+      "references": [
+        "Yang 2016 Appendix I, AI-004 (p325, ref4)"
+      ],
+      "alias_of": "APP-I-R004"
+    },
+    {
+      "rule_id": "SUP-057",
+      "name_cn": "乙醛与 N 端氨基成 Schiff 碱（未还原）",
+      "name_en": "Acetaldehyde Schiff base on N-terminus (unreduced)",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 2,
+        "H": 2
+      },
+      "delta_mass_mono_da": 26.01565,
+      "source_basis": "编辑者补充（按反应路径组成补算；原书附录Ⅰ仅给整数）",
+      "applies_to": "含游离 N 端氨基肽；乙醇/乙醛来源（Pd 氢解、溶剂氧化、清洗残留）",
+      "note": "净 +C2H2 = +26.015650 Da（乙醛 C2H4O 缩合失 H2O）。若随后被还原则成 N-乙基（+C2H4 = +28.031300，见 CH14-R010）。原书附录Ⅰ p333（AI-037，无 ref）只给整数 +26；此为编辑者按组成补算，正文 CH14 讨论同一化学（CH14-R016 的 Schiff 中间体）。",
+      "references": [
+        "Yang 2016 Appendix I, AI-037 (p333)"
+      ]
+    },
+    {
+      "rule_id": "SUP-058",
+      "name_cn": "氨氧基肽与乙醛成肟",
+      "name_en": "Oxime from aminooxy peptide and acetaldehyde",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 2,
+        "H": 2
+      },
+      "delta_mass_mono_da": 26.01565,
+      "source_basis": "编辑者补充（按反应路径组成补算；原书附录Ⅰ仅给整数）",
+      "applies_to": "含 Aoa（氨氧乙酸）的肽；乙醛/乙醇来源",
+      "note": "净 +C2H2 = +26.015650 Da（R-O-NH2 + CH3CHO → R-O-N=CHCH3 + H2O）。与 acetone 版（CH14-R017，+C3H4 = +40.031300）是同类不同羰基，不可混用。原书附录Ⅰ p333（AI-038，ref 34）只给整数 +26。",
+      "references": [
+        "Yang 2016 Appendix I, AI-038 (p333, ref34)"
+      ]
+    },
+    {
+      "rule_id": "SUP-059",
+      "name_cn": "Asp/Glu 侧链哌啶酰胺（piperidide）",
+      "name_en": "Asp/Glu side-chain piperidide",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 5,
+        "H": 9,
+        "N": 1,
+        "O": -1
+      },
+      "delta_mass_mono_da": 67.078585,
+      "source_basis": "编辑者补充（按反应路径组成补算；原书附录Ⅰ仅给整数）",
+      "applies_to": "含 Asp/Glu 肽；哌啶（Fmoc 脱保护碱）或哌啶类碱参与的活化/酯化体系",
+      "note": "净 +C5H9NO−1 = +67.078585 Da（羧基 −OH 被哌啶酰胺 −N(C5H10) 取代）。组成固定但取代位点（α-羧基 vs 侧链 β/γ-羧基）不能由质量确定，属位置异构，须用 MS/MS 定位。原书附录Ⅰ p338（AI-060，无 ref）只给整数 +67；与 Cys 消除后哌啶加成（CH02-R002/R003）是不同反应，勿混。",
+      "references": [
+        "Yang 2016 Appendix I, AI-060 (p338)"
+      ]
+    },
+    {
+      "rule_id": "SUP-060",
+      "name_cn": "硫醇对丙烯酸的 Michael 加成",
+      "name_en": "Michael addition of thiol to acrylic acid",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 3,
+        "H": 4,
+        "O": 2
+      },
+      "delta_mass_mono_da": 72.021129,
+      "source_basis": "编辑者补充（按反应路径组成补算；原书附录Ⅰ仅给整数）",
+      "applies_to": "含 Cys 游离巯基肽；丙烯酸/丙烯酰胺类单体、丙烯酸系树脂或降解产物接触",
+      "note": "净 +C3H4O2 = +72.021129 Da（RSH + CH2=CH-COOH）。**与 N 端乳酸化 SUP-040 同式同值**，必须并列、不能凭质量区分。原书附录Ⅰ p339（AI-063，ref 57）只给整数 +72。",
+      "references": [
+        "Yang 2016 Appendix I, AI-063 (p339, ref57)"
+      ]
+    },
+    {
+      "rule_id": "SUP-061",
+      "name_cn": "Asp/Glu 与甘油酯化（甘油单酯）",
+      "name_en": "Asp/Glu esterification by glycerol",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 3,
+        "H": 6,
+        "O": 2
+      },
+      "delta_mass_mono_da": 74.036779,
+      "source_basis": "编辑者补充（按反应路径组成补算；原书附录Ⅰ仅给整数）",
+      "applies_to": "含 Asp/Glu 肽；TFA 切割 cocktail 含甘油、或甘油来源污染",
+      "note": "净 +C3H6O2 = +74.036779 Da（甘油 C3H8O3 与羧基成酯失 H2O）。原书附录Ⅰ p339（AI-064，ref 58）只给整数 +74；正文 CH03 已提示“glycerol 作 Acm 阳离子受体时须考虑其可能酯化副反应”。",
+      "references": [
+        "Yang 2016 Appendix I, AI-064 (p339, ref58)"
+      ]
+    },
+    {
+      "rule_id": "SUP-062",
+      "name_cn": "Ser/Thr 经 oxazoline 氧化为 oxazole（两步终点）",
+      "name_en": "Ser/Thr to oxazole endpoint (two-step)",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "H": -4,
+        "O": -1
+      },
+      "delta_mass_mono_da": -20.026215,
+      "source_basis": "编辑者补充（按反应路径组成补算；原书附录Ⅰ仅给整数）",
+      "applies_to": "含 Ser/Thr 肽；酸性/加热条件，随后氧化",
+      "note": "净 −H4O = −20.026215 Da = CH08-R023（成 oxazoline，−H2O = −18.010565）+ CH08-R024（氧化，−H2 = −2.015650）。原书附录Ⅰ p326（AI-009，ref 9）给整数 −20；两步规则各自为 structure_required（环结构待核），本条只固定**终点组成**，不声称中间结构已确证。",
+      "references": [
+        "Yang 2016 Appendix I, AI-009 (p326, ref9)",
+        "CH08-R023",
+        "CH08-R024"
+      ]
+    },
+    {
+      "rule_id": "SUP-063",
+      "name_cn": "pseudoproline 未复原（Ser/Thr(ΨMe,MePro) 残留）",
+      "name_en": "Unreverted pseudoproline residue Ser/Thr(ΨMe,MePro)",
+      "origin": "supplement",
+      "mass_status": "formula_confirmed",
+      "delta_formula": {
+        "C": 3,
+        "H": 4
+      },
+      "delta_mass_mono_da": 40.0313,
+      "source_basis": "编辑者补充（按反应路径组成补算；原书附录Ⅰ仅给整数）",
+      "applies_to": "使用 Fmoc-Ser/Thr(ΨMe,MePro)-OH 的序列；TFA 酸解不充分或位阻大片段",
+      "note": "残基净 +C3H4 = +40.031300 Da（Ser 残基 C3H5NO2 → 2,2-二甲基噁唑烷-4-羰基残基 C6H9NO2，差 C3H4）。与 acetone 加合物（CH07-R045 烯胺化、CH14-R016 imidazolidinone）**同式同值**，只能靠设计信息（是否用过 pseudoproline 单体）与 MS/MS 区分。原书附录Ⅰ p336（AI-052，无 ref）只给整数 +40。",
+      "references": [
+        "Yang 2016 Appendix I, AI-052 (p336)",
+        "CH06 §6.1.2.3"
+      ]
+    }
+  ]
+}

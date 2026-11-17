@@ -1,0 +1,38 @@
+{
+  "case_id": "synthetic-cys-piperidine",
+  "starting_material": {
+    "sequence": "GC",
+    "nterm": "free",
+    "cterm": "acid",
+    "modifications": [
+      {
+        "site": "N",
+        "group": "Fmoc"
+      }
+    ]
+  },
+  "intended_product": {
+    "sequence": "GC",
+    "nterm": "free",
+    "cterm": "acid"
+  },
+  "reaction": {
+    "description": "合成演示：用哌啶脱除 N 端 Fmoc，最终质量按完全去保护的 GC 游离酸比较。",
+    "stage_tags": [
+      "piperidine"
+    ]
+  },
+  "observations": [
+    {
+      "kind": "mz",
+      "value": 230.149917,
+      "charge": 1,
+      "ions": {
+        "H": 1
+      },
+      "tolerance": 5,
+      "tolerance_unit": "ppm"
+    }
+  ],
+  "max_events": 1
+}

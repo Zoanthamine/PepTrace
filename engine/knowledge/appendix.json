@@ -1,0 +1,3497 @@
+{
+  "schema_version": "codex-appendix-1",
+  "source_rows": {
+    "source": "doc_11/source.pdf",
+    "source_read_complete": true,
+    "extraction_method": "PyMuPDF original-coordinate rotated text, nearest mass-row x anchor; not structural image verification",
+    "rows": [
+      {
+        "appendix_row_id": "AI-001",
+        "pdf_page": 2,
+        "print_page": 324,
+        "nominal_average_delta_book": -98,
+        "anchor_x": 119.63574600219727,
+        "delta_formula": {
+          "H": -3,
+          "P": -1,
+          "O": -4
+        },
+        "delta_mass_mono_da": -97.976896,
+        "structure_verified": true,
+        "modification_text": "b-Elimination of phosphopeptide",
+        "reference_text": "[1]",
+        "reference_numbers": [
+          1
+        ],
+        "reference_state": "same_phosphoserine_or_phosphothreonine_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-002",
+        "pdf_page": 2,
+        "print_page": 324,
+        "nominal_average_delta_book": -80,
+        "anchor_x": 206.53934478759766,
+        "delta_formula": {
+          "H": -1,
+          "P": -1,
+          "O": -3
+        },
+        "delta_mass_mono_da": -79.966331,
+        "structure_verified": true,
+        "modification_text": "Peptide dephosphorylation",
+        "reference_text": "[2]",
+        "reference_numbers": [
+          2
+        ],
+        "reference_state": "same_phosphomonoester_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-003",
+        "pdf_page": 2,
+        "print_page": 324,
+        "nominal_average_delta_book": -80,
+        "anchor_x": 294.0645446777344,
+        "delta_formula": {
+          "H": -1,
+          "Br": -1
+        },
+        "delta_mass_mono_da": -79.926163,
+        "structure_verified": true,
+        "modification_text": "Cys-induced intramolecular nucleophilic substitution on bromoacetyl moiety and monosulfide formation",
+        "reference_text": "[3]",
+        "reference_numbers": [
+          3
+        ],
+        "reference_state": "bromoacetylated_same_peptide_with_free_cys",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-004",
+        "pdf_page": 3,
+        "print_page": 325,
+        "nominal_average_delta_book": -48,
+        "anchor_x": 108.52664566040039,
+        "delta_formula": {
+          "C": -1,
+          "H": -4,
+          "S": -1
+        },
+        "delta_mass_mono_da": -48.003371,
+        "structure_verified": true,
+        "modification_text": "Degradation of Met to allylglycine",
+        "reference_text": "[4]",
+        "reference_numbers": [
+          4
+        ],
+        "reference_state": "原文allylglycine与图不一致；图对应vinylglycine，−CH4S与−48一致。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-005",
+        "pdf_page": 3,
+        "print_page": 325,
+        "nominal_average_delta_book": -42,
+        "anchor_x": 204.61774444580078,
+        "delta_formula": {
+          "C": -1,
+          "H": -2,
+          "N": -2
+        },
+        "delta_mass_mono_da": -42.021798,
+        "structure_verified": true,
+        "modification_text": "Conversion of Arg to Orn via deguanidination",
+        "reference_text": "[5]",
+        "reference_numbers": [
+          5
+        ],
+        "reference_state": "same_free_arg_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-006",
+        "pdf_page": 3,
+        "print_page": 325,
+        "nominal_average_delta_book": -34,
+        "anchor_x": 282.7221374511719,
+        "delta_formula": {
+          "H": -2,
+          "S": -1
+        },
+        "delta_mass_mono_da": -33.987721,
+        "structure_verified": true,
+        "modification_text": "Cysteine b-elimination",
+        "reference_text": "[6]",
+        "reference_numbers": [
+          6
+        ],
+        "reference_state": "same_free_cys_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-007",
+        "pdf_page": 4,
+        "print_page": 326,
+        "nominal_average_delta_book": -32,
+        "anchor_x": 129.72314071655273,
+        "delta_formula": {
+          "S": -1
+        },
+        "delta_mass_mono_da": -31.972071,
+        "structure_verified": true,
+        "modification_text": "Disulfide desulfurization",
+        "reference_text": "[7]",
+        "reference_numbers": [
+          7
+        ],
+        "reference_state": "same_cys_disulfide_linked_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-008",
+        "pdf_page": 4,
+        "print_page": 326,
+        "nominal_average_delta_book": -26,
+        "anchor_x": 226.9995346069336,
+        "delta_formula": {
+          "H": 2,
+          "N": -2
+        },
+        "delta_mass_mono_da": -25.990498,
+        "structure_verified": true,
+        "modification_text": "Reduction of Nva(N3) to Orn",
+        "reference_text": "[8]",
+        "reference_numbers": [
+          8
+        ],
+        "reference_state": "same_nva_azide_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-009",
+        "pdf_page": 4,
+        "print_page": 326,
+        "nominal_average_delta_book": -20,
+        "anchor_x": 306.8303527832031,
+        "delta_formula": {
+          "H": -4,
+          "O": -1
+        },
+        "delta_mass_mono_da": -20.026215,
+        "structure_verified": true,
+        "modification_text": "Oxazole formation from Ser/Thr",
+        "reference_text": "[9]",
+        "reference_numbers": [
+          9
+        ],
+        "reference_state": "same_ser_or_thr_backbone_amide_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-010",
+        "pdf_page": 5,
+        "print_page": 327,
+        "nominal_average_delta_book": -18,
+        "anchor_x": 102.10674667358398,
+        "delta_formula": {
+          "H": -2,
+          "O": -1
+        },
+        "delta_mass_mono_da": -18.010565,
+        "structure_verified": true,
+        "modification_text": "Pyroglutamate formation from Glu",
+        "reference_text": "[10]",
+        "reference_numbers": [
+          10
+        ],
+        "reference_state": "same_free_n_terminal_glu_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-011",
+        "pdf_page": 5,
+        "print_page": 327,
+        "nominal_average_delta_book": -18,
+        "anchor_x": 177.3430404663086,
+        "delta_formula": {
+          "H": -2,
+          "O": -1
+        },
+        "delta_mass_mono_da": -18.010565,
+        "structure_verified": true,
+        "modification_text": "Aspartimide/Glutarimide formation from Asp/Glu",
+        "reference_text": "[11,12]",
+        "reference_numbers": [
+          11,
+          12
+        ],
+        "reference_state": "same_free_asp_or_glu_sidechain_acid_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-012",
+        "pdf_page": 5,
+        "print_page": 327,
+        "nominal_average_delta_book": -18,
+        "anchor_x": 241.7180404663086,
+        "delta_formula": {
+          "H": -2,
+          "O": -1
+        },
+        "delta_mass_mono_da": -18.010565,
+        "structure_verified": true,
+        "modification_text": "b-Elimination of Ser",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "same_ser_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-013",
+        "pdf_page": 5,
+        "print_page": 327,
+        "nominal_average_delta_book": -18,
+        "anchor_x": 306.9251403808594,
+        "delta_formula": {
+          "H": -2,
+          "O": -1
+        },
+        "delta_mass_mono_da": -18.010565,
+        "structure_verified": true,
+        "modification_text": "Dehydration of Asn/ Gln",
+        "reference_text": "[13]",
+        "reference_numbers": [
+          13
+        ],
+        "reference_state": "same_asn_or_gln_sidechain_amide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-014",
+        "pdf_page": 6,
+        "print_page": 328,
+        "nominal_average_delta_book": -17,
+        "anchor_x": 109.6977424621582,
+        "delta_formula": {
+          "N": -1,
+          "H": -3
+        },
+        "delta_mass_mono_da": -17.026549,
+        "structure_verified": true,
+        "modification_text": "Pyroglutamate formation from Gln",
+        "reference_text": "[14]",
+        "reference_numbers": [
+          14
+        ],
+        "reference_state": "same_free_n_terminal_gln_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-015",
+        "pdf_page": 6,
+        "print_page": 328,
+        "nominal_average_delta_book": -17,
+        "anchor_x": 181.6452407836914,
+        "delta_formula": {
+          "N": -1,
+          "H": -3
+        },
+        "delta_mass_mono_da": -17.026549,
+        "structure_verified": true,
+        "modification_text": "Aspartimide/Glutarimide formation from Asn/Gln",
+        "reference_text": "[15]",
+        "reference_numbers": [
+          15
+        ],
+        "reference_state": "same_asn_or_gln_peptide_with_next_backbone_nh",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-016",
+        "pdf_page": 6,
+        "print_page": 328,
+        "nominal_average_delta_book": -17,
+        "anchor_x": 262.0886535644531,
+        "delta_formula": {
+          "N": -1,
+          "H": -3
+        },
+        "delta_mass_mono_da": -17.026549,
+        "structure_verified": true,
+        "modification_text": "Cyclization of N- terminal Cys(Cam)",
+        "reference_text": "[16]",
+        "reference_numbers": [
+          16
+        ],
+        "reference_state": "N端Cys(Cam)六元thiomorpholinone（硫吗啉酮），不是五元thiazolidine；−NH3。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-017",
+        "pdf_page": 6,
+        "print_page": 328,
+        "nominal_average_delta_book": -16,
+        "anchor_x": 350.6651611328125,
+        "delta_formula": {
+          "O": -1
+        },
+        "delta_mass_mono_da": -15.994915,
+        "structure_verified": true,
+        "modification_text": "H-phosphonate formation",
+        "reference_text": "[17]",
+        "reference_numbers": [
+          17
+        ],
+        "reference_state": "same_phosphate_monoester_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-018",
+        "pdf_page": 7,
+        "print_page": 329,
+        "nominal_average_delta_book": -14,
+        "anchor_x": 118.57444381713867,
+        "delta_formula": {
+          "C": -1,
+          "H": -2
+        },
+        "delta_mass_mono_da": -14.01565,
+        "structure_verified": true,
+        "modification_text": "Thioanisole-induced Tyr (Me) demethylation",
+        "reference_text": "[18]",
+        "reference_numbers": [
+          18
+        ],
+        "reference_state": "same_tyr_o_methyl_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-019",
+        "pdf_page": 7,
+        "print_page": 329,
+        "nominal_average_delta_book": -2,
+        "anchor_x": 203.31974029541016,
+        "delta_formula": {
+          "H": -2
+        },
+        "delta_mass_mono_da": -2.01565,
+        "structure_verified": true,
+        "modification_text": "Cysteine oxidation to Cystine",
+        "reference_text": "[19]",
+        "reference_numbers": [
+          19
+        ],
+        "reference_state": "same_peptide_two_free_cys_thiols",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-020",
+        "pdf_page": 7,
+        "print_page": 329,
+        "nominal_average_delta_book": 1,
+        "anchor_x": 267.70741271972656,
+        "delta_formula": {
+          "O": 1,
+          "N": -1,
+          "H": -1
+        },
+        "delta_mass_mono_da": 0.984016,
+        "structure_verified": true,
+        "modification_text": "Asn/Gln hydrolysis",
+        "reference_text": "[20]",
+        "reference_numbers": [
+          20
+        ],
+        "reference_state": "same_asn_or_gln_sidechain_amide_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-021",
+        "pdf_page": 7,
+        "print_page": 329,
+        "nominal_average_delta_book": 1,
+        "anchor_x": 331.00181579589844,
+        "delta_formula": {
+          "O": 1,
+          "N": -1,
+          "H": -1
+        },
+        "delta_mass_mono_da": 0.984016,
+        "structure_verified": true,
+        "modification_text": "Peptide amide hydrolysis",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "same_c_terminal_amide_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-022",
+        "pdf_page": 8,
+        "print_page": 330,
+        "nominal_average_delta_book": 2,
+        "anchor_x": 98.9536018371582,
+        "delta_formula": {
+          "H": 2
+        },
+        "delta_mass_mono_da": 2.01565,
+        "structure_verified": true,
+        "modification_text": "Modification Cystine reduction",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "same_peptide_disulfide_bridge",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-023",
+        "pdf_page": 8,
+        "print_page": 330,
+        "nominal_average_delta_book": 2,
+        "anchor_x": 172.56339263916016,
+        "delta_formula": {
+          "H": 2
+        },
+        "delta_mass_mono_da": 2.01565,
+        "structure_verified": true,
+        "modification_text": "Trp reduction",
+        "reference_text": "[21]",
+        "reference_numbers": [
+          21
+        ],
+        "reference_state": "same_trp_indole_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-024",
+        "pdf_page": 8,
+        "print_page": 330,
+        "nominal_average_delta_book": 4,
+        "anchor_x": 265.6396026611328,
+        "delta_formula": {
+          "C": -1,
+          "O": 1
+        },
+        "delta_mass_mono_da": 3.994915,
+        "structure_verified": true,
+        "modification_text": "Oxidation of Trp to Kynurenine",
+        "reference_text": "[22]",
+        "reference_numbers": [
+          22
+        ],
+        "reference_state": "same_trp_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-025",
+        "pdf_page": 8,
+        "print_page": 330,
+        "nominal_average_delta_book": 12,
+        "anchor_x": 330.67030334472656,
+        "delta_formula": {
+          "C": 1
+        },
+        "delta_mass_mono_da": 12.0,
+        "structure_verified": true,
+        "modification_text": "Imine formation on amino-containing peptide",
+        "reference_text": "[23]",
+        "reference_numbers": [
+          23
+        ],
+        "reference_state": "same_primary_amino_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-026",
+        "pdf_page": 9,
+        "print_page": 331,
+        "nominal_average_delta_book": 12,
+        "anchor_x": 87.63010025024414,
+        "delta_formula": {
+          "C": 1
+        },
+        "delta_mass_mono_da": 12.0,
+        "structure_verified": true,
+        "modification_text": "Modification Imidazolin-4-one formation on peptide N-terminus",
+        "reference_text": "[24]",
+        "reference_numbers": [
+          24
+        ],
+        "reference_state": "图示Nα与第二位骨架N-H生成imidazolidin-4-one，甲醛失水净+C。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-027",
+        "pdf_page": 9,
+        "print_page": 331,
+        "nominal_average_delta_book": 12,
+        "anchor_x": 170.14839935302734,
+        "delta_formula": {
+          "C": 1
+        },
+        "delta_mass_mono_da": 12.0,
+        "structure_verified": true,
+        "modification_text": "Formaldehyde- induced crosslinking of peptide N-terminal Cys, Trp, Lys(Nma)",
+        "reference_text": "[25]",
+        "reference_numbers": [
+          25
+        ],
+        "reference_state": "same_free_n_terminal_cys_or_trp_or_lys_nma_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-028",
+        "pdf_page": 9,
+        "print_page": 331,
+        "nominal_average_delta_book": 14,
+        "anchor_x": 242.7948989868164,
+        "delta_formula": {
+          "C": 1,
+          "H": 2
+        },
+        "delta_mass_mono_da": 14.01565,
+        "structure_verified": true,
+        "modification_text": "Methylation of amino group",
+        "reference_text": "[26]",
+        "reference_numbers": [
+          26
+        ],
+        "reference_state": "same_primary_amino_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-029",
+        "pdf_page": 9,
+        "print_page": 331,
+        "nominal_average_delta_book": 14,
+        "anchor_x": 277.2364044189453,
+        "delta_formula": {
+          "C": 1,
+          "H": 2
+        },
+        "delta_mass_mono_da": 14.01565,
+        "structure_verified": true,
+        "modification_text": "Methylesterfication on carboxyl group",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "same_free_carboxylic_acid",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-030",
+        "pdf_page": 9,
+        "print_page": 331,
+        "nominal_average_delta_book": 15,
+        "anchor_x": 319.9366912841797,
+        "delta_formula": {
+          "N": 1,
+          "H": 1
+        },
+        "delta_mass_mono_da": 15.010899,
+        "structure_verified": true,
+        "modification_text": "Unsymmetric urea formation from acyl azide",
+        "reference_text": "[27]",
+        "reference_numbers": [
+          27
+        ],
+        "reference_state": "intended_r1_co_nh_r2_amide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-031",
+        "pdf_page": 10,
+        "print_page": 332,
+        "nominal_average_delta_book": 16,
+        "anchor_x": 105.9358024597168,
+        "delta_formula": {
+          "O": 1
+        },
+        "delta_mass_mono_da": 15.994915,
+        "structure_verified": true,
+        "modification_text": "Oxidation of Cys to Cysteine sulfenic acid",
+        "reference_text": "[28]",
+        "reference_numbers": [
+          28
+        ],
+        "reference_state": "same_free_cys_thiol_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-032",
+        "pdf_page": 10,
+        "print_page": 332,
+        "nominal_average_delta_book": 16,
+        "anchor_x": 183.62940216064453,
+        "delta_formula": {
+          "O": 1
+        },
+        "delta_mass_mono_da": 15.994915,
+        "structure_verified": true,
+        "modification_text": "Oxidation of Trp to Oia (Oxindolylalanine)",
+        "reference_text": "[29]",
+        "reference_numbers": [
+          29
+        ],
+        "reference_state": "same_trp_indole_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-033",
+        "pdf_page": 10,
+        "print_page": 332,
+        "nominal_average_delta_book": 16,
+        "anchor_x": 264.68199157714844,
+        "delta_formula": {
+          "O": 1
+        },
+        "delta_mass_mono_da": 15.994915,
+        "structure_verified": true,
+        "modification_text": "Oxidation of Met to Met sulfoxide",
+        "reference_text": "[30]",
+        "reference_numbers": [
+          30
+        ],
+        "reference_state": "same_met_thioether_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-034",
+        "pdf_page": 10,
+        "print_page": 332,
+        "nominal_average_delta_book": 16,
+        "anchor_x": 347.4296112060547,
+        "delta_formula": {
+          "O": 1
+        },
+        "delta_mass_mono_da": 15.994915,
+        "structure_verified": true,
+        "modification_text": "Oxidation of His to 2-oxo-His",
+        "reference_text": "[31]",
+        "reference_numbers": [
+          31
+        ],
+        "reference_state": "same_his_imidazole_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-035",
+        "pdf_page": 11,
+        "print_page": 333,
+        "nominal_average_delta_book": 25,
+        "anchor_x": 108.21480178833008,
+        "delta_formula": {
+          "C": 1,
+          "H": -1,
+          "N": 1
+        },
+        "delta_mass_mono_da": 24.995249,
+        "structure_verified": true,
+        "modification_text": "Met cyanilation",
+        "reference_text": "[32]",
+        "reference_numbers": [
+          32
+        ],
+        "reference_state": "原图Met的S-Me被S-CH2CN替换，最终中性，净CH−1N；不是保留S-Me的固定电荷锍。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-036",
+        "pdf_page": 11,
+        "print_page": 333,
+        "nominal_average_delta_book": 25,
+        "anchor_x": 190.15650177001953,
+        "delta_formula": {
+          "C": 1,
+          "H": -1,
+          "N": 1
+        },
+        "delta_mass_mono_da": 24.995249,
+        "structure_verified": true,
+        "modification_text": "Cys cyanilation",
+        "reference_text": "[33]",
+        "reference_numbers": [
+          33
+        ],
+        "reference_state": "原图Cys-SH→S-CN，净CH−1N；旧Met相关说明误置于本行，已更正。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-037",
+        "pdf_page": 11,
+        "print_page": 333,
+        "nominal_average_delta_book": 26,
+        "anchor_x": 240.95800018310547,
+        "delta_formula": {
+          "C": 2,
+          "H": 2
+        },
+        "delta_mass_mono_da": 26.01565,
+        "structure_verified": true,
+        "modification_text": "Schiff-base formation from amino group and acetaldehyde",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "图示游离一级胺与乙醛形成亚胺，净乙醛−H2O。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-038",
+        "pdf_page": 11,
+        "print_page": 333,
+        "nominal_average_delta_book": 26,
+        "anchor_x": 275.95799255371094,
+        "delta_formula": {
+          "C": 2,
+          "H": 2
+        },
+        "delta_mass_mono_da": 26.01565,
+        "structure_verified": true,
+        "modification_text": "Oxime formation between aminoxy peptide and acetaldehyde",
+        "reference_text": "[34]",
+        "reference_numbers": [
+          34
+        ],
+        "reference_state": "图示氨氧基与乙醛形成肟，净乙醛−H2O；与亚胺等质量但连接不同。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-039",
+        "pdf_page": 11,
+        "print_page": 333,
+        "nominal_average_delta_book": 26,
+        "anchor_x": 329.50999450683594,
+        "delta_formula": {
+          "C": 1,
+          "H": -2,
+          "O": 1
+        },
+        "delta_mass_mono_da": 25.979265,
+        "structure_verified": true,
+        "modification_text": "Hydantoin formation",
+        "reference_text": "[35]",
+        "reference_numbers": [
+          35
+        ],
+        "reference_state": "原图自由Nα及第二位骨架N插入CO桥生成hydantoin，净CO−H2。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-040",
+        "pdf_page": 12,
+        "print_page": 334,
+        "nominal_average_delta_book": 27,
+        "anchor_x": 93.30690383911133,
+        "delta_formula": {
+          "C": 1,
+          "H": 1,
+          "N": 1
+        },
+        "delta_mass_mono_da": 27.010899,
+        "structure_verified": true,
+        "modification_text": "Modification Cyanohydrin formation",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "explicit_carbonyl_substrate_if_present",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-041",
+        "pdf_page": 12,
+        "print_page": 334,
+        "nominal_average_delta_book": 28,
+        "anchor_x": 137.85210418701172,
+        "delta_formula": {
+          "C": 1,
+          "O": 1
+        },
+        "delta_mass_mono_da": 27.994915,
+        "structure_verified": true,
+        "modification_text": "Peptide formylation at Na, Lys-Nε, Trp-Nin or His-Nim",
+        "reference_text": "[36–40]",
+        "reference_numbers": [
+          36,
+          40
+        ],
+        "reference_state": "same_nh_bearing_peptide_site",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-042",
+        "pdf_page": 12,
+        "print_page": 334,
+        "nominal_average_delta_book": 28,
+        "anchor_x": 179.35990142822266,
+        "delta_formula": {
+          "C": 2,
+          "H": 4
+        },
+        "delta_mass_mono_da": 28.0313,
+        "structure_verified": true,
+        "modification_text": "Carboxylate ethylation",
+        "reference_text": "[41]",
+        "reference_numbers": [
+          41
+        ],
+        "reference_state": "same_free_carboxylic_acid",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-043",
+        "pdf_page": 12,
+        "print_page": 334,
+        "nominal_average_delta_book": 28,
+        "anchor_x": 214.82659149169922,
+        "delta_formula": {
+          "C": 2,
+          "H": 4
+        },
+        "delta_mass_mono_da": 28.0313,
+        "structure_verified": true,
+        "modification_text": "N-Dimethylation",
+        "reference_text": "[26]",
+        "reference_numbers": [
+          26
+        ],
+        "reference_state": "same_primary_amino_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-044",
+        "pdf_page": 12,
+        "print_page": 334,
+        "nominal_average_delta_book": 32,
+        "anchor_x": 255.95209503173828,
+        "delta_formula": {
+          "S": 1
+        },
+        "delta_mass_mono_da": 31.972071,
+        "structure_verified": true,
+        "modification_text": "Trisulfide formation",
+        "reference_text": "[42,43]",
+        "reference_numbers": [
+          42,
+          43
+        ],
+        "reference_state": "same_disulfide_linked_components",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-045",
+        "pdf_page": 12,
+        "print_page": 334,
+        "nominal_average_delta_book": 32,
+        "anchor_x": 319.5262908935547,
+        "delta_formula": {
+          "O": 2
+        },
+        "delta_mass_mono_da": 31.989829,
+        "structure_verified": true,
+        "modification_text": "Oxidation of Met to Met sulfone",
+        "reference_text": "[44]",
+        "reference_numbers": [
+          44
+        ],
+        "reference_state": "same_met_thioether_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-046",
+        "pdf_page": 13,
+        "print_page": 335,
+        "nominal_average_delta_book": 32,
+        "anchor_x": 97.8889045715332,
+        "delta_formula": {
+          "O": 2
+        },
+        "delta_mass_mono_da": 31.989829,
+        "structure_verified": true,
+        "modification_text": "Oxidation of Cys to Cysteine sulfinic acid",
+        "reference_text": "[45]",
+        "reference_numbers": [
+          45
+        ],
+        "reference_state": "same_free_cys_thiol_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-047",
+        "pdf_page": 13,
+        "print_page": 335,
+        "nominal_average_delta_book": 32,
+        "anchor_x": 181.76969146728516,
+        "delta_formula": {
+          "O": 2
+        },
+        "delta_mass_mono_da": 31.989829,
+        "structure_verified": true,
+        "modification_text": "Oxidation of Trp to N-formylkynurenine",
+        "reference_text": "[46]",
+        "reference_numbers": [
+          46
+        ],
+        "reference_state": "same_trp_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-048",
+        "pdf_page": 13,
+        "print_page": 335,
+        "nominal_average_delta_book": 34,
+        "anchor_x": 269.4962921142578,
+        "delta_formula": {
+          "Cl": 1,
+          "H": -1
+        },
+        "delta_mass_mono_da": 33.961028,
+        "structure_verified": true,
+        "modification_text": "Chlorination of Tyr",
+        "reference_text": "[47]",
+        "reference_numbers": [
+          47
+        ],
+        "reference_state": "same_tyr_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-049",
+        "pdf_page": 13,
+        "print_page": 335,
+        "nominal_average_delta_book": 40,
+        "anchor_x": 325.99119567871094,
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        },
+        "delta_mass_mono_da": 40.0313,
+        "structure_verified": true,
+        "modification_text": "Oxime formation between aminoxy peptide and acetone",
+        "reference_text": "[34,41]",
+        "reference_numbers": [
+          34,
+          41
+        ],
+        "reference_state": "same_aminooxy_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-050",
+        "pdf_page": 14,
+        "print_page": 336,
+        "nominal_average_delta_book": 40,
+        "anchor_x": 120.09540176391602,
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        },
+        "delta_mass_mono_da": 40.0313,
+        "structure_verified": true,
+        "modification_text": "Enamination of His imidazolyl side chain by acetone",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "原图N端His咪唑N→prop-1-en-2-yl；acetone失H2O，净C3H4。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-051",
+        "pdf_page": 14,
+        "print_page": 336,
+        "nominal_average_delta_book": 40,
+        "anchor_x": 198.94889068603516,
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        },
+        "delta_mass_mono_da": 40.0313,
+        "structure_verified": true,
+        "modification_text": "Acetone induced peptide N-terminal imidazolidinone formation",
+        "reference_text": "[48]",
+        "reference_numbers": [
+          48
+        ],
+        "reference_state": "原图acetone以2,2-dimethyl-imidazolidinone桥接Nα与后邻骨架N-H，净C3H4。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-052",
+        "pdf_page": 14,
+        "print_page": 336,
+        "nominal_average_delta_book": 40,
+        "anchor_x": 273.85581970214844,
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        },
+        "delta_mass_mono_da": 40.0313,
+        "structure_verified": true,
+        "modification_text": "Insufficient deprotection of Ser/ Thr(ΨMe,Me Pro)",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "PsiMeMePro环未完全脱除，相对同ST自由目标残留C3H4；按原图N/O环保存。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-053",
+        "pdf_page": 14,
+        "print_page": 336,
+        "nominal_average_delta_book": 40,
+        "anchor_x": 353.63951110839844,
+        "delta_formula": {
+          "C": 3,
+          "H": 4
+        },
+        "delta_mass_mono_da": 40.0313,
+        "structure_verified": true,
+        "modification_text": "Allylation",
+        "reference_text": "[49]",
+        "reference_numbers": [
+          49
+        ],
+        "reference_state": "fully_dealloc_intended_primary_amine",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-054",
+        "pdf_page": 15,
+        "print_page": 337,
+        "nominal_average_delta_book": 41,
+        "anchor_x": 83.36490249633789,
+        "delta_formula": {
+          "C": 2,
+          "H": 3,
+          "N": 1
+        },
+        "delta_mass_mono_da": 41.026549,
+        "structure_verified": true,
+        "modification_text": "Modification Amidine formation",
+        "reference_text": "[50–52]",
+        "reference_numbers": [
+          50,
+          52
+        ],
+        "reference_state": "same_primary_amino_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-055",
+        "pdf_page": 15,
+        "print_page": 337,
+        "nominal_average_delta_book": 42,
+        "anchor_x": 139.4063949584961,
+        "delta_formula": {
+          "C": 2,
+          "H": 2,
+          "O": 1
+        },
+        "delta_mass_mono_da": 42.010565,
+        "structure_verified": true,
+        "modification_text": "Acetylation on Na, Lys-Nε, O-Ser/Thr",
+        "reference_text": "[53]",
+        "reference_numbers": [
+          53
+        ],
+        "reference_state": "same_free_nh_or_oh_site",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-056",
+        "pdf_page": 15,
+        "print_page": 337,
+        "nominal_average_delta_book": 44,
+        "anchor_x": 233.14049530029297,
+        "delta_formula": {
+          "C": 1,
+          "O": 2
+        },
+        "delta_mass_mono_da": 43.989829,
+        "structure_verified": true,
+        "modification_text": "Trp carbamate",
+        "reference_text": "[54]",
+        "reference_numbers": [
+          54
+        ],
+        "reference_state": "fully_deprotected_trp_indole_target",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-057",
+        "pdf_page": 15,
+        "print_page": 337,
+        "nominal_average_delta_book": 48,
+        "anchor_x": 326.48451232910156,
+        "delta_formula": {
+          "O": 3
+        },
+        "delta_mass_mono_da": 47.984744,
+        "structure_verified": true,
+        "modification_text": "Oxidation of Cys to Cys sulfonic acid",
+        "reference_text": "[55]",
+        "reference_numbers": [
+          55
+        ],
+        "reference_state": "same_free_cys_thiol_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-058",
+        "pdf_page": 16,
+        "print_page": 338,
+        "nominal_average_delta_book": 51,
+        "anchor_x": 112.45620346069336,
+        "delta_formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "S": -1
+        },
+        "delta_mass_mono_da": 51.101428,
+        "structure_verified": true,
+        "modification_text": "Cys beta-elimination and piperidide adduct formation",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "same_free_cys_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-059",
+        "pdf_page": 16,
+        "print_page": 338,
+        "nominal_average_delta_book": 56,
+        "anchor_x": 184.43059539794922,
+        "delta_formula": {
+          "C": 4,
+          "H": 8
+        },
+        "delta_mass_mono_da": 56.0626,
+        "structure_verified": true,
+        "modification_text": "tert-butylation on nucleophilic amino acid or insufficient removal of tBu protecting group",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "same_deprotected_nucleophilic_site",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-060",
+        "pdf_page": 16,
+        "print_page": 338,
+        "nominal_average_delta_book": 67,
+        "anchor_x": 250.28409576416016,
+        "delta_formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "O": -1
+        },
+        "delta_mass_mono_da": 67.078585,
+        "structure_verified": true,
+        "modification_text": "Asp-piperidide",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "自由Asp侧链酸参照：哌啶−水；图中另有isoAsp连接和D/L支路。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-061",
+        "pdf_page": 16,
+        "print_page": 338,
+        "nominal_average_delta_book": 71,
+        "anchor_x": 334.92811584472656,
+        "delta_formula": {
+          "C": 3,
+          "H": 5,
+          "N": 1,
+          "O": 1
+        },
+        "delta_mass_mono_da": 71.037114,
+        "structure_verified": true,
+        "modification_text": "Acetamidomethylated Ser/Thr",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "same_free_ser_or_thr_hydroxyl_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-062",
+        "pdf_page": 17,
+        "print_page": 339,
+        "nominal_average_delta_book": 71,
+        "anchor_x": 97.90559768676758,
+        "delta_formula": {
+          "C": 3,
+          "H": 5,
+          "N": 1,
+          "O": 1
+        },
+        "delta_mass_mono_da": 71.037114,
+        "structure_verified": true,
+        "modification_text": "endo-b-alanine",
+        "reference_text": "[56]",
+        "reference_numbers": [
+          56
+        ],
+        "reference_state": "intended_peptide_without_extra_beta_ala",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-063",
+        "pdf_page": 17,
+        "print_page": 339,
+        "nominal_average_delta_book": 72,
+        "anchor_x": 150.43830108642578,
+        "delta_formula": {
+          "C": 3,
+          "H": 4,
+          "O": 2
+        },
+        "delta_mass_mono_da": 72.021129,
+        "structure_verified": true,
+        "modification_text": "Michael addition of mercaptan to acrylic acid",
+        "reference_text": "[57]",
+        "reference_numbers": [
+          57
+        ],
+        "reference_state": "same_free_mercaptan",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-064",
+        "pdf_page": 17,
+        "print_page": 339,
+        "nominal_average_delta_book": 74,
+        "anchor_x": 201.71419525146484,
+        "delta_formula": {
+          "C": 3,
+          "H": 6,
+          "O": 2
+        },
+        "delta_mass_mono_da": 74.036779,
+        "structure_verified": true,
+        "modification_text": "Esterification of Asp/ Glu by glycerol",
+        "reference_text": "[58]",
+        "reference_numbers": [
+          58
+        ],
+        "reference_state": "same_free_asp_or_glu_sidechain_carboxyl",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-065",
+        "pdf_page": 17,
+        "print_page": 339,
+        "nominal_average_delta_book": 76,
+        "anchor_x": 258.43729400634766,
+        "delta_formula": {
+          "C": 2,
+          "H": 4,
+          "S": 2,
+          "O": -1
+        },
+        "delta_mass_mono_da": 75.980528,
+        "structure_verified": true,
+        "modification_text": "EDT-mediated dithioketal adduct on ketone",
+        "reference_text": "[59]",
+        "reference_numbers": [
+          59
+        ],
+        "reference_state": "same_explicit_ketone_substrate",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-066",
+        "pdf_page": 17,
+        "print_page": 339,
+        "nominal_average_delta_book": 80,
+        "anchor_x": 335.69361877441406,
+        "delta_formula": {
+          "S": 1,
+          "O": 3
+        },
+        "delta_mass_mono_da": 79.956815,
+        "structure_verified": true,
+        "modification_text": "Sulfonation",
+        "reference_text": "[60–62]",
+        "reference_numbers": [
+          60,
+          62
+        ],
+        "reference_state": "same_unsulfated_trp_ser_thr_arg_or_tyr_site",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-067",
+        "pdf_page": 18,
+        "print_page": 340,
+        "nominal_average_delta_book": 90,
+        "anchor_x": 96.99340438842773,
+        "delta_formula": {
+          "C": 7,
+          "H": 6
+        },
+        "delta_mass_mono_da": 90.04695,
+        "structure_verified": true,
+        "modification_text": "Modification Benzylation",
+        "reference_text": "[63]",
+        "reference_numbers": [
+          63
+        ],
+        "reference_state": "same_free_oh_or_sh_site",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-068",
+        "pdf_page": 18,
+        "print_page": 340,
+        "nominal_average_delta_book": 92,
+        "anchor_x": 161.63179779052734,
+        "delta_formula": {
+          "C": 2,
+          "H": 4,
+          "S": 2
+        },
+        "delta_mass_mono_da": 91.975442,
+        "structure_verified": true,
+        "modification_text": "Cys-EDT adduct",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "same_free_cys_thiol_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-069",
+        "pdf_page": 18,
+        "print_page": 340,
+        "nominal_average_delta_book": 96,
+        "anchor_x": 229.11319732666016,
+        "delta_formula": {
+          "C": 2,
+          "F": 3,
+          "O": 1,
+          "H": -1
+        },
+        "delta_mass_mono_da": 95.982299,
+        "structure_verified": true,
+        "modification_text": "Trifluoroacetylation of amino or hydroxyl group",
+        "reference_text": "[64]",
+        "reference_numbers": [
+          64
+        ],
+        "reference_state": "same_free_amine_or_hydroxyl",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-070",
+        "pdf_page": 18,
+        "print_page": 340,
+        "nominal_average_delta_book": 98,
+        "anchor_x": 301.3470916748047,
+        "delta_formula": {
+          "C": 5,
+          "H": 10,
+          "N": 2
+        },
+        "delta_mass_mono_da": 98.084398,
+        "structure_verified": true,
+        "modification_text": "Guanidinium formation on amino group",
+        "reference_text": "[65]",
+        "reference_numbers": [
+          65
+        ],
+        "reference_state": "same_free_primary_amino_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-071",
+        "pdf_page": 19,
+        "print_page": 341,
+        "nominal_average_delta_book": 106,
+        "anchor_x": 129.18700790405273,
+        "delta_formula": {
+          "C": 7,
+          "H": 6,
+          "O": 1
+        },
+        "delta_mass_mono_da": 106.041865,
+        "structure_verified": true,
+        "modification_text": "4-Hydroxylbenzylation",
+        "reference_text": "[66]",
+        "reference_numbers": [
+          66
+        ],
+        "reference_state": "same_free_trp_indole_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-072",
+        "pdf_page": 19,
+        "print_page": 341,
+        "nominal_average_delta_book": 117,
+        "anchor_x": 245.79839324951172,
+        "delta_formula": {
+          "C": 6,
+          "H": 13,
+          "S": 1
+        },
+        "delta_mass_mono_da": null,
+        "structure_verified": true,
+        "modification_text": "Methionine alkylation dy DODT",
+        "reference_text": "[67]",
+        "reference_numbers": [
+          67
+        ],
+        "reference_state": "Met–DODT硫鎓，附加原子C6H13S，产物固定+1电荷；与[P+H]+同电荷差116.065972/z，绝不可当中性差",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-073",
+        "pdf_page": 19,
+        "print_page": 341,
+        "nominal_average_delta_book": 126,
+        "anchor_x": 327.8614044189453,
+        "delta_formula": {
+          "C": 7,
+          "H": 14,
+          "N": 2
+        },
+        "delta_mass_mono_da": 126.115698,
+        "structure_verified": true,
+        "modification_text": "DIC-mediated guanidinium/hydantoin formation on Na",
+        "reference_text": "[68]",
+        "reference_numbers": [
+          68
+        ],
+        "reference_state": "same_free_primary_n_terminal_peptide_for_linear_guanidino_adduct_only",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-074",
+        "pdf_page": 20,
+        "print_page": 342,
+        "nominal_average_delta_book": 145,
+        "anchor_x": 113.20990371704102,
+        "delta_formula": {
+          "C": 7,
+          "H": 3,
+          "N": 3,
+          "O": 1
+        },
+        "delta_mass_mono_da": 145.027612,
+        "structure_verified": true,
+        "modification_text": "HOOBt/carbodiimide-induced Na-2-azidobenzoyl endcapping",
+        "reference_text": "[69]",
+        "reference_numbers": [
+          69
+        ],
+        "reference_state": "same_free_primary_n_terminal_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-075",
+        "pdf_page": 20,
+        "print_page": 342,
+        "nominal_average_delta_book": 148,
+        "anchor_x": 225.1825942993164,
+        "delta_formula": {
+          "C": 6,
+          "H": 12,
+          "S": 2
+        },
+        "delta_mass_mono_da": 148.038043,
+        "structure_verified": true,
+        "modification_text": "Cys-EDT-tBu adduct",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "same_free_cys_thiol_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-076",
+        "pdf_page": 21,
+        "print_page": 343,
+        "nominal_average_delta_book": 163,
+        "anchor_x": 133.53018951416016,
+        "delta_formula": {
+          "C": 9,
+          "H": 9,
+          "N": 1,
+          "O": 2
+        },
+        "delta_mass_mono_da": 163.063329,
+        "structure_verified": true,
+        "modification_text": "Degraded rink amide MBHA linker-induced Trp alkylation",
+        "reference_text": "[70]",
+        "reference_numbers": [
+          70
+        ],
+        "reference_state": "图中Rink来源苄基取代Trp吲哚C2；核对CH03连接臂规则。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-077",
+        "pdf_page": 21,
+        "print_page": 343,
+        "nominal_average_delta_book": 172,
+        "anchor_x": 251.98090362548828,
+        "delta_formula": {
+          "C": 4,
+          "H": 3,
+          "F": 3,
+          "S": 2
+        },
+        "delta_mass_mono_da": 171.962827,
+        "structure_verified": true,
+        "modification_text": "Trp EDT-TFA adduct",
+        "reference_text": "[60]",
+        "reference_numbers": [
+          60
+        ],
+        "reference_state": "图中Trp吲哚C2的EDT/TFA二硫缩醛；对应CH03-R009。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-078",
+        "pdf_page": 21,
+        "print_page": 343,
+        "nominal_average_delta_book": 178,
+        "anchor_x": 344.24400329589844,
+        "delta_formula": {
+          "C": 14,
+          "H": 10
+        },
+        "delta_mass_mono_da": 178.07825,
+        "structure_verified": true,
+        "modification_text": "Na-Fm endcapping",
+        "reference_text": "[71]",
+        "reference_numbers": [
+          71
+        ],
+        "reference_state": "normal_fmoc_deprotected_primary_amine",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-079",
+        "pdf_page": 22,
+        "print_page": 344,
+        "nominal_average_delta_book": 202,
+        "anchor_x": 113.73870468139648,
+        "delta_formula": {
+          "C": 9,
+          "H": 5,
+          "F": 3,
+          "O": 2
+        },
+        "delta_mass_mono_da": 202.024164,
+        "structure_verified": true,
+        "modification_text": "4-Trifluoroacetyoxybenzylation of Trp",
+        "reference_text": "[70]",
+        "reference_numbers": [
+          70
+        ],
+        "reference_state": "same_free_trp_indole_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-080",
+        "pdf_page": 22,
+        "print_page": 344,
+        "nominal_average_delta_book": 242,
+        "anchor_x": 188.91519927978516,
+        "delta_formula": {
+          "C": 19,
+          "H": 14
+        },
+        "delta_mass_mono_da": 242.10955,
+        "structure_verified": true,
+        "modification_text": "Trtylation",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "same_free_xh_site_if_trt_attached",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-081",
+        "pdf_page": 22,
+        "print_page": 344,
+        "nominal_average_delta_book": 252,
+        "anchor_x": 253.5597915649414,
+        "delta_formula": {
+          "C": 13,
+          "H": 16,
+          "S": 1,
+          "O": 3
+        },
+        "delta_mass_mono_da": 252.082016,
+        "structure_verified": true,
+        "modification_text": "Pbf derivatization",
+        "reference_text": "",
+        "reference_numbers": [],
+        "reference_state": "same_free_xh_site_if_pbf_attached",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      },
+      {
+        "appendix_row_id": "AI-082",
+        "pdf_page": 22,
+        "print_page": 344,
+        "nominal_average_delta_book": 265,
+        "anchor_x": 337.6186981201172,
+        "delta_formula": {
+          "C": 14,
+          "H": 19,
+          "N": 1,
+          "O": 4
+        },
+        "delta_mass_mono_da": 265.131408,
+        "structure_verified": true,
+        "modification_text": "Degraded Pal linker-induced Trp alkylation",
+        "reference_text": "[70]",
+        "reference_numbers": [
+          70
+        ],
+        "reference_state": "图中Pal来源二甲氧基苄基片段取代Trp吲哚C2；核对CH03连接臂规则。",
+        "book_mass_basis": "average_delta_mass_integer_in_book"
+      }
+    ],
+    "unmatched_modifications": []
+  },
+  "element_accounts": {
+    "rows": [
+      {
+        "id": "AI-001",
+        "book_delta": -98,
+        "book_text": null,
+        "formula": {
+          "H": -3,
+          "P": -1,
+          "O": -4
+        },
+        "exact_neutral_delta": -97.976896,
+        "status": "conditional",
+        "note": "图示pSer→Dha，脱侧链O与α-H；净−H3PO4；pThr类比为Dhb，图仅画Ser。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_phosphoserine_or_phosphothreonine_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch01.json",
+        "book_raw_value": -98,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -97.97689520444999,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图示pSer→Dha，脱侧链O与α-H；净−H3PO4；pThr类比为Dhb，图仅画Ser。"
+      },
+      {
+        "id": "AI-002",
+        "book_delta": -80,
+        "book_text": null,
+        "formula": {
+          "H": -1,
+          "P": -1,
+          "O": -3
+        },
+        "exact_neutral_delta": -79.966331,
+        "status": "conditional",
+        "note": "pSer磷酸单酯变回Ser-OH，保留侧链氧；净−HPO3，区别于消除。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_phosphomonoester_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch01.json",
+        "book_raw_value": -80,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -79.96633052074999,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "pSer磷酸单酯变回Ser-OH，保留侧链氧；净−HPO3，区别于消除。"
+      },
+      {
+        "id": "AI-003",
+        "book_delta": -80,
+        "book_text": null,
+        "formula": {
+          "H": -1,
+          "Br": -1
+        },
+        "exact_neutral_delta": -79.926163,
+        "status": "conditional",
+        "note": "Cys-S连至原BrCH2CO的CH2，主链保留，形成链内硫醚；净−HBr；不是从未溴乙酰化目标减80。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "bromoacetylated_same_peptide_with_free_cys",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch01.json",
+        "book_raw_value": -80,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -79.92616213207,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Cys-S连至原BrCH2CO的CH2，主链保留，形成链内硫醚；净−HBr；不是从未溴乙酰化目标减80。"
+      },
+      {
+        "id": "AI-004",
+        "book_delta": -48,
+        "book_text": null,
+        "formula": {
+          "C": -1,
+          "H": -4,
+          "S": -1
+        },
+        "exact_neutral_delta": -48.003371,
+        "status": "source_structure_checked",
+        "note": "原文allylglycine与图不一致；图对应vinylglycine，−CH4S与−48一致。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "原文allylglycine与图不一致；图对应vinylglycine，−CH4S与−48一致。",
+        "book_raw_value": -48,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -48.00337112828,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "原文allylglycine与图不一致；图对应vinylglycine，−CH4S与−48一致。"
+      },
+      {
+        "id": "AI-005",
+        "book_delta": -42,
+        "book_text": null,
+        "formula": {
+          "C": -1,
+          "H": -2,
+          "N": -2
+        },
+        "exact_neutral_delta": -42.021798,
+        "status": "formula_confirmed",
+        "note": "Arg侧链NH-C(=NH)-NH2变NH2，三个CH2保留；净−CH2N2，对应Orn。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_arg_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch01.json",
+        "book_raw_value": -42,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -42.02179807374,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Arg侧链NH-C(=NH)-NH2变NH2，三个CH2保留；净−CH2N2，对应Orn。"
+      },
+      {
+        "id": "AI-006",
+        "book_delta": -34,
+        "book_text": null,
+        "formula": {
+          "H": -2,
+          "S": -1
+        },
+        "exact_neutral_delta": -33.987721,
+        "status": "formula_confirmed",
+        "note": "CH2SH和α-H消除为α=CH2，骨架羰基不变，净−H2S；目标Dha。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_cys_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch01.json",
+        "book_raw_value": -34,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -33.98772106414,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "CH2SH和α-H消除为α=CH2，骨架羰基不变，净−H2S；目标Dha。"
+      },
+      {
+        "id": "AI-007",
+        "book_delta": -32,
+        "book_text": null,
+        "formula": {
+          "S": -1
+        },
+        "exact_neutral_delta": -31.972071,
+        "status": "conditional",
+        "note": "图保留两个Cys碳骨架及连接，S-S变单S硫醚桥，只失一个S；不增加H2。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_cys_disulfide_linked_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch01.json",
+        "book_raw_value": -32,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -31.972071,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图保留两个Cys碳骨架及连接，S-S变单S硫醚桥，只失一个S；不增加H2。"
+      },
+      {
+        "id": "AI-008",
+        "book_delta": -26,
+        "book_text": null,
+        "formula": {
+          "H": 2,
+          "N": -2
+        },
+        "exact_neutral_delta": -25.990498,
+        "status": "conditional",
+        "note": "侧链三个CH2保留，端N3变NH2；净+H2−N2，终点Orn。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_nva_azide_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch01.json",
+        "book_raw_value": -26,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -25.99049794546,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "侧链三个CH2保留，端N3变NH2；净+H2−N2，终点Orn。"
+      },
+      {
+        "id": "AI-009",
+        "book_delta": -20,
+        "book_text": null,
+        "formula": {
+          "H": -4,
+          "O": -1
+        },
+        "exact_neutral_delta": -20.026215,
+        "status": "conditional",
+        "note": "前一酰胺羰基O进入五元噁唑，Ser/Thr羟基参与脱水再芳构化，两箭头；净−H4O；环连接两相邻残基。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_ser_or_thr_backbone_amide_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch01.json",
+        "book_raw_value": -20,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -20.02621474784,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "前一酰胺羰基O进入五元噁唑，Ser/Thr羟基参与脱水再芳构化，两箭头；净−H4O；环连接两相邻残基。"
+      },
+      {
+        "id": "AI-010",
+        "book_delta": -18,
+        "book_text": null,
+        "formula": {
+          "H": -2,
+          "O": -1
+        },
+        "exact_neutral_delta": -18.010565,
+        "status": "formula_confirmed",
+        "note": "N端Glu游离α-NH2进攻同残基侧链酸，五元内酰胺；净−H2O，后续肽键保留。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_n_terminal_glu_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch02.json",
+        "book_raw_value": -18,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -18.0105646837,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "N端Glu游离α-NH2进攻同残基侧链酸，五元内酰胺；净−H2O，后续肽键保留。"
+      },
+      {
+        "id": "AI-011",
+        "book_delta": -18,
+        "book_text": null,
+        "formula": {
+          "H": -2,
+          "O": -1
+        },
+        "exact_neutral_delta": -18.010565,
+        "status": "formula_confirmed",
+        "note": "图画Asp侧链酸与紧邻骨架N闭合五元aspartimide；净−H2O；Glu六元glutarimide是文字类比，图未画。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_asp_or_glu_sidechain_acid_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch02.json",
+        "book_raw_value": -18,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -18.0105646837,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图画Asp侧链酸与紧邻骨架N闭合五元aspartimide；净−H2O；Glu六元glutarimide是文字类比，图未画。"
+      },
+      {
+        "id": "AI-012",
+        "book_delta": -18,
+        "book_text": null,
+        "formula": {
+          "H": -2,
+          "O": -1
+        },
+        "exact_neutral_delta": -18.010565,
+        "status": "formula_confirmed",
+        "note": "Ser侧链OH及α-H脱去形成Dha；净−H2O，不是Glu/Gln侧链酰胺变化。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_ser_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch02.json",
+        "book_raw_value": -18,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -18.0105646837,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Ser侧链OH及α-H脱去形成Dha；净−H2O，不是Glu/Gln侧链酰胺变化。"
+      },
+      {
+        "id": "AI-013",
+        "book_delta": -18,
+        "book_text": null,
+        "formula": {
+          "H": -2,
+          "O": -1
+        },
+        "exact_neutral_delta": -18.010565,
+        "status": "formula_confirmed",
+        "note": "侧链-CONH2转-CN，图示1–2个CH2，骨架酸保留；净−H2O。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_asn_or_gln_sidechain_amide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch02.json",
+        "book_raw_value": -18,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -18.0105646837,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "侧链-CONH2转-CN，图示1–2个CH2，骨架酸保留；净−H2O。"
+      },
+      {
+        "id": "AI-014",
+        "book_delta": -17,
+        "book_text": null,
+        "formula": {
+          "N": -1,
+          "H": -3
+        },
+        "exact_neutral_delta": -17.026549,
+        "status": "formula_confirmed",
+        "note": "游离N端Gln α-N进攻侧链酰胺成五元pGlu，失NH3；后续肽键保留。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_n_terminal_gln_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch02.json",
+        "book_raw_value": -17,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -17.02654910101,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "游离N端Gln α-N进攻侧链酰胺成五元pGlu，失NH3；后续肽键保留。"
+      },
+      {
+        "id": "AI-015",
+        "book_delta": -17,
+        "book_text": null,
+        "formula": {
+          "N": -1,
+          "H": -3
+        },
+        "exact_neutral_delta": -17.026549,
+        "status": "formula_confirmed",
+        "note": "图画Asn侧链CONH2与下一残基骨架NH成五元imide，失NH3；Gln六元环仅文字类比。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_asn_or_gln_peptide_with_next_backbone_nh",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch02.json",
+        "book_raw_value": -17,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -17.02654910101,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图画Asn侧链CONH2与下一残基骨架NH成五元imide，失NH3；Gln六元环仅文字类比。"
+      },
+      {
+        "id": "AI-016",
+        "book_delta": -17,
+        "book_text": null,
+        "formula": {
+          "N": -1,
+          "H": -3
+        },
+        "exact_neutral_delta": -17.026549,
+        "status": "source_structure_checked",
+        "note": "N端Cys(Cam)六元thiomorpholinone（硫吗啉酮），不是五元thiazolidine；−NH3。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "N端Cys(Cam)六元thiomorpholinone（硫吗啉酮），不是五元thiazolidine；−NH3。",
+        "book_raw_value": -17,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -17.02654910101,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "N端Cys(Cam)六元thiomorpholinone（硫吗啉酮），不是五元thiazolidine；−NH3。"
+      },
+      {
+        "id": "AI-017",
+        "book_delta": -16,
+        "book_text": null,
+        "formula": {
+          "O": -1
+        },
+        "exact_neutral_delta": -15.994915,
+        "status": "conditional",
+        "note": "图的P-OH转P-H，P=O和P-O-Ser保留；净−O，终点H-phosphonate。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_phosphate_monoester_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch02.json",
+        "book_raw_value": -16,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -15.99491461956,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图的P-OH转P-H，P=O和P-O-Ser保留；净−O，终点H-phosphonate。"
+      },
+      {
+        "id": "AI-018",
+        "book_delta": -14,
+        "book_text": null,
+        "formula": {
+          "C": -1,
+          "H": -2
+        },
+        "exact_neutral_delta": -14.01565,
+        "status": "formula_confirmed",
+        "note": "酸质子化Tyr-O-Me后硫苯甲醚攻击Me，肽上O-Me→OH，净−CH2；另产二甲基苯基锍。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_tyr_o_methyl_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch02.json",
+        "book_raw_value": -14,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -14.01565006414,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "酸质子化Tyr-O-Me后硫苯甲醚攻击Me，肽上O-Me→OH，净−CH2；另产二甲基苯基锍。"
+      },
+      {
+        "id": "AI-019",
+        "book_delta": -2,
+        "book_text": null,
+        "formula": {
+          "H": -2
+        },
+        "exact_neutral_delta": -2.01565,
+        "status": "formula_confirmed",
+        "note": "图画同肽两SH变S-S，净−H2每桥；链间类比须以两单体总元素为参照。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_peptide_two_free_cys_thiols",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch03.json",
+        "book_raw_value": -2,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": -2.01565006414,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图画同肽两SH变S-S，净−H2每桥；链间类比须以两单体总元素为参照。"
+      },
+      {
+        "id": "AI-020",
+        "book_delta": 1,
+        "book_text": null,
+        "formula": {
+          "O": 1,
+          "N": -1,
+          "H": -1
+        },
+        "exact_neutral_delta": 0.984016,
+        "status": "formula_confirmed",
+        "note": "图画Asn侧链CONH2→COOH，骨架保留；净+O−NH；Gln由文字扩展。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_asn_or_gln_sidechain_amide_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch03.json",
+        "book_raw_value": 1,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 0.9840155826899992,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图画Asn侧链CONH2→COOH，骨架保留；净+O−NH；Gln由文字扩展。"
+      },
+      {
+        "id": "AI-021",
+        "book_delta": 1,
+        "book_text": null,
+        "formula": {
+          "O": 1,
+          "N": -1,
+          "H": -1
+        },
+        "exact_neutral_delta": 0.984016,
+        "status": "formula_confirmed",
+        "note": "图为肽末端-CONH2→COOH，净+O−NH，不是肽键水解断链。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_c_terminal_amide_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch03.json",
+        "book_raw_value": 1,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 0.9840155826899992,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图为肽末端-CONH2→COOH，净+O−NH，不是肽键水解断链。"
+      },
+      {
+        "id": "AI-022",
+        "book_delta": 2,
+        "book_text": null,
+        "formula": {
+          "H": 2
+        },
+        "exact_neutral_delta": 2.01565,
+        "status": "formula_confirmed",
+        "note": "S-S还原成两SH，净+H2每桥；图中同肽骨架保持；链间断桥需分连通分量。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_peptide_disulfide_bridge",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch03.json",
+        "book_raw_value": 2,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 2.01565006414,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "S-S还原成两SH，净+H2每桥；图中同肽骨架保持；链间断桥需分连通分量。"
+      },
+      {
+        "id": "AI-023",
+        "book_delta": 2,
+        "book_text": null,
+        "formula": {
+          "H": 2
+        },
+        "exact_neutral_delta": 2.01565,
+        "status": "conditional",
+        "note": "吲哚2,3双键加H2为indoline，芳苯环不变；新C3构型未分配。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_trp_indole_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch03.json",
+        "book_raw_value": 2,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 2.01565006414,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "吲哚2,3双键加H2为indoline，芳苯环不变；新C3构型未分配。"
+      },
+      {
+        "id": "AI-024",
+        "book_delta": 4,
+        "book_text": null,
+        "formula": {
+          "C": -1,
+          "O": 1
+        },
+        "exact_neutral_delta": 3.994915,
+        "status": "conditional",
+        "note": "吲哚五元环裂开成邻氨基芳基酮Kyn，吲哚C2移除、增O；相对Trp净+O−C。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_trp_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch03.json",
+        "book_raw_value": 4,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 3.9949146195599994,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "吲哚五元环裂开成邻氨基芳基酮Kyn，吲哚C2移除、增O；相对Trp净+O−C。"
+      },
+      {
+        "id": "AI-025",
+        "book_delta": 12,
+        "book_text": null,
+        "formula": {
+          "C": 1
+        },
+        "exact_neutral_delta": 12.0,
+        "status": "conditional",
+        "note": "一级胺与HCHO成R-N=CH2并失水，净+C；图没有还原甲基化。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_primary_amino_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch03.json",
+        "book_raw_value": 12,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 12.0,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "一级胺与HCHO成R-N=CH2并失水，净+C；图没有还原甲基化。"
+      },
+      {
+        "id": "AI-026",
+        "book_delta": 12,
+        "book_text": null,
+        "formula": {
+          "C": 1
+        },
+        "exact_neutral_delta": 12.0,
+        "status": "source_structure_checked",
+        "note": "图示Nα与第二位骨架N-H生成imidazolidin-4-one，甲醛失水净+C。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "图示Nα与第二位骨架N-H生成imidazolidin-4-one，甲醛失水净+C。",
+        "book_raw_value": 12,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 12.0,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图示Nα与第二位骨架N-H生成imidazolidin-4-one，甲醛失水净+C。"
+      },
+      {
+        "id": "AI-027",
+        "book_delta": 12,
+        "book_text": null,
+        "formula": {
+          "C": 1
+        },
+        "exact_neutral_delta": 12.0,
+        "status": "conditional",
+        "note": "三个图均为分子内环化：N端Cys五元thiazolidine、N端Trp稠合六元环、Lys(Nma)保护基内六元环；各净+C。标题crosslinking不等于链间二聚。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_n_terminal_cys_or_trp_or_lys_nma_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch03.json",
+        "book_raw_value": 12,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 12.0,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "三个图均为分子内环化：N端Cys五元thiazolidine、N端Trp稠合六元环、Lys(Nma)保护基内六元环；各净+C。标题crosslinking不等于链间二聚。"
+      },
+      {
+        "id": "AI-028",
+        "book_delta": 14,
+        "book_text": null,
+        "formula": {
+          "C": 1,
+          "H": 2
+        },
+        "exact_neutral_delta": 14.01565,
+        "status": "formula_confirmed",
+        "note": "R-NH2→R-NH-Me，净+CH2；不是亚胺+C，图未写试剂及还原过程。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_primary_amino_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch04.json",
+        "book_raw_value": 14,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 14.01565006414,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "R-NH2→R-NH-Me，净+CH2；不是亚胺+C，图未写试剂及还原过程。"
+      },
+      {
+        "id": "AI-029",
+        "book_delta": 14,
+        "book_text": null,
+        "formula": {
+          "C": 1,
+          "H": 2
+        },
+        "exact_neutral_delta": 14.01565,
+        "status": "formula_confirmed",
+        "note": "R-COOH→R-COO-Me，净+CH2；羧酸位点与N甲基化不同。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_carboxylic_acid",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch04.json",
+        "book_raw_value": 14,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 14.01565006414,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "R-COOH→R-COO-Me，净+CH2；羧酸位点与N甲基化不同。"
+      },
+      {
+        "id": "AI-030",
+        "book_delta": 15,
+        "book_text": null,
+        "formula": {
+          "N": 1,
+          "H": 1
+        },
+        "exact_neutral_delta": 15.010899,
+        "status": "conditional",
+        "note": "图由R1CON3经Curtius成R1NCO再捕获R2NH2，产R1NHCONHR2；+NH是相对正常R1CONHR2酰胺，不是相对原酰基叠氮。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "intended_r1_co_nh_r2_amide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch04.json",
+        "book_raw_value": 15,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 15.01089903687,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图由R1CON3经Curtius成R1NCO再捕获R2NH2，产R1NHCONHR2；+NH是相对正常R1CONHR2酰胺，不是相对原酰基叠氮。"
+      },
+      {
+        "id": "AI-031",
+        "book_delta": 16,
+        "book_text": null,
+        "formula": {
+          "O": 1
+        },
+        "exact_neutral_delta": 15.994915,
+        "status": "formula_confirmed",
+        "note": "Cys-SH→S-OH，净+O；没有额外硫；SOH中间体可继续氧化/成桥。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_cys_thiol_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch04.json",
+        "book_raw_value": 16,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 15.99491461956,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Cys-SH→S-OH，净+O；没有额外硫；SOH中间体可继续氧化/成桥。"
+      },
+      {
+        "id": "AI-032",
+        "book_delta": 16,
+        "book_text": null,
+        "formula": {
+          "O": 1
+        },
+        "exact_neutral_delta": 15.994915,
+        "status": "formula_confirmed",
+        "note": "吲哚C2形成羰基，C3由芳性碳变饱和碳，净+O，Oia；C3新构型未指定。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_trp_indole_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch04.json",
+        "book_raw_value": 16,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 15.99491461956,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "吲哚C2形成羰基，C3由芳性碳变饱和碳，净+O，Oia；C3新构型未指定。"
+      },
+      {
+        "id": "AI-033",
+        "book_delta": 16,
+        "book_text": null,
+        "formula": {
+          "O": 1
+        },
+        "exact_neutral_delta": 15.994915,
+        "status": "formula_confirmed",
+        "note": "Met-S-Me→S(=O)-Me，净+O；硫R/S图未分配，保留异构分支。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_met_thioether_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch04.json",
+        "book_raw_value": 16,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 15.99491461956,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Met-S-Me→S(=O)-Me，净+O；硫R/S图未分配，保留异构分支。"
+      },
+      {
+        "id": "AI-034",
+        "book_delta": 16,
+        "book_text": null,
+        "formula": {
+          "O": 1
+        },
+        "exact_neutral_delta": 15.994915,
+        "status": "formula_confirmed",
+        "note": "His咪唑C2变羰基，图并列2-oxo/2-hydroxy互变异构；两者净+O且同组成。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_his_imidazole_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch04.json",
+        "book_raw_value": 16,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 15.99491461956,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "His咪唑C2变羰基，图并列2-oxo/2-hydroxy互变异构；两者净+O且同组成。"
+      },
+      {
+        "id": "AI-035",
+        "book_delta": 25,
+        "book_text": null,
+        "formula": {
+          "C": 1,
+          "H": -1,
+          "N": 1
+        },
+        "exact_neutral_delta": 24.995249,
+        "status": "source_structure_checked",
+        "note": "原图Met的S-Me被S-CH2CN替换，最终中性，净CH−1N；不是保留S-Me的固定电荷锍。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "原图Met的S-Me被S-CH2CN替换，最终中性，净CH−1N；不是保留S-Me的固定电荷锍。",
+        "book_raw_value": 25,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 24.99524897273,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "原图Met的S-Me被S-CH2CN替换，最终中性，净CH−1N；不是保留S-Me的固定电荷锍。"
+      },
+      {
+        "id": "AI-036",
+        "book_delta": 25,
+        "book_text": null,
+        "formula": {
+          "C": 1,
+          "H": -1,
+          "N": 1
+        },
+        "exact_neutral_delta": 24.995249,
+        "status": "source_structure_checked",
+        "note": "原图Cys-SH→S-CN，净CH−1N；旧Met相关说明误置于本行，已更正。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "原图Cys-SH→S-CN，净CH−1N；旧Met相关说明误置于本行，已更正。",
+        "book_raw_value": 25,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 24.99524897273,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "原图Cys-SH→S-CN，净CH−1N；旧Met相关说明误置于本行，已更正。"
+      },
+      {
+        "id": "AI-037",
+        "book_delta": 26,
+        "book_text": null,
+        "formula": {
+          "C": 2,
+          "H": 2
+        },
+        "exact_neutral_delta": 26.01565,
+        "status": "source_structure_checked",
+        "note": "图示游离一级胺与乙醛形成亚胺，净乙醛−H2O。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "图示游离一级胺与乙醛形成亚胺，净乙醛−H2O。",
+        "book_raw_value": 26,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 26.01565006414,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图示游离一级胺与乙醛形成亚胺，净乙醛−H2O。"
+      },
+      {
+        "id": "AI-038",
+        "book_delta": 26,
+        "book_text": null,
+        "formula": {
+          "C": 2,
+          "H": 2
+        },
+        "exact_neutral_delta": 26.01565,
+        "status": "source_structure_checked",
+        "note": "图示氨氧基与乙醛形成肟，净乙醛−H2O；与亚胺等质量但连接不同。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "图示氨氧基与乙醛形成肟，净乙醛−H2O；与亚胺等质量但连接不同。",
+        "book_raw_value": 26,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 26.01565006414,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图示氨氧基与乙醛形成肟，净乙醛−H2O；与亚胺等质量但连接不同。"
+      },
+      {
+        "id": "AI-039",
+        "book_delta": 26,
+        "book_text": null,
+        "formula": {
+          "C": 1,
+          "H": -2,
+          "O": 1
+        },
+        "exact_neutral_delta": 25.979265,
+        "status": "source_structure_checked",
+        "note": "原图自由Nα及第二位骨架N插入CO桥生成hydantoin，净CO−H2。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "原图自由Nα及第二位骨架N插入CO桥生成hydantoin，净CO−H2。",
+        "book_raw_value": 26,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 25.97926455542,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "原图自由Nα及第二位骨架N插入CO桥生成hydantoin，净CO−H2。"
+      },
+      {
+        "id": "AI-040",
+        "book_delta": 27,
+        "book_text": null,
+        "formula": {
+          "C": 1,
+          "H": 1,
+          "N": 1
+        },
+        "exact_neutral_delta": 27.010899,
+        "status": "conditional",
+        "note": "图为一般R1COR2加HCN得到C(OH)(CN)，净+HCN；未指定是哪一肽羰基。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "explicit_carbonyl_substrate_if_present",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch04.json",
+        "book_raw_value": 27,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 27.01089903687,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图为一般R1COR2加HCN得到C(OH)(CN)，净+HCN；未指定是哪一肽羰基。"
+      },
+      {
+        "id": "AI-041",
+        "book_delta": 28,
+        "book_text": null,
+        "formula": {
+          "C": 1,
+          "O": 1
+        },
+        "exact_neutral_delta": 27.994915,
+        "status": "formula_confirmed",
+        "note": "图为一级胺NH2→NHCHO，净+CO；标题列Nα/Lys-Nε/Trp-Nin/His-Nim，图只示一般胺，各连接需各自位点前提。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_nh_bearing_peptide_site",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch05.json",
+        "book_raw_value": 28,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 27.99491461956,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图为一级胺NH2→NHCHO，净+CO；标题列Nα/Lys-Nε/Trp-Nin/His-Nim，图只示一般胺，各连接需各自位点前提。"
+      },
+      {
+        "id": "AI-042",
+        "book_delta": 28,
+        "book_text": null,
+        "formula": {
+          "C": 2,
+          "H": 4
+        },
+        "exact_neutral_delta": 28.0313,
+        "status": "formula_confirmed",
+        "note": "COOH→COOCH2CH3，净+C2H4；与二甲基胺同式，区别于甲酰+CO。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_carboxylic_acid",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch05.json",
+        "book_raw_value": 28,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 28.03130012828,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "COOH→COOCH2CH3，净+C2H4；与二甲基胺同式，区别于甲酰+CO。"
+      },
+      {
+        "id": "AI-043",
+        "book_delta": 28,
+        "book_text": null,
+        "formula": {
+          "C": 2,
+          "H": 4
+        },
+        "exact_neutral_delta": 28.0313,
+        "status": "formula_confirmed",
+        "note": "RNH2→RN(CH3)2，净+C2H4；两次N甲基化占据同一N，不能用独立位点相加代替连续路径。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_primary_amino_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch05.json",
+        "book_raw_value": 28,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 28.03130012828,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "RNH2→RN(CH3)2，净+C2H4；两次N甲基化占据同一N，不能用独立位点相加代替连续路径。"
+      },
+      {
+        "id": "AI-044",
+        "book_delta": 32,
+        "book_text": null,
+        "formula": {
+          "S": 1
+        },
+        "exact_neutral_delta": 31.972071,
+        "status": "conditional",
+        "note": "两Cys之间S-S插入一个S形成S-S-S；净+S，端C-S连接保留；不是从两SH直接+S。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_disulfide_linked_components",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch05.json",
+        "book_raw_value": 32,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 31.972071,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "两Cys之间S-S插入一个S形成S-S-S；净+S，端C-S连接保留；不是从两SH直接+S。"
+      },
+      {
+        "id": "AI-045",
+        "book_delta": 32,
+        "book_text": null,
+        "formula": {
+          "O": 2
+        },
+        "exact_neutral_delta": 31.989829,
+        "status": "formula_confirmed",
+        "note": "Met硫醚→砜S(=O)2，净+O2；若从亚砜出发仅+O。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_met_thioether_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch05.json",
+        "book_raw_value": 32,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 31.98982923912,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Met硫醚→砜S(=O)2，净+O2；若从亚砜出发仅+O。"
+      },
+      {
+        "id": "AI-046",
+        "book_delta": 32,
+        "book_text": null,
+        "formula": {
+          "O": 2
+        },
+        "exact_neutral_delta": 31.989829,
+        "status": "formula_confirmed",
+        "note": "Cys-SH→S(=O)OH，净+O2，亚磺酸，含S数不变。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_cys_thiol_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch05.json",
+        "book_raw_value": 32,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 31.98982923912,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Cys-SH→S(=O)OH，净+O2，亚磺酸，含S数不变。"
+      },
+      {
+        "id": "AI-047",
+        "book_delta": 32,
+        "book_text": null,
+        "formula": {
+          "O": 2
+        },
+        "exact_neutral_delta": 31.989829,
+        "status": "formula_confirmed",
+        "note": "吲哚五元环氧化裂为芳基酮并保留N-CHO，NFK；净+O2，区别于Kyn总净+O−C。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_trp_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch05.json",
+        "book_raw_value": 32,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 31.98982923912,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "吲哚五元环氧化裂为芳基酮并保留N-CHO，NFK；净+O2，区别于Kyn总净+O−C。"
+      },
+      {
+        "id": "AI-048",
+        "book_delta": 34,
+        "book_text": null,
+        "formula": {
+          "Cl": 1,
+          "H": -1
+        },
+        "exact_neutral_delta": 33.961028,
+        "status": "conditional",
+        "note": "Tyr酚OH邻位芳氢被Cl替换，净+Cl−H；图画一个Cl而不是加HCl。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_tyr_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch05.json",
+        "book_raw_value": 34,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 33.961027647929996,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Tyr酚OH邻位芳氢被Cl替换，净+Cl−H；图画一个Cl而不是加HCl。"
+      },
+      {
+        "id": "AI-049",
+        "book_delta": 40,
+        "book_text": null,
+        "formula": {
+          "C": 3,
+          "H": 4
+        },
+        "exact_neutral_delta": 40.0313,
+        "status": "conditional",
+        "note": "图为H2N-O-R→(CH3)2C=N-O-R，丙酮肟；净+C3H4，保留氨氧基O；不是普通伯胺亚胺。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_aminooxy_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch06.json",
+        "book_raw_value": 40,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 40.03130012828,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图为H2N-O-R→(CH3)2C=N-O-R，丙酮肟；净+C3H4，保留氨氧基O；不是普通伯胺亚胺。"
+      },
+      {
+        "id": "AI-050",
+        "book_delta": 40,
+        "book_text": null,
+        "formula": {
+          "C": 3,
+          "H": 4
+        },
+        "exact_neutral_delta": 40.0313,
+        "status": "source_structure_checked",
+        "note": "原图N端His咪唑N→prop-1-en-2-yl；acetone失H2O，净C3H4。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "原图N端His咪唑N→prop-1-en-2-yl；acetone失H2O，净C3H4。",
+        "book_raw_value": 40,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 40.03130012828,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "原图N端His咪唑N→prop-1-en-2-yl；acetone失H2O，净C3H4。"
+      },
+      {
+        "id": "AI-051",
+        "book_delta": 40,
+        "book_text": null,
+        "formula": {
+          "C": 3,
+          "H": 4
+        },
+        "exact_neutral_delta": 40.0313,
+        "status": "source_structure_checked",
+        "note": "原图acetone以2,2-dimethyl-imidazolidinone桥接Nα与后邻骨架N-H，净C3H4。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "原图acetone以2,2-dimethyl-imidazolidinone桥接Nα与后邻骨架N-H，净C3H4。",
+        "book_raw_value": 40,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 40.03130012828,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "原图acetone以2,2-dimethyl-imidazolidinone桥接Nα与后邻骨架N-H，净C3H4。"
+      },
+      {
+        "id": "AI-052",
+        "book_delta": 40,
+        "book_text": null,
+        "formula": {
+          "C": 3,
+          "H": 4
+        },
+        "exact_neutral_delta": 40.0313,
+        "status": "source_structure_checked",
+        "note": "PsiMeMePro环未完全脱除，相对同ST自由目标残留C3H4；按原图N/O环保存。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "PsiMeMePro环未完全脱除，相对同ST自由目标残留C3H4；按原图N/O环保存。",
+        "book_raw_value": 40,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 40.03130012828,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "PsiMeMePro环未完全脱除，相对同ST自由目标残留C3H4；按原图N/O环保存。"
+      },
+      {
+        "id": "AI-053",
+        "book_delta": 40,
+        "book_text": null,
+        "formula": {
+          "C": 3,
+          "H": 4
+        },
+        "exact_neutral_delta": 40.0313,
+        "status": "conditional",
+        "note": "图示Alloc脱保护在Pd(0)下同时得到游离胺及N-allyl胺；N-allyl相对正常去保护胺净+C3H4，不相对Alloc前体。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "fully_dealloc_intended_primary_amine",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch06.json",
+        "book_raw_value": 40,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 40.03130012828,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图示Alloc脱保护在Pd(0)下同时得到游离胺及N-allyl胺；N-allyl相对正常去保护胺净+C3H4，不相对Alloc前体。"
+      },
+      {
+        "id": "AI-054",
+        "book_delta": 41,
+        "book_text": null,
+        "formula": {
+          "C": 2,
+          "H": 3,
+          "N": 1
+        },
+        "exact_neutral_delta": 41.026549,
+        "status": "conditional",
+        "note": "RNH2→R-NH-C(=NH)-CH3，乙脒化净+C2H3N，41.026549Da；图明确连接，不是乙酰化。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_primary_amino_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch06.json",
+        "book_raw_value": 41,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 41.02654910101,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "RNH2→R-NH-C(=NH)-CH3，乙脒化净+C2H3N，41.026549Da；图明确连接，不是乙酰化。"
+      },
+      {
+        "id": "AI-055",
+        "book_delta": 42,
+        "book_text": null,
+        "formula": {
+          "C": 2,
+          "H": 2,
+          "O": 1
+        },
+        "exact_neutral_delta": 42.010565,
+        "status": "formula_confirmed",
+        "note": "Ac-X与R-OH或R-NH2形成乙酸酯/乙酰胺，净+C2H2O；图有两个位点类别。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_nh_or_oh_site",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch06.json",
+        "book_raw_value": 42,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 42.0105646837,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Ac-X与R-OH或R-NH2形成乙酸酯/乙酰胺，净+C2H2O；图有两个位点类别。"
+      },
+      {
+        "id": "AI-056",
+        "book_delta": 44,
+        "book_text": null,
+        "formula": {
+          "C": 1,
+          "O": 2
+        },
+        "exact_neutral_delta": 43.989829,
+        "status": "conditional",
+        "note": "图从Trp(N-Boc)在TFA下生成游离Trp及N-COOH中间体；后者相对游离目标净+CO2，相对N-Boc前体失C4H8。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "fully_deprotected_trp_indole_target",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch06.json",
+        "book_raw_value": 44,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 43.98982923912,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图从Trp(N-Boc)在TFA下生成游离Trp及N-COOH中间体；后者相对游离目标净+CO2，相对N-Boc前体失C4H8。"
+      },
+      {
+        "id": "AI-057",
+        "book_delta": 48,
+        "book_text": null,
+        "formula": {
+          "O": 3
+        },
+        "exact_neutral_delta": 47.984744,
+        "status": "formula_confirmed",
+        "note": "Cys-SH→S(=O)2OH，净+O3，三个氧增加而S不增加；47.984744Da。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_cys_thiol_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch06.json",
+        "book_raw_value": 48,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 47.98474385868,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Cys-SH→S(=O)2OH，净+O3，三个氧增加而S不增加；47.984744Da。"
+      },
+      {
+        "id": "AI-058",
+        "book_delta": 51,
+        "book_text": null,
+        "formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "S": -1
+        },
+        "exact_neutral_delta": 51.101428,
+        "status": "conditional",
+        "note": "Cys失H2S成Dha，再哌啶NH加成；总净+C5H9N−S，51.101428Da；Dha为有依据中间体。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_cys_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch06.json",
+        "book_raw_value": 51,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 51.101428293430004,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Cys失H2S成Dha，再哌啶NH加成；总净+C5H9N−S，51.101428Da；Dha为有依据中间体。"
+      },
+      {
+        "id": "AI-059",
+        "book_delta": 56,
+        "book_text": null,
+        "formula": {
+          "C": 4,
+          "H": 8
+        },
+        "exact_neutral_delta": 56.0626,
+        "status": "conditional",
+        "note": "tBu+替换R-XH的H，X=NH/O/S/indolyl；净+C4H8；残留tBu保护基相对去保护目标同差但历史不同。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_deprotected_nucleophilic_site",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch06.json",
+        "book_raw_value": 56,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 56.06260025656,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "tBu+替换R-XH的H，X=NH/O/S/indolyl；净+C4H8；残留tBu保护基相对去保护目标同差但历史不同。"
+      },
+      {
+        "id": "AI-060",
+        "book_delta": 67,
+        "book_text": null,
+        "formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "O": -1
+        },
+        "exact_neutral_delta": 67.078585,
+        "status": "source_structure_checked",
+        "note": "自由Asp侧链酸参照：哌啶−水；图中另有isoAsp连接和D/L支路。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "自由Asp侧链酸参照：哌啶−水；图中另有isoAsp连接和D/L支路。",
+        "book_raw_value": 67,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 67.07858467387001,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "自由Asp侧链酸参照：哌啶−水；图中另有isoAsp连接和D/L支路。"
+      },
+      {
+        "id": "AI-061",
+        "book_delta": 71,
+        "book_text": null,
+        "formula": {
+          "C": 3,
+          "H": 5,
+          "N": 1,
+          "O": 1
+        },
+        "exact_neutral_delta": 71.037114,
+        "status": "conditional",
+        "note": "Ser/Thr-OH→O-CH2-NHCOCH3，Acm在O上，净+C3H5NO；与Cam不同。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_ser_or_thr_hydroxyl_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch07.json",
+        "book_raw_value": 71,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 71.03711378470999,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Ser/Thr-OH→O-CH2-NHCOCH3，Acm在O上，净+C3H5NO；与Cam不同。"
+      },
+      {
+        "id": "AI-062",
+        "book_delta": 71,
+        "book_text": null,
+        "formula": {
+          "C": 3,
+          "H": 5,
+          "N": 1,
+          "O": 1
+        },
+        "exact_neutral_delta": 71.037114,
+        "status": "conditional",
+        "note": "图明确Fmoc-Xaa2来料含Fmoc-βAla-Xaa2-OH，偶联产物在Xaa2之前多βAla；净+C3H5NO，外端Fmoc状态一致。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "intended_peptide_without_extra_beta_ala",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch07.json",
+        "book_raw_value": 71,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 71.03711378470999,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图明确Fmoc-Xaa2来料含Fmoc-βAla-Xaa2-OH，偶联产物在Xaa2之前多βAla；净+C3H5NO，外端Fmoc状态一致。"
+      },
+      {
+        "id": "AI-063",
+        "book_delta": 72,
+        "book_text": null,
+        "formula": {
+          "C": 3,
+          "H": 4,
+          "O": 2
+        },
+        "exact_neutral_delta": 72.021129,
+        "status": "formula_confirmed",
+        "note": "RSH的S接至丙烯酸β碳，成RS-CH2CH2COOH，净+C3H4O2（整颗丙烯酸），S的H转入α碳。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_mercaptan",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch07.json",
+        "book_raw_value": 72,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 72.0211293674,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "RSH的S接至丙烯酸β碳，成RS-CH2CH2COOH，净+C3H4O2（整颗丙烯酸），S的H转入α碳。"
+      },
+      {
+        "id": "AI-064",
+        "book_delta": 74,
+        "book_text": null,
+        "formula": {
+          "C": 3,
+          "H": 6,
+          "O": 2
+        },
+        "exact_neutral_delta": 74.036779,
+        "status": "conditional",
+        "note": "图Asp/Glu侧链COOH与甘油端OH成酯，另外两个OH保留；净+C3H6O2（甘油−水）。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_asp_or_glu_sidechain_carboxyl",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch07.json",
+        "book_raw_value": 74,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 74.03677943154,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图Asp/Glu侧链COOH与甘油端OH成酯，另外两个OH保留；净+C3H6O2（甘油−水）。"
+      },
+      {
+        "id": "AI-065",
+        "book_delta": 76,
+        "book_text": null,
+        "formula": {
+          "C": 2,
+          "H": 4,
+          "S": 2,
+          "O": -1
+        },
+        "exact_neutral_delta": 75.980528,
+        "status": "conditional",
+        "note": "酮羰基O被EDT两个S替换，形成五元1,3-dithiolane；净+C2H4S2−O；羰基碳保留。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_explicit_ketone_substrate",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch07.json",
+        "book_raw_value": 76,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 75.98052750872,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "酮羰基O被EDT两个S替换，形成五元1,3-dithiolane；净+C2H4S2−O；羰基碳保留。"
+      },
+      {
+        "id": "AI-066",
+        "book_delta": 80,
+        "book_text": null,
+        "formula": {
+          "S": 1,
+          "O": 3
+        },
+        "exact_neutral_delta": 79.956815,
+        "status": "formula_confirmed",
+        "note": "五幅图分别Trp吲哚N、Ser/Thr-O、Arg胍N、Tyr-O连SO3H；各净+SO3，结构身份和位点保留。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_unsulfated_trp_ser_thr_arg_or_tyr_site",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch07.json",
+        "book_raw_value": 80,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 79.95681485867999,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "五幅图分别Trp吲哚N、Ser/Thr-O、Arg胍N、Tyr-O连SO3H；各净+SO3，结构身份和位点保留。"
+      },
+      {
+        "id": "AI-067",
+        "book_delta": 90,
+        "book_text": null,
+        "formula": {
+          "C": 7,
+          "H": 6
+        },
+        "exact_neutral_delta": 90.04695,
+        "status": "conditional",
+        "note": "图指定X=O或S，R-XH→R-X-CH2Ph；净+C7H6；未画N苄基化。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_oh_or_sh_site",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch07.json",
+        "book_raw_value": 90,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 90.04695019242,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图指定X=O或S，R-XH→R-X-CH2Ph；净+C7H6；未画N苄基化。"
+      },
+      {
+        "id": "AI-068",
+        "book_delta": 92,
+        "book_text": null,
+        "formula": {
+          "C": 2,
+          "H": 4,
+          "S": 2
+        },
+        "exact_neutral_delta": 91.975442,
+        "status": "conditional",
+        "note": "Cys-SH→S-S-CH2CH2-SH，混合二硫，净+C2H4S2（EDT−H2）；末端SH仍可反应。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_cys_thiol_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch07.json",
+        "book_raw_value": 92,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 91.97544212828001,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Cys-SH→S-S-CH2CH2-SH，混合二硫，净+C2H4S2（EDT−H2）；末端SH仍可反应。"
+      },
+      {
+        "id": "AI-069",
+        "book_delta": 96,
+        "book_text": null,
+        "formula": {
+          "C": 2,
+          "F": 3,
+          "O": 1,
+          "H": -1
+        },
+        "exact_neutral_delta": 95.982299,
+        "status": "conditional",
+        "note": "CF3COOH与HX-R成CF3CO-X-R，净+C2F3O−H；图注N=O or NH应结合图变量X理解，保留原文字。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_amine_or_hydroxyl",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch08.json",
+        "book_raw_value": 96,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 95.98229924749,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "CF3COOH与HX-R成CF3CO-X-R，净+C2F3O−H；图注N=O or NH应结合图变量X理解，保留原文字。"
+      },
+      {
+        "id": "AI-070",
+        "book_delta": 98,
+        "book_text": null,
+        "formula": {
+          "C": 5,
+          "H": 10,
+          "N": 2
+        },
+        "exact_neutral_delta": 98.084398,
+        "status": "conditional",
+        "note": "HATU类阳离子碳被N端胺捕获形成R-N=C(NMe2)2；图产物无固定正电，净+C5H10N2；PF6/BF4为试剂反离子不并入肽元素。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_primary_amino_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch08.json",
+        "book_raw_value": 98,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 98.08439833029999,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "HATU类阳离子碳被N端胺捕获形成R-N=C(NMe2)2；图产物无固定正电，净+C5H10N2；PF6/BF4为试剂反离子不并入肽元素。"
+      },
+      {
+        "id": "AI-071",
+        "book_delta": 106,
+        "book_text": null,
+        "formula": {
+          "C": 7,
+          "H": 6,
+          "O": 1
+        },
+        "exact_neutral_delta": 106.041865,
+        "status": "conditional",
+        "note": "Trp吲哚C2-H被CH2-p-C6H4OH取代，净+C7H6O；吲哚N-H保留。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_trp_indole_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch08.json",
+        "book_raw_value": 106,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 106.04186481197999,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Trp吲哚C2-H被CH2-p-C6H4OH取代，净+C7H6O；吲哚N-H保留。"
+      },
+      {
+        "id": "AI-072",
+        "book_delta": 117,
+        "book_text": null,
+        "formula": {
+          "C": 6,
+          "H": 13,
+          "S": 1
+        },
+        "exact_neutral_delta": null,
+        "status": "source_structure_checked",
+        "note": "Met–DODT硫鎓，附加原子C6H13S，产物固定+1电荷；与[P+H]+同电荷差116.065972/z，绝不可当中性差",
+        "elemental_mass_delta": 117.073797,
+        "intrinsic_charge": 1,
+        "same_protonated_ion_delta": 116.065972,
+        "mass_reference_kind": "fixed_charge_ion",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "Met–DODT硫鎓，附加原子C6H13S，产物固定+1电荷；与[P+H]+同电荷差116.065972/z，绝不可当中性差",
+        "book_raw_value": 117,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 117.07379641691,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Met–DODT硫鎓，附加原子C6H13S，产物固定+1电荷；与[P+H]+同电荷差116.065972/z，绝不可当中性差"
+      },
+      {
+        "id": "AI-073",
+        "book_delta": 126,
+        "book_text": null,
+        "formula": {
+          "C": 7,
+          "H": 14,
+          "N": 2
+        },
+        "exact_neutral_delta": 126.115698,
+        "status": "conditional",
+        "note": "DIC先整体加至Nα成胍，净+C7H14N2（+126）；图又画后邻骨架N进攻形成五元hydantoin-2-imide并脱离C侧片段。最终环产物不能一律相对整肽+126。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_primary_n_terminal_peptide_for_linear_guanidino_adduct_only",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch08.json",
+        "book_raw_value": 126,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 126.11569845858,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "DIC先整体加至Nα成胍，净+C7H14N2（+126）；图又画后邻骨架N进攻形成五元hydantoin-2-imide并脱离C侧片段。最终环产物不能一律相对整肽+126。",
+        "branch_accounts": [
+          {
+            "branch": "linear_guanidino",
+            "delta_formula": {
+              "C": 7,
+              "H": 14,
+              "N": 2
+            }
+          },
+          {
+            "branch": "hydantoin_imide_cleavage",
+            "delta_formula": null,
+            "requires": "explicit_fragment_and_connectivity"
+          }
+        ],
+        "mass_reference_warning": "原表将胍化及环化合列+126；只给线性胍加成固定净式，环化断片质量须按完整前体重算。"
+      },
+      {
+        "id": "AI-074",
+        "book_delta": 145,
+        "book_text": null,
+        "formula": {
+          "C": 7,
+          "H": 3,
+          "N": 3,
+          "O": 1
+        },
+        "exact_neutral_delta": 145.027612,
+        "status": "conditional",
+        "note": "HOOBt与DCC图示重排活化形成2-叠氮苯甲酰N端，肽N变NHCO-o-C6H4N3；净+C7H3N3O。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_primary_n_terminal_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch08.json",
+        "book_raw_value": 145,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 145.02761173017,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "HOOBt与DCC图示重排活化形成2-叠氮苯甲酰N端，肽N变NHCO-o-C6H4N3；净+C7H3N3O。"
+      },
+      {
+        "id": "AI-075",
+        "book_delta": 148,
+        "book_text": null,
+        "formula": {
+          "C": 6,
+          "H": 12,
+          "S": 2
+        },
+        "exact_neutral_delta": 148.038043,
+        "status": "conditional",
+        "note": "Cys-SS-CH2CH2-S-tBu，可由EDT混合二硫再tBu捕获或tBu-EDT先生成后成桥；总净+C6H12S2。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_cys_thiol_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch08.json",
+        "book_raw_value": 148,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 148.03804238484,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Cys-SS-CH2CH2-S-tBu，可由EDT混合二硫再tBu捕获或tBu-EDT先生成后成桥；总净+C6H12S2。"
+      },
+      {
+        "id": "AI-076",
+        "book_delta": 163,
+        "book_text": null,
+        "formula": {
+          "C": 9,
+          "H": 9,
+          "N": 1,
+          "O": 2
+        },
+        "exact_neutral_delta": 163.063329,
+        "status": "source_structure_checked",
+        "note": "图中Rink来源苄基取代Trp吲哚C2；核对CH03连接臂规则。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "图中Rink来源苄基取代Trp吲哚C2；核对CH03连接臂规则。",
+        "book_raw_value": 163,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 163.06332853255003,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图中Rink来源苄基取代Trp吲哚C2；核对CH03连接臂规则。"
+      },
+      {
+        "id": "AI-077",
+        "book_delta": 172,
+        "book_text": null,
+        "formula": {
+          "C": 4,
+          "H": 3,
+          "F": 3,
+          "S": 2
+        },
+        "exact_neutral_delta": 171.962827,
+        "status": "source_structure_checked",
+        "note": "图中Trp吲哚C2的EDT/TFA二硫缩醛；对应CH03-R009。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "图中Trp吲哚C2的EDT/TFA二硫缩醛；对应CH03-R009。",
+        "book_raw_value": 172,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 171.96282675621,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图中Trp吲哚C2的EDT/TFA二硫缩醛；对应CH03-R009。"
+      },
+      {
+        "id": "AI-078",
+        "book_delta": 178,
+        "book_text": null,
+        "formula": {
+          "C": 14,
+          "H": 10
+        },
+        "exact_neutral_delta": 178.07825,
+        "status": "conditional",
+        "note": "Fmoc裂解出的DBF被胺加成成为N-CH2-9-fluorenyl，净+C14H10；图正常去保护胺并列。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "normal_fmoc_deprotected_primary_amine",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch08.json",
+        "book_raw_value": 178,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 178.0782503207,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "Fmoc裂解出的DBF被胺加成成为N-CH2-9-fluorenyl，净+C14H10；图正常去保护胺并列。"
+      },
+      {
+        "id": "AI-079",
+        "book_delta": 202,
+        "book_text": null,
+        "formula": {
+          "C": 9,
+          "H": 5,
+          "F": 3,
+          "O": 2
+        },
+        "exact_neutral_delta": 202.024164,
+        "status": "conditional",
+        "note": "吲哚C2连CH2-p-C6H4-OCOCF3，净+C9H5F3O2；不是简单Trp三氟乙酰。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_trp_indole_peptide",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch08.json",
+        "book_raw_value": 202,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 202.02416405947002,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "吲哚C2连CH2-p-C6H4-OCOCF3，净+C9H5F3O2；不是简单Trp三氟乙酰。"
+      },
+      {
+        "id": "AI-080",
+        "book_delta": 242,
+        "book_text": null,
+        "formula": {
+          "C": 19,
+          "H": 14
+        },
+        "exact_neutral_delta": 242.10955,
+        "status": "conditional",
+        "note": "图仅画三苯甲基Ph3C与波线连接，没有具体肽受体或反应箭头；以替换X-H计净+C19H14，三苯甲基片段本身为C19H15。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_xh_site_if_trt_attached",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch09.json",
+        "book_raw_value": 242,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 242.10955044898,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图仅画三苯甲基Ph3C与波线连接，没有具体肽受体或反应箭头；以替换X-H计净+C19H14，三苯甲基片段本身为C19H15。"
+      },
+      {
+        "id": "AI-081",
+        "book_delta": 252,
+        "book_text": null,
+        "formula": {
+          "C": 13,
+          "H": 16,
+          "S": 1,
+          "O": 3
+        },
+        "exact_neutral_delta": 252.082016,
+        "status": "conditional",
+        "note": "图仅画Pbf磺酰片段及S端波线，没有具体肽位点；片段C13H17O3S，替换X-H的净增C13H16O3S。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "same_free_xh_site_if_pbf_attached",
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "evidence_notes": "rebuild/appendix_reviews/batch09.json",
+        "book_raw_value": 252,
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 252.0820153718,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图仅画Pbf磺酰片段及S端波线，没有具体肽位点；片段C13H17O3S，替换X-H的净增C13H16O3S。"
+      },
+      {
+        "id": "AI-082",
+        "book_delta": 265,
+        "book_text": null,
+        "formula": {
+          "C": 14,
+          "H": 19,
+          "N": 1,
+          "O": 4
+        },
+        "exact_neutral_delta": 265.131408,
+        "status": "source_structure_checked",
+        "note": "图中Pal来源二甲氧基苄基片段取代Trp吲哚C2；核对CH03连接臂规则。",
+        "structure_checked": true,
+        "reference_checked": true,
+        "reference_state": "图中Pal来源二甲氧基苄基片段取代Trp吲哚C2；核对CH03连接臂规则。",
+        "book_raw_value": 265,
+        "book_mass_basis": "average_delta_mass_integer_in_book",
+        "book_integer_agrees_with_rounded_mono": true,
+        "independent_element_mass": 265.13140809236995,
+        "independent_method": "pyteomics.mass composition",
+        "connection": "图中Pal来源二甲氧基苄基片段取代Trp吲哚C2；核对CH03连接臂规则。"
+      }
+    ],
+    "method": "exact = formula_mass(formula) via tools/mass_ledger.py neutral monoisotopic; book_delta retained as printed integer",
+    "counts": {
+      "conditional": 37,
+      "source_structure_checked": 16,
+      "formula_confirmed": 29
+    }
+  }
+}

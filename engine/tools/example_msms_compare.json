@@ -1,0 +1,48 @@
+{
+  "case_id": "synthetic-GMMK-methionine-oxidation",
+  "candidates": {
+    "Met2+O": {
+      "sequence": "GMMK",
+      "nterm": "free",
+      "cterm": "acid",
+      "modifications": [
+        {
+          "site": 2,
+          "group": "Oxidation"
+        }
+      ]
+    },
+    "Met3+O": {
+      "sequence": "GMMK",
+      "nterm": "free",
+      "cterm": "acid",
+      "modifications": [
+        {
+          "site": 3,
+          "group": "Oxidation"
+        }
+      ]
+    }
+  },
+  "peaks": [
+    [
+      205.064139,
+      800
+    ],
+    [
+      278.153289,
+      500
+    ],
+    [
+      336.104624,
+      300
+    ],
+    [
+      500.25,
+      90
+    ]
+  ],
+  "tolerance": 5,
+  "tolerance_unit": "ppm",
+  "max_fragment_charge": 1
+}

@@ -1,0 +1,21 @@
+{
+  "case_id": "holdout-2",
+  "intended_product": {
+    "sequence": "GLRVA",
+    "nterm": "free",
+    "cterm": "acid"
+  },
+  "reaction": {
+    "description": "文献质量家族回查；反应条件未提供"
+  },
+  "observations": [
+    {
+      "kind": "neutral_mono",
+      "value": 472.30093302896,
+      "tolerance": 5,
+      "tolerance_unit": "ppm"
+    }
+  ],
+  "max_events": 1,
+  "max_nodes": 100000
+}

@@ -1,0 +1,1749 @@
+{
+  "engine": "codex-dsh-fused-1",
+  "library_hash": "076ec348224fa79e3b21d863e61a855cc25b15120387702f77452dea03447dd0",
+  "case": {
+    "case_id": "user-five-5-ion-hypotheses",
+    "intended_product": {
+      "sequence": "GWYCMA",
+      "nterm": "free",
+      "cterm": "amide"
+    },
+    "reaction": {
+      "description": "MTBE萃取/沉淀；未明确报告残酸或叔丁基来源，不能自动当成已满足强酸。",
+      "stage_tags": [
+        "mtbe"
+      ]
+    },
+    "observations": [
+      {
+        "kind": "mz",
+        "value": 785.35,
+        "tolerance": 0.1,
+        "tolerance_unit": "Da",
+        "ion_hypotheses": [
+          {
+            "charge": 1,
+            "ions": {
+              "H": 1
+            }
+          },
+          {
+            "charge": 1,
+            "ions": {},
+            "intrinsic_charge": 1
+          }
+        ]
+      }
+    ],
+    "max_events": 1,
+    "max_nodes": 100000
+  },
+  "reference_components": [
+    {
+      "state": {
+        "chains": [
+          {
+            "id": "chain1",
+            "peptide": {
+              "sequence": [
+                "G",
+                "W",
+                "Y",
+                "C",
+                "M",
+                "A"
+              ],
+              "nterm": "free",
+              "cterm": "amide",
+              "modifications": []
+            },
+            "origin_sites": [
+              "chain1:1",
+              "chain1:2",
+              "chain1:3",
+              "chain1:4",
+              "chain1:5",
+              "chain1:6"
+            ],
+            "intrinsic_charge": 0,
+            "annotations": []
+          }
+        ],
+        "bonds": [],
+        "geometry_status": "not_assessed"
+      },
+      "formula": {
+        "H": 44,
+        "O": 7,
+        "C": 33,
+        "N": 8,
+        "S": 2
+      },
+      "neutral_mono": 728.27743813935,
+      "element_mass": 728.27743813935,
+      "intrinsic_charge": 0,
+      "chain_ids": [
+        "chain1"
+      ]
+    }
+  ],
+  "starting_components": [],
+  "observations": [
+    {
+      "input": {
+        "kind": "mz",
+        "value": 785.35,
+        "tolerance": 0.1,
+        "tolerance_unit": "Da",
+        "ion_hypotheses": [
+          {
+            "charge": 1,
+            "ions": {
+              "H": 1
+            }
+          },
+          {
+            "charge": 1,
+            "ions": {},
+            "intrinsic_charge": 1
+          }
+        ]
+      },
+      "candidates": [
+        {
+          "component": {
+            "state": {
+              "chains": [
+                {
+                  "id": "chain1",
+                  "peptide": {
+                    "sequence": [
+                      "G",
+                      "W",
+                      "Y",
+                      "C",
+                      "M",
+                      "A"
+                    ],
+                    "nterm": "free",
+                    "cterm": "amide",
+                    "modifications": [
+                      {
+                        "site": 2,
+                        "delta_formula": {
+                          "C": 4,
+                          "H": 8
+                        },
+                        "name": "Trp吲哚叔丁基，主要C2",
+                        "atom": "indole_C2"
+                      }
+                    ]
+                  },
+                  "origin_sites": [
+                    "chain1:1",
+                    "chain1:2",
+                    "chain1:3",
+                    "chain1:4",
+                    "chain1:5",
+                    "chain1:6"
+                  ],
+                  "intrinsic_charge": 0,
+                  "annotations": []
+                }
+              ],
+              "bonds": [],
+              "geometry_status": "not_assessed"
+            },
+            "formula": {
+              "H": 52,
+              "O": 7,
+              "C": 37,
+              "N": 8,
+              "S": 2
+            },
+            "neutral_mono": 784.34003839719,
+            "element_mass": 784.34003839719,
+            "intrinsic_charge": 0,
+            "chain_ids": [
+              "chain1"
+            ]
+          },
+          "predicted": 785.347314863811,
+          "error_da": 0.0026851361890294356,
+          "error_ppm": 3.4190429357934096,
+          "mass_basis": "monoisotopic",
+          "ion_assumption": "declared_hypothesis_1",
+          "reference_chain_ids": null,
+          "origins": [
+            "intended_product"
+          ],
+          "paths": [
+            [
+              {
+                "rule_id": "CH03-R001",
+                "branch_id": "CH03-R001:000",
+                "sites": [
+                  "chain1:2"
+                ],
+                "delta_formula": {
+                  "H": 8,
+                  "C": 4
+                },
+                "condition": "unknown",
+                "supported_conditions": [],
+                "missing_conditions": [
+                  "acid_global_deprotection",
+                  "tert_butyl_electrophile_available"
+                ],
+                "conflicting_conditions": [],
+                "source": {
+                  "doc_id": "doc_19",
+                  "sha256": "624ba58f2b7fa41b3e77fa95da65427846acbf43635e5c9b2d5602f45dd73aeb",
+                  "print_pages": [
+                    44,
+                    45,
+                    46,
+                    47
+                  ],
+                  "figures": [
+                    "3.1",
+                    "3.2",
+                    "3.3"
+                  ]
+                },
+                "reference_state": "deprotected_unmodified_trp_target",
+                "product": "Trp单次叔丁基化，主要C2，其他环位点需定位：局部修饰肽",
+                "evidence_level": "book_drawn_and_reported_nominal_plus_56"
+              }
+            ]
+          ],
+          "condition": "unknown",
+          "evidence": "mass_match_only",
+          "source_notes": [
+            {
+              "rule_id": "CH03-R001",
+              "name": "Trp吲哚叔丁基化",
+              "origin": "book",
+              "source": {
+                "chapter": 3,
+                "section": "3.1",
+                "pdf_pages": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "print_pages": [
+                  44,
+                  45,
+                  46,
+                  47
+                ],
+                "figures": [
+                  "3.1",
+                  "3.2",
+                  "3.3"
+                ],
+                "reference_numbers": [
+                  3,
+                  6,
+                  18,
+                  20,
+                  21,
+                  26,
+                  27,
+                  28,
+                  29
+                ]
+              },
+              "diagnostic_evidence": [
+                "MS/MS定位Trp；观察+56与其倍数；检查Trp(Boc)和清除剂对照"
+              ],
+              "competing_explanations": [
+                "未完全脱除的tBu保护基也是+56.062600；其他残基的叔丁基化同质量"
+              ],
+              "mitigation": [
+                "Trp(Nin-Boc)比游离Trp更耐叔丁基化及磺化",
+                "Reagent K：82.5% TFA/5% phenol/5% H2O/5% thioanisole/2.5% EDT；原书认为EDT对tBu阳离子及tBu-TFA清除尤有效，水亦有效",
+                "清除剂应结合Cys(Acm)、Met等兼容性，不能无条件套用reagent K"
+              ],
+              "branch_evidence": [
+                [
+                  "记录反应中Boc和叔丁酯/醚等供体，清除剂或N-in-Boc抑制不是严格排除。",
+                  "同式保护基残留及环位点异构仍须区别。"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "component": {
+            "state": {
+              "chains": [
+                {
+                  "id": "chain1",
+                  "peptide": {
+                    "sequence": [
+                      "G",
+                      "W",
+                      "Y",
+                      "C",
+                      "M",
+                      "A"
+                    ],
+                    "nterm": "free",
+                    "cterm": "amide",
+                    "modifications": [
+                      {
+                        "site": 4,
+                        "delta_formula": {
+                          "C": 4,
+                          "H": 8
+                        },
+                        "name": "Cys S-叔丁基硫醚",
+                        "atom": "Cys_Sgamma"
+                      }
+                    ]
+                  },
+                  "origin_sites": [
+                    "chain1:1",
+                    "chain1:2",
+                    "chain1:3",
+                    "chain1:4",
+                    "chain1:5",
+                    "chain1:6"
+                  ],
+                  "intrinsic_charge": 0,
+                  "annotations": []
+                }
+              ],
+              "bonds": [],
+              "geometry_status": "not_assessed"
+            },
+            "formula": {
+              "H": 52,
+              "O": 7,
+              "C": 37,
+              "N": 8,
+              "S": 2
+            },
+            "neutral_mono": 784.34003839719,
+            "element_mass": 784.34003839719,
+            "intrinsic_charge": 0,
+            "chain_ids": [
+              "chain1"
+            ]
+          },
+          "predicted": 785.347314863811,
+          "error_da": 0.0026851361890294356,
+          "error_ppm": 3.4190429357934096,
+          "mass_basis": "monoisotopic",
+          "ion_assumption": "declared_hypothesis_1",
+          "reference_chain_ids": null,
+          "origins": [
+            "intended_product"
+          ],
+          "paths": [
+            [
+              {
+                "rule_id": "CH03-R014",
+                "branch_id": "CH03-R014:000",
+                "sites": [
+                  "chain1:4"
+                ],
+                "delta_formula": {
+                  "H": 8,
+                  "C": 4
+                },
+                "condition": "unknown",
+                "supported_conditions": [],
+                "missing_conditions": [
+                  "acid_global_deprotection",
+                  "tert_butyl_electrophile_available"
+                ],
+                "conflicting_conditions": [],
+                "source": {
+                  "doc_id": "doc_19",
+                  "sha256": "624ba58f2b7fa41b3e77fa95da65427846acbf43635e5c9b2d5602f45dd73aeb",
+                  "print_pages": [
+                    58,
+                    59
+                  ],
+                  "figures": [
+                    "3.15"
+                  ]
+                },
+                "reference_state": "same_end_groups_unmodified_target",
+                "product": "Cys S-叔丁基硫醚：局部修饰肽",
+                "evidence_level": "book_drawn_and_reported"
+              }
+            ]
+          ],
+          "condition": "unknown",
+          "evidence": "mass_match_only",
+          "source_notes": [
+            {
+              "rule_id": "CH03-R014",
+              "name": "Cys硫醇叔丁基化",
+              "origin": "book",
+              "source": {
+                "chapter": 3,
+                "section": "3.6",
+                "pdf_pages": [
+                  16,
+                  17
+                ],
+                "print_pages": [
+                  58,
+                  59
+                ],
+                "figures": [
+                  "3.15"
+                ],
+                "reference_numbers": [
+                  60
+                ]
+              },
+              "diagnostic_evidence": [
+                "结合反应条件、LC保留时间及定位性MS/MS；质量差仅用于筛选候选。"
+              ],
+              "competing_explanations": [
+                "Trp等叔丁基化及未脱tBu保护同质量"
+              ],
+              "mitigation": [
+                "EDT清除tBu阳离子有效；同时评估Cys-EDT混合二硫键风险"
+              ],
+              "branch_evidence": [
+                [
+                  "相对游离Cys。与Trp叔丁基化同式，需位点碎片。"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "component": {
+            "state": {
+              "chains": [
+                {
+                  "id": "chain1",
+                  "peptide": {
+                    "sequence": [
+                      "G",
+                      "W",
+                      "Y",
+                      "C",
+                      "M",
+                      "A"
+                    ],
+                    "nterm": "free",
+                    "cterm": "amide",
+                    "modifications": [
+                      {
+                        "site": 2,
+                        "delta_formula": {
+                          "C": 4,
+                          "H": 8
+                        },
+                        "name": "MTBE来源叔丁基化（自由X-H替代模型）",
+                        "atom": "indole_C"
+                      }
+                    ]
+                  },
+                  "origin_sites": [
+                    "chain1:1",
+                    "chain1:2",
+                    "chain1:3",
+                    "chain1:4",
+                    "chain1:5",
+                    "chain1:6"
+                  ],
+                  "intrinsic_charge": 0,
+                  "annotations": []
+                }
+              ],
+              "bonds": [],
+              "geometry_status": "not_assessed"
+            },
+            "formula": {
+              "H": 52,
+              "O": 7,
+              "C": 37,
+              "N": 8,
+              "S": 2
+            },
+            "neutral_mono": 784.34003839719,
+            "element_mass": 784.34003839719,
+            "intrinsic_charge": 0,
+            "chain_ids": [
+              "chain1"
+            ]
+          },
+          "predicted": 785.347314863811,
+          "error_da": 0.0026851361890294356,
+          "error_ppm": 3.4190429357934096,
+          "mass_basis": "monoisotopic",
+          "ion_assumption": "declared_hypothesis_1",
+          "reference_chain_ids": null,
+          "origins": [
+            "intended_product"
+          ],
+          "paths": [
+            [
+              {
+                "rule_id": "CH14-R020",
+                "branch_id": "CH14-R020:000",
+                "sites": [
+                  "chain1:2"
+                ],
+                "delta_formula": {
+                  "H": 8,
+                  "C": 4
+                },
+                "condition": "unknown",
+                "supported_conditions": [
+                  "mtbe"
+                ],
+                "missing_conditions": [
+                  "strong_acid_workup"
+                ],
+                "conflicting_conditions": [],
+                "source": {
+                  "doc_id": "doc_09",
+                  "sha256": "95a96f5eed07b5b8da215d95cf5766a43a2cb93184fa2429b3f579d025e51514",
+                  "pdf_pages": [
+                    9
+                  ],
+                  "print_pages": [
+                    319
+                  ],
+                  "figures": [],
+                  "reference_numbers": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ]
+                },
+                "reference_state": "same_sequence_unalkylated_susceptible_residue",
+                "product": "MTBE强酸后处理诱发tert-butylation：局部修饰肽",
+                "evidence_level": "book_reported"
+              }
+            ]
+          ],
+          "condition": "unknown",
+          "evidence": "mass_match_only",
+          "source_notes": [
+            {
+              "rule_id": "CH14-R020",
+              "name": "MTBE强酸后处理诱发tert-butylation",
+              "origin": "book",
+              "source": {
+                "chapter": 14,
+                "section": "14.6",
+                "pdf_pages": [
+                  9
+                ],
+                "print_pages": [
+                  319
+                ],
+                "figures": [],
+                "reference_numbers": [
+                  40,
+                  41,
+                  42,
+                  43,
+                  44,
+                  45,
+                  46,
+                  47
+                ]
+              },
+              "diagnostic_evidence": [
+                "MTBE替diethyl ether抑制与仅TFA较轻的原文对照",
+                "编辑者：逐残基/核碱基位点和电荷态确认"
+              ],
+              "competing_explanations": [
+                "脱保护保护基本身也可供tert-butyl",
+                "Met sulfonium与取代型净元素不同，不能简单统一+56"
+              ],
+              "mitigation": [
+                "强酸后沉淀用diethyl ether替MTBE",
+                "在允许的保护基体系仅TFA无更强辅助酸可减轻",
+                "编辑者：替换乙醚增加peroxide/安全管理负担；MTBE优势不等于无烷基化"
+              ],
+              "branch_evidence": [
+                [
+                  "原书列敏感残基，未定位全部N/O/S/C进攻原子；这里仅编X-H替代净式，连接位置仍待谱证。",
+                  "Met硫醚没有S-H，须用固有+1锍分支；PNA核碱基未支持。"
+                ],
+                [
+                  "原书列敏感残基，未定位全部N/O/S/C进攻原子；这里仅编X-H替代净式，连接位置仍待谱证。",
+                  "Met硫醚没有S-H，须用固有+1锍分支；PNA核碱基未支持。"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "component": {
+            "state": {
+              "chains": [
+                {
+                  "id": "chain1",
+                  "peptide": {
+                    "sequence": [
+                      "G",
+                      "W",
+                      "Y",
+                      "C",
+                      "M",
+                      "A"
+                    ],
+                    "nterm": "free",
+                    "cterm": "amide",
+                    "modifications": [
+                      {
+                        "site": 3,
+                        "delta_formula": {
+                          "C": 4,
+                          "H": 8
+                        },
+                        "name": "MTBE来源叔丁基化（自由X-H替代模型）",
+                        "atom": "aryl_C"
+                      }
+                    ]
+                  },
+                  "origin_sites": [
+                    "chain1:1",
+                    "chain1:2",
+                    "chain1:3",
+                    "chain1:4",
+                    "chain1:5",
+                    "chain1:6"
+                  ],
+                  "intrinsic_charge": 0,
+                  "annotations": []
+                }
+              ],
+              "bonds": [],
+              "geometry_status": "not_assessed"
+            },
+            "formula": {
+              "H": 52,
+              "O": 7,
+              "C": 37,
+              "N": 8,
+              "S": 2
+            },
+            "neutral_mono": 784.34003839719,
+            "element_mass": 784.34003839719,
+            "intrinsic_charge": 0,
+            "chain_ids": [
+              "chain1"
+            ]
+          },
+          "predicted": 785.347314863811,
+          "error_da": 0.0026851361890294356,
+          "error_ppm": 3.4190429357934096,
+          "mass_basis": "monoisotopic",
+          "ion_assumption": "declared_hypothesis_1",
+          "reference_chain_ids": null,
+          "origins": [
+            "intended_product"
+          ],
+          "paths": [
+            [
+              {
+                "rule_id": "CH14-R020",
+                "branch_id": "CH14-R020:000",
+                "sites": [
+                  "chain1:3"
+                ],
+                "delta_formula": {
+                  "H": 8,
+                  "C": 4
+                },
+                "condition": "unknown",
+                "supported_conditions": [
+                  "mtbe"
+                ],
+                "missing_conditions": [
+                  "strong_acid_workup"
+                ],
+                "conflicting_conditions": [],
+                "source": {
+                  "doc_id": "doc_09",
+                  "sha256": "95a96f5eed07b5b8da215d95cf5766a43a2cb93184fa2429b3f579d025e51514",
+                  "pdf_pages": [
+                    9
+                  ],
+                  "print_pages": [
+                    319
+                  ],
+                  "figures": [],
+                  "reference_numbers": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ]
+                },
+                "reference_state": "same_sequence_unalkylated_susceptible_residue",
+                "product": "MTBE强酸后处理诱发tert-butylation：局部修饰肽",
+                "evidence_level": "book_reported"
+              }
+            ]
+          ],
+          "condition": "unknown",
+          "evidence": "mass_match_only",
+          "source_notes": [
+            {
+              "rule_id": "CH14-R020",
+              "name": "MTBE强酸后处理诱发tert-butylation",
+              "origin": "book",
+              "source": {
+                "chapter": 14,
+                "section": "14.6",
+                "pdf_pages": [
+                  9
+                ],
+                "print_pages": [
+                  319
+                ],
+                "figures": [],
+                "reference_numbers": [
+                  40,
+                  41,
+                  42,
+                  43,
+                  44,
+                  45,
+                  46,
+                  47
+                ]
+              },
+              "diagnostic_evidence": [
+                "MTBE替diethyl ether抑制与仅TFA较轻的原文对照",
+                "编辑者：逐残基/核碱基位点和电荷态确认"
+              ],
+              "competing_explanations": [
+                "脱保护保护基本身也可供tert-butyl",
+                "Met sulfonium与取代型净元素不同，不能简单统一+56"
+              ],
+              "mitigation": [
+                "强酸后沉淀用diethyl ether替MTBE",
+                "在允许的保护基体系仅TFA无更强辅助酸可减轻",
+                "编辑者：替换乙醚增加peroxide/安全管理负担；MTBE优势不等于无烷基化"
+              ],
+              "branch_evidence": [
+                [
+                  "原书列敏感残基，未定位全部N/O/S/C进攻原子；这里仅编X-H替代净式，连接位置仍待谱证。",
+                  "Met硫醚没有S-H，须用固有+1锍分支；PNA核碱基未支持。"
+                ],
+                [
+                  "原书列敏感残基，未定位全部N/O/S/C进攻原子；这里仅编X-H替代净式，连接位置仍待谱证。",
+                  "Met硫醚没有S-H，须用固有+1锍分支；PNA核碱基未支持。"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "component": {
+            "state": {
+              "chains": [
+                {
+                  "id": "chain1",
+                  "peptide": {
+                    "sequence": [
+                      "G",
+                      "W",
+                      "Y",
+                      "C",
+                      "M",
+                      "A"
+                    ],
+                    "nterm": "free",
+                    "cterm": "amide",
+                    "modifications": [
+                      {
+                        "site": 4,
+                        "delta_formula": {
+                          "C": 4,
+                          "H": 8
+                        },
+                        "name": "MTBE来源叔丁基化（自由X-H替代模型）",
+                        "atom": "Cys_Sgamma"
+                      }
+                    ]
+                  },
+                  "origin_sites": [
+                    "chain1:1",
+                    "chain1:2",
+                    "chain1:3",
+                    "chain1:4",
+                    "chain1:5",
+                    "chain1:6"
+                  ],
+                  "intrinsic_charge": 0,
+                  "annotations": []
+                }
+              ],
+              "bonds": [],
+              "geometry_status": "not_assessed"
+            },
+            "formula": {
+              "H": 52,
+              "O": 7,
+              "C": 37,
+              "N": 8,
+              "S": 2
+            },
+            "neutral_mono": 784.34003839719,
+            "element_mass": 784.34003839719,
+            "intrinsic_charge": 0,
+            "chain_ids": [
+              "chain1"
+            ]
+          },
+          "predicted": 785.347314863811,
+          "error_da": 0.0026851361890294356,
+          "error_ppm": 3.4190429357934096,
+          "mass_basis": "monoisotopic",
+          "ion_assumption": "declared_hypothesis_1",
+          "reference_chain_ids": null,
+          "origins": [
+            "intended_product"
+          ],
+          "paths": [
+            [
+              {
+                "rule_id": "CH14-R020",
+                "branch_id": "CH14-R020:000",
+                "sites": [
+                  "chain1:4"
+                ],
+                "delta_formula": {
+                  "H": 8,
+                  "C": 4
+                },
+                "condition": "unknown",
+                "supported_conditions": [
+                  "mtbe"
+                ],
+                "missing_conditions": [
+                  "strong_acid_workup"
+                ],
+                "conflicting_conditions": [],
+                "source": {
+                  "doc_id": "doc_09",
+                  "sha256": "95a96f5eed07b5b8da215d95cf5766a43a2cb93184fa2429b3f579d025e51514",
+                  "pdf_pages": [
+                    9
+                  ],
+                  "print_pages": [
+                    319
+                  ],
+                  "figures": [],
+                  "reference_numbers": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ]
+                },
+                "reference_state": "same_sequence_unalkylated_susceptible_residue",
+                "product": "MTBE强酸后处理诱发tert-butylation：局部修饰肽",
+                "evidence_level": "book_reported"
+              }
+            ]
+          ],
+          "condition": "unknown",
+          "evidence": "mass_match_only",
+          "source_notes": [
+            {
+              "rule_id": "CH14-R020",
+              "name": "MTBE强酸后处理诱发tert-butylation",
+              "origin": "book",
+              "source": {
+                "chapter": 14,
+                "section": "14.6",
+                "pdf_pages": [
+                  9
+                ],
+                "print_pages": [
+                  319
+                ],
+                "figures": [],
+                "reference_numbers": [
+                  40,
+                  41,
+                  42,
+                  43,
+                  44,
+                  45,
+                  46,
+                  47
+                ]
+              },
+              "diagnostic_evidence": [
+                "MTBE替diethyl ether抑制与仅TFA较轻的原文对照",
+                "编辑者：逐残基/核碱基位点和电荷态确认"
+              ],
+              "competing_explanations": [
+                "脱保护保护基本身也可供tert-butyl",
+                "Met sulfonium与取代型净元素不同，不能简单统一+56"
+              ],
+              "mitigation": [
+                "强酸后沉淀用diethyl ether替MTBE",
+                "在允许的保护基体系仅TFA无更强辅助酸可减轻",
+                "编辑者：替换乙醚增加peroxide/安全管理负担；MTBE优势不等于无烷基化"
+              ],
+              "branch_evidence": [
+                [
+                  "原书列敏感残基，未定位全部N/O/S/C进攻原子；这里仅编X-H替代净式，连接位置仍待谱证。",
+                  "Met硫醚没有S-H，须用固有+1锍分支；PNA核碱基未支持。"
+                ],
+                [
+                  "原书列敏感残基，未定位全部N/O/S/C进攻原子；这里仅编X-H替代净式，连接位置仍待谱证。",
+                  "Met硫醚没有S-H，须用固有+1锍分支；PNA核碱基未支持。"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "component": {
+            "state": {
+              "chains": [
+                {
+                  "id": "chain1",
+                  "peptide": {
+                    "sequence": [
+                      "G",
+                      "W",
+                      "Y",
+                      "C",
+                      "M",
+                      "A"
+                    ],
+                    "nterm": "free",
+                    "cterm": "amide",
+                    "modifications": [
+                      {
+                        "site": 5,
+                        "delta_formula": {
+                          "C": 4,
+                          "H": 9
+                        },
+                        "name": "Met-S-tert-butyl sulfonium",
+                        "atom": "Met_Sdelta"
+                      }
+                    ]
+                  },
+                  "origin_sites": [
+                    "chain1:1",
+                    "chain1:2",
+                    "chain1:3",
+                    "chain1:4",
+                    "chain1:5",
+                    "chain1:6"
+                  ],
+                  "intrinsic_charge": 1,
+                  "annotations": [],
+                  "charge_locations": [
+                    {
+                      "origin": "chain1:5",
+                      "atom": "Met_Sdelta",
+                      "charge": 1,
+                      "source_rule": "CH14-R020"
+                    }
+                  ]
+                }
+              ],
+              "bonds": [],
+              "geometry_status": "not_assessed"
+            },
+            "formula": {
+              "H": 53,
+              "O": 7,
+              "C": 37,
+              "N": 8,
+              "S": 2
+            },
+            "neutral_mono": null,
+            "element_mass": 785.34786342942,
+            "intrinsic_charge": 1,
+            "chain_ids": [
+              "chain1"
+            ]
+          },
+          "predicted": 785.347314849511,
+          "error_da": 0.0026851504890146316,
+          "error_ppm": 3.4190611443411667,
+          "mass_basis": "monoisotopic",
+          "ion_assumption": "declared_hypothesis_2",
+          "reference_chain_ids": null,
+          "origins": [
+            "intended_product"
+          ],
+          "paths": [
+            [
+              {
+                "rule_id": "CH14-R020",
+                "branch_id": "CH14-R020:001",
+                "sites": [
+                  "chain1:5"
+                ],
+                "delta_formula": {
+                  "H": 9,
+                  "C": 4
+                },
+                "condition": "unknown",
+                "supported_conditions": [
+                  "mtbe"
+                ],
+                "missing_conditions": [
+                  "strong_acid_workup"
+                ],
+                "conflicting_conditions": [],
+                "source": {
+                  "doc_id": "doc_09",
+                  "sha256": "95a96f5eed07b5b8da215d95cf5766a43a2cb93184fa2429b3f579d025e51514",
+                  "pdf_pages": [
+                    9
+                  ],
+                  "print_pages": [
+                    319
+                  ],
+                  "figures": [],
+                  "reference_numbers": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                  ]
+                },
+                "reference_state": "same_sequence_unalkylated_susceptible_residue",
+                "product": "MTBE强酸后处理诱发tert-butylation：局部修饰肽",
+                "evidence_level": "book_reported"
+              }
+            ]
+          ],
+          "condition": "unknown",
+          "evidence": "mass_match_only",
+          "source_notes": [
+            {
+              "rule_id": "CH14-R020",
+              "name": "MTBE强酸后处理诱发tert-butylation",
+              "origin": "book",
+              "source": {
+                "chapter": 14,
+                "section": "14.6",
+                "pdf_pages": [
+                  9
+                ],
+                "print_pages": [
+                  319
+                ],
+                "figures": [],
+                "reference_numbers": [
+                  40,
+                  41,
+                  42,
+                  43,
+                  44,
+                  45,
+                  46,
+                  47
+                ]
+              },
+              "diagnostic_evidence": [
+                "MTBE替diethyl ether抑制与仅TFA较轻的原文对照",
+                "编辑者：逐残基/核碱基位点和电荷态确认"
+              ],
+              "competing_explanations": [
+                "脱保护保护基本身也可供tert-butyl",
+                "Met sulfonium与取代型净元素不同，不能简单统一+56"
+              ],
+              "mitigation": [
+                "强酸后沉淀用diethyl ether替MTBE",
+                "在允许的保护基体系仅TFA无更强辅助酸可减轻",
+                "编辑者：替换乙醚增加peroxide/安全管理负担；MTBE优势不等于无烷基化"
+              ],
+              "branch_evidence": [
+                [
+                  "原书列敏感残基，未定位全部N/O/S/C进攻原子；这里仅编X-H替代净式，连接位置仍待谱证。",
+                  "Met硫醚没有S-H，须用固有+1锍分支；PNA核碱基未支持。"
+                ],
+                [
+                  "原书列敏感残基，未定位全部N/O/S/C进攻原子；这里仅编X-H替代净式，连接位置仍待谱证。",
+                  "Met硫醚没有S-H，须用固有+1锍分支；PNA核碱基未支持。"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "condition_conflicts": [],
+      "candidate_count": 6,
+      "conflict_count": 0,
+      "status": "matched_hypotheses",
+      "ion_hypothesis_count": 2,
+      "source_leads": [
+        {
+          "id": "AI-059",
+          "name": "tBu+替换R-XH的H，X=NH/O/S/indolyl；净+C4H8；残留tBu保护基相对去保护目标同差但历史不同。",
+          "formula": {
+            "C": 4,
+            "H": 8
+          },
+          "mass_status": "formula_reference",
+          "nominal": "56 amu",
+          "source": {
+            "pdf_pages": [
+              16
+            ],
+            "print_pages": [
+              338
+            ]
+          },
+          "reference": "same_deprotected_nucleophilic_site",
+          "evidence": "book_reported_structure_not_sample_confirmation",
+          "kind": "reaction_endpoint",
+          "origin": "book_appendix",
+          "profile": {
+            "stage_tags": [
+              "acid_global_deprotection"
+            ],
+            "stage_any": [],
+            "features": [
+              "tert_butyl_electrophile_available"
+            ],
+            "any_residues": [
+              "W"
+            ]
+          },
+          "intrinsic_charge": 0,
+          "theoretical_delta": 56.06260025784,
+          "error_da": 0.0026851361890436465,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_partial",
+          "supported_conditions": [
+            "W"
+          ],
+          "missing_conditions": [
+            "acid_global_deprotection",
+            "tert_butyl_electrophile_available"
+          ],
+          "conflicting_conditions": [],
+          "ion_assumption": "declared_hypothesis_1",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "CH03-R001",
+          "name": "Trp吲哚叔丁基化",
+          "formula": {
+            "C": 4,
+            "H": 8
+          },
+          "mass_status": "formula_confirmed",
+          "nominal": "+56 amu",
+          "source": {
+            "chapter": 3,
+            "section": "3.1",
+            "pdf_pages": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "print_pages": [
+              44,
+              45,
+              46,
+              47
+            ],
+            "figures": [
+              "3.1",
+              "3.2",
+              "3.3"
+            ],
+            "reference_numbers": [
+              3,
+              6,
+              18,
+              20,
+              21,
+              26,
+              27,
+              28,
+              29
+            ]
+          },
+          "reference": "完全脱保护、未烷基化目标肽",
+          "evidence": [
+            "本章文字已完整读取；结构图未视觉核验。整数amu为原书口径，公式质量为编辑者基于净元素变化计算。"
+          ],
+          "profile": {
+            "stage_tags": [
+              "acid_global_deprotection"
+            ],
+            "stage_any": [],
+            "features": [
+              "tert_butyl_electrophile_available"
+            ],
+            "any_residues": [
+              "W"
+            ]
+          },
+          "kind": "rule_reference",
+          "automatic": null,
+          "origin": "book",
+          "theoretical_delta": 56.06260025784,
+          "error_da": 0.0026851361890436465,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_partial",
+          "supported_conditions": [
+            "W"
+          ],
+          "missing_conditions": [
+            "acid_global_deprotection",
+            "tert_butyl_electrophile_available"
+          ],
+          "conflicting_conditions": [],
+          "ion_assumption": "declared_hypothesis_1",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "CH03-R014",
+          "name": "Cys硫醇叔丁基化",
+          "formula": {
+            "C": 4,
+            "H": 8
+          },
+          "mass_status": "formula_confirmed",
+          "nominal": null,
+          "source": {
+            "chapter": 3,
+            "section": "3.6",
+            "pdf_pages": [
+              16,
+              17
+            ],
+            "print_pages": [
+              58,
+              59
+            ],
+            "figures": [
+              "3.15"
+            ],
+            "reference_numbers": [
+              60
+            ]
+          },
+          "reference": "游离Cys-SH目标肽",
+          "evidence": [
+            "本章文字已完整读取；结构图未视觉核验。整数amu为原书口径，公式质量为编辑者基于净元素变化计算。"
+          ],
+          "profile": {
+            "stage_tags": [
+              "acid_global_deprotection"
+            ],
+            "stage_any": [],
+            "features": [
+              "tert_butyl_electrophile_available"
+            ],
+            "any_residues": [
+              "C"
+            ]
+          },
+          "kind": "rule_reference",
+          "automatic": null,
+          "origin": "book",
+          "theoretical_delta": 56.06260025784,
+          "error_da": 0.0026851361890436465,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_partial",
+          "supported_conditions": [
+            "C"
+          ],
+          "missing_conditions": [
+            "acid_global_deprotection",
+            "tert_butyl_electrophile_available"
+          ],
+          "conflicting_conditions": [],
+          "ion_assumption": "declared_hypothesis_1",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        },
+        {
+          "id": "SUP-016",
+          "name": "tBu残留",
+          "formula": {
+            "C": 4,
+            "H": 8
+          },
+          "mass_status": "formula_confirmed",
+          "nominal": null,
+          "source": "第3章",
+          "reference": null,
+          "evidence": null,
+          "profile": null,
+          "kind": "rule_reference",
+          "automatic": null,
+          "origin": "supplement",
+          "theoretical_delta": 56.06260025784,
+          "error_da": 0.0026851361890436465,
+          "mass_basis": "monoisotopic",
+          "match_basis": "formula_mass_reference",
+          "reference_status": "source_reference_not_asserted_equal_to_current_target",
+          "context_status": "context_partial",
+          "supported_conditions": [],
+          "missing_conditions": [
+            "deprotection"
+          ],
+          "conflicting_conditions": [],
+          "ion_assumption": "declared_hypothesis_1",
+          "reference_chain_ids": [
+            "chain1"
+          ],
+          "classification": "source_lead_only",
+          "structure_confirmed": false
+        }
+      ],
+      "dsh_source_review": [
+        {
+          "id": "CH03-R001",
+          "name": "Trp吲哚叔丁基化",
+          "theoretical_delta": 56.06260025784,
+          "error_da": 0.0026851361890436465,
+          "mass_grade": "exact",
+          "unit_ratio": 1.0,
+          "source": {
+            "chapter": 3,
+            "section": "3.1",
+            "pdf_pages": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "print_pages": [
+              44,
+              45,
+              46,
+              47
+            ],
+            "figures": [
+              "3.1",
+              "3.2",
+              "3.3"
+            ],
+            "reference_numbers": [
+              3,
+              6,
+              18,
+              20,
+              21,
+              26,
+              27,
+              28,
+              29
+            ]
+          },
+          "reference": "完全脱保护、未烷基化目标肽",
+          "diagnostic_evidence": "MS/MS定位Trp；观察+56与其倍数；检查Trp(Boc)和清除剂对照",
+          "competing_explanations": "未完全脱除的tBu保护基也是+56.062600；其他残基的叔丁基化同质量",
+          "mitigation": "Trp(Nin-Boc)比游离Trp更耐叔丁基化及磺化；Reagent K：82.5% TFA/5% phenol/5% H2O/5% thioanisole/2.5% EDT；原书认为EDT对tBu阳离子及tBu-TFA清除尤有效，水亦有效；清除剂应结合Cys(Acm)、Met等兼容性，不能无条件套用reagent K",
+          "canonical_branch_conditions": [
+            {
+              "branch_id": "CH03-R001:000",
+              "condition": "unknown",
+              "supported_conditions": [],
+              "missing_conditions": [
+                "acid_global_deprotection",
+                "tert_butyl_electrophile_available"
+              ],
+              "conflicting_conditions": []
+            }
+          ],
+          "classification": "peer_source_lead_only",
+          "structure_confirmed": false,
+          "origin": "book",
+          "ion_assumption": "declared_hypothesis_1"
+        },
+        {
+          "id": "CH03-R014",
+          "name": "Cys硫醇叔丁基化",
+          "theoretical_delta": 56.06260025784,
+          "error_da": 0.0026851361890436465,
+          "mass_grade": "exact",
+          "unit_ratio": 1.0,
+          "source": {
+            "chapter": 3,
+            "section": "3.6",
+            "pdf_pages": [
+              16,
+              17
+            ],
+            "print_pages": [
+              58,
+              59
+            ],
+            "figures": [
+              "3.15"
+            ],
+            "reference_numbers": [
+              60
+            ]
+          },
+          "reference": "游离Cys-SH目标肽",
+          "diagnostic_evidence": "结合反应条件、LC保留时间及定位性MS/MS；质量差仅用于筛选候选。",
+          "competing_explanations": "Trp等叔丁基化及未脱tBu保护同质量",
+          "mitigation": "EDT清除tBu阳离子有效；同时评估Cys-EDT混合二硫键风险",
+          "canonical_branch_conditions": [
+            {
+              "branch_id": "CH03-R014:000",
+              "condition": "unknown",
+              "supported_conditions": [],
+              "missing_conditions": [
+                "acid_global_deprotection",
+                "tert_butyl_electrophile_available"
+              ],
+              "conflicting_conditions": []
+            }
+          ],
+          "classification": "peer_source_lead_only",
+          "structure_confirmed": false,
+          "origin": "book",
+          "ion_assumption": "declared_hypothesis_1"
+        },
+        {
+          "id": "SUP-016",
+          "name": "tBu残留",
+          "theoretical_delta": 56.0626,
+          "error_da": 0.002685394029043664,
+          "mass_grade": "exact",
+          "unit_ratio": 1.0,
+          "source": null,
+          "reference": "",
+          "diagnostic_evidence": "",
+          "competing_explanations": "",
+          "mitigation": "",
+          "canonical_branch_conditions": [],
+          "classification": "peer_source_lead_only",
+          "structure_confirmed": false,
+          "origin": "supplement",
+          "ion_assumption": "declared_hypothesis_1"
+        }
+      ]
+    }
+  ],
+  "search_scopes": [
+    {
+      "origin": "intended_product",
+      "event_budget": 1,
+      "node_budget": 100000,
+      "nodes": 240,
+      "events_generated": 239,
+      "truncated": false,
+      "truncation_reason": null,
+      "distinct_states_expanded": 1,
+      "unsupported_transitions": [],
+      "source_records_without_templates": [
+        "CH01-R001",
+        "CH01-R003",
+        "CH01-R004",
+        "CH01-R005",
+        "CH01-R006",
+        "CH01-R007",
+        "CH01-R010",
+        "CH01-R011",
+        "CH01-R012",
+        "CH01-R013",
+        "CH01-R014",
+        "CH01-R016",
+        "CH01-R017",
+        "CH01-R019",
+        "CH01-R020",
+        "CH02-R005",
+        "CH03-R007",
+        "CH03-R022",
+        "CH03-R025",
+        "CH03-R027",
+        "CH04-R006",
+        "CH04-R007",
+        "CH04-R011",
+        "CH04-R012",
+        "CH05-R001",
+        "CH05-R002",
+        "CH05-R003",
+        "CH05-R005",
+        "CH05-R006",
+        "CH05-R007",
+        "CH05-R008",
+        "CH05-R009",
+        "CH05-R010",
+        "CH05-R013",
+        "CH05-R014",
+        "CH05-R016",
+        "CH05-R018",
+        "CH05-R019",
+        "CH05-R020",
+        "CH05-R021",
+        "CH05-R022",
+        "CH05-R023",
+        "CH05-R024",
+        "CH05-R025",
+        "CH05-R026",
+        "CH05-R027",
+        "CH05-R028",
+        "CH05-R029",
+        "CH05-R030",
+        "CH05-R031",
+        "CH06-R001",
+        "CH06-R002",
+        "CH06-R003",
+        "CH06-R004",
+        "CH06-R005",
+        "CH06-R008",
+        "CH06-R009",
+        "CH06-R010",
+        "CH06-R014",
+        "CH06-R015",
+        "CH06-R016",
+        "CH06-R017",
+        "CH06-R019",
+        "CH06-R020",
+        "CH06-R021",
+        "CH06-R022",
+        "CH06-R023",
+        "CH06-R024",
+        "CH06-R025",
+        "CH06-R026",
+        "CH06-R027",
+        "CH06-R028",
+        "CH06-R029",
+        "CH06-R030",
+        "CH06-R031",
+        "CH06-R032",
+        "CH06-R033",
+        "CH06-R034",
+        "CH06-R035",
+        "CH06-R036",
+        "CH06-R037",
+        "CH06-R038",
+        "CH06-R039",
+        "CH06-R040",
+        "CH06-R042",
+        "CH06-R043",
+        "CH06-R044",
+        "CH06-R045",
+        "CH06-R046",
+        "CH06-R047",
+        "CH06-R048",
+        "CH06-R049",
+        "CH06-R050",
+        "CH06-R051",
+        "CH07-R019",
+        "CH07-R021",
+        "CH07-R023",
+        "CH07-R024",
+        "CH07-R027",
+        "CH07-R031",
+        "CH07-R039",
+        "CH08-R010",
+        "CH09-R008",
+        "CH09-R011",
+        "CH09-R012",
+        "CH09-R013",
+        "CH09-R014",
+        "CH09-R017",
+        "CH09-R019",
+        "CH09-R020",
+        "CH09-R022",
+        "CH09-R023",
+        "CH09-R028",
+        "CH09-R032",
+        "CH09-R035",
+        "CH09-R043",
+        "CH09-R055",
+        "CH09-R056",
+        "CH11-R014",
+        "CH11-R015",
+        "CH11-R016",
+        "CH11-R017",
+        "CH11-R018",
+        "CH11-R019",
+        "CH11-R020",
+        "CH11-R021",
+        "CH11-R022",
+        "CH11-R023",
+        "CH11-R024",
+        "CH11-R025",
+        "CH11-R026",
+        "CH11-R027",
+        "CH11-R028",
+        "CH11-R029",
+        "CH11-R030",
+        "CH11-R031",
+        "CH11-R032",
+        "CH11-R033",
+        "CH11-R034",
+        "CH12-R004",
+        "CH13-R002",
+        "CH13-R003",
+        "CH13-R012",
+        "CH13-R019",
+        "CH13-R020",
+        "CH14-R001",
+        "CH14-R003",
+        "CH14-R004",
+        "CH14-R005",
+        "CH14-R012",
+        "CH14-R013",
+        "CH14-R014",
+        "CH14-R019",
+        "CH14-R022",
+        "SUP-006",
+        "SUP-007",
+        "SUP-008",
+        "SUP-009",
+        "SUP-010",
+        "SUP-011",
+        "SUP-012",
+        "SUP-013",
+        "SUP-014",
+        "SUP-015",
+        "SUP-016",
+        "SUP-017",
+        "SUP-018",
+        "SUP-019",
+        "SUP-020",
+        "SUP-021",
+        "SUP-022",
+        "SUP-023",
+        "SUP-024",
+        "SUP-025",
+        "SUP-026",
+        "SUP-027",
+        "SUP-028",
+        "SUP-030",
+        "SUP-031",
+        "SUP-032",
+        "SUP-033",
+        "SUP-034",
+        "SUP-035",
+        "SUP-036",
+        "SUP-037",
+        "SUP-038",
+        "SUP-039",
+        "SUP-040",
+        "SUP-041",
+        "SUP-042",
+        "SUP-043",
+        "SUP-044",
+        "SUP-046",
+        "SUP-047",
+        "SUP-048",
+        "SUP-049",
+        "SUP-050",
+        "SUP-051",
+        "SUP-052",
+        "SUP-053",
+        "SUP-054",
+        "SUP-055",
+        "SUP-056",
+        "SUP-057",
+        "SUP-058",
+        "SUP-059",
+        "SUP-060",
+        "SUP-061",
+        "SUP-062",
+        "SUP-063"
+      ],
+      "unresolved_product_structures": [],
+      "complete_for_compiled_transition_pool": true,
+      "full_book_capabilities_complete": false,
+      "rule_ids": "all_compiled_recipes",
+      "seconds": 0.15172170009464025
+    }
+  ],
+  "complete_for_compiled_transition_pool": true,
+  "full_book_capabilities_complete": false,
+  "complete_for_practical_mass_scope": true,
+  "scope_grade": "practical_mass_families_and_supported_state_transitions",
+  "real_sample": "not_verified",
+  "fusion_audit": {
+    "canonical_library_hash": "076ec348224fa79e3b21d863e61a855cc25b15120387702f77452dea03447dd0",
+    "dsh_component_path": "engine\\多肽质量组件.json",
+    "dsh_rule_root": "engine",
+    "dsh_rules": 445,
+    "canonical_rules": 450,
+    "dsh_data_problems": [],
+    "whole_product_formula_checks": 6,
+    "whole_product_formula_checks_pass": true,
+    "source_comparisons": [
+      {
+        "core_source_ids": [
+          "AI-059",
+          "CH03-R001",
+          "CH03-R014",
+          "SUP-016"
+        ],
+        "peer_source_ids": [
+          "CH03-R001",
+          "CH03-R014",
+          "SUP-016"
+        ],
+        "peer_only_source_ids": [],
+        "core_only_source_ids": [
+          "AI-059"
+        ],
+        "interpretation": "Source lookup differences retained for review; additive peer matches never become executed structural candidates."
+      }
+    ],
+    "formal_executor": "Codex state core",
+    "condition_authority": "canonical branch ALL/ANY predicates",
+    "not_used_as_executor": [
+      "DSH legacy additive combination search",
+      "DSH old conditions_map",
+      "DSH implicit observation defaults"
+    ]
+  }
+}

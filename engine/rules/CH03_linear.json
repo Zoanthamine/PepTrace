@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_19",
+    "sha256": "624ba58f2b7fa41b3e77fa95da65427846acbf43635e5c9b2d5602f45dd73aeb"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH03-R001",
+      "source_refs": {
+        "print_pages": [
+          44,
+          45,
+          46,
+          47
+        ],
+        "figures": [
+          "3.1",
+          "3.2",
+          "3.3"
+        ]
+      },
+      "reference_state": "deprotected_unmodified_trp_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "required_features": [
+        "tert_butyl_electrophile_available"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Trp吲哚叔丁基，主要C2",
+        "delta_formula": {
+          "C": 4,
+          "H": 8
+        }
+      },
+      "product_description": "Trp单次叔丁基化，主要C2，其他环位点需定位",
+      "evidence_level": "book_drawn_and_reported_nominal_plus_56",
+      "diagnostic_evidence": [
+        "记录反应中Boc和叔丁酯/醚等供体，清除剂或N-in-Boc抑制不是严格排除。",
+        "同式保护基残留及环位点异构仍须区别。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R002",
+      "source_refs": {
+        "print_pages": [
+          46,
+          47
+        ],
+        "figures": [
+          "3.4"
+        ]
+      },
+      "reference_state": "deprotected_unmodified_trp_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "required_site_fact": "trp_indole_boc_at_reaction_site",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Trp吲哚N1-COOH",
+        "delta_formula": {
+          "C": 1,
+          "O": 2
+        }
+      },
+      "product_description": "Trp吲哚N-Boc脱叔丁基后的N1-羧基中间体",
+      "evidence_level": "book_drawn_and_reported_isolable",
+      "diagnostic_evidence": [
+        "相对未修饰Trp净+CO₂；相对Trp(N-Boc)是−C₄H₈。检查较温和酸处理后是否向未修饰目标转化。"
+      ]
+    }
+  ]
+}

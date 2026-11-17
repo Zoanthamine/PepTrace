@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_19",
+    "sha256": "624ba58f2b7fa41b3e77fa95da65427846acbf43635e5c9b2d5602f45dd73aeb"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH03-R013",
+      "source_refs": {
+        "print_pages": [
+          57,
+          58
+        ],
+        "figures": [
+          "3.13",
+          "3.14"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection",
+        "tes"
+      ],
+      "required_features": [],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "TES还原Trp吲哚为吲哚啉",
+        "delta_formula": {
+          "H": 2
+        }
+      },
+      "product_description": "TES还原Trp吲哚为吲哚啉",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "Trp(N-Boc)及使用TIS可降低风险。注意区分同位素峰。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R014",
+      "source_refs": {
+        "print_pages": [
+          58,
+          59
+        ],
+        "figures": [
+          "3.15"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "required_features": [
+        "tert_butyl_electrophile_available"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Cys S-叔丁基硫醚",
+        "delta_formula": {
+          "C": 4,
+          "H": 8
+        }
+      },
+      "product_description": "Cys S-叔丁基硫醚",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "相对游离Cys。与Trp叔丁基化同式，需位点碎片。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R015",
+      "source_refs": {
+        "print_pages": [
+          58,
+          59
+        ],
+        "figures": [
+          "3.16"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "required_features": [
+        "trityl_electrophile_available"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Cys S-Trt再保护",
+        "delta_formula": {
+          "C": 19,
+          "H": 14
+        }
+      },
+      "product_description": "Cys S-Trt再保护",
+      "evidence_level": "book_drawn_and_reported",
+      "diagnostic_evidence": [
+        "与未完全去除原Trt的产品相同，单靠质量无法区分两条生成路径。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R016",
+      "source_refs": {
+        "print_pages": [
+          59,
+          60,
+          61,
+          62
+        ],
+        "figures": [
+          "3.17",
+          "3.18",
+          "3.19",
+          "3.20"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection",
+        "edt"
+      ],
+      "required_features": [],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Cys–S–S–CH₂CH₂–SH混合二硫键",
+        "delta_formula": {
+          "C": 2,
+          "H": 4,
+          "S": 2
+        }
+      },
+      "product_description": "Cys–S–S–CH₂CH₂–SH混合二硫键",
+      "evidence_level": "book_reported_adduct_and_reduction",
+      "diagnostic_evidence": [
+        "相对游离Cys。书中TCEP可恢复原肽，机理可能为氧化或二硫交换。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R017",
+      "source_refs": {
+        "print_pages": [
+          61,
+          62,
+          63
+        ],
+        "figures": [
+          "3.21"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection",
+        "edt"
+      ],
+      "required_features": [
+        "tert_butyl_electrophile_available"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Cys–EDT–tBu混合二硫键假说",
+        "delta_formula": {
+          "C": 6,
+          "H": 12,
+          "S": 2
+        }
+      },
+      "product_description": "Cys–EDT–tBu混合二硫键假说",
+      "evidence_level": "book_unpublished_mass_and_proposed_structure",
+      "diagnostic_evidence": [
+        "+148 amu和TCEP还原来自书中未发表观察，结构和路径仍属假说。"
+      ]
+    }
+  ]
+}

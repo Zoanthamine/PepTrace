@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_06",
+    "sha256": "af6c859169dbc407e319a014d129a5033a7bdc7a409e392ec23a893e304fbcb5"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH09-R006",
+      "source_refs": {
+        "pdf_pages": [
+          3,
+          5
+        ],
+        "print_pages": [
+          219,
+          221
+        ],
+        "figures": [
+          "9.3",
+          "9.6"
+        ],
+        "reference_numbers": [
+          5,
+          10,
+          11,
+          22
+        ]
+      },
+      "reference_state": "explicit_disulfide_bridge",
+      "transform": {
+        "kind": "oxidize_sulfur_bridge",
+        "product_kind": "thiosulfinate",
+        "delta_formula": {
+          "O": 1
+        }
+      },
+      "required_conditions": [],
+      "product_description": "二硫氧化为thiosulfinate",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "按实际输入桥的氧化态比较；首次氧化两端硫分别列出。第二次相对thiosulfinate只增O。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "disulfide"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R007",
+      "source_refs": {
+        "pdf_pages": [
+          5
+        ],
+        "print_pages": [
+          221
+        ],
+        "figures": [
+          "9.7"
+        ],
+        "reference_numbers": [
+          26
+        ]
+      },
+      "reference_state": "explicit_thiosulfinate_bridge",
+      "transform": {
+        "kind": "oxidize_sulfur_bridge",
+        "product_kind": "thiosulfonate",
+        "delta_formula": {
+          "O": 1
+        }
+      },
+      "required_conditions": [],
+      "product_description": "thiosulfinate深氧化为thiosulfonate",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "按实际输入桥的氧化态比较；首次氧化两端硫分别列出。第二次相对thiosulfinate只增O。"
+      ],
+      "required_any_conditions": [
+        "oxidation",
+        "air_oxidation",
+        "peroxide",
+        "h2o2",
+        "dmso",
+        "ozone",
+        "photooxidation"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "thiosulfinate"
+        ]
+      },
+      "alternate_branches": [
+        {
+          "bond_selector": {
+            "kinds": [
+              "disulfide"
+            ]
+          },
+          "transform": {
+            "kind": "oxidize_sulfur_bridge",
+            "product_kind": "thiosulfonate",
+            "delta_formula": {
+              "O": 2
+            }
+          },
+          "reference_state": "explicit_unoxidized_disulfide_bridge",
+          "diagnostic_evidence": [
+            "相对未氧化SS前体净+O2；相对S–S(O)前体净+O，二者参照不同。"
+          ]
+        }
+      ]
+    },
+    {
+      "rule_id": "CH09-R009",
+      "source_refs": {
+        "pdf_pages": [
+          5
+        ],
+        "print_pages": [
+          221
+        ],
+        "figures": [
+          "9.6"
+        ],
+        "reference_numbers": [
+          23
+        ]
+      },
+      "reference_state": "explicit_thiosulfinate_bridge",
+      "transform": {
+        "kind": "hydrolyze_thiosulfinate",
+        "delta_formula": {
+          "H": 2,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "aqueous_exposure"
+      ],
+      "product_description": "thiosulfinate水解",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "同一主链上的S–S(O)水解给两个SOH位点；相对桥净增H2O。"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "thiosulfinate"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R010",
+      "source_refs": {
+        "pdf_pages": [
+          4
+        ],
+        "print_pages": [
+          220
+        ],
+        "figures": [],
+        "reference_numbers": [
+          20,
+          24,
+          25
+        ]
+      },
+      "reference_state": "explicit_disulfide_bridge",
+      "transform": {
+        "kind": "oxidative_bridge_cleavage",
+        "delta_formula": {
+          "H": 2,
+          "O": 6
+        }
+      },
+      "required_conditions": [],
+      "product_description": "强氧化二硫断裂成磺酸",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "断一条SS桥并把两端各氧化至SO3H；相对SS前体净+H2O6。"
+      ],
+      "required_any_conditions": [
+        "hypochlorite",
+        "performic_acid",
+        "harsh_dmso_halogen_acid"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "disulfide"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R025",
+      "source_refs": {
+        "pdf_pages": [
+          6
+        ],
+        "print_pages": [
+          222
+        ],
+        "figures": [
+          "9.9"
+        ],
+        "reference_numbers": [
+          5,
+          30,
+          32,
+          33
+        ]
+      },
+      "reference_state": "explicit_intrachain_disulfide_bridge",
+      "transform": {
+        "kind": "disulfide_beta_elimination",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "base_exposure"
+      ],
+      "product_description": "二硫β消除生成Dha与thiocysteine",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "同一骨架保持连接，SS重排为Dha与Cys-SSH，总式不变；两端受消除分别列出。"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "disulfide"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH09-R058",
+      "source_refs": {
+        "pdf_pages": [
+          14
+        ],
+        "print_pages": [
+          230
+        ],
+        "figures": [],
+        "reference_numbers": []
+      },
+      "reference_state": "explicit_disulfide_target",
+      "transform": {
+        "kind": "reduce_sulfur_bridge",
+        "delta_formula": {
+          "H": 2
+        }
+      },
+      "required_conditions": [],
+      "product_description": "还原性捕获剂断目标二硫桥",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [],
+      "required_any_conditions": [
+        "dtt",
+        "edt",
+        "thiol_reductant",
+        "other_reducing_agent"
+      ],
+      "bond_selector": {
+        "kinds": [
+          "disulfide"
+        ]
+      }
+    }
+  ]
+}

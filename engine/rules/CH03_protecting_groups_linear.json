@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_19",
+    "sha256": "624ba58f2b7fa41b3e77fa95da65427846acbf43635e5c9b2d5602f45dd73aeb"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH03-R018",
+      "source_refs": {
+        "print_pages": [
+          63,
+          64,
+          65
+        ],
+        "figures": [
+          "3.22"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "required_features": [
+        "pmc_electrophile_available"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Trp C2-Pmc磺酰",
+        "delta_formula": {
+          "C": 14,
+          "H": 18,
+          "O": 3,
+          "S": 1
+        }
+      },
+      "product_description": "Trp C2-Pmc磺酰",
+      "evidence_level": "book_drawn_or_reported",
+      "diagnostic_evidence": [
+        "图3.22可落实Pmc→Trp分支。Pbf及其他受体的连接和位点需单独证明。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R019",
+      "source_refs": {
+        "print_pages": [
+          64,
+          65
+        ],
+        "figures": [
+          "3.22",
+          "3.23"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "W",
+          "Y",
+          "S",
+          "T"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "required_features": [
+        "sulfonyl_electrophile_available"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "净加SO₃，具体连接随残基而变",
+        "delta_formula": {
+          "S": 1,
+          "O": 3
+        }
+      },
+      "product_description": "净加SO₃，具体连接随残基而变",
+      "evidence_level": "book_drawn_or_reported",
+      "diagnostic_evidence": [
+        "图示Ser/Thr为O-硫酸酯，Trp为C2磺酸。Tyr位点/连接保留未定。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R020",
+      "source_refs": {
+        "print_pages": [
+          65
+        ],
+        "figures": [
+          "3.24"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "R"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "required_features": [],
+      "required_site_fact": "arg_pbf_at_reaction_site",
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Arg胍基N–SO₃H",
+        "delta_formula": {
+          "S": 1,
+          "O": 3
+        }
+      },
+      "product_description": "Arg胍基N–SO₃H",
+      "evidence_level": "book_drawn_or_reported",
+      "diagnostic_evidence": [
+        "Pbf非正常断裂，按相对游离Arg的中性式计算，普通质子化另算。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R021",
+      "source_refs": {
+        "print_pages": [
+          67,
+          68
+        ],
+        "figures": []
+      },
+      "reference_state": "candidate_relative_to_target_with_named_group",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "group": "Acm"
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "required_features": [],
+      "transform": {
+        "kind": "remove_group",
+        "delta_formula": {
+          "C": -3,
+          "H": -5,
+          "N": -1,
+          "O": -1
+        }
+      },
+      "product_description": "Cys提前失Acm",
+      "evidence_level": "book_drawn_or_reported",
+      "diagnostic_evidence": [
+        "目标必须仍保留Acm。酸/清除剂组合影响发生程度。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R023",
+      "source_refs": {
+        "print_pages": [
+          68,
+          69
+        ],
+        "figures": [
+          "3.28"
+        ]
+      },
+      "reference_state": "candidate_relative_to_target_with_named_group",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "group": "Acm"
+      },
+      "required_conditions": [
+        "acid_global_deprotection"
+      ],
+      "required_features": [],
+      "transform": {
+        "kind": "migrate_group_to_previous",
+        "previous_residue": "Y",
+        "modification": "Tyr邻位C-Acm",
+        "migrated_formula": {
+          "C": 3,
+          "H": 5,
+          "N": 1,
+          "O": 1
+        },
+        "delta_formula": {}
+      },
+      "product_description": "Tyr邻位C-Acm",
+      "evidence_level": "book_drawn_or_reported",
+      "diagnostic_evidence": [
+        "与保留Cys(Acm)母肽同式，按位置和连接保留独立候选。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R024",
+      "source_refs": {
+        "print_pages": [
+          69,
+          70,
+          71
+        ],
+        "figures": [
+          "3.29"
+        ]
+      },
+      "reference_state": "same_end_groups_unmodified_target",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "M"
+        ]
+      },
+      "required_conditions": [
+        "acid_global_deprotection",
+        "dodt"
+      ],
+      "required_features": [
+        "tert_butyl_electrophile_available"
+      ],
+      "transform": {
+        "kind": "local_delta",
+        "modification": "Met S-(2-tert-butylthioethyl)硫鎓",
+        "delta_formula": {
+          "C": 6,
+          "H": 13,
+          "S": 1
+        },
+        "intrinsic_charge": 1
+      },
+      "product_description": "Met S-(2-tert-butylthioethyl)硫鎓",
+      "evidence_level": "book_drawn_or_reported",
+      "diagnostic_evidence": [
+        "书述LC-MS/MS及NMR支持。离子原子净增量为C₆H₁₃S，另扣一个电子。裸硫鎓和目标[M+H]+之间理论差约116.06597 Da。"
+      ]
+    },
+    {
+      "rule_id": "CH03-R026",
+      "source_refs": {
+        "print_pages": [
+          71,
+          72
+        ],
+        "figures": [
+          "3.30"
+        ]
+      },
+      "reference_state": "candidate_relative_to_target_with_named_group",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Y"
+        ],
+        "group": "Methyl"
+      },
+      "required_conditions": [
+        "thioanisole"
+      ],
+      "required_any_conditions": [
+        "tfmsa",
+        "tmsotf"
+      ],
+      "required_features": [],
+      "transform": {
+        "kind": "remove_group",
+        "delta_formula": {
+          "C": -1,
+          "H": -2
+        }
+      },
+      "product_description": "Tyr酚氧去甲基",
+      "evidence_level": "book_drawn_or_reported",
+      "diagnostic_evidence": [
+        "该模型的Tyr Methyl指酚氧甲基。TFMSA或TMSOTf与thioanisole是书中例子。"
+      ]
+    }
+  ]
+}

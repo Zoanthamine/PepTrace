@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_10",
+    "sha256": "f8ae8c8c0547d28a8a699d6d6a150f9b9177d7ab50d34b56a361c0a5eea10d2a"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH13-R005",
+      "source_refs": {
+        "pdf_pages": [
+          5
+        ],
+        "print_pages": [
+          303
+        ],
+        "figures": [
+          "13.5"
+        ],
+        "reference_numbers": [
+          20,
+          21
+        ]
+      },
+      "transform": {
+        "kind": "paired_group_redistribution",
+        "product_group": "CysSulfinic",
+        "delta_formula": {}
+      },
+      "required_conditions": [
+        "sulfenic_disproportionation"
+      ],
+      "reference_state": "two_explicit_sulfenic_sites_on_same_backbone",
+      "product_description": "水解sulfenic歧化支路",
+      "evidence_level": "editorial_extrapolation_from_book",
+      "diagnostic_evidence": [
+        "同一骨架两SOH中一处变SH、一处变SO2H，总式不变；同主链双位点模型为编辑推断，未推定空间可行性。"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "group": "CysSulfenic"
+      }
+    },
+    {
+      "rule_id": "CH13-R007",
+      "source_refs": {
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "print_pages": [
+          303,
+          304
+        ],
+        "figures": [
+          "13.6"
+        ],
+        "reference_numbers": [
+          24
+        ]
+      },
+      "transform": {
+        "kind": "remove_group",
+        "delta_formula": {
+          "S": -1
+        }
+      },
+      "required_conditions": [
+        "persulfide_decomposition"
+      ],
+      "reference_state": "neutral_conjugate_acid_persulfide_precursor",
+      "product_description": "Persulfide释元素硫再生thiolate",
+      "evidence_level": "book_disputed_mechanism",
+      "diagnostic_evidence": [
+        "原文对persulfide释放元素S与HS−两种命运有争议，保留并列，不升级为全部已确证。"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "group": "Persulfide"
+      }
+    },
+    {
+      "rule_id": "CH13-R008",
+      "source_refs": {
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "print_pages": [
+          303,
+          304
+        ],
+        "figures": [
+          "13.6"
+        ],
+        "reference_numbers": [
+          16
+        ]
+      },
+      "transform": {
+        "kind": "replace_group",
+        "product_group": "CysSulfenic",
+        "modification": "Persulfide去向",
+        "delta_formula": {
+          "S": -1,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "persulfide_decomposition"
+      ],
+      "reference_state": "neutral_conjugate_acid_persulfide_precursor",
+      "product_description": "Persulfide释HS−转sulfenic",
+      "evidence_level": "book_disputed_mechanism",
+      "diagnostic_evidence": [
+        "原文对persulfide释放元素S与HS−两种命运有争议，保留并列，不升级为全部已确证。"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "group": "Persulfide"
+      }
+    },
+    {
+      "rule_id": "CH13-R010",
+      "source_refs": {
+        "pdf_pages": [
+          5,
+          7
+        ],
+        "print_pages": [
+          303,
+          305
+        ],
+        "figures": [
+          "13.7"
+        ],
+        "reference_numbers": [
+          16
+        ]
+      },
+      "transform": {
+        "kind": "replace_group",
+        "product_group": "CysAldehyde",
+        "modification": "侧链CH=S→CHO",
+        "delta_formula": {
+          "S": -1,
+          "O": 1
+        }
+      },
+      "required_conditions": [
+        "aqueous_exposure",
+        "base_exposure"
+      ],
+      "reference_state": "same_sequence_sidechain_thioaldehyde",
+      "product_description": "Thioaldehyde继续转aldehyde",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "硫替氧，净+O−S；不是丢失整枚Cys。"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ],
+        "group": "CysThioaldehyde"
+      }
+    },
+    {
+      "rule_id": "CH13-R017",
+      "source_refs": {
+        "pdf_pages": [
+          11
+        ],
+        "print_pages": [
+          309
+        ],
+        "figures": [],
+        "reference_numbers": [
+          15
+        ]
+      },
+      "transform": {
+        "kind": "site_bridge",
+        "source_atom": "Dha_Cbeta",
+        "partner_atoms": {
+          "Orn_Ndelta": {
+            "position": "any",
+            "residues": [
+              "Orn"
+            ]
+          }
+        },
+        "bond": "ornithinoalanine",
+        "bond_delta": {},
+        "source_unsaturation": "alpha_beta_double_bond"
+      },
+      "required_conditions": [
+        "dha_michael_addition"
+      ],
+      "reference_state": "explicit_dha_backbone_or_sum_of_dha_parent_and_amine_parent",
+      "product_description": "Orn捕获Dha形成ornithinoalanine",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "已明确Dha与胺的Michael加成不改变两者总元素式；不同链数独立计算。新Cα中心未赋绝对构型。"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Dha"
+        ]
+      }
+    },
+    {
+      "rule_id": "CH13-R018",
+      "source_refs": {
+        "pdf_pages": [
+          11
+        ],
+        "print_pages": [
+          309
+        ],
+        "figures": [],
+        "reference_numbers": [
+          15
+        ]
+      },
+      "transform": {
+        "kind": "site_bridge",
+        "source_atom": "Dha_Cbeta",
+        "partner_atoms": {
+          "Lys_Nepsilon": {
+            "position": "any",
+            "residues": [
+              "K"
+            ]
+          }
+        },
+        "bond": "lysinoalanine",
+        "bond_delta": {},
+        "source_unsaturation": "alpha_beta_double_bond"
+      },
+      "required_conditions": [
+        "dha_michael_addition"
+      ],
+      "reference_state": "explicit_dha_backbone_or_sum_of_dha_parent_and_amine_parent",
+      "product_description": "Lys捕获Dha形成lysinoalanine",
+      "evidence_level": "book_reported",
+      "diagnostic_evidence": [
+        "已明确Dha与胺的Michael加成不改变两者总元素式；不同链数独立计算。新Cα中心未赋绝对构型。"
+      ],
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "Dha"
+        ]
+      }
+    }
+  ]
+}

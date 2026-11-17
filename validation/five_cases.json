@@ -1,0 +1,87 @@
+{
+  "type": "public exercises; not blinded or real-sample accuracy",
+  "rows": [
+    {
+      "case": 1,
+      "checks": {
+        "mass_match": true,
+        "not_truncated": true,
+        "independent_formula": true,
+        "n_terminal_phe": true,
+        "lys_sidechain_phe": true
+      },
+      "pass": true,
+      "seconds": 13.408976800041273,
+      "candidates": 55,
+      "conflicts": 0,
+      "nodes": 33414
+    },
+    {
+      "case": 2,
+      "checks": {
+        "mass_match": true,
+        "not_truncated": true,
+        "independent_formula": true,
+        "methyl_ester_2": true,
+        "methyl_ester_6": true,
+        "methyl_ester_C": true
+      },
+      "pass": true,
+      "seconds": 12.922802399843931,
+      "candidates": 198,
+      "conflicts": 0,
+      "nodes": 33154
+    },
+    {
+      "case": 3,
+      "checks": {
+        "mass_match": true,
+        "not_truncated": true,
+        "independent_formula": true,
+        "trisulfide": true,
+        "DCC_path": true
+      },
+      "pass": true,
+      "seconds": 14.386831399984658,
+      "candidates": 11,
+      "conflicts": 0,
+      "nodes": 30069
+    },
+    {
+      "case": 4,
+      "checks": {
+        "mass_match": true,
+        "not_truncated": true,
+        "independent_formula": true,
+        "trisulfide": true,
+        "DCC_excluded": true,
+        "DCC_not_retained": true
+      },
+      "pass": true,
+      "seconds": 15.513481099857017,
+      "candidates": 11,
+      "conflicts": 11,
+      "nodes": 30069
+    },
+    {
+      "case": 5,
+      "checks": {
+        "mass_match": true,
+        "not_truncated": true,
+        "independent_formula": true,
+        "tert_butyl_2": true,
+        "tert_butyl_3": true,
+        "tert_butyl_4": true,
+        "acid_not_guessed": true
+      },
+      "pass": true,
+      "seconds": 12.608753100037575,
+      "candidates": 99,
+      "conflicts": 0,
+      "nodes": 34829
+    }
+  ],
+  "resolution_sensitivity": true,
+  "fixed_charge_sensitivity": true,
+  "pass": true
+}

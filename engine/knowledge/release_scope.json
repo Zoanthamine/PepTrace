@@ -1,0 +1,26 @@
+{
+  "schema_version": "practical-release-scope-1",
+  "user_decision": "这个部分做的太细了，粗浅一些就行，按照计划完成整个技能的构建",
+  "grade": "反应家族、净质量变化、位点及必要条件的实用版本",
+  "coverage": "全部书源和附录均可反查；已编译模板执行状态搜索，未定义或复杂结构作为明确标注的来源线索",
+  "search": "默认最多2次规则应用，可明确配置1—6次；未知条件保留、冲突单列；节点预算截断时不称完整",
+  "mass_basis": "单同位素、平均质量及原书整数线索分列；整数线索仅用于低分辨来源查找",
+  "outcome": "完整候选JSON、全部支持路径、来源线索、中文报告和实际技能入口校验",
+  "deferred_detail": [
+    "原子级价态和立体连接的全面模型",
+    "原书未定或依赖额外底物结构的确切产物",
+    "所有可能化学及无限深度路径"
+  ],
+  "acceptance": [
+    "全书去向台账",
+    "规范源/索引一致性",
+    "全部编译分支的实用级正例和适用性/前提检查",
+    "独立小体系枚举",
+    "三题随机保留质量家族检索",
+    "自然语言/多峰/零差/无匹配",
+    "冷/热启动及截断报告",
+    "实际加载哈希一致"
+  ],
+  "real_sample": "not_verified",
+  "dsh_integration": "authorized and integrated: canonical data, strict adapter, independent mass cross-check, evidence-rich report"
+}

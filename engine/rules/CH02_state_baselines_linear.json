@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "source": {
+    "doc_id": "doc_04",
+    "sha256": "dfbe14fad3e31799be23f0f80e8c36786ab48b43fde1ea23dc139599c5e1a64e"
+  },
+  "generated_from": "knowledge/rules.json; do not edit",
+  "rules": [
+    {
+      "rule_id": "CH02-R001",
+      "source_refs": {
+        "chapter": 2,
+        "section": "2.1",
+        "pdf_pages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "print_pages": [
+          33,
+          34,
+          35,
+          36
+        ],
+        "figures": [
+          "2.1",
+          "2.2"
+        ],
+        "reference_numbers": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "reference_state": "同序列、同末端、已完全去除Cys硫保护基的中性Cys肽，不是Cys(Acm/StBu/Trt)保护肽。",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      },
+      "transform": {
+        "kind": "substitute",
+        "residue": "Dha",
+        "delta_formula": {
+          "H": -2,
+          "S": -1
+        }
+      },
+      "required_conditions": [],
+      "supporting_any_conditions": [
+        "base_exposure",
+        "cys_elimination"
+      ],
+      "product_description": "Cys β-消除形成脱氢丙氨酸",
+      "evidence_level": "reviewed_book_family_from_legacy_adapter",
+      "diagnostic_evidence": [
+        [
+          "质量为编辑者中性单同位素计算，非书中精确值。Fig.2.1/2.2未视觉核验；文字支持Cys→Dha净元素。 Cys(StBu)/Cys(Acm) >> Cys(Trt) 的敏感度排序是同一树脂、同一条件下的实测结果，不是普适热力学顺序：β-消除速率受 Cα/Cβ 氢酸性（Nα 是否酰化）、离去基能力与位阻共同决定，Acm 加成的比例还随碱暴露时间变化。不能按保护基名称预测残余量。",
+          "【排序不等于热力学序】Cys(StBu)≥Cys(Acm)>>Cys(Trt)是特定树脂/碱条件下的实测排序；β-消除速率取决于Cα/Cβ氢酸性、保护基离去能力、位阻与碱暴露时间，Acm的加成比例随碱暴露时间显著变化，不能按保护基名称预测残余量。"
+        ]
+      ]
+    },
+    {
+      "rule_id": "CH02-R002",
+      "source_refs": {
+        "chapter": 2,
+        "section": "2.1",
+        "pdf_pages": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "print_pages": [
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "figures": [
+          "2.1"
+        ],
+        "reference_numbers": [
+          6,
+          11,
+          18,
+          19,
+          20
+        ]
+      },
+      "reference_state": "完全去硫保护基的同序列Cys目标中性肽。",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      },
+      "transform": {
+        "kind": "substitute",
+        "residue": "Dha+piperidine",
+        "delta_formula": {
+          "C": 5,
+          "H": 9,
+          "N": 1,
+          "S": -1
+        }
+      },
+      "required_conditions": [
+        "piperidine"
+      ],
+      "supporting_any_conditions": [],
+      "product_description": "Cys消除后哌啶Michael加成",
+      "evidence_level": "reviewed_book_family_from_legacy_adapter",
+      "diagnostic_evidence": [
+        [
+          "已目视核对印刷页34的Fig. 2.1。书中+51 amu与按结构计算的单同位素净增量分列。",
+          "【立体化学】哌啶对Dha的Michael加成可发生在双键两面，产生非对映异构体混合物，反相LC上可能表现为双峰或宽峰；双峰不等于两个不同副反应。"
+        ]
+      ]
+    },
+    {
+      "rule_id": "CH02-R003",
+      "source_refs": {
+        "chapter": 2,
+        "section": "2.1",
+        "pdf_pages": [
+          1,
+          2
+        ],
+        "print_pages": [
+          33,
+          34
+        ],
+        "figures": [
+          "2.1"
+        ],
+        "reference_numbers": [
+          6
+        ]
+      },
+      "reference_state": "相同去保护Cys中性目标肽。",
+      "site_selector": {
+        "position": "any",
+        "residues": [
+          "C"
+        ]
+      },
+      "transform": {
+        "kind": "substitute",
+        "residue": "Dha+4-methylpiperidine",
+        "delta_formula": {
+          "C": 6,
+          "H": 11,
+          "N": 1,
+          "S": -1
+        }
+      },
+      "required_conditions": [
+        "4-methylpiperidine"
+      ],
+      "supporting_any_conditions": [],
+      "product_description": "Cys消除后4-甲基哌啶加成",
+      "evidence_level": "reviewed_book_family_from_legacy_adapter",
+      "diagnostic_evidence": [
+        [
+          "质量为编辑者计算，书中仅+65。"
+        ]
+      ]
+    }
+  ]
+}
