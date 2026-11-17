@@ -1,0 +1,67 @@
+{
+  "module": "ms1_basics",
+  "ms1_rows": [
+    {
+      "rt_seconds": 0,
+      "TIC": 1.0,
+      "BPC": 1,
+      "XIC": {
+        "x": 0.0
+      }
+    },
+    {
+      "rt_seconds": 10,
+      "TIC": 11.0,
+      "BPC": 10,
+      "XIC": {
+        "x": 10.0
+      }
+    },
+    {
+      "rt_seconds": 20,
+      "TIC": 1.0,
+      "BPC": 1,
+      "XIC": {
+        "x": 0.0
+      }
+    }
+  ],
+  "target_specification": {
+    "targets": [
+      {
+        "id": "x",
+        "mz": 500,
+        "tolerance": 10,
+        "tolerance_unit": "ppm"
+      }
+    ]
+  },
+  "area_intensity_seconds": {
+    "x": 100.0
+  },
+  "overlapping_peak_target_assignments": 0,
+  "no_ms1_in_selected_range": false,
+  "scope": "raw centroid-window sums and trapezoidal areas; no baseline correction, calibrated concentration or structural assignment",
+  "peptrace_version": "1.1.0",
+  "source_input_sha256": "305036b78b5f555d5a1d04383c9336119b2db04e4bb6054c93485bbdcfbf3050",
+  "source_notes": [
+    {
+      "id": "PYOPENMS-SKILL",
+      "title": "pyopenms",
+      "type": "skill_method",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/pyopenms",
+      "revision": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+      "license": "skill header BSD-3-Clause; repository MIT; upstream OpenMS licensing separate",
+      "read_status": "main guidance and chromatogram extraction script read",
+      "reuse": "independent bounded indexed-mzML wrapper and explicit windows/units"
+    },
+    {
+      "id": "OPENMS-DOCS",
+      "title": "pyOpenMS official documentation",
+      "type": "software_docs",
+      "url": "https://pyopenms.readthedocs.io/en/latest/",
+      "read_status": "documentation index read; labels 3.6.0dev",
+      "role": "MS data/chemistry, centroid/feature/chromatogram APIs; verify with installed 3.6.0"
+    }
+  ]
+}

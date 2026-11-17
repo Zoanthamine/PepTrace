@@ -13,7 +13,7 @@ PepTrace combines a peptide state-search engine with an independent DSH mass/for
 - 五个公开练习、参考答案修订、独立枚举与三个随机质量家族保留题。
 - 回归测试、逐分支检查、哈希清单、可迁移安装和ZIP验证脚本。
 
-原书ZIP另外作为同版本GitHub Release附件提供，文件身份见 `references/source-archive.json`。它不作为运行时依赖。原书及其他第三方材料的权利归各自权利人，仓库MIT许可仅适用于本项目自编代码和说明。
+原书ZIP保留在[v1.0.0 Release](https://github.com/Zoanthamine/PepTrace/releases/tag/v1.0.0)附件中，文件身份见 `references/source-archive.json`。它不作为运行时依赖。原书及其他第三方材料的权利归各自权利人，仓库MIT许可仅适用于本项目自编代码和说明。
 
 下载后可运行 `python scripts/verify_source_archive.py <原书ZIP>`，独立核对压缩包及其中21份PDF的SHA-256。
 
@@ -65,7 +65,7 @@ python scripts/diagnose.py --stats
 python scripts/build.py
 python scripts/verify.py --full
 python scripts/verify.py --full --benchmark
-python scripts/package.py --output PepTrace-v1.0.0.zip
+python scripts/package.py --output PepTrace-v1.1.0.zip
 ```
 
 构建只需包内的规范JSON，不需要原书PDF。希望重新核对原书文件哈希时，先将原书ZIP解压并按来源目录组织为 `doc_XX/source.pdf`，然后使用 `python scripts/build.py --source-root <目录>`；缺失或哈希不一致会报错。重建数据不等于重新目视核验原图。
@@ -90,3 +90,17 @@ tests/ / validation/      迁移测试与验收证据
 基于 Yi Yang, *Side Reactions in Peptide Synthesis* (2016, Academic Press) 编制事实规则与编辑模型；规则中保留印刷页、图号及证据层级。原书报告、编辑推算和当前诊断假设分开。详细来源见 [范围与证据](references/scope-and-provenance.md) 和 [文件目录](references/source-catalog.json)。
 
 代码与自编说明采用 [MIT](LICENSE)。第三方Python依赖遵循其自身许可；原书及原书ZIP不适用MIT许可。
+
+## 基础实验辅助（1.1.0）
+
+新增 `scripts/assist.py`，共用现有规范质量与证据口径：
+
+|模式|基础能力|
+|---|---|
+|spps|组成、重复片段、Asp-X/Asp-Pro及实际过程缺项；不预测成功率|
+|hplc|梯度/柱尺寸换算和TFA、酸/甲醇、pH兼容性提示|
+|ms1|已索引质心mzML或JSON的TIC/BPC/XIC、明确窗口及积分|
+|cyclic|给定SMILES的映射环键、分子式、形式电荷与酸前体失水关系|
+|protocols|本地规程快照版本/材料/步骤；官方GET显式执行与token缺项|
+
+格式与示例见 [基础实验辅助](references/experimental-basics.md)。上游方法、许可、实际读取范围与可加入的书籍/网站见 [来源索引](references/experimental-sources.json) 和 [知识扩充计划](references/knowledge-expansion.md)。所有新增基础脚本独立编写；未纳入未标许可的SPPS扫描器、非商业环肽运行器或GPU模型。现有诊断核心的450来源规则和308编译分支保持原口径。

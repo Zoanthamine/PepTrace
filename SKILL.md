@@ -1,6 +1,6 @@
 ---
 name: peptide-side-product-diagnosis
-description: 肽迹（PepTrace）：用多肽序列、端基或保护态、反应条件和质量／LC–MS m/z 查找副反应家族、并列位点和组合候选，生成带来源的诊断报告。
+description: 肽迹（PepTrace）：用多肽序列、端基或保护态、反应条件和质量／LC–MS m/z 查找副反应家族、并列位点和组合候选，生成带来源的诊断报告，并提供SPPS、HPLC、MS1、环结构和规程基础辅助。
 ---
 
 # 肽迹 · 多肽副反应与副产物诊断
@@ -29,6 +29,18 @@ python scripts/diagnose.py --stats
 - `fusion_audit`：规范数据版本与DSH独立分子式核算。本体状态核心负责结构和组合，DSH旧加质量组合和旧条件表不接管推理。
 
 原料和目标、平均／单同位素／原书整数、双峰误差及固有电荷分别处理。书中观察、编辑模型和当前推断按证据等级陈述；输出全部候选JSON，正文可以优先解释条件支持的少事件假设，并给出MS/MS、标品或工艺对照等区分证据。
+
+需要合成前风险、HPLC方法、MS1迹线、环结构检查或protocols.io规程时，读[基础实验辅助](references/experimental-basics.md)，使用同一入口 `scripts/assist.py`：
+
+```text
+python scripts/assist.py spps examples/basics/spps.json --output review.json
+python scripts/assist.py hplc examples/basics/hplc.json --output method.json
+python scripts/assist.py cyclic examples/basics/cyclic.json --output cyclic.json
+python scripts/assist.py ms1 examples/basics/ms1-scans.json --targets examples/basics/ms1-targets.json --output traces.json
+python scripts/assist.py protocols examples/basics/protocol.json --output protocol.json
+```
+
+这些基础结果分别是注意项、方法换算、迹线积分、给定图结构和规程摘要。缺保护态、仪器参数、明确环键或规程版本时保留缺项，不将粗筛当成功概率、XIC面积当浓度或二维环当实际环化成功。联网取规程需要用户指定来源与命名访问变量，默认只做只读计划。书籍和网站补充去向见[知识扩充计划](references/knowledge-expansion.md)。
 
 本技能采用反应家族、净式、必要位点和条件的实用粒度。全部450条来源规则与82条附录有去向；240个模板、308个编译分支用于状态搜索，复杂或未定义结构继续作为来源线索。真实样品准确率、全部原子价态／几何及无限反应深度尚未验收。范围与来源见[能力和证据](references/scope-and-provenance.md)。
 

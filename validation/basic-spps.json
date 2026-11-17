@@ -1,0 +1,115 @@
+{
+  "module": "spps_basics",
+  "sequence": [
+    "Q",
+    "D",
+    "G",
+    "C",
+    "M"
+  ],
+  "length": 5,
+  "residue_counts": {
+    "Q": 1,
+    "D": 1,
+    "G": 1,
+    "C": 1,
+    "M": 1
+  },
+  "repeat_runs": [],
+  "reference_element_mass": 551.18320339996,
+  "missing_terminal_fields": [],
+  "missing_process_fields": [],
+  "findings": [
+    {
+      "name": "Asp-X基序",
+      "sites": [
+        2,
+        3
+      ],
+      "reason": "核对碱暴露、保护态及aspartimide风险；不同X与工艺不能视为等概率。",
+      "source_id": "BEHRENDT-2016",
+      "classification": "mechanistic_attention; not a failure probability"
+    },
+    {
+      "name": "消旋/侧链状态核对",
+      "sites": [
+        4
+      ],
+      "reason": "活化、碱、温度及保护基会影响；这里只提示核对，不预测ee或dr。",
+      "source_id": "YANG-2016",
+      "classification": "mechanistic_attention; not a failure probability"
+    },
+    {
+      "name": "Met氧化敏感位点",
+      "sites": [
+        5
+      ],
+      "reason": "核对氧化剂、空气/过氧化物及切割清除剂。",
+      "source_id": "YANG-2016",
+      "classification": "mechanistic_attention; not a failure probability"
+    },
+    {
+      "name": "N端环化参照",
+      "sites": [
+        1
+      ],
+      "reason": "确认N端实际是否游离，再检查焦谷氨酸等环化；最终序列不等于树脂上的保护态。",
+      "source_id": "YANG-2016",
+      "classification": "mechanistic_attention; not a failure probability"
+    }
+  ],
+  "process": {
+    "chemistry": "Fmoc",
+    "resin": "Rink amide",
+    "loading_mmol_g": 0.3,
+    "coupling": "DIC/Oxyma",
+    "deprotection": "piperidine",
+    "cleavage": "TFA/TIS/H2O",
+    "conditions": [
+      "acid exposure"
+    ]
+  },
+  "notes": "Illustrative input, not an executed synthesis.",
+  "scope": "sequence/process attention list; protected-residue behaviour, yield, purity and identity require separate experimental evidence",
+  "predicted_success_probability": null,
+  "peptrace_version": "1.1.0",
+  "source_input_sha256": "ccbae0c11beb90e7914619ba6bc839bd0319fcaa86f1427767edfeb1b9e6be9c",
+  "source_notes": [
+    {
+      "id": "YANG-2016",
+      "title": "Side Reactions in Peptide Synthesis",
+      "year": 2016,
+      "authors": [
+        "Yi Yang"
+      ],
+      "type": "book",
+      "read_status": "existing canonical rule evidence",
+      "role": "shared rule/mass/site reference; current 450 records and 308 compiled branches"
+    },
+    {
+      "id": "SPPS-REVIEW",
+      "title": "spps-synthesizability-review",
+      "type": "skill_method",
+      "url": "https://github.com/tinbrletic/UOOP-Project/tree/7f00f44c1deef9ac8cef3ae8cfd9cad1a41e84f9/.claude/skills/spps-synthesizability-review",
+      "revision": "7f00f44c1deef9ac8cef3ae8cfd9cad1a41e84f9",
+      "license": "not explicitly stated",
+      "read_status": "main guidance, scanner header/sections and validation document read",
+      "reuse": "method concepts only; independently written code, no upstream scanner or calibrated risk tiers"
+    },
+    {
+      "id": "BEHRENDT-2016",
+      "title": "Advances in Fmoc solid-phase peptide synthesis",
+      "authors": [
+        "Raymond Behrendt",
+        "Peter White",
+        "John Offer"
+      ],
+      "year": 2016,
+      "doi": "10.1002/psc.2836",
+      "url": "https://europepmc.org/articles/PMC4745034",
+      "type": "open_review",
+      "read_status": "metadata and selected body paragraphs about Fmoc, difficult sequences, aggregation/protection and aspartimide read",
+      "role": "basic evidence notes; no universal yield/probability or new exact product template inferred"
+    }
+  ]
+}

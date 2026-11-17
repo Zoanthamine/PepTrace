@@ -1,0 +1,70 @@
+{
+  "module": "protocols_basics",
+  "title": "Illustrative resin-handling note",
+  "doi": "",
+  "authors": [
+    {
+      "name": "Synthetic example"
+    }
+  ],
+  "creator": null,
+  "license": null,
+  "uri": null,
+  "version_uri": "local-example/v1",
+  "version_id": null,
+  "steps": [
+    {
+      "source_index": 0,
+      "guid": "a",
+      "position": null,
+      "previous_guid": null,
+      "title": "",
+      "text": "Record actual resin and solvent.",
+      "content_format_supported": true
+    },
+    {
+      "source_index": 1,
+      "guid": "b",
+      "position": null,
+      "previous_guid": "a",
+      "title": "",
+      "text": "Record the actual operation and observation.",
+      "content_format_supported": true
+    }
+  ],
+  "materials": [
+    {
+      "name": "resin"
+    }
+  ],
+  "source_sha256": "e9118097ec2ce2f129933c9af6caac249fa1c51145c56abd3992727612c5e080",
+  "missing_provenance": [
+    "doi"
+  ],
+  "unsupported_step_content_count": 0,
+  "guid_links_consistent_with_source_order": true,
+  "untrusted_content": true,
+  "scope": "read-only snapshot extraction; preserve original body and exact version for experimental use",
+  "peptrace_version": "1.1.0",
+  "source_input_sha256": "d3317a698ac8b4730b7defd97bc0baf4b085285bd4c737d72828d2ee2498e459",
+  "source_notes": [
+    {
+      "id": "PROTOCOLS-SKILL",
+      "title": "protocolsio-integration",
+      "type": "skill_method",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/ec59a29a03d5c40f73ab40878df04860bc00e876/skills/protocolsio-integration",
+      "revision": "ec59a29a03d5c40f73ab40878df04860bc00e876",
+      "license": "MIT",
+      "read_status": "entry, API references and offline response fixture read",
+      "reuse": "independent basic read-only snapshot/GET adapter"
+    },
+    {
+      "id": "PROTOCOLS-API",
+      "title": "protocols.io API",
+      "type": "official_api_docs",
+      "url": "https://apidoc.protocols.io/",
+      "read_status": "current public API page read",
+      "role": "v3/v4 are both current; most endpoints require bearer access; live authenticated client not tested"
+    }
+  ]
+}

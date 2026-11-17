@@ -17,7 +17,7 @@ def freeze():
         return len(rel.parts)==1 and p.name in {'SKILL.md','README.md','LICENSE','requirements.txt','requirements-msms.txt','.gitattributes','.gitignore'}
     paths=sorted(p for p in ROOT.rglob('*') if accepted(p))
     runtime=json.loads((ENGINE/'runtime/manifest.json').read_text(encoding='utf-8'))
-    manifest={'version':'1.0.0','engine':'codex-dsh-fused-1','schema':'peptrace-portable-release-1',
+    manifest={'version':'1.1.0','engine':'codex-dsh-fused-1','schema':'peptrace-portable-release-1',
         'library_hash':runtime['logical_sha256'],'counts':runtime['counts'],
         'files_sha256':{p.relative_to(ROOT).as_posix():sha(p) for p in paths},
         'original_book_archive':'separate GitHub Release asset, not a runtime dependency'}

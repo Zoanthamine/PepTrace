@@ -1,0 +1,1 @@
+{"protocol":{"title":"Illustrative resin-handling note","doi":"","version_uri":"local-example/v1","authors":[{"name":"Synthetic example"}],"materials":[{"name":"resin"}],"steps":[{"guid":"a","previous_guid":null,"step":"Record actual resin and solvent."},{"guid":"b","previous_guid":"a","step":"Record the actual operation and observation."}]}}

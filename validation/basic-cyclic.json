@@ -1,0 +1,48 @@
+{
+  "module": "cyclic_basics",
+  "formula": "C4H6N2O2",
+  "element_counts": {
+    "C": 4,
+    "H": 6,
+    "N": 2,
+    "O": 2
+  },
+  "formal_charge": 0,
+  "rdkit_exact_mass": 114.042927432,
+  "ring_count": 1,
+  "closure_check": {
+    "kind": "amide",
+    "atom_maps": [
+      2,
+      3
+    ],
+    "bond_present": true,
+    "bond_type_matches": true,
+    "bond_in_ring": true,
+    "pass": true
+  },
+  "expected_formula_matches": true,
+  "expected_charge_matches": null,
+  "reference_relation": {
+    "net_formula": {
+      "H": -2,
+      "O": -1
+    },
+    "matches_actual_formula": true
+  },
+  "scope": "2D graph/formula/formal-charge verification; permanent intrinsic charge, synthesis feasibility, conformational convergence and binding are not inferred",
+  "peptrace_version": "1.1.0",
+  "source_input_sha256": "2e01db1f6434f175f19aaf427c403d17c92dce04b4eeeee1d56f2de64054bd3f",
+  "source_notes": [
+    {
+      "id": "CYCLIC-EVAL",
+      "title": "peptide-agent/candidate-evaluation",
+      "type": "skill_method",
+      "url": "https://github.com/PanCodeInventory/peptide-agent/blob/b0f11276eb425238b62abd8b1159f669572629b9/.pi/skills/candidate-evaluation/SKILL.md",
+      "revision": "b0f11276eb425238b62abd8b1159f669572629b9",
+      "license": "PolyForm Noncommercial 1.0.0",
+      "read_status": "evaluation scope and repository requirements read",
+      "reuse": "distinguishing structure/topology/scoring concepts; no source code, models or GPU pipeline included"
+    }
+  ]
+}

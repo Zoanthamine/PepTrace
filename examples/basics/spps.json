@@ -1,0 +1,1 @@
+{"peptide":{"sequence":"QDGCM","nterm":"free","cterm":"amide"},"process":{"chemistry":"Fmoc","resin":"Rink amide","loading_mmol_g":0.3,"coupling":"DIC/Oxyma","deprotection":"piperidine","cleavage":"TFA/TIS/H2O","conditions":["acid exposure"]},"notes":"Illustrative input, not an executed synthesis."}

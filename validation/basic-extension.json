@@ -1,0 +1,17 @@
+{
+  "version": "1.1.0",
+  "modules": [
+    "spps",
+    "hplc",
+    "ms1",
+    "cyclic",
+    "protocols"
+  ],
+  "implementation": "independent basic functions with source attribution, canonical mass/structure components shared",
+  "new_basic_checks": 19,
+  "all_checks": 216,
+  "library_hash_unchanged": "b650cd507c108de61e08b7996dbfb4a57b1c46de0143f1a6c448e1a13d74ddb0",
+  "live_protocols_authentication": "not_tested; named token needed for explicit GET",
+  "books": "two bibliographic candidates; selected open review and vendor-guide pages read; no full-book ingestion claim",
+  "full_validation": "passed"
+}

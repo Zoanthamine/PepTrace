@@ -1,0 +1,1 @@
+{"smiles":"[CH2:1]1[NH:2][C:3](=[O:4])[CH2:5][NH:6][C:7]1=[O:8]","closure":{"kind":"amide","atom_maps":[2,3]},"expected_formula":"C4H6N2O2","peptide_reference":{"sequence":"GG","nterm":"free","cterm":"acid"},"reference_relation":"head_to_tail","notes":"Synthetic diketopiperazine graph demonstrating formula and mapped-bond checks."}

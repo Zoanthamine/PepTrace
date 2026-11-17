@@ -11,7 +11,7 @@
         "lys_sidechain_phe": true
       },
       "pass": true,
-      "seconds": 12.342465199995786,
+      "seconds": 12.314015200128779,
       "candidates": 55,
       "conflicts": 0,
       "nodes": 33414
@@ -27,7 +27,7 @@
         "methyl_ester_C": true
       },
       "pass": true,
-      "seconds": 11.489236700115725,
+      "seconds": 11.34654640010558,
       "candidates": 198,
       "conflicts": 0,
       "nodes": 33154
@@ -42,7 +42,7 @@
         "DCC_path": true
       },
       "pass": true,
-      "seconds": 12.91056130011566,
+      "seconds": 12.477081599878147,
       "candidates": 11,
       "conflicts": 0,
       "nodes": 30069
@@ -58,7 +58,7 @@
         "DCC_not_retained": true
       },
       "pass": true,
-      "seconds": 13.436225000070408,
+      "seconds": 12.493209100095555,
       "candidates": 11,
       "conflicts": 11,
       "nodes": 30069
@@ -75,7 +75,7 @@
         "acid_not_guessed": true
       },
       "pass": true,
-      "seconds": 13.021001300076023,
+      "seconds": 12.484481899999082,
       "candidates": 99,
       "conflicts": 0,
       "nodes": 34829

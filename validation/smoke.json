@@ -2808,7 +2808,7 @@
       "complete_for_compiled_transition_pool": true,
       "full_book_capabilities_complete": false,
       "rule_ids": "all_compiled_recipes",
-      "seconds": 0.029339800123125315
+      "seconds": 0.025991000002250075
     }
   ],
   "complete_for_compiled_transition_pool": true,

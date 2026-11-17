@@ -37,7 +37,7 @@ def main():
     for name in ['pyteomics','jsonschema','rdkit','numpy','pyopenms']:
         try:versions[name]=importlib.metadata.version(name)
         except importlib.metadata.PackageNotFoundError:versions[name]='not_installed'
-    report={'version':'1.0.0','integrity':integrity,'library_hash':stats['library_hash'],'full':a.full,
+    report={'version':'1.1.0','integrity':integrity,'library_hash':stats['library_hash'],'full':a.full,
         'core_regression_tests':core_count,'package_regression_tests':package_count,'checks':rows,
         'environment':{'python':sys.version.split()[0],'packages':versions},'pass':True,'real_sample':'not_verified'}
     (ROOT/'validation/acceptance.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

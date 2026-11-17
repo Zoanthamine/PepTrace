@@ -4,7 +4,7 @@ from pathlib import Path
 from check_release import check
 ROOT=Path(__file__).resolve().parents[1]
 if sys.argv[1:]==['--version']:
-    print('PepTrace 1.0.0');raise SystemExit(0)
+    print('PepTrace 1.1.0');raise SystemExit(0)
 try:verified=check()
 except (ValueError,OSError) as error:raise SystemExit(str(error))
 if sys.argv[1:]==['--verify-release']:

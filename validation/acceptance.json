@@ -1,15 +1,15 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "integrity": {
-    "version": "1.0.0",
-    "checked_files": 160,
+    "version": "1.1.0",
+    "checked_files": 174,
     "library_hash": "b650cd507c108de61e08b7996dbfb4a57b1c46de0143f1a6c448e1a13d74ddb0",
     "pass": true
   },
   "library_hash": "b650cd507c108de61e08b7996dbfb4a57b1c46de0143f1a6c448e1a13d74ddb0",
   "full": true,
   "core_regression_tests": 193,
-  "package_regression_tests": 4,
+  "package_regression_tests": 23,
   "checks": [
     {
       "label": "core_regression",
@@ -18,7 +18,7 @@
     },
     {
       "label": "package_regression",
-      "tests": 4,
+      "tests": 23,
       "pass": true
     },
     {
