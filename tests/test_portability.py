@@ -5,6 +5,11 @@ sys.path.insert(0,str(ROOT/'scripts'))
 from check_release import check
 
 class PortableReleaseTests(unittest.TestCase):
+    def test_packaged_holdout_registration_matches_file_bytes(self):
+        folder=ROOT/'engine/rebuild/holdouts';r=json.loads((folder/'registration.json').read_text(encoding='utf-8'))
+        self.assertEqual(r['seed'],20261117);self.assertEqual(len(r['questions']),3)
+        for entry in r['questions']:
+            self.assertEqual(hashlib.sha256((folder/entry['file']).read_bytes()).hexdigest(),entry['sha256'])
     def test_entry_works_from_an_unrelated_working_directory(self):
         work=ROOT/'validation/work';work.mkdir(parents=True,exist_ok=True)
         with tempfile.TemporaryDirectory(dir=work) as folder:

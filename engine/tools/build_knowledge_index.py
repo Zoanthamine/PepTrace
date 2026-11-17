@@ -86,7 +86,7 @@ def build():
               'counts':{k:len(v) for k,v in tables.items()},'direct_scan_comparisons':checks,
               'foreign_keys':'OK','dynamic_mass_policy':'instantiate_after_structural_applicability',
               'acceptance_scope':'index/scan equality; state-search acceptance is reported separately in validation/acceptance.json'}
-    (ROOT/'index/manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    (ROOT/'index/manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     return manifest
 
 if __name__=='__main__':print(json.dumps(build(),ensure_ascii=False))

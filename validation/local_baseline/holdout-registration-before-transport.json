@@ -1,0 +1,74 @@
+{
+  "purpose": "random held-out mass-family retrieval questions, not an identification accuracy estimate",
+  "seed": 20261117,
+  "pool": [
+    {
+      "id": "AI-005",
+      "residue": "R"
+    },
+    {
+      "id": "AI-006",
+      "residue": "C"
+    },
+    {
+      "id": "AI-014",
+      "residue": "Q",
+      "terminal": true
+    },
+    {
+      "id": "AI-031",
+      "residue": "C"
+    },
+    {
+      "id": "AI-033",
+      "residue": "M"
+    },
+    {
+      "id": "AI-045",
+      "residue": "M"
+    },
+    {
+      "id": "AI-055",
+      "residue": "K"
+    },
+    {
+      "id": "AI-057",
+      "residue": "C"
+    },
+    {
+      "id": "AI-062",
+      "residue": "A"
+    },
+    {
+      "id": "AI-069",
+      "residue": "K"
+    },
+    {
+      "id": "AI-077",
+      "residue": "W"
+    }
+  ],
+  "source_sha256": "8f846eb295a0117ff3598cc49290eccb4f2e1fb09bbd201a1e651525f1b5857c",
+  "selection_rule": "random.Random(seed).sample(pool,3); no manual replacement",
+  "questions": [
+    {
+      "file": "question-1.json",
+      "sha256": "cf934f613f8d90dd97a0931f94603ca8542c0dbe73cd52984b7f22d926d752ad",
+      "coordinate": "delta_approx",
+      "normalized_text_sha256": "79bdbafddbd769c183951a35771d55d4f59e13fd1eb10bc90d84c0bae7a3c56d"
+    },
+    {
+      "file": "question-2.json",
+      "sha256": "e5d841b7c2c21c46dc429ed166737b378ab02a29324b0e4cce88caa081aa239f",
+      "coordinate": "neutral_mono",
+      "normalized_text_sha256": "8ae9126ac25b12549768909ffa19d40a0774517fc6ec6da60161d26a2d988d72"
+    },
+    {
+      "file": "question-3.json",
+      "sha256": "7ac073b84d78e8e311d39a6d1e2f77fa68585effd567eca44fc7d4cb9f8eca3e",
+      "coordinate": "peak_pair",
+      "normalized_text_sha256": "12ec8b586acd5f1c1d79398ec55b21f6dfb3c4eb173b52822e04c4f803b61326"
+    }
+  ],
+  "transport_note": "CRLF file-byte hash corrected before any solver run; logical question text and seed unchanged"
+}

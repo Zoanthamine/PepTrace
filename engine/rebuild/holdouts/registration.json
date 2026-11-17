@@ -53,22 +53,25 @@
   "questions": [
     {
       "file": "question-1.json",
-      "sha256": "cf934f613f8d90dd97a0931f94603ca8542c0dbe73cd52984b7f22d926d752ad",
+      "sha256": "79bdbafddbd769c183951a35771d55d4f59e13fd1eb10bc90d84c0bae7a3c56d",
       "coordinate": "delta_approx",
-      "normalized_text_sha256": "79bdbafddbd769c183951a35771d55d4f59e13fd1eb10bc90d84c0bae7a3c56d"
+      "normalized_text_sha256": "79bdbafddbd769c183951a35771d55d4f59e13fd1eb10bc90d84c0bae7a3c56d",
+      "source_file_sha256_before_packaging": "cf934f613f8d90dd97a0931f94603ca8542c0dbe73cd52984b7f22d926d752ad"
     },
     {
       "file": "question-2.json",
-      "sha256": "e5d841b7c2c21c46dc429ed166737b378ab02a29324b0e4cce88caa081aa239f",
+      "sha256": "8ae9126ac25b12549768909ffa19d40a0774517fc6ec6da60161d26a2d988d72",
       "coordinate": "neutral_mono",
-      "normalized_text_sha256": "8ae9126ac25b12549768909ffa19d40a0774517fc6ec6da60161d26a2d988d72"
+      "normalized_text_sha256": "8ae9126ac25b12549768909ffa19d40a0774517fc6ec6da60161d26a2d988d72",
+      "source_file_sha256_before_packaging": "e5d841b7c2c21c46dc429ed166737b378ab02a29324b0e4cce88caa081aa239f"
     },
     {
       "file": "question-3.json",
-      "sha256": "7ac073b84d78e8e311d39a6d1e2f77fa68585effd567eca44fc7d4cb9f8eca3e",
+      "sha256": "12ec8b586acd5f1c1d79398ec55b21f6dfb3c4eb173b52822e04c4f803b61326",
       "coordinate": "peak_pair",
-      "normalized_text_sha256": "12ec8b586acd5f1c1d79398ec55b21f6dfb3c4eb173b52822e04c4f803b61326"
+      "normalized_text_sha256": "12ec8b586acd5f1c1d79398ec55b21f6dfb3c4eb173b52822e04c4f803b61326",
+      "source_file_sha256_before_packaging": "7ac073b84d78e8e311d39a6d1e2f77fa68585effd567eca44fc7d4cb9f8eca3e"
     }
   ],
-  "transport_note": "CRLF file-byte hash corrected before any solver run; logical question text and seed unchanged"
+  "transport_note": "Packaged UTF-8/LF file hashes registered before packaged solver rerun; JSON questions, answer key and random selection unchanged."
 }

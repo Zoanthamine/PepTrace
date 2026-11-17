@@ -8,7 +8,10 @@ def freeze():
     def accepted(p):
         rel=p.relative_to(ROOT)
         if not p.is_file() or p.name in {'release_manifest.json'} or '__pycache__' in rel.parts:return False
-        if rel.parts[0]=='engine':return 'rebuild' not in rel.parts and p.suffix in {'.py','.json','.sqlite3'}
+        if rel.parts[0]=='engine':
+            if 'rebuild' in rel.parts:
+                return rel.parts[:3]==('engine','rebuild','holdouts') and p.name in {'registration.json','answers.json','question-1.json','question-2.json','question-3.json'}
+            return p.suffix in {'.py','.json','.sqlite3'}
         if rel.parts[0] in {'scripts','references','agents'}:return p.suffix in {'.py','.json','.md','.yaml'}
         if rel.parts[0] in {'examples','tests','.github'}:return p.suffix in {'.py','.json','.md','.yaml','.yml'}
         return len(rel.parts)==1 and p.name in {'SKILL.md','README.md','LICENSE','requirements.txt','requirements-msms.txt','.gitattributes','.gitignore'}
@@ -18,7 +21,7 @@ def freeze():
         'library_hash':runtime['logical_sha256'],'counts':runtime['counts'],
         'files_sha256':{p.relative_to(ROOT).as_posix():sha(p) for p in paths},
         'original_book_archive':'separate GitHub Release asset, not a runtime dependency'}
-    (ROOT/'release_manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    (ROOT/'release_manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     return manifest
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--source-root',type=Path);a=parser.parse_args()

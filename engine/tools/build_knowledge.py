@@ -15,7 +15,7 @@ source_checks={}
 def read(p):return json.loads(p.read_text(encoding='utf-8-sig'))
 def write(p,v):
     p.parent.mkdir(parents=True,exist_ok=True)
-    p.write_text(json.dumps(v,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+    p.write_text(json.dumps(v,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8',newline='\n')
 def content_hash(v):return hashlib.sha256(json.dumps(v,sort_keys=True,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
 def check_formula(f,absolute=False):
     assert isinstance(f,dict)
